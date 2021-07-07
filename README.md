@@ -9,9 +9,9 @@
 ---
 
 #### 1º SEMESTRE: <br/>
- - [Processamento e Representação de Informação]() <br/>
- - [Gramáticas na Compreensão de Software]() <br/>
+ - [Processamento e Representação de Informação](https://github.com/fliper6/PERFIL_PLC/tree/main/1%C2%BA%20Semestre/PRI) <br/>
+ - [Gramáticas na Compreensão de Software](https://github.com/fliper6/PERFIL_PLC/tree/main/1%C2%BA%20Semestre/GCS) <br/>
  
 #### 2º SEMESTRE: <br/>
- - [Processamento e Representação de Conhecimento]() <br/>
- - [Scripting no Processamento de Linguagem Natural]() 
+ - [Processamento e Representação de Conhecimento](https://github.com/fliper6/PERFIL_PLC/tree/main/2%C2%BA%20Semestre/PRC) <br/>
+ - [Scripting no Processamento de Linguagem Natural](https://github.com/fliper6/PERFIL_PLC/tree/main/2%C2%BA%20Semestre/SPLN) 

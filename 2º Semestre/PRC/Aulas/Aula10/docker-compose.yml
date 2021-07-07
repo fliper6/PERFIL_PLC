@@ -1,0 +1,28 @@
+version: "3"
+services:
+  app:
+    container_name: mai
+    image: zzglider/main:latest
+    ports:
+      - "80:80"
+  hello:
+    container_name: hello
+    restart: always
+    image: zzglider/hello:prc2021
+    ports:
+      - "7001:7777"
+  py-clav:
+    container_name: py-clav
+    image: zzglider/python-app:prc2021
+    ports:
+      - "7002:8000"
+  jserver:
+    container_name: jserver
+    image: zzglider/node-api-jserver:prc2021
+    ports:
+      - "7003:3000"
+  myflask:
+    container_name: myflask
+    image: zzglider/flask-web-app:prc2021
+    ports:
+      - "7004:3026"

@@ -1,0 +1,1315 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/4/comida#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/4/comida> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/4/comida> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  internal:anonymous-constants
+<internal:anonymous-constants> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/ontology/fo/food
+<http://purl.org/ontology/fo/food> rdf:type owl:ObjectProperty ;
+                                   owl:inverseOf <http://purl.org/ontology/fo/hasIngredient> .
+
+
+###  http://purl.org/ontology/fo/hasIngredient
+<http://purl.org/ontology/fo/hasIngredient> rdf:type owl:ObjectProperty .
+
+
+###  http://purl.org/ontology/fo/main_course
+<http://purl.org/ontology/fo/main_course> rdf:type owl:ObjectProperty .
+
+
+###  http://purl.org/ontology/fo/starter
+<http://purl.org/ontology/fo/starter> rdf:type owl:ObjectProperty .
+
+
+###  http://xmlns.com/foaf/0.1/depiction
+<http://xmlns.com/foaf/0.1/depiction> rdf:type owl:ObjectProperty ;
+                                      owl:inverseOf <http://xmlns.com/foaf/0.1/depicts> .
+
+
+###  http://xmlns.com/foaf/0.1/depicts
+<http://xmlns.com/foaf/0.1/depicts> rdf:type owl:ObjectProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ,
+                                                        [ owl:inverseOf <http://xmlns.com/foaf/0.1/primaryTopic>
+                                                        ] .
+
+
+###  http://xmlns.com/foaf/0.1/img
+<http://xmlns.com/foaf/0.1/img> rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/depiction> ,
+                                                   [ owl:inverseOf <http://xmlns.com/foaf/0.1/depicts>
+                                                   ] .
+
+
+###  http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> ,
+                                                                [ owl:inverseOf <http://xmlns.com/foaf/0.1/topic>
+                                                                ] ;
+                                             owl:inverseOf <http://xmlns.com/foaf/0.1/primaryTopic> .
+
+
+###  http://xmlns.com/foaf/0.1/made
+<http://xmlns.com/foaf/0.1/made> rdf:type owl:ObjectProperty ;
+                                 owl:inverseOf <http://xmlns.com/foaf/0.1/maker> .
+
+
+###  http://xmlns.com/foaf/0.1/maker
+<http://xmlns.com/foaf/0.1/maker> rdf:type owl:ObjectProperty .
+
+
+###  http://xmlns.com/foaf/0.1/openid
+<http://xmlns.com/foaf/0.1/openid> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ,
+                                                      [ owl:inverseOf <http://xmlns.com/foaf/0.1/primaryTopic>
+                                                      ] .
+
+
+###  http://xmlns.com/foaf/0.1/page
+<http://xmlns.com/foaf/0.1/page> rdf:type owl:ObjectProperty ;
+                                 owl:inverseOf <http://xmlns.com/foaf/0.1/topic> .
+
+
+###  http://xmlns.com/foaf/0.1/primaryTopic
+<http://xmlns.com/foaf/0.1/primaryTopic> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/topic> ,
+                                                            [ owl:inverseOf <http://xmlns.com/foaf/0.1/page>
+                                                            ] .
+
+
+###  http://xmlns.com/foaf/0.1/tipjar
+<http://xmlns.com/foaf/0.1/tipjar> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> ,
+                                                      [ owl:inverseOf <http://xmlns.com/foaf/0.1/topic>
+                                                      ] .
+
+
+###  http://xmlns.com/foaf/0.1/topic
+<http://xmlns.com/foaf/0.1/topic> rdf:type owl:ObjectProperty .
+
+
+###  http://xmlns.com/foaf/0.1/weblog
+<http://xmlns.com/foaf/0.1/weblog> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> ,
+                                                      [ owl:inverseOf <http://xmlns.com/foaf/0.1/topic>
+                                                      ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/alternative
+<http://purl.org/dc/terms/alternative> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://purl.org/dc/terms/title> .
+
+
+###  http://purl.org/dc/terms/available
+<http://purl.org/dc/terms/available> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://purl.org/dc/terms/identifier> .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/dateAccepted
+<http://purl.org/dc/terms/dateAccepted> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/dateCopyrighted
+<http://purl.org/dc/terms/dateCopyrighted> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/dateSubmitted
+<http://purl.org/dc/terms/dateSubmitted> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/valid
+<http://purl.org/dc/terms/valid> rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf <http://purl.org/dc/terms/date> .
+
+
+###  http://xmlns.com/foaf/0.1/age
+<http://xmlns.com/foaf/0.1/age> rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty .
+
+
+###  http://xmlns.com/foaf/0.1/aimChatID
+<http://xmlns.com/foaf/0.1/aimChatID> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/nick> .
+
+
+###  http://xmlns.com/foaf/0.1/birthday
+<http://xmlns.com/foaf/0.1/birthday> rdf:type owl:DatatypeProperty ,
+                                              owl:FunctionalProperty .
+
+
+###  http://xmlns.com/foaf/0.1/gender
+<http://xmlns.com/foaf/0.1/gender> rdf:type owl:DatatypeProperty ,
+                                            owl:FunctionalProperty .
+
+
+###  http://xmlns.com/foaf/0.1/icqChatID
+<http://xmlns.com/foaf/0.1/icqChatID> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/nick> .
+
+
+###  http://xmlns.com/foaf/0.1/msnChatID
+<http://xmlns.com/foaf/0.1/msnChatID> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/nick> .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:DatatypeProperty .
+
+
+###  http://xmlns.com/foaf/0.1/nick
+<http://xmlns.com/foaf/0.1/nick> rdf:type owl:DatatypeProperty .
+
+
+###  http://xmlns.com/foaf/0.1/skypeID
+<http://xmlns.com/foaf/0.1/skypeID> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/nick> .
+
+
+###  http://xmlns.com/foaf/0.1/yahooChatID
+<http://xmlns.com/foaf/0.1/yahooChatID> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/nick> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/dcam/VocabularyEncodingScheme
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/dcmitype/Collection
+<http://purl.org/dc/dcmitype/Collection> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> rdf:type owl:Class ;
+                                 owl:equivalentClass <http://xmlns.com/foaf/0.1/Agent> .
+
+
+###  http://purl.org/dc/terms/AgentClass
+<http://purl.org/dc/terms/AgentClass> rdf:type owl:Class ;
+                                      rdfs:subClassOf rdfs:Class .
+
+
+###  http://purl.org/dc/terms/FileFormat
+<http://purl.org/dc/terms/FileFormat> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://purl.org/dc/terms/MediaType> .
+
+
+###  http://purl.org/dc/terms/Jurisdiction
+<http://purl.org/dc/terms/Jurisdiction> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://purl.org/dc/terms/LocationPeriodOrJurisdiction> .
+
+
+###  http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://purl.org/dc/terms/RightsStatement> .
+
+
+###  http://purl.org/dc/terms/Location
+<http://purl.org/dc/terms/Location> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://purl.org/dc/terms/LocationPeriodOrJurisdiction> .
+
+
+###  http://purl.org/dc/terms/LocationPeriodOrJurisdiction
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/MediaType
+<http://purl.org/dc/terms/MediaType> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://purl.org/dc/terms/MediaTypeOrExtent> .
+
+
+###  http://purl.org/dc/terms/MediaTypeOrExtent
+<http://purl.org/dc/terms/MediaTypeOrExtent> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/PeriodOfTime
+<http://purl.org/dc/terms/PeriodOfTime> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://purl.org/dc/terms/LocationPeriodOrJurisdiction> .
+
+
+###  http://purl.org/dc/terms/PhysicalMedium
+<http://purl.org/dc/terms/PhysicalMedium> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://purl.org/dc/terms/MediaType> .
+
+
+###  http://purl.org/dc/terms/RightsStatement
+<http://purl.org/dc/terms/RightsStatement> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/SizeOrDuration
+<http://purl.org/dc/terms/SizeOrDuration> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://purl.org/dc/terms/MediaTypeOrExtent> .
+
+
+###  http://purl.org/ontology/fo/Collection
+<http://purl.org/ontology/fo/Collection> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://purl.org/dc/dcmitype/Collection> .
+
+
+###  http://purl.org/ontology/fo/Food
+<http://purl.org/ontology/fo/Food> rdf:type owl:Class .
+
+
+###  http://purl.org/ontology/fo/Ingredient
+<http://purl.org/ontology/fo/Ingredient> rdf:type owl:Class .
+
+
+###  http://purl.org/ontology/fo/IngredientList
+<http://purl.org/ontology/fo/IngredientList> rdf:type owl:Class ;
+                                             rdfs:subClassOf rdf:Seq .
+
+
+###  http://purl.org/ontology/fo/Menu
+<http://purl.org/ontology/fo/Menu> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://purl.org/ontology/fo/Collection> .
+
+
+###  http://purl.org/ontology/fo/Method
+<http://purl.org/ontology/fo/Method> rdf:type owl:Class ;
+                                     rdfs:subClassOf rdf:Seq .
+
+
+###  http://purl.org/ontology/fo/Recipe
+<http://purl.org/ontology/fo/Recipe> rdf:type owl:Class .
+
+
+###  http://purl.org/ontology/fo/StageSequence
+<http://purl.org/ontology/fo/StageSequence> rdf:type owl:Class ;
+                                            rdfs:subClassOf rdf:Seq .
+
+
+###  http://schema.org/CreativeWork
+<http://schema.org/CreativeWork> rdf:type owl:Class ;
+                                 owl:equivalentClass <http://xmlns.com/foaf/0.1/Document> ;
+                                 owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                                  <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://schema.org/ImageObject
+<http://schema.org/ImageObject> rdf:type owl:Class ;
+                                owl:equivalentClass <http://xmlns.com/foaf/0.1/Image> ;
+                                rdfs:subClassOf <http://schema.org/CreativeWork> ,
+                                                <http://xmlns.com/foaf/0.1/Document> ;
+                                owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                                 <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://schema.org/Person
+<http://schema.org/Person> rdf:type owl:Class ;
+                           owl:equivalentClass <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+                           rdfs:subClassOf <http://purl.org/dc/terms/Agent> ,
+                                           <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                           <http://xmlns.com/foaf/0.1/Agent> ;
+                           owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                            <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://www.bbc.co.uk/ontologies/provenance/Ontology
+<http://www.bbc.co.uk/ontologies/provenance/Ontology> rdf:type owl:Class .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq
+rdf:Seq rdf:type owl:Class .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#Class
+rdfs:Class rdf:type owl:Class .
+
+
+###  http://www.w3.org/2000/10/swap/pim/contact#Person
+<http://www.w3.org/2000/10/swap/pim/contact#Person> rdf:type owl:Class ;
+                                                    owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> ;
+                                                    rdfs:subClassOf <http://purl.org/dc/terms/Agent> ,
+                                                                    <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                                                    <http://xmlns.com/foaf/0.1/Agent> ;
+                                                    owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                                                     <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class ;
+                                     owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                                      <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/Group
+<http://xmlns.com/foaf/0.1/Group> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://purl.org/dc/terms/Agent> ,
+                                                  <http://xmlns.com/foaf/0.1/Agent> .
+
+
+###  http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://schema.org/CreativeWork> ,
+                                                  <http://xmlns.com/foaf/0.1/Document> ;
+                                  owl:disjointWith <http://xmlns.com/foaf/0.1/Organization> ,
+                                                   <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/OnlineAccount
+<http://xmlns.com/foaf/0.1/OnlineAccount> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/OnlineChatAccount
+<http://xmlns.com/foaf/0.1/OnlineChatAccount> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://xmlns.com/foaf/0.1/OnlineAccount> .
+
+
+###  http://xmlns.com/foaf/0.1/OnlineEcommerceAccount
+<http://xmlns.com/foaf/0.1/OnlineEcommerceAccount> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://xmlns.com/foaf/0.1/OnlineAccount> .
+
+
+###  http://xmlns.com/foaf/0.1/OnlineGamingAccount
+<http://xmlns.com/foaf/0.1/OnlineGamingAccount> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://xmlns.com/foaf/0.1/OnlineAccount> .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://purl.org/dc/terms/Agent> ,
+                                                         <http://xmlns.com/foaf/0.1/Agent> ;
+                                         owl:disjointWith <http://xmlns.com/foaf/0.1/Person> ,
+                                                          <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://purl.org/dc/terms/Agent> ,
+                                                   <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                                   <http://xmlns.com/foaf/0.1/Agent> ;
+                                   owl:disjointWith <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/PersonalProfileDocument
+<http://xmlns.com/foaf/0.1/PersonalProfileDocument> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://schema.org/CreativeWork> ,
+                                                                    <http://xmlns.com/foaf/0.1/Document> ;
+                                                    owl:disjointWith <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+<http://xmlns.com/foaf/0.1/Project> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.org/dc/terms/
+<http://purl.org/dc/terms/> rdf:type owl:NamedIndividual ;
+                            <http://purl.org/dc/terms/date> "2012-06-14"^^<internal:anonymous-constants> ;
+                            <http://purl.org/dc/terms/modified> "2012-06-14"^^<internal:anonymous-constants> ;
+                            <http://purl.org/dc/terms/title> "DCMI Metadata Terms - other"@en .
+
+
+###  http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> rdf:type owl:NamedIndividual ,
+                                          <http://purl.org/dc/terms/AgentClass> ,
+                                          rdfs:Class ;
+                                 <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/AgentClass
+<http://purl.org/dc/terms/AgentClass> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/BibliographicResource
+<http://purl.org/dc/terms/BibliographicResource> rdf:type owl:NamedIndividual ;
+                                                 <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Box
+<http://purl.org/dc/terms/Box> rdf:type owl:NamedIndividual ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/DCMIType
+<http://purl.org/dc/terms/DCMIType> rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/DDC
+<http://purl.org/dc/terms/DDC> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/FileFormat
+<http://purl.org/dc/terms/FileFormat> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Frequency
+<http://purl.org/dc/terms/Frequency> rdf:type owl:NamedIndividual ;
+                                     <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/IMT
+<http://purl.org/dc/terms/IMT> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/ISO3166
+<http://purl.org/dc/terms/ISO3166> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/ISO639-2
+<http://purl.org/dc/terms/ISO639-2> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/ISO639-3
+<http://purl.org/dc/terms/ISO639-3> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Jurisdiction
+<http://purl.org/dc/terms/Jurisdiction> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/LCC
+<http://purl.org/dc/terms/LCC> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/LCSH
+<http://purl.org/dc/terms/LCSH> rdf:type owl:NamedIndividual ,
+                                         <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                                <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> rdf:type owl:NamedIndividual ;
+                                           <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                           <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/LinguisticSystem
+<http://purl.org/dc/terms/LinguisticSystem> rdf:type owl:NamedIndividual ;
+                                            <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Location
+<http://purl.org/dc/terms/Location> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/LocationPeriodOrJurisdiction
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> rdf:type owl:NamedIndividual ;
+                                                        <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/MESH
+<http://purl.org/dc/terms/MESH> rdf:type owl:NamedIndividual ,
+                                         <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                                <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/MediaType
+<http://purl.org/dc/terms/MediaType> rdf:type owl:NamedIndividual ;
+                                     <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/MediaTypeOrExtent
+<http://purl.org/dc/terms/MediaTypeOrExtent> rdf:type owl:NamedIndividual ;
+                                             <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                             <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/MethodOfAccrual
+<http://purl.org/dc/terms/MethodOfAccrual> rdf:type owl:NamedIndividual ;
+                                           <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                           <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/MethodOfInstruction
+<http://purl.org/dc/terms/MethodOfInstruction> rdf:type owl:NamedIndividual ;
+                                               <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                               <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/NLM
+<http://purl.org/dc/terms/NLM> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2005-06-13"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2005-06-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Period
+<http://purl.org/dc/terms/Period> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/PeriodOfTime
+<http://purl.org/dc/terms/PeriodOfTime> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/PhysicalMedium
+<http://purl.org/dc/terms/PhysicalMedium> rdf:type owl:NamedIndividual ;
+                                          <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/PhysicalResource
+<http://purl.org/dc/terms/PhysicalResource> rdf:type owl:NamedIndividual ;
+                                            <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Point
+<http://purl.org/dc/terms/Point> rdf:type owl:NamedIndividual ;
+                                 <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                 <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Policy
+<http://purl.org/dc/terms/Policy> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/ProvenanceStatement
+<http://purl.org/dc/terms/ProvenanceStatement> rdf:type owl:NamedIndividual ;
+                                               <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                               <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/RFC1766
+<http://purl.org/dc/terms/RFC1766> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/RFC3066
+<http://purl.org/dc/terms/RFC3066> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2002-07-13"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2002-07-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/RFC4646
+<http://purl.org/dc/terms/RFC4646> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/RFC5646
+<http://purl.org/dc/terms/RFC5646> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2010-10-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2010-10-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/RightsStatement
+<http://purl.org/dc/terms/RightsStatement> rdf:type owl:NamedIndividual ;
+                                           <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                           <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/SizeOrDuration
+<http://purl.org/dc/terms/SizeOrDuration> rdf:type owl:NamedIndividual ;
+                                          <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/Standard
+<http://purl.org/dc/terms/Standard> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/TGN
+<http://purl.org/dc/terms/TGN> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/UDC
+<http://purl.org/dc/terms/UDC> rdf:type owl:NamedIndividual ,
+                                        <http://purl.org/dc/dcam/VocabularyEncodingScheme> ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/URI
+<http://purl.org/dc/terms/URI> rdf:type owl:NamedIndividual ;
+                               <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/W3CDTF
+<http://purl.org/dc/terms/W3CDTF> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/accessRights
+<http://purl.org/dc/terms/accessRights> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2003-02-15"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2003-02-15"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/accrualMethod
+<http://purl.org/dc/terms/accrualMethod> rdf:type owl:NamedIndividual ;
+                                         <http://purl.org/dc/terms/date> "2005-06-13"^^<internal:anonymous-constants> ;
+                                         <http://purl.org/dc/terms/issued> "2005-06-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/accrualPeriodicity
+<http://purl.org/dc/terms/accrualPeriodicity> rdf:type owl:NamedIndividual ;
+                                              <http://purl.org/dc/terms/date> "2005-06-13"^^<internal:anonymous-constants> ;
+                                              <http://purl.org/dc/terms/issued> "2005-06-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/accrualPolicy
+<http://purl.org/dc/terms/accrualPolicy> rdf:type owl:NamedIndividual ;
+                                         <http://purl.org/dc/terms/date> "2005-06-13"^^<internal:anonymous-constants> ;
+                                         <http://purl.org/dc/terms/issued> "2005-06-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/alternative
+<http://purl.org/dc/terms/alternative> rdf:type owl:NamedIndividual ;
+                                       <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/audience
+<http://purl.org/dc/terms/audience> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2001-05-21"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2001-05-21"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/available
+<http://purl.org/dc/terms/available> rdf:type owl:NamedIndividual ;
+                                     <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:NamedIndividual ;
+                                                 <http://purl.org/dc/terms/date> "2003-02-15"^^<internal:anonymous-constants> ;
+                                                 <http://purl.org/dc/terms/issued> "2003-02-15"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/conformsTo
+<http://purl.org/dc/terms/conformsTo> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2001-05-21"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2001-05-21"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:NamedIndividual ;
+                                       <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/coverage
+<http://purl.org/dc/terms/coverage> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:NamedIndividual ,
+                                         owl:DatatypeProperty ;
+                                <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/dateAccepted
+<http://purl.org/dc/terms/dateAccepted> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2002-07-13"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2002-07-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/dateCopyrighted
+<http://purl.org/dc/terms/dateCopyrighted> rdf:type owl:NamedIndividual ;
+                                           <http://purl.org/dc/terms/date> "2002-07-13"^^<internal:anonymous-constants> ;
+                                           <http://purl.org/dc/terms/issued> "2002-07-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/dateSubmitted
+<http://purl.org/dc/terms/dateSubmitted> rdf:type owl:NamedIndividual ;
+                                         <http://purl.org/dc/terms/date> "2002-07-13"^^<internal:anonymous-constants> ;
+                                         <http://purl.org/dc/terms/issued> "2002-07-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:NamedIndividual ;
+                                       <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/educationLevel
+<http://purl.org/dc/terms/educationLevel> rdf:type owl:NamedIndividual ;
+                                          <http://purl.org/dc/terms/date> "2002-07-13"^^<internal:anonymous-constants> ;
+                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/extent
+<http://purl.org/dc/terms/extent> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> rdf:type owl:NamedIndividual ;
+                                     <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/hasVersion
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/instructionalMethod
+<http://purl.org/dc/terms/instructionalMethod> rdf:type owl:NamedIndividual ;
+                                               <http://purl.org/dc/terms/date> "2005-06-13"^^<internal:anonymous-constants> ;
+                                               <http://purl.org/dc/terms/issued> "2005-06-13"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isFormatOf
+<http://purl.org/dc/terms/isFormatOf> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isPartOf
+<http://purl.org/dc/terms/isPartOf> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isReferencedBy
+<http://purl.org/dc/terms/isReferencedBy> rdf:type owl:NamedIndividual ;
+                                          <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                          <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isReplacedBy
+<http://purl.org/dc/terms/isReplacedBy> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isRequiredBy
+<http://purl.org/dc/terms/isRequiredBy> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/isVersionOf
+<http://purl.org/dc/terms/isVersionOf> rdf:type owl:NamedIndividual ;
+                                       <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                  rdf:type owl:DatatypeProperty ;
+                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2004-06-14"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2004-06-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/mediator
+<http://purl.org/dc/terms/mediator> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2001-05-21"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2001-05-21"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/medium
+<http://purl.org/dc/terms/medium> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/provenance
+<http://purl.org/dc/terms/provenance> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2004-09-20"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2004-09-20"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:NamedIndividual ;
+                                     <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/references
+<http://purl.org/dc/terms/references> rdf:type owl:NamedIndividual ;
+                                      <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/replaces
+<http://purl.org/dc/terms/replaces> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/requires
+<http://purl.org/dc/terms/requires> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+<http://purl.org/dc/terms/rightsHolder> rdf:type owl:NamedIndividual ;
+                                        <http://purl.org/dc/terms/date> "2004-06-14"^^<internal:anonymous-constants> ;
+                                        <http://purl.org/dc/terms/issued> "2004-06-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:NamedIndividual ;
+                                  <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/spatial
+<http://purl.org/dc/terms/spatial> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/subject
+<http://purl.org/dc/terms/subject> rdf:type owl:NamedIndividual ;
+                                   <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                   <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/tableOfContents
+<http://purl.org/dc/terms/tableOfContents> rdf:type owl:NamedIndividual ;
+                                           <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/temporal
+<http://purl.org/dc/terms/temporal> rdf:type owl:NamedIndividual ;
+                                    <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:NamedIndividual ;
+                                 <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> rdf:type owl:NamedIndividual ;
+                                <http://purl.org/dc/terms/date> "2008-01-14"^^<internal:anonymous-constants> ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/dc/terms/valid
+<http://purl.org/dc/terms/valid> rdf:type owl:NamedIndividual ;
+                                 <http://purl.org/dc/terms/date> "2000-07-11"^^<internal:anonymous-constants> ;
+                                 <http://purl.org/dc/terms/issued> "2000-07-11"^^<internal:anonymous-constants> .
+
+
+###  http://purl.org/ontology/fo/
+<http://purl.org/ontology/fo/> rdf:type owl:NamedIndividual ,
+                                        <http://www.bbc.co.uk/ontologies/provenance/Ontology> ;
+                               <http://xmlns.com/foaf/0.1/maker> <http://purl.org/ontology/fo/#andrew> ,
+                                                                 <http://purl.org/ontology/fo/#oliver> ,
+                                                                 <http://purl.org/ontology/fo/#philip> ,
+                                                                 <http://purl.org/ontology/fo/#rija> ,
+                                                                 <http://purl.org/ontology/fo/#rob> ;
+                               <http://purl.org/dc/terms/created> "2011-07-08"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/date> "2011-07-08"^^<internal:anonymous-constants> ;
+                               <http://purl.org/dc/terms/title> "Food Ontology"@en-gb .
+
+
+###  http://purl.org/ontology/fo/Amendoim
+<http://purl.org/ontology/fo/Amendoim> rdf:type owl:NamedIndividual ,
+                                                <http://purl.org/ontology/fo/Ingredient> ;
+                                       <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> .
+
+###  http://purl.org/ontology/fo/Arroz
+<http://purl.org/ontology/fo/Arroz> rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/ontology/fo/Ingredient> ;
+                                    <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> .
+
+###  http://purl.org/ontology/fo/Açúcar
+<http://purl.org/ontology/fo/Açúcar> rdf:type owl:NamedIndividual ,
+                                              <http://purl.org/ontology/fo/Ingredient> ;
+                                     <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Kluay_Buat_Chi> .
+
+
+###  http://purl.org/ontology/fo/Banana
+<http://purl.org/ontology/fo/Banana> rdf:type owl:NamedIndividual ,
+                                              <http://purl.org/ontology/fo/Food> ,
+                                              <http://purl.org/ontology/fo/Ingredient> ;
+                                     <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Kluay_Buat_Chi> .
+
+###  http://purl.org/ontology/fo/Camarão
+<http://purl.org/ontology/fo/Camarão> rdf:type owl:NamedIndividual ,
+                                               <http://purl.org/ontology/fo/Ingredient> ;
+                                      <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> ,
+                                                                         <http://purl.org/ontology/fo/Satay_Goong> .
+
+
+###  http://purl.org/ontology/fo/Cebola
+<http://purl.org/ontology/fo/Cebola> rdf:type owl:NamedIndividual ,
+                                              <http://purl.org/ontology/fo/Ingredient> ;
+                                     <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Gai_Pad_Khing> .
+
+
+###  http://purl.org/ontology/fo/Cogumelos
+<http://purl.org/ontology/fo/Cogumelos> rdf:type owl:NamedIndividual ,
+                                                 <http://purl.org/ontology/fo/Ingredient> ;
+                                        <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Gai_Pad_Khing> .
+
+
+###  http://purl.org/ontology/fo/Frango
+<http://purl.org/ontology/fo/Frango> rdf:type owl:NamedIndividual ,
+                                              <http://purl.org/ontology/fo/Ingredient> ;
+                                     <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Gai_Pad_Khing> ,
+                                                                        <http://purl.org/ontology/fo/Satay_Gai> .
+
+
+###  http://purl.org/ontology/fo/Gai_Pad_Khing
+<http://purl.org/ontology/fo/Gai_Pad_Khing> rdf:type owl:NamedIndividual ,
+                                                     <http://purl.org/ontology/fo/Food> ,
+                                                     <http://purl.org/ontology/fo/Recipe> ;
+                                            <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Cebola> ,
+                                                                                        <http://purl.org/ontology/fo/Cogumelos> ,
+                                                                                        <http://purl.org/ontology/fo/Frango> ,
+                                                                                        <http://purl.org/ontology/fo/Gengibre> .
+
+
+###  http://purl.org/ontology/fo/Gengibre
+<http://purl.org/ontology/fo/Gengibre> rdf:type owl:NamedIndividual ,
+                                                <http://purl.org/ontology/fo/Ingredient> ;
+                                       <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Gai_Pad_Khing> .
+
+
+###  http://purl.org/ontology/fo/Kluay_Buat_Chi
+<http://purl.org/ontology/fo/Kluay_Buat_Chi> rdf:type owl:NamedIndividual ,
+                                                      <http://purl.org/ontology/fo/Food> ,
+                                                      <http://purl.org/ontology/fo/Recipe> ;
+                                             <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Açúcar> ,
+                                                                                         <http://purl.org/ontology/fo/Banana> .
+
+
+###  http://purl.org/ontology/fo/Leite_coco
+<http://purl.org/ontology/fo/Leite_coco> rdf:type owl:NamedIndividual ,
+                                                  <http://purl.org/ontology/fo/Ingredient> ;
+                                         <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Sago> .
+
+
+###  http://purl.org/ontology/fo/Lima
+<http://purl.org/ontology/fo/Lima> rdf:type owl:NamedIndividual ,
+                                            <http://purl.org/ontology/fo/Ingredient> ;
+                                   <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Sago> .
+
+
+###  http://purl.org/ontology/fo/Menu_Thai
+<http://purl.org/ontology/fo/Menu_Thai> rdf:type owl:NamedIndividual ,
+                                                 <http://purl.org/dc/dcmitype/Collection> ,
+                                                 <http://purl.org/ontology/fo/Collection> ,
+                                                 <http://purl.org/ontology/fo/Menu> ;
+                                        <http://purl.org/ontology/fo/main_course> <http://purl.org/ontology/fo/Gai_Pad_Khing> ,
+                                                                                  <http://purl.org/ontology/fo/Pad_Thai_Goong> ;
+                                        <http://purl.org/ontology/fo/starter> <http://purl.org/ontology/fo/Satay_Gai> ,
+                                                                              <http://purl.org/ontology/fo/Satay_Goong> ;
+                                        <http://purl.org/ontology/fo/dessert> <http://purl.org/ontology/fo/Sago> ,
+                                                                              <http://purl.org/ontology/fo/Kluay_Buat_Chi> .
+
+
+###  http://purl.org/ontology/fo/Molho_amendoim
+<http://purl.org/ontology/fo/Molho_amendoim> rdf:type owl:NamedIndividual ,
+                                                      <http://purl.org/ontology/fo/Ingredient> ;
+                                             <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Satay_Gai> ,
+                                                                                <http://purl.org/ontology/fo/Satay_Goong> .
+
+
+###  http://purl.org/ontology/fo/Molho_tamarindo
+<http://purl.org/ontology/fo/Molho_tamarindo> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/ontology/fo/Ingredient> ;
+                                              <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> .
+
+
+###  http://purl.org/ontology/fo/Ovo
+<http://purl.org/ontology/fo/Ovo> rdf:type owl:NamedIndividual ,
+                                           <http://purl.org/ontology/fo/Ingredient> ;
+                                  <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> .
+
+
+###  http://purl.org/ontology/fo/Pad_Thai_Goong
+<http://purl.org/ontology/fo/Pad_Thai_Goong> rdf:type owl:NamedIndividual ,
+                                                      <http://purl.org/ontology/fo/Food> ,
+                                                      <http://purl.org/ontology/fo/Recipe> ;
+                                             <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Amendoim> ,
+                                                                                         <http://purl.org/ontology/fo/Arroz> ,
+                                                                                         <http://purl.org/ontology/fo/Camarão> ,
+                                                                                         <http://purl.org/ontology/fo/Molho_tamarindo> ,
+                                                                                         <http://purl.org/ontology/fo/Ovo> ,
+                                                                                         <http://purl.org/ontology/fo/Soja> .
+
+
+###  http://purl.org/ontology/fo/Sago
+<http://purl.org/ontology/fo/Sago> rdf:type owl:NamedIndividual ,
+                                            <http://purl.org/ontology/fo/Food> ,
+                                            <http://purl.org/ontology/fo/Recipe> ;
+                                   <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Leite_coco> ,
+                                                                               <http://purl.org/ontology/fo/Lima> ,
+                                                                               <http://purl.org/ontology/fo/Tapioca> .
+
+
+###  http://purl.org/ontology/fo/Satay_Gai
+<http://purl.org/ontology/fo/Satay_Gai> rdf:type owl:NamedIndividual ,
+                                                 <http://purl.org/ontology/fo/Food> ,
+                                                 <http://purl.org/ontology/fo/Recipe> ;
+                                        <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Frango> ,
+                                                                                    <http://purl.org/ontology/fo/Molho_amendoim> .
+
+
+###  http://purl.org/ontology/fo/Satay_Goong
+<http://purl.org/ontology/fo/Satay_Goong> rdf:type owl:NamedIndividual ,
+                                                   <http://purl.org/ontology/fo/Food> ,
+                                                   <http://purl.org/ontology/fo/Recipe> ;
+                                          <http://purl.org/ontology/fo/hasIngredient> <http://purl.org/ontology/fo/Camarão> ,
+                                                                                      <http://purl.org/ontology/fo/Molho_amendoim> .
+
+
+###  http://purl.org/ontology/fo/Soja
+<http://purl.org/ontology/fo/Soja> rdf:type owl:NamedIndividual ,
+                                            <http://purl.org/ontology/fo/Food> ,
+                                            <http://purl.org/ontology/fo/Ingredient> ;
+                                   <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Pad_Thai_Goong> .
+
+
+###  http://purl.org/ontology/fo/Tapioca
+<http://purl.org/ontology/fo/Tapioca> rdf:type owl:NamedIndividual ,
+                                               <http://purl.org/ontology/fo/Ingredient> ;
+                                      <http://purl.org/ontology/fo/food> <http://purl.org/ontology/fo/Sago> .
+
+
+###  http://purl.org/ontology/fo/#andrew
+<http://purl.org/ontology/fo/#andrew> rdf:type owl:NamedIndividual ,
+                                               <http://purl.org/dc/terms/Agent> ,
+                                               <http://schema.org/Person> ,
+                                               <http://www.w3.org/2000/10/swap/pim/contact#Person> ,
+                                               <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                               <http://xmlns.com/foaf/0.1/Agent> ,
+                                               <http://xmlns.com/foaf/0.1/Person> ;
+                                      <http://xmlns.com/foaf/0.1/made> <http://purl.org/ontology/fo/> ;
+                                      <http://xmlns.com/foaf/0.1/name> "Andrew Robinson" .
+
+
+###  http://purl.org/ontology/fo/#oliver
+<http://purl.org/ontology/fo/#oliver> rdf:type owl:NamedIndividual ,
+                                               <http://purl.org/dc/terms/Agent> ,
+                                               <http://schema.org/Person> ,
+                                               <http://www.w3.org/2000/10/swap/pim/contact#Person> ,
+                                               <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                               <http://xmlns.com/foaf/0.1/Agent> ,
+                                               <http://xmlns.com/foaf/0.1/Person> ;
+                                      <http://xmlns.com/foaf/0.1/made> <http://purl.org/ontology/fo/> ;
+                                      <http://xmlns.com/foaf/0.1/name> "Oliver Bartlett" .
+
+
+###  http://purl.org/ontology/fo/#philip
+<http://purl.org/ontology/fo/#philip> rdf:type owl:NamedIndividual ,
+                                               <http://purl.org/dc/terms/Agent> ,
+                                               <http://schema.org/Person> ,
+                                               <http://www.w3.org/2000/10/swap/pim/contact#Person> ,
+                                               <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                               <http://xmlns.com/foaf/0.1/Agent> ,
+                                               <http://xmlns.com/foaf/0.1/Person> ;
+                                      <http://xmlns.com/foaf/0.1/made> <http://purl.org/ontology/fo/> ;
+                                      <http://xmlns.com/foaf/0.1/name> "Philip Lamond" .
+
+
+###  http://purl.org/ontology/fo/#rija
+<http://purl.org/ontology/fo/#rija> rdf:type owl:NamedIndividual ,
+                                             <http://purl.org/dc/terms/Agent> ,
+                                             <http://schema.org/Person> ,
+                                             <http://www.w3.org/2000/10/swap/pim/contact#Person> ,
+                                             <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                             <http://xmlns.com/foaf/0.1/Agent> ,
+                                             <http://xmlns.com/foaf/0.1/Person> ;
+                                    <http://xmlns.com/foaf/0.1/made> <http://purl.org/ontology/fo/> ;
+                                    <http://xmlns.com/foaf/0.1/name> "Rija Menage" .
+
+
+###  http://purl.org/ontology/fo/#rob
+<http://purl.org/ontology/fo/#rob> rdf:type owl:NamedIndividual ,
+                                            <http://purl.org/dc/terms/Agent> ,
+                                            <http://schema.org/Person> ,
+                                            <http://www.w3.org/2000/10/swap/pim/contact#Person> ,
+                                            <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                                            <http://xmlns.com/foaf/0.1/Agent> ,
+                                            <http://xmlns.com/foaf/0.1/Person> ;
+                                   <http://xmlns.com/foaf/0.1/made> <http://purl.org/ontology/fo/> ;
+                                   <http://xmlns.com/foaf/0.1/name> "Rob Styles" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

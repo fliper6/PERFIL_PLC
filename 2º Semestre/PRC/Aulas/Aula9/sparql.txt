@@ -1,0 +1,90 @@
+######################################################
+## Todas as cidades, mostrando o nome e distrito 
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+select ?s ?n ?d where {
+    ?s a :Cidade;
+        :nome ?n;
+        :distrito ?d.
+}
+order by ?n
+
+######################################################
+## Todas as ligações com c7 como origem 
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+select ?s ?n ?dist where {
+    ?s a :Ligação;
+        :origem :c7;
+        :destino ?c;
+        :distância ?dist.
+	?c :nome ?n.
+}
+order by ?n
+
+######################################################
+## Todos os distritos 
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+select distinct ?dist where {
+    ?s :distrito ?dist.
+} 
+order by ?dist
+
+
+######################################################
+## Número de cidades por distrito 
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+select ?dist (count (?s) as ?cidades) where {
+    ?s :distrito ?dist.
+} 
+group by ?dist
+order by ?dist
+
+######################################################
+## Insere cidade nova 
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX xsd: http://www.w3.org/2001/XMLSchema#
+insert data {
+    :c101 rdf:type owl:NamedIndividual , :Cidade ;
+    :descrição "A rainha do Vez." ;
+    :distrito "Viana do Castelo" ;
+    :nome "Arcos de Valdevez" ;
+    :população 40000 ;
+}
+
+######################################################
+## Elimina o dado da população da cidade c101
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/cidades#>
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX xsd: http://www.w3.org/2001/XMLSchema#
+delete data {
+    :c101 :população 40000 .
+}
+
+###################################################### (não do dataset de cidades - exemplo da "Cheatsheet")
+## Selecionar os ancestrais de um indivíduo
+
+select ... where {
+    ?ind :pai/:pai ?avo
+         :pai*     ?anc
+}
+
+______________________________________________________
+## Cidades que conseguimos chegar através de uma cidade (como uma árvore cuja raiz é essa cidade)
+|
+|__ como isto é muito complicado de programar, é mais fácil adicionar uma relação na ontologia 
+    >> podemos fazer isso através de queries CONSTRUCT
+
+CONSTRUCT {
+    ?c1 :temLigação ?c2 .
+} WHERE {
+    ?l :origem ?c1 .
+    ?l :destino ?c2 .
+} 

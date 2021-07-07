@@ -1,0 +1,44 @@
+{
+    "profs": [
+      {
+        "_id": "jcr",
+        "nome": "José Carlos Ramalho",
+        "ensina": [
+          "PRC2021"
+        ],
+        "type": [
+            "Professor"
+        ]
+      },
+      {
+        "_id": "jj",
+        "nome": "José João Antunes",
+        "ensina": [
+          "SPLN2021"
+        ],
+        "type": [
+            "Professor"
+        ]
+      },
+      {
+        "_id": "jfc",
+        "nome": "José Francisco Creissac",
+        "ensina": [
+          "SI2021"
+        ],
+        "type": [
+            "Professor"
+        ]
+      },
+      {
+        "_id": "anr",
+        "nome": "António Nestor Ribeiro",
+        "ensina": [
+          "AA2021"
+        ],
+        "type": [
+            "Professor"
+        ]
+      }
+    ]
+}

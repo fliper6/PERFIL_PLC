@@ -1,0 +1,1117 @@
+
+
+    {"id":"LPRH07-XATA",
+     "type": "inproceedings",
+     "title": "Navegando na Rede Semântica dos Topic Maps com o Ulisses",
+     "authors":[
+     
+       "Renato Preigschadt de Azevedo"
+       ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2007"}
+  
+
+    {"id":"LPRH07-TM",
+     "type": "inproceedings",
+     "title": "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche",
+     "authors":[
+     
+       "Renato Preigschadt de Azevedo"
+       ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2007"}
+  
+	
+    {"id":"FBR07-IJDL",
+     "type": "article",
+     "title": "An intelligent decision support system for digital preservation",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "Ana Alice Baptista" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2007"}
+  
+	
+    {"id":"RFCFBC06",
+     "type": "misc",
+     "title": "RODA - Desenvolvimento de uma plataforma tecnolï¿½gica para suporte de Arquivos Digitais",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Miguel Ferreira" 
+      ,
+      "Rui Castro" 
+      ,
+      "Luis Faria" 
+      ,
+      "Francisco Barbedo" 
+      ,
+      "Luis Corujo" 
+      ],
+    "year":"2006"}
+  
+	
+    {"id":"FCRBCF07",
+     "type": "inproceedings",
+     "title": "RODA : Repositório de Objectos Digitais Autênticos",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "Rui Castro" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Francisco Barbedo" 
+      ,
+      "Luis Corujo" 
+      ,
+      "Luis Faria" 
+      ],
+    "year":"2007"}
+  
+	
+    {"id":"SFRL07",
+     "type": "inproceedings",
+     "title": "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo",
+     "authors":[
+     
+      "António Sousa" 
+      ,
+      "Luis Miguel Ferros" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Maria João Pires Lima" 
+      ],
+    "year":"2007"}
+  
+	
+    {"id":"RFCFBC07",
+     "type": "inproceedings",
+     "title": "XML e preservação digital",
+     "authors":[
+     
+       "Rui Castro"
+       ,
+       "Luis Faria"
+       ,
+       "Francisco Barbedo"
+       ,
+       "Luis Corujo"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Miguel Ferreira" 
+      ],
+    "year":"2007"}
+  
+	
+    {"id":"RLC07",
+     "type": "proceedings",
+     "title": "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+     "authors":[
+     ],
+    "year":"2007"}
+  
+	
+    {"id":"FBR07",
+     "type": "misc",
+     "title": "CRiB : preservation services for Digital Repositories",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "Ana Alice Baptista" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2007"}
+  
+	
+	
+    {"id":"RLS06",
+     "type": "proceedings",
+     "title": "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+     "authors":[
+     ],
+    "year":"2006"}
+  
+	
+    {"id":"RFFLS06",
+     "type": "inproceedings",
+     "title": "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos",
+     "authors":[
+     
+       "Luis Miguel Ferros"
+       ,
+       "Maria João Pires Lima"
+       ,
+       "António Sousa"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Miguel Ferreira" 
+      ],
+    "year":"2006"}
+  
+	
+    {"id":"FBR06-Ariadne",
+     "type": "article",
+     "title": "A foundation for automatic digital preservation",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "Ana Alice Baptista" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2006"}
+  
+	
+    {"id":"RH2002",
+     "type": "book",
+     "title": "XML e XSL: da teoria à prática",
+     "authors":[
+     
+       "José Carlos Ramalho"
+       ,
+       "Pedro Rangel Henriques"
+       ],
+    "year":"2002"}
+  
+	
+    {"id":"Ram2000",
+     "type": "phdthesis",
+     "title": "Anotação Estrutural de Documentos e sua Semântica",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"2000"}
+  
+	
+    {"id":"RAH1998",
+     "type": "article",
+     "title": "Algebraic Specification of Documents",
+     "authors":[
+     
+       "José João Almeida"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RS2003",
+     "type": "inproceedings",
+     "title": "Electronic Publishing of ADB editions",
+     "authors":[
+     
+       "José Luis Santos"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"RLH2003",
+     "type": "inproceedings",
+     "title": "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites",
+     "authors":[
+     
+       "Giovani Rubert Librelotto"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"RARH98",
+     "type": "article",
+     "title": "SGML Documents: Where does quality go?",
+     "authors":[
+     
+       "J. G. Rocha"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "José João Almeida" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1999"}
+  
+	
+    {"id":"RH98",
+     "type": "article",
+     "title": "Qualidade na Publicação Electrónica: como controlá-la?",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"Ram01",
+     "type": "inproceedings",
+     "title": "Constraining Content: specification and processing",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"2001"}
+  
+	
+    {"id":"Ram99",
+     "type": "inproceedings",
+     "title": "Recovering Old Paper Historical Documents Through SGML/XML Modelling",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"1999"}
+  
+	
+    {"id":"RH99",
+     "type": "inproceedings",
+     "title": "XML::DT - a Perl Down Translation Module",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "José João Almeida" 
+      ],
+    "year":"1999"}
+  
+	
+    {"id":"RLH98",
+     "type": "inproceedings",
+     "title": "Generating SGML specific editors: from DTDs to Attribute Grammars",
+     "authors":[
+     
+       "A. R. Lopes"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RHb98",
+     "type": "inproceedings",
+     "title": "Beyond DTDs: Constraining Data Content",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RHHRAF98",
+     "type": "inproceedings",
+     "title": "Adapting Museum Structures for the Web: No Changes Needed!",
+     "authors":[
+     
+       "M. R. Henriques"
+       ,
+       "J. L. Faria"
+       ,
+      "J. G. Rocha" 
+      ,
+      "Pedro Rangel Henriques" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "José João Almeida" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"LRH97",
+     "type": "inproceedings",
+     "title": "INES, an Environment for Structured Editions of SGML Documents",
+     "authors":[
+     
+      "A. R. Lopes" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1997"}
+  
+	
+    {"id":"RAH96",
+     "type": "inproceedings",
+     "title": "Document Semantics: two approaches",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "José João Almeida" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1996"}
+  
+	
+    {"id":"JLRH02",
+     "type": "inproceedings",
+     "title": "XCSL: XML Constraint Specification Language",
+     "authors":[
+     
+       "M. H.  Jacinto"
+       ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2002"}
+  
+	
+    {"id":"JLRHb02",
+     "type": "inproceedings",
+     "title": "Bidirectional Conversion between XML Documents and Relational Data Bases",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2002"}
+  
+	
+    {"id":"JHR00",
+     "type": "inproceedings",
+     "title": "XML and Semantic Validation",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2000"}
+  
+	
+    {"id":"JLRHc02",
+     "type": "inproceedings",
+     "title": "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2002"}
+  
+	
+    {"id":"RH94",
+     "type": "inproceedings",
+     "title": "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1995"}
+  
+	
+    {"id":"RAH95",
+     "type": "inproceedings",
+     "title": "DAVID, Algebraic Specification of Documents",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "José João Almeida" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1995"}
+  
+	
+    {"id":"Ram96",
+     "type": "inproceedings",
+     "title": "DSSSL: basic topics",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"1996"}
+  
+	
+    {"id":"RRAH97",
+     "type": "inproceedings",
+     "title": "SGML Documents: Where Does Quality Go?",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "J. G. Rocha" 
+      ,
+      "José João Almeida" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1997"}
+  
+	
+    {"id":"RLH03",
+     "type": "article",
+     "title": "Ontology driven websites with Topic Maps",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"JLRH03",
+     "type": "article",
+     "title": "XCSL: XML Constraint Specification Language",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"LRH03",
+     "type": "inproceedings",
+     "title": "XML Topic Map Builder: Specification and Generation",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"Ram03",
+     "type": "inproceedings",
+     "title": "O XML nos curriculae das licenciaturas em informática",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"SRFP95",
+     "type": "article",
+     "title": "A Heterogeneous Computer Vision Architecture: Implementation Issues",
+     "authors":[
+     
+       "H. Santos"
+       ,
+       "J. M. Fernandes"
+       ,
+       "A. J. Proença"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"1995"}
+  
+	
+    {"id":"LRH03b",
+     "type": "inproceedings",
+     "title": "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"LRH03c",
+     "type": "inproceedings",
+     "title": "Geração automática de interfaces Web para sistemas de informação: Metamorphosis",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"SMR03",
+     "type": "inproceedings",
+     "title": "Xexam: uma linguagem de suporte para exames online (e-learning)",
+     "authors":[
+     
+       "Daniel Edgar Pinto Soares"
+       ,
+       "Maria da Conceição Vieira Mota"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"JRH03",
+     "type": "inproceedings",
+     "title": "XML Templates for Constraints (XTC), Um Nï¿½vel de Abstracção para Linguagens de Especificação de Restrições",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"RHLA03",
+     "type": "proceedings",
+     "title": "XATA2003 - XML: Aplicações e Tecnologias Associadas",
+     "authors":[
+     ],
+    "year":"2003"}
+  
+	
+    {"id":"Ram99b",
+     "type": "inbook",
+     "title": "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"1999"}
+  
+	
+    {"id":"Ram93",
+     "type": "masterthesis",
+     "title": "Um Compilador para o GLiTCH",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"1993"}
+  
+	
+    {"id":"VECPAR93",
+     "type": "inproceedings",
+     "title": "A Heterogeneous Computer Vision Architecture: Implementation Issues",
+     "authors":[
+     
+      "H. Santos" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "J. M. Fernandes" 
+      ,
+      "A. J. Proença" 
+      ],
+    "year":"1993"}
+  
+	
+    {"id":"RH98b",
+     "type": "inproceedings",
+     "title": "Qualidade na Publicação Electrónica: como controlá-la?",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RH98c",
+     "type": "inproceedings",
+     "title": "Informatics and Archives: a present needed symbiosis",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RH98d",
+     "type": "inproceedings",
+     "title": "Os desafios colocados pela informação estruturado no contexto dos arquivos: o arquivo distrital de Braga",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"Ram98",
+     "type": "misc",
+     "title": "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"1998"}
+  
+	
+    {"id":"RLH03b",
+     "type": "inproceedings",
+     "title": "Adrian: a platform for E-Learning Content Prodution",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2003"}
+  
+	
+    {"id":"LR04",
+     "type": "inproceedings",
+     "title": "Web Services: Metodologias de Desenvolvimento",
+     "authors":[
+     
+       "Carlos J. Feijó Lopes"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"FR04",
+     "type": "inproceedings",
+     "title": "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo",
+     "authors":[
+     
+       "Miguel Ferreira"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"LRH04",
+     "type": "inproceedings",
+     "title": "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RTFR04",
+     "type": "inproceedings",
+     "title": "Gerador de Web Services para cadeias de transformações de documentos XML",
+     "authors":[
+     
+       "Pedro Taveira"
+       ,
+       "Ricardo Ferreira"
+       ,
+       "Vasco Rocha"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"MRH04",
+     "type": "inproceedings",
+     "title": "Comparação de Linguagens para descrição de Interfaces baseadas em XML",
+     "authors":[
+     
+       "Ricardo Martins"
+       ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RS04",
+     "type": "proceedings",
+     "title": "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+     "authors":[
+     ],
+    "year":"2004"}
+  
+	
+    {"id":"FR04b",
+     "type": "inproceedings",
+     "title": "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Miguel Ferreira" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RLH04",
+     "type": "inproceedings",
+     "title": "Adrian - E-Learning Content Production (creating online exams)",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"LSRH04",
+     "type": "inproceedings",
+     "title": "Using the Ontology Paradigm to integrate Information Systems",
+     "authors":[
+     
+       "Weber Souza"
+       ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"JLRH02b",
+     "type": "article",
+     "title": "XCSL tutorial",
+     "authors":[
+     
+      "M. H.  Jacinto" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2002"}
+  
+	
+    {"id":"LRH04-Clei",
+     "type": "inproceedings",
+     "title": "Extração de Topic Maps no Oveia: Especificação e Processamento",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RHL04-eLes",
+     "type": "inproceedings",
+     "title": "ADRIAN: Sistema de Suporte à Produção de Conteúdos",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"FR04-capsi",
+     "type": "inproceedings",
+     "title": "DigitArq: Creating a Historical Digital Archive",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"LRH04-XMLw",
+     "type": "inproceedings",
+     "title": "XTche - A Language for Topic Maps Schema and Constraints",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RSL05",
+     "type": "proceedings",
+     "title": "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+     "authors":[
+     ],
+    "year":"2005"}
+  
+	
+    {"id":"Ram05",
+     "type": "inproceedings",
+     "title": "Document Composer: uma aplicação XML para extracção de informação de repositórios XML",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"LRH05",
+     "type": "inproceedings",
+     "title": "Obtendo Interoperabilidade Semï¿½ntica em Sistemas Heterogï¿½neos de Informação com Metamorphosis",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"LRH05b",
+     "type": "inproceedings",
+     "title": "Constraining XML Topic Maps with XTche",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"RL05",
+     "type": "book",
+     "title": "Web Services: Aplicações Distribuídas sobre Protocolos Internet",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Carlos J. Feijó Lopes" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"LRH04-WWS",
+     "type": "inproceedings",
+     "title": "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2004"}
+  
+	
+    {"id":"RLH05",
+     "type": "inproceedings",
+     "title": "Constraining Topic Maps: A TMCL declarative implementation",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+	
+    {"id":"RLH06",
+     "type": "inbook",
+     "title": "Lecture Notes in Computer Science",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2006"}
+  
+	
+	
+    {"id":"RLH05b",
+     "type": "inproceedings",
+     "title": "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"FBR05-CAPSI",
+     "type": "inproceedings",
+     "title": "Avaliação Automática de Migração em Redes Distribuídas de Conversores",
+     "authors":[
+     
+       "Ana Alice Baptista"
+       ,
+      "Miguel Ferreira" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"RLH05-revAPSI17",
+     "type": "article",
+     "title": "Geração automática de interfaces Web para Sistemas de Informação: Metamorphosis",
+     "authors":[
+     
+      "José Carlos Ramalho" 
+      ,
+      "Giovani Rubert Librelotto" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+    {"id":"LRH05-CLEI",
+     "type": "inproceedings",
+     "title": "Ulisses: Um Navegador Conceptual para Topic Maps",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2005"}
+  
+	
+	
+    {"id":"FBR06-XATA",
+     "type": "inproceedings",
+     "title": "CRIB : a service oriented architecture for digital preservation outsourcing",
+     "authors":[
+     
+      "Miguel Ferreira" 
+      ,
+      "Ana Alice Baptista" 
+      ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2006"}
+  
+	
+	
+    {"id":"RD06-XATA",
+     "type": "inproceedings",
+     "title": "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web",
+     "authors":[
+     
+       "Luis Miguel Alves Domingues"
+       ,
+      "José Carlos Ramalho" 
+      ],
+    "year":"2006"}
+  
+	
+	
+    {"id":"LRH06-XATA",
+     "type": "inproceedings",
+     "title": "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração",
+     "authors":[
+     
+      "Giovani Rubert Librelotto" 
+      ,
+      "José Carlos Ramalho" 
+      ,
+      "Pedro Rangel Henriques" 
+      ],
+    "year":"2006"}
+  
+
+

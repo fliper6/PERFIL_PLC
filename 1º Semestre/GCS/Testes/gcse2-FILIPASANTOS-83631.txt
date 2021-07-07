@@ -1,0 +1,135 @@
+######################################################################################################
+######################################################################################################
+
+Questão 1 (prática, GA) 
+
+//Parser
+arqFam returns [int docs, int fotos, ArrayList<String> test] : nomeFam docs[$docs, $test] '.' fotos[$fotos] '.';
+
+nomeFam : ARQUIVODOS str ':';
+
+docs [int num, ArrayList<String> test] : doc[$test] { $num = 0; $num++; }
+                                        (';' doc { $num++; }
+                                        )* 
+                                        ;
+
+doc [ArrayList<String> test] : ref tipo desc filename {
+                                
+                                    if($tipo.test){
+                                        $test.add($filename.string)
+                                    }
+                            
+                                }
+                                ;
+
+ref : id titulo ;
+
+titulo : TIT '=' str ;
+
+desc : str ;
+
+fotos [int num]: foto { $num = 0 ; $num++; }
+                (';' foto { $num++; }
+                )* 
+                ;
+
+foto : FOTO str ',' ano ',' filename ;
+
+filename returns [String string]: str { $string= $str.text } ;
+
+tipo returns [boolean test]: CERTIDAO { $test = false; }
+                        | TESTAMENTO { $test = true; } ;
+
+//Lexer
+TIT : [T][I][T];
+ARQUIVODOS: [A][R][Q][U][I][V][O][ ][D][O];
+FOTO : [F][O][T][O];
+CERTIDAO: [C][E][R][T][I][D][A][O];
+TESTAMENTO : [T][E][S][T][A][M][E][N][T][O];
+str : '"' ~('\r' | '\n' | '"')* '"';
+
+######################################################################################################
+######################################################################################################
+
+Questão 2 (teórica, Q-Gramaticas)
+
+	A usabilidade de uma gramática é relacionada com o quão fácil é a sua utilização para que um utilizador
+a consiga interpretar e usar de modo claro e o mais imediato possível. Pode-se dizer que a GIC apresentada
+tem baixa usabilidade já que não cumpre os critérios 100%. Nomeadamente a compreensão da mesma é fácil, já
+que dá uso, por exemplo, a produções unitárias e a identificadores esclarecedores. No entanto a sua derivação
+não é fácil, já que emprega alguns dos aspetos que facilita a compreensão, como o uso de produções unitárias. 
+Como não dá uso a gramáticas já existente não tem modularidade e a sua complexidade é baixa por não haver 
+interdependência entre símbolos fazendo a manutenção não cumprir todos os requisitos.
+	Já a eficiência de uma gramática tem a ver com o quão rápida e capaz é de produzir o resultado esperado. 
+Sendo que não é possível fazer-se um teste real para ver a eficiência pode-se apenas especular que é de facto eficiente
+    Finalmente é possível dizer que se trata de uma GIC com boa qualidade já que cumpre parcialmente os requisitos
+impostos.
+
+######################################################################################################
+######################################################################################################
+
+Questão 3 (teórica, Ontologias)
+
+	A Ontologia da GIC fornecida acima, pode ser representada do seguite modo: 
+
+	conceitos{Arquivo Familiar, Documento, Dados de Documento, Fotografia, Dados de Fotografia}
+
+	individuos{Tipo, Referência, Descrição, Nome do Ficheiro, Ano, Certidão, Testamento}
+
+
+	relações{contém, iof, tem}
+
+	triplos{
+		Certidão = iof => Tipo
+		Testamento = iof => Tipo
+
+		Arquivo Familiar = tem => Nome da Família
+		Arquivo Familiar = contém => Documento
+		Arquivo Familiar = contém => Fotografia
+
+		Fotografia = tem => Dados
+		Documento = tem => Dados
+
+		Referência = iof => Dados de Documento
+		Tipo = iof => Dados de Documento
+		Descrição = iof => Dados de Documento
+		Nome do Ficheiro = iof => Dados de Documento
+		Ano = iof => Dados de Fotografia
+		Nome do Ficheiro = iof => Dados de Fotografia
+	}
+
+	A ontologia representa o modelo abstrato e cognitivo de um domínio do problema apresentado em cima.
+	Através desse modelo, conseguimos perceber toda a estrutura e todas as relações de modo sussinto e direto.
+	Considerei os conceitos como cendo o arquivo familiar, as fotografias, os documentos e os seus dados, como 
+é descrito no enunciado, pois são estes as principais coleções de objetos apresentadas. 
+	Todas os individuos são iof (is instance of) dos demais, isto é, objetos concretos dos acima (por exemplo, 
+a descrição de uma fotografia é um dado da mesma).
+	As relações utilizadas foram iof, contém e tem para explicar a hierarquia do problema.
+
+
+######################################################################################################
+######################################################################################################
+
+Questão 4 (teórica, Q-LP)
+
+	No teste anterior, sugeri Python pois considero uma boa linguagem de programação para iniciar alunos universitários na atividade de programação. Porém, C tem as suas vantagens, e desvantagens, e pode 
+facilmente ser uma boa escolha também. 
+	Em termos de expressividade, Python é uma linguagem fácil de compreender e transmite a sua mensagem de forma clara, enquanto C introduz conceitos complexos como apontadores, que podem vir a ser de 
+difícil compreensão para alguém que está a começar a aprender programação.
+	Quanto à extensibilidade (capacidade que uma linguagem oferece para ser modificada pelo utilizador) e à escalabilidade (capacidade de lidar uniformemente com problemas sucessivamente mais complexo), o
+C é sem dúvida melhor pois é uma linguagem desenvolvida a considera a eficácia do computador enquanto o Python é mais para eficaz para o lado do programador e melhor para programas fáceis e pequenos.
+	Relativamente a documentação, ambas são bem sucedidas pois são duas linguagens bastante utilizadas atualmente e existe muito material por onde consultar, por isso qualquer aluno teria facilidade em 
+encontrar soluções para possíveis problemas que se depare. Por fim, quanto à modularidade, isto é, a facilidade de reutilizar partes do código em componentes para serem reutilizados, considero que são
+ambas ótimas linguagens para tal efeito, em que facilmente adaptamos código para ser reutilizado. 
+
+######################################################################################################
+######################################################################################################
+
+Questão 5 (teórica, IDE)
+
+	O IDE que foi usado para trabalhar em ANTLR foi o antlrworks2. Esse IDE é o que considero o mais adequado para
+o desenvolvimento de programas em ANTLR já que emprega algumas características importantes, como o esquema de
+cores no reconhecimento sintático. Tem alguns problemas no entanto na falta de características que melhoram a 
+sua usabilidade, como o preenchimento automático.
+	Finalmente a árvore de derivação foi bastante usada já que permite ver se o reconhecimento do texto foi efetuado
+com sucesso da maneira pretendida.

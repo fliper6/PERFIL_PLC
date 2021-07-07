@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT project_record (main_title,intro,workteam,abstract,deliverables,date)>
+
+<!-- Título -->
+<!ELEMENT main_title (#PCDATA)>
+
+<!-- ***************** 1ª divisão : introdução ***************** -->
+<!ELEMENT intro (key_name,title,subtitle?,date_b,date_e,supervisor)>
+<!ELEMENT key_name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT date_b (#PCDATA)>
+<!ELEMENT date_e (#PCDATA)>
+<!ELEMENT supervisor (name,email)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name link CDATA #REQUIRED >
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email link CDATA #IMPLIED>
+
+<!-- ****************** 2ª divisão : workteam ****************** -->
+<!ELEMENT workteam (member+)>
+<!ELEMENT member (name,email)>
+
+<!-- ****************** 3ª divisão : abstract ****************** -->
+<!ELEMENT abstract (paragraph)+>
+<!ELEMENT paragraph (#PCDATA|italic|bold|underline|link)*>
+<!ELEMENT bold (#PCDATA)>
+<!ELEMENT italic (#PCDATA)>
+<!ELEMENT underline (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link type (int_link|ext_link) #REQUIRED>
+
+<!-- **************** 4ª divisão : deliverables **************** -->
+<!ELEMENT deliverables (ref)*>
+<!ELEMENT ref (name)>
+
+<!-- Data -->
+<!ELEMENT date (#PCDATA)>

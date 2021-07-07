@@ -1,0 +1,67 @@
+Conferência: 
+ - data 
+ - local 
+ - descrição
+ :temApresentação
+Sessão:
+ - dia 
+ - hora 
+ - chair_moderador
+ :temApresentação
+Apresentação:
+ - tipo (convidadas ou não)
+ - título 
+ - resumo
+ :temAutor
+Autor 
+
+> Povoar ontologia c/ 2 sessões completas
+
+> Queries:
+
+#####################################################################################################################
+1) A lista ordenada alfabeticamente de todos os autores (apresentações normais e convidadas) ########################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/slate#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?a where {
+    ?s rdf:type :Apresentação.
+    ?s :temAutor ?a.
+ } ORDER BY (?a) 
+
+#####################################################################################################################
+2) A lista de títulos, ordenada alfabeticamente, das apresentações de uma determinada sessão ########################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/slate#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?s ?t where {
+    ?s rdf:type :Sessão.
+    ?s :temApresentação ?a.
+    ?a rdf:type :Apresentação;
+       :título ?t;
+} ORDER BY (?t)
+
+2.1) Para contar as apresentações em cada sessão #####################
+
+SELECT ?s (count (?s) as ?difT) where {
+    ?s rdf:type :Sessão.
+    ?s :temApresentação ?a.
+    ?a rdf:type :Apresentação;
+       :título ?t;
+} 
+GROUP BY ?s
+ORDER BY ?t
+
+#####################################################################################################################
+3) A lista de títulos que incluem "OWL" #############################################################################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/slate#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?t where {
+    ?a rdf:type :Apresentação;
+       :título ?t.
+    FILTER regex(?t, "OWL")
+} 

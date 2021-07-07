@@ -1,0 +1,21 @@
+Aplicação sobre os eventos dos jogos olímpicos
+
+TECNOLOGIAS ###############################################################################################################################
+
+- Base de dados: GraphDB (podemos utilizar uma base de dados não ontológica para utilizadores se entendermos mas não é necessário acho)
+
+- Frontend: Vue (c/ Vuetify)
+
+- Middleware: JS 
+
+FUNCIONALIDADES ###########################################################################################################################
+
+- Login / Registar de utilizador (nome, email, password) 
+- Perfil do utilizador (foto, nome, bio (pode ter tipo, desportos favoritos), agenda pessoal e atividade (publicações e comentários)
+[para as fotos, podemos simplesmente guardar o path relativo de cada foto, sendo que não há maneira de guardar as fotos mesmo na ontologia]
+- Agenda dos eventos (organizados por data) - opção de filtrar por modalidade
+ - Opção de adicionar evento à agenda pessoal
+- Feed de publicações
+- Cada evento tem data, hora, título, venue, modalidade :
+
+theroar.com.au/olympics/olympics-events-schedule/ --> aqui tem os horários do de 2021, acho que dá para fazer web scrapping

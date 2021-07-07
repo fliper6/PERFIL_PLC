@@ -1,0 +1,283 @@
+@prefix : <http://prc.di.uminho.pt/2020/mapa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://prc.di.uminho.pt/2020/mapa> .
+
+<http://prc.di.uminho.pt/2020/mapa> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2020/mapa#pertenceA
+:pertenceA rdf:type owl:ObjectProperty ;
+           rdfs:domain :Cidade ;
+           rdfs:range :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#temDestino
+:temDestino rdf:type owl:ObjectProperty ;
+            owl:inverseOf :éDestinoDe ;
+            rdfs:domain :Ligação ;
+            rdfs:range :Cidade .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#temOrigem
+:temOrigem rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éOrigemDe ;
+           rdfs:domain :Ligação ;
+           rdfs:range :Cidade .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#éDestinoDe
+:éDestinoDe rdf:type owl:ObjectProperty .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#éOrigemDe
+:éOrigemDe rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2020/mapa#descrição
+:descrição rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Cidade .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#distrito
+:distrito rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Cidade .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#distância
+:distância rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Ligação .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#nome
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Cidade .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#população
+:população rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Cidade .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://prc.di.uminho.pt/2020/mapa#Cidade
+:Cidade rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Distrito
+:Distrito rdf:type owl:Class .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Ligação
+:Ligação rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://prc.di.uminho.pt/2020/mapa#Braga
+:Braga rdf:type owl:NamedIndividual ,
+                :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Chaves
+:Chaves rdf:type owl:NamedIndividual ,
+                 :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Lisboa
+:Lisboa rdf:type owl:NamedIndividual ,
+                 :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Porto
+:Porto rdf:type owl:NamedIndividual ,
+                :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#Viana_do_Castelo
+:Viana_do_Castelo rdf:type owl:NamedIndividual ,
+                           :Distrito .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#bcl
+:bcl rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Braga ;
+     :descrição "Cidade do Galo"^^xsd:string ;
+     :distrito "Braga"^^xsd:string ;
+     :nome "Barcelos"^^xsd:string ;
+     :população "60000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#brg
+:brg rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Braga ;
+     :descrição "Cidade dos Arcebispos"^^xsd:string ;
+     :distrito "Braga"^^xsd:string ;
+     :nome "Braga"^^xsd:string ;
+     :população "140000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#fml
+:fml rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Braga ;
+     :descrição "Princesa do Ave"^^xsd:string ;
+     :distrito "Braga"^^xsd:string ;
+     :nome "Famalicão"^^xsd:string ;
+     :população "90000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#gmr
+:gmr rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Braga ;
+     :descrição "Cidade berço"^^xsd:string ;
+     :distrito "Braga"^^xsd:string ;
+     :nome "Guimarães"^^xsd:string ;
+     :população "80000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-bcl-vct
+:lig-bcl-vct rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :vct ;
+             :temOrigem :bcl ;
+             :distância "22"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-brg-bcl
+:lig-brg-bcl rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :bcl ;
+             :temOrigem :brg ;
+             :distância "20"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-brg-fml
+:lig-brg-fml rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :fml ;
+             :temOrigem :brg ;
+             :distância "17"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-brg-gmr
+:lig-brg-gmr rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :gmr ;
+             :temOrigem :brg ;
+             :distância "18"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-brg-prt
+:lig-brg-prt rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :prt ;
+             :temOrigem :brg ;
+             :distância "55"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-fml-bcl
+:lig-fml-bcl rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :bcl ;
+             :temOrigem :fml ;
+             :distância "25"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-fml-prt
+:lig-fml-prt rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :prt ;
+             :temOrigem :fml ;
+             :distância "30"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-gmr-fml
+:lig-gmr-fml rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :fml ;
+             :temOrigem :gmr ;
+             :distância "22"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-gmr-prt
+:lig-gmr-prt rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :prt ;
+             :temOrigem :gmr ;
+             :distância "38"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-ptl-bcl
+:lig-ptl-bcl rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :bcl ;
+             :temOrigem :ptl ;
+             :distância "19"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-ptl-brg
+:lig-ptl-brg rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :brg ;
+             :temOrigem :ptl ;
+             :distância "31"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#lig-vct-prt
+:lig-vct-prt rdf:type owl:NamedIndividual ,
+                      :Ligação ;
+             :temDestino :prt ;
+             :temOrigem :vct ;
+             :distância "61"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#prt
+:prt rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Porto ;
+     :descrição "Cidade invicta"^^xsd:string ;
+     :distrito "Porto"^^xsd:string ;
+     :nome "Porto"^^xsd:string ;
+     :população "1000000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#ptl
+:ptl rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Viana_do_Castelo ;
+     :descrição "Vila mais antiga de Portugal"^^xsd:string ;
+     :distrito "Viana do Castelo"^^xsd:string ;
+     :nome "Ponte de Lima"^^xsd:string ;
+     :população "70000"^^xsd:string .
+
+
+###  http://prc.di.uminho.pt/2020/mapa#vct
+:vct rdf:type owl:NamedIndividual ,
+              :Cidade ;
+     :pertenceA :Viana_do_Castelo ;
+     :descrição "Cidade dos pescadores"^^xsd:string ;
+     :distrito "Viana do Castelo"^^xsd:string ;
+     :nome "Viana do Castelo"^^xsd:string ;
+     :população "60000"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

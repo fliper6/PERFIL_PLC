@@ -1,0 +1,26 @@
+INSTALAR WINDOWS:
+> Instalar DockerDesktop para Windows
+> Correr cmd como administrador e correr:
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+
+Problemas com Daemon:
+*Powershell como administrador*
+> cd "C:\Program Files\Docker\Docker"
+> ./DockerCli.exe -SwitchDaemon  
+*Docker restart*
+
+INSTALAR LINUX:
+> sudo apt-get install docker-ce=18.06.0~ce~3-0~ubuntu containerd.io (o resto do comando - docker-ce-cli - dava erro, a solução que encontrei dizia simplesmente para retirar isso)
+> docker --version (para verificar se instalou)
+> sudo groupadd docker
+> sudo usermod -aG docker ${USER}
+*logout and login + restart*
+
+COMANDOS:
+> docker build -t nome_da_image . (dar build à image)
+> docker images (verificar as images a correr)
+> docker stop fserver
+  docker rm fserver (caso já exista antes um a correr com o mesmo nome, podemos remove-lo assim)
+> docker run -d -p 2224:3026 --name fserver 3f32cbf73813 (2224: port no localhost, podemos definir a que quisermos)
+                                                         (3026: port definido no Dockerfile)
+                                                         (3f32cbf73813: identificador na image, podemos encontrar com o "docker images")

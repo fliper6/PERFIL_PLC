@@ -1,0 +1,10 @@
+> docker build -t mapa-dc .
+> docker-compose up -d
+> ir ao 7201 e fazer setup (criar repositório "Aula9" e importar o ttl)
+> ir ao 3000/cidades 
+
+-------------------------------------------------------------------------
+Executar uma bash dentro do container:
+> docker exec -it nome_container bash
+ 
+Na linha da bash podemos, p.e., fazer uma query (com o curl p.e.)

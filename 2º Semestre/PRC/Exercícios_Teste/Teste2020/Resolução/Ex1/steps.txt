@@ -1,0 +1,52 @@
+> Download "1.1.ttl" 
+> Criar um menu, com um prato para cada secção ("canape", "starter", "main_course", "side_dish", "dessert")
+- Como o menu dado não tem "canape" nem "side_dish", só fiz os outros 3:
+    > Menu_Thai:
+        > starter
+            > Satay_Gai
+                > Banana
+                > Açúcar
+                > ...
+            > Satay_Goong
+        > main_course
+            > Gai_Pad_Khing
+            > Pad_Thai_Goong
+        > dessert
+            > Sago
+            > Kluay_Buat_Chi
+> Fazer "Export inferred axioms as ontology"
+> Ligar GraphDB, criar novo repositório e importa ficheiro TTL 
+> Queries: (https://docs.google.com/document/d/11cFYjke7Sr4Y6CEvVFf_eQBb7Lc5thLO6hec6VImIzM/edit)
+
+#############################################################
+1) Quais os pratos que levam camarão? #######################
+
+PREFIX : <http://purl.org/ontology/fo/>
+select * where { 
+	?p :hasIngredient :Camarão .
+} 
+
+#############################################################
+2) Que sobremesas existem num determinado menu? #############
+
+PREFIX : <http://purl.org/ontology/fo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select * where { 
+	?menu rdf:type :Menu ;
+    :dessert ?dessert .
+} 
+
+NOTA: Ir ver os prefixos a "http://localhost:7200/namespaces"
+
+#############################################################
+3) Quais os pratos que não incluem "molho de amendoim"? #####
+
+PREFIX : <http://purl.org/ontology/fo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select distinct ?f where { 
+	?f rdf:type :Food;
+    FILTER not exists { ?f rdf:type :Ingredient } 
+    FILTER not exists { ?f :hasIngredient :Molho_de_Amendoim } .
+} 
+
+NOTA: Em vez no "FILTER not exists", posso pôr usar o "MINUS"

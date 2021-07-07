@@ -1,0 +1,53 @@
+> Queries:
+
+#####################################################################################################################
+1) A lista ordenada alfabeticamente dos atletas inscritos ########################################################### 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#>
+select * where {
+    ?a rdf:type :Atleta;
+} ORDER BY (fn:lower-case(str(?a))) ##para não haver distinção entre maiúsculas e minúsculas
+
+#####################################################################################################################
+2) A lista de equipes presentes no evento ###########################################################################
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#>
+select * where {
+    ?a rdf:type :Equipa;
+} 
+
+#####################################################################################################################
+3) Quantos atletas estão inscritos em cada prova ####################################################################
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#>
+select ?p (count(?a) as ?Number) where {
+    ?a rdf:type :Atleta;
+       :participaEm ?p
+ } GROUP BY ?p       
+
+
+#####################################################################################################################
+4) O top ten das equipes com mais atletas ###########################################################################
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#>
+select ?e (count(?a) as ?tot) where {
+    ?a rdf:type :Atleta;
+       :atletaEm ?e
+ } GROUP BY ?e     
+   ORDER BY DESC (?tot)
+   LIMIT 10
+
+#####################################################################################################################
+5) A lista de atletas que vivem em Braga ############################################################################
+     
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#>
+select ?a where {
+    ?a rdf:type :Atleta;
+       :morada ?m
+    FILTER REGEX(?m, "Braga")
+} 

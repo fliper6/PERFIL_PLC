@@ -1,0 +1,55 @@
+Aula 12
+
+-> Começamos com o api-server / app-server base dados pelo professor
+
+Para verificarmos se o api-server funciona,
+> npm install 
+> npm start
+(deve dizer que está a correr numa certa porta)
+
+---------------------------------------- IR BUSCAR TOKEN ----------------------------------------
+-> BD pode ser vista aqui, no MongoDB Compass:
+mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
+
+-> npm start no server "autenticacao"
+-> no Postman, inserir user com POST em http://localhost:8002/users
+Body: (raw, JSON)
+{
+   "username": "fliper",
+   "password" : "123",
+   "level" : "admin"
+}
+
+-> depois, com POST em http://localhost:8002/users/login (com o body) recebemos o token
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZsaXBlciIsImxldmVsIjoiYWRtaW4iLCJzdWIiOiJBdWxhIGRlIFBSSSIsImlhdCI6MTYxMDkxODk5M30.1GAKCCzdpZu4iOSEK-Iv0I-elr7qKMXpof39D5GWY_w"
+}
+
+-> agora, para todos os GETs temos que pôr sempre o token (no autenticacao > routes > user.js > {expiresIn: 30} diz o tempo de expiração do token)  
+-------------------------------------------------------------------------------------------------
+
+-> Também podemos ir ao Postman e fazer um simples GET para verificar se está tudo operacional (p.e. http://localhost:8001/tarefas), deve dar uma lista vazia
+
+-> Adicionar tarefa com POST
+{	
+     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZsaXBlciIsImxldmVsIjoiYWRtaW4iLCJzdWIiOiJBdWxhIGRlIFBSSSIsImlhdCI6MTYxMDkxODk5M30.1GAKCCzdpZu4iOSEK-Iv0I-elr7qKMXpof39D5GWY_w",
+    "designacao": "Comprar skin do LoL",
+    "data": "2021-01-17",
+    "desc": "Desperdiçar dinheiro em cosmética que de nenhuma maneira muda a minha experiência ou skill no jogo",
+    "responsavel": "Filipa"
+}
+
+ou 
+POST com o token na query: http://localhost:8001/tarefas?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZsaXBlciIsImxldmVsIjoiYWRtaW4iLCJzdWIiOiJBdWxhIGRlIFBSSSIsImlhdCI6MTYxMDkxODk5M30.1GAKCCzdpZu4iOSEK-Iv0I-elr7qKMXpof39D5GWY_w
+
+(queries começam com ? e são separadas por &  -  p.e. ?name=jose&age=23)
+(jwt.io para verificar info do token)
+-------------------------------------------------------------------------------------------------
+8001 -> api-server
+8002 -> autentication (auth-server)
+8003 -> app-server (nunca vai precisar de comunicar com o mongo sendo que não acede à BD)
+
+-------------------------------------------------------------------------------------------------
+Aceder a uma api CLAV: https://i.imgur.com/NpRA5Kl.png
+
+-------------------------------------------------------------------------------------------------

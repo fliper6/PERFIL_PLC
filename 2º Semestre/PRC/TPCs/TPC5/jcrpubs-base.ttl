@@ -1,0 +1,207 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#authorOf
+:authorOf rdf:type owl:ObjectProperty ;
+          owl:inverseOf :hasAuthor ;
+          rdfs:domain :Author ;
+          rdfs:range :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#edited
+:edited rdf:type owl:ObjectProperty ;
+        owl:inverseOf :editedBy ;
+        rdfs:domain :Editor ;
+        rdfs:range :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#editedBy
+:editedBy rdf:type owl:ObjectProperty ;
+          rdfs:domain :Publication ;
+          rdfs:range :Editor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:domain :Publication ;
+           rdfs:range :Author .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#address
+:address rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#booktitle
+:booktitle rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#chapter
+:chapter rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#deliverables
+:deliverables rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#doi
+:doi rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#howpublished
+:howpublished rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#isbn
+:isbn rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#issn
+:issn rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#journal
+:journal rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#month
+:month rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#names
+:names rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#number
+:number rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#pages
+:pages rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#publisher
+:publisher rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#school
+:school rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#uri
+:uri rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#volumes
+:volumes rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#year
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Publication .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Article
+:Article rdf:type owl:Class ;
+         rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Author
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Editor
+:Editor rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Inbook
+:Inbook rdf:type owl:Class ;
+        rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Inproceeding
+:Inproceeding rdf:type owl:Class ;
+              rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Mastherthesis
+:Mastherthesis rdf:type owl:Class ;
+               rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Misc
+:Misc rdf:type owl:Class ;
+      rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Phdthesis
+:Phdthesis rdf:type owl:Class ;
+           rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Proceeding
+:Proceeding rdf:type owl:Class ;
+            rdfs:subClassOf :Publication .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Publication
+:Publication rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

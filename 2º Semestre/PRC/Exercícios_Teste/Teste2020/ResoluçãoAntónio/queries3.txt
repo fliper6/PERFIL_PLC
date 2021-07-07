@@ -1,0 +1,91 @@
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT 
+  {  
+    ?t :tio ?s.
+    ?s :sobrinho ?t
+   } 
+WHERE 
+  { 
+    ?s :temProgenitor ?t2.
+    ?t :temProgenitor ?pr.
+    ?t2 :temProgenitor ?pr.
+    FILTER NOT EXISTS {?s :temProgenitor ?t}
+  }
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT 
+  {  
+    ?p1 :primo ?p2.
+    ?p2 :primo ?p1.
+   } 
+WHERE 
+  { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t2.
+    ?t2 :temProgenitor ?pr.
+    ?t1 :temProgenitor ?pr.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2)
+    
+  }
+
+  
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT 
+  {  
+    ?p1 :irmao ?p2.
+    ?p2 :irmao ?p1.
+   } 
+WHERE 
+  { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t1.
+    ?p1 :temProgenitor ?t2.
+    ?p2 :temProgenitor ?t2.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2)
+    
+  }
+
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Construct{
+	?b :avo ?a.
+    ?a :neto ?b.
+}
+Where {
+	?b rdf:type :Pessoa.
+	?a :temProgenitor ?p.
+    ?p :temProgenitor ?b.
+ 	filter(?b != ?a).
+}
+
+
+Construct{
+        ?i1 :temMeioIrmao ?i2.
+    }
+    Where {
+        ?i1 a :Pessoa.
+        ?i2 a :Pessoa.
+        filter(?i1 != ?i2).
+     	?i1 :temPai ?p1 .
+    	?i1 :temMae ?m1 .
+        ?i2 :temPai ?p2 .
+    	?i2 :temMae ?m2 .
+        {
+            {
+            	filter(?p1 = ?p2) .
+                filter(?m1 != ?m2) .
+        	}
+                union
+            {
+                filter(?m1 = ?m2) .
+             	filter(?p1 != ?p2) .
+        	}  
+        }
+    	
+    }
+
+
+  

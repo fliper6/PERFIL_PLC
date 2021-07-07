@@ -1,0 +1,21 @@
+Instalar express:
+> npm i express
+> npm i express-generator -g
+
+Gerar base:
+> express daw-2020-especial 
+
+Ir buscar token (porque os do stor tão expirados, no teste o stor já te dá um)
+> Ir a http://clav-api.di.uminho.pt/v2/docs/#/Utilizadores/post_users_login
+> Clicar "Try it out" e Pôr credenciais do JCR: 
+{
+  "username": "jcr@di.uminho.pt",
+  "password": "123"
+}
+> "Execute" e copiar o token em baixo
+
+"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkODFlYjA3NmYwN2ZjMzRhMTY3NGQ1YSIsImxldmVsIjo3LCJlbnRpZGFkZSI6ImVudF9BM0VTIiwiZW1haWwiOiJqY3JAZGkudW1pbmhvLnB0IiwiaWF0IjoxNjEwOTI5ODAxLCJleHAiOjE2MTA5NTg2MDF9.Qv1_vVgJD4Q0KJvalPM2cl4EWbxLmT-uuBcTS_WvpRCOatl2ccQ5rSMRO6WbJFV5DbjN0H3_nRoDqSGYeTjzMKfM3TNWZy8VLQNCdZeRZxjo-P545mjnaeB3xAsslqqcGcMRpUCP5D2kWCiEV2LPyAbfA-E9zoVmtdjDL8D_-Y2VW_KdKyFvMni4g1zLQ9pA48G1YYwoUBjOPd8FQVHiCyq6iNmBPVMxW5rq3AmbnZva0CGyoc4da09DZ9pUprc6H0cBITh1VTBoqiEUzezz4lAPcvKhTPxguhyGWVnvGqg2RtHDD7i1pS_geqr4OdUh7UJsV8lN1IW3KQiXntqtvg"
+
+Correr json-server:
+> npm i -g json-server
+> json-server --watch db.json

@@ -1,0 +1,4 @@
+# PRC
+Conteúdo de Processamento e Representação de Conhecimento (2020/2021, Universidade do Minho, MIEI) <br/>
+Trabalho feito em conjunto com o aluno: <br/>
+- [Ricardo Cunha](https://github.com/ricsmc)

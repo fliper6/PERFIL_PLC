@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Classificação e Avaliação da Informação Pública
+  table.w3-table-all
+    tr
+      th Código
+      th Título
+    each c in classes1
+      tr
+        td
+          a(href='/'+ c.codigo) #{c.codigo}
+        td= c.titulo

@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 Lista de Tarefas
+  table.w3-table-all
+    tr
+      th Data
+      th Designaçao
+      th Responsavel
+      th Operaçoes
+    each t in tarefas
+      tr
+        td= t.data
+        td= t.designacao
+        td= t.responsavel
+        td
+          a(href='/editar') Editar 
+          span -- 
+          a(href='/remover/' + t._id) Remover

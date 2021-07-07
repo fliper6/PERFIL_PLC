@@ -1,0 +1,39 @@
+Array de cidades:
+    - id (c1, c2, etc)
+    - nome
+    - população (int)
+    - descrição
+    - distrito
+
+Array de ligações:
+    - id (l1, l2, etc)
+    - origem (id cidade)
+    - destino (id cidade)
+    - distância (float)
+
+Há dois métodos para guardar as ligações:
+1 - Criar um objeto para cada ligação (mais simples, menos eficaz)
+2 - Criar um objeto para cada cidade com as distâncias até todos os destinos que tem (mais complexo, mais eficaz para aceder com queries)
+
+A 1ª é bastante straight-foward, mas na 2ª, como é que guardamos esse "array de pares" para cada cidade em formato TTL, de modo a que numa 
+query fosse possível ir buscar o destino e distância correspondente sem problema?
+
+--> 2ª + guardar com as relações do protege todas as ligações que uma certa cidade está registada como origem ou destino (éOrigem e éDestino).
+
+### CLASSES
+Cidade
+Ligação
+
+### DATA PROPERTIES
+id (Cidade e Ligação)
+nome (Cidade)
+população (Cidade)
+descrição (Cidade)
+distrito (Cidade)
+origem (Ligação)
+destino (Ligação)
+distância (Ligação)
+
+### OBJECT PROPERTIES
+éDestino (Cidade)
+éOrigem (Cidade)

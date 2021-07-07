@@ -1,0 +1,41 @@
+######################### CLASSES ######################### 
+Tipos de publicações:
+- article
+- book
+- inbook
+- inproceeding
+- masterthesis
+- misc
+- phdthesis
+- proceeding
+
+Tipos de pessoas:
+- autor
+- editor
+
+##################### DATA PROPERTIES ##################### 
+- address
+- booktitle
+- chapter
+- doi
+- howpublished
+- isbn
+- issn
+- journal
+- month
+- publisher
+- pages 
+- name
+- school
+- title
+- year
+- deliverables
+- number
+- uri
+- volume
+
+#################### OBJECT PROPERTIES ####################
+- edited
+- editedBy
+- hasAuthor
+- authorOf

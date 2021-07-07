@@ -1,0 +1,124 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#criou
+:criou rdf:type owl:ObjectProperty ;
+       rdfs:domain :Utilizador ;
+       rdfs:range :Repositório .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#foiCriadoPor
+:foiCriadoPor rdf:type owl:ObjectProperty ;
+              rdfs:domain :Repositório ;
+              rdfs:range :Utilizador .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#biografia
+:biografia rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#followers
+:followers rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#following
+:following rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#local
+:local rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#nome
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#organização
+:organização rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Utilizador .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#título
+:título rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Repositório .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#username
+:username rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Utilizador .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#Repositório
+:Repositório rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#Utilizador
+:Utilizador rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#fliper6
+:fliper6 rdf:type owl:NamedIndividual , :Utilizador ;
+     :organização "Universidade do Minho" ;
+     :local "Braga" ;
+     :followers 13 ;
+     :following 14 ;
+     :criou :PRC_TP,
+            :SPLN_TP,
+            :EA_TP,
+            :PRC2020,
+            :MIEI-Licenciatura,
+            :PRI2020-Teste,
+            :PRI2020.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#PRC_TP
+:PRC_TP rdf:type owl:NamedIndividual , :Repositório ;
+     :título "PRC_TP" .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#SPLN_TP
+:SPLN_TP rdf:type owl:NamedIndividual , :Repositório ;
+     :título "SPLN_TP" .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#EA_TP
+:EA_TP rdf:type owl:NamedIndividual , :Repositório ;
+     :título "EA_TP" .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#PRC2020
+:PRC2020 rdf:type owl:NamedIndividual , :Repositório ;
+     :título "PRC2020" .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#MIEI-Licenciatura
+:MIEI-Licenciatura rdf:type owl:NamedIndividual , :Repositório ;
+     :título "MIEI-Licenciatura" .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/5/ontologia#PRI2020-Teste
+:PRI2020-Teste rdf:type owl:NamedIndividual , :Repositório ;
+     :título "PRI2020-Teste" .
+

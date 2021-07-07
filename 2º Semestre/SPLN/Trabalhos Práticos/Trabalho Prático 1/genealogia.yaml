@@ -1,0 +1,1288 @@
+
+
+I_1086999:
+	nome : Affonso Gonçalves
+	cas : [ F_1086999_1087000 ]
+	filhos : [ I_1086995 ]
+
+F_1086999_1087000:
+	prog1 : 1086999
+	prog2 : 1087000
+	filhos : [ I_1086995 ]
+
+I_1076286:
+	nome : Alberto Antunes Guimarães
+	nasc : 18.12.1890
+	fam : F_1076115_1076116
+
+I_1076276:
+	nome : Ana Antunes Guimarães
+	nasc : 01.12.1874
+	fam : F_1076115_1076116
+
+I_1079212:
+	nome : Ana de Jesus Soares de Azevedo
+	cas : [ F_1079212_1079211 ]
+	filhos : [ I_1079210 ]
+
+F_1079212_1079211:
+	prog1 : 1079212
+	prog2 : 1079211
+	filhos : [ I_1079210 ]
+
+I_1076013:
+	nome : Ana Francisco
+	nasc : 14.05.1757
+	fam : F_1075781_1075782
+
+I_1077961:
+	nome : Ana Isabel Ferrera da Cunha
+	nasc : 12.05.1974
+	cas : [ F_1077961_1076124 ]
+	filhos : [ I_1077960 ]
+
+F_1077961_1076124:
+	prog1 : 1077961
+	prog2 : 1076124
+	filhos : [ I_1077960 ]
+
+I_1076019:
+	nome : Ana Maria Antunes
+	morte : 06.03.1860
+	fam : F_1076020_1076021
+	cas : [ F_1076019_1076014 ]
+	filhos : [ I_1076073, I_1076074, I_1076075, I_1076103, I_1076106, I_1076110 ]
+
+F_1076019_1076014:
+	prog1 : 1076019
+	prog2 : 1076014
+	filhos : [ I_1076073, I_1076074, I_1076075, I_1076103, I_1076106, I_1076110 ]
+	local : 'Guimarães, Briteiros (Salvador)'
+	data : 02.08.1795
+
+I_1075943:
+	nome : Ana Maria Pais dos Santos Antunes Guimarães
+	nasc : 16.05.1963
+	fam : F_1075942_1075944
+
+I_1077957:
+	nome : Andreia Mendes
+	cas : [ F_1077957_1076120 ]
+
+F_1077957_1076120:
+	prog1 : 1077957
+	prog2 : 1076120
+	filhos : [  ]
+
+I_1076282:
+	nome : António Antunes Guimarães
+	nasc : 30.05.1883
+	morte : 22.02.1912
+	fam : F_1076115_1076116
+	docs : [ D_1 ]
+
+D_1:
+	txt : | Assassinado pelo alferes Baptista (Infantaria 29)
+
+I_1078572:
+	nome : António Candido Soares de Azevedo da Silva Amorim
+	nasc : 28.09.1850
+	fam : F_1079209_1079210
+	cas : [ F_1078572_1078573 ]
+	filhos : [ I_1077247 ]
+
+F_1078572_1078573:
+	prog1 : 1078572
+	prog2 : 1078573
+	filhos : [ I_1077247 ]
+	local : 'Vila Verde, Soutelo'
+	data : 07.09.1876
+
+I_1079211:
+	nome : António José de Amorim Machado de Araujo
+	morte : 16.12.1823
+	cas : [ F_1079212_1079211 ]
+	filhos : [ I_1079210 ]
+
+I_1087002:
+	nome : Benta Fernandes
+	cas : [ F_1087002_1087001 ]
+	filhos : [ I_1086996 ]
+
+F_1087002_1087001:
+	prog1 : 1087002
+	prog2 : 1087001
+	filhos : [ I_1086996 ]
+
+I_1079209:
+	nome : Bento José da Silva
+	nasc : 24.11.1796
+	morte : 17.01.1878
+	fam : F_1079213_1079214
+	cas : [ F_1079209_1079210 ]
+	filhos : [ I_1078572 ]
+
+F_1079209_1079210:
+	prog1 : 1079209
+	prog2 : 1079210
+	filhos : [ I_1078572 ]
+
+I_1078336:
+	nome : Bernardo Pereira Rebello
+	cas : [ F_1078336_1077256 ]
+	filhos : [ I_1077254 ]
+
+F_1078336_1077256:
+	prog1 : 1078336
+	prog2 : 1077256
+	filhos : [ I_1077254 ]
+
+I_1076852:
+	nome : Carolina Represas Antunes Guimarães
+	nasc : 03.06.1995
+	fam : F_1076119_1076848
+
+I_1079224:
+	nome : Cassamiro José Ferreira
+	morte : 24.08.1787
+	fam : F_1086995_1086996
+	cas : [ F_1079224_1079225 ]
+	filhos : [ I_1079218 ]
+
+F_1079224_1079225:
+	prog1 : 1079224
+	prog2 : 1079225
+	filhos : [ I_1079218 ]
+	local : 'Guimarães, Gondomar'
+	data : 20.07.1749
+
+I_1087000:
+	nome : Catarina Ferreira
+	cas : [ F_1086999_1087000 ]
+	filhos : [ I_1086995 ]
+
+I_1075780:
+	nome : Catarina Martins
+	morte : 1744
+	cas : [ F_1075780_1075773 ]
+	filhos : [ I_1075781 ]
+
+F_1075780_1075773:
+	prog1 : 1075780
+	prog2 : 1075773
+	filhos : [ I_1075781 ]
+
+I_1086996:
+	nome : Catarina Rodrigues
+	fam : F_1087002_1087001
+	cas : [ F_1086995_1086996 ]
+	filhos : [ I_1079224 ]
+
+I_1076285:
+	nome : Constança Antunes Guimarães
+	nasc : 03.06.1889
+	fam : F_1076115_1076116
+
+I_1076104:
+	nome : D. Constança Maria Pereira
+	cas : [ F_1076104_1076103 ]
+
+F_1076104_1076103:
+	prog1 : 1076104
+	prog2 : 1076103
+	filhos : [  ]
+
+I_1075983:
+	nome : Custódia Maria Alvares
+	nasc : 13.08.1735
+	morte : 18.10.1794
+	fam : F_1075984_1075985
+	cas : [ F_1075983_1075981 ]
+	filhos : [ I_1076014 ]
+
+F_1075983_1075981:
+	prog1 : 1075983
+	prog2 : 1075981
+	filhos : [ I_1076014 ]
+	local : 'Guimarães, Sande (São Martinho)'
+	data : 20.08.1761
+
+I_1078766:
+	nome : Custódia Maria Pereira
+	cas : [ F_1078766_1078765 ]
+	filhos : [ I_1076111 ]
+
+F_1078766_1078765:
+	prog1 : 1078766
+	prog2 : 1078765
+	filhos : [ I_1076111 ]
+
+I_1079218:
+	nome : Custódia Maria Rodrigues Ferreira
+	fam : F_1079224_1079225
+	cas : [ F_1079218_1079217 ]
+	filhos : [ I_1077241 ]
+
+F_1079218_1079217:
+	prog1 : 1079218
+	prog2 : 1079217
+	filhos : [ I_1077241 ]
+	local : 'Guimarães, Gondomar, Lugar da Lage'
+	data : 18.07.1782
+
+I_1086998:
+	nome : Custódia Rodrigues
+	cas : [ F_1086998_1086997 ]
+	filhos : [ I_1079225 ]
+
+F_1086998_1086997:
+	prog1 : 1086998
+	prog2 : 1086997
+	filhos : [ I_1079225 ]
+
+I_1079217:
+	nome : Custódio José Fernandes
+	nasc : 04.09.1759
+	fam : F_1079219_1079220
+	cas : [ F_1079217_1079221, F_1079218_1079217 ]
+	filhos : [ I_1077241 ]
+
+F_1079217_1079221:
+	prog1 : 1079217
+	prog2 : 1079221
+	filhos : [  ]
+	local : 'Guimarães, Gondomar, Lugar da Lage'
+	data : 30.11.1775
+
+I_1079229:
+	nome : Domingas Fernandes
+	cas : [ F_1079229_1079228 ]
+	filhos : [ I_1079220 ]
+
+F_1079229_1079228:
+	prog1 : 1079229
+	prog2 : 1079228
+	filhos : [ I_1079220 ]
+
+I_1076073:
+	nome : Domingos
+	nasc : 10.05.1796
+	morte : 26.05.1796
+	fam : F_1076019_1076014
+
+I_1076074:
+	nome : Domingos
+	nasc : 23.01.1798
+	morte : 21.11.1805
+	fam : F_1076019_1076014
+
+I_1078349:
+	nome : Domingos Alves Feyo
+	fam : F_1078351_1078352
+	cas : [ F_1078349_1078350 ]
+	filhos : [ I_1078345 ]
+
+F_1078349_1078350:
+	prog1 : 1078349
+	prog2 : 1078350
+	filhos : [ I_1078345 ]
+
+I_1093195:
+	nome : Domingos da Costa
+	cas : [ F_1093195_1093196 ]
+	filhos : [ I_1076011 ]
+
+F_1093195_1093196:
+	prog1 : 1093195
+	prog2 : 1093196
+	filhos : [ I_1076011 ]
+
+I_1075901:
+	nome : Domingos Francisco
+	nasc : 28.02.1728
+	morte : 15.03.1728
+	fam : F_1075781_1075782
+
+I_1075981:
+	nome : Domingos Francisco de Macedo
+	nasc : 10.04.1733
+	morte : 18.07.1790
+	fam : F_1075781_1075782
+	cas : [ F_1075983_1075981 ]
+	filhos : [ I_1076014 ]
+
+I_1075781:
+	nome : Domingos Francisco Martins
+	nasc : 16.01.1698
+	morte : 31.07.1736
+	fam : F_1075780_1075773
+	cas : [ F_1075781_1075782 ]
+	filhos : [ I_1076013, I_1075901, I_1075981 ]
+
+F_1075781_1075782:
+	prog1 : 1075781
+	prog2 : 1075782
+	filhos : [ I_1076013, I_1075901, I_1075981 ]
+	local : 'Guimarães, Souto (Santa Maria)'
+	data : 24.09.1724
+
+I_1075773:
+	nome : Domingos Francisco o Velho
+	morte : 14.12.1731
+	cas : [ F_1075780_1075773 ]
+	filhos : [ I_1075781 ]
+
+I_1078351:
+	nome : Domingos Jorge Feyo
+	cas : [ F_1078351_1078352 ]
+	filhos : [ I_1078349 ]
+
+F_1078351_1078352:
+	prog1 : 1078351
+	prog2 : 1078352
+	filhos : [ I_1078349 ]
+
+I_1076343:
+	nome : Domingos José Fernandes Guimarães
+	nasc : 25.12.1807
+	morte : 09.07.1865
+	fam : F_1077241_1077242
+	cas : [ F_1076343_1076344 ]
+	filhos : [ I_1076116 ]
+
+F_1076343_1076344:
+	prog1 : 1076343
+	prog2 : 1076344
+	filhos : [ I_1076116 ]
+	local : 'Guimarães, Souto (São Salvador)'
+	data : 19.08.1840
+
+I_1079227:
+	nome : Esperança do Vale
+	cas : [ F_1079227_1079226 ]
+	filhos : [ I_1079219 ]
+
+F_1079227_1079226:
+	prog1 : 1079227
+	prog2 : 1079226
+	filhos : [ I_1079219 ]
+
+I_1075985:
+	nome : Eulália Cardoso
+	nasc : 16.08.1700
+	cas : [ F_1075984_1075985 ]
+	filhos : [ I_1075983 ]
+
+I_1078029:
+	nome : Fancisca Margarida da Encarnação de Macedo e Lima
+	nasc : 15.11.1781
+	morte : 12.10.1859
+	cas : [ F_1078029_1078028 ]
+	filhos : [ I_1076344 ]
+
+F_1078029_1078028:
+	prog1 : 1078029
+	prog2 : 1078028
+	filhos : [ I_1076344 ]
+
+I_1079219:
+	nome : Felis Fernandes
+	nasc : 23.03.1722
+	fam : F_1079227_1079226
+	cas : [ F_1079219_1079220 ]
+	filhos : [ I_1079217 ]
+
+F_1079219_1079220:
+	prog1 : 1079219
+	prog2 : 1079220
+	filhos : [ I_1079217 ]
+	local : 'Guimarães, Gondomar'
+	data : 09.08.1754
+
+I_1078239:
+	nome : Francisca Carolina Antunes Guimarães
+	nasc : 02.08.1872
+	fam : F_1078238_1078241
+	cas : [ F_1078239_1078242 ]
+
+F_1078239_1078242:
+	prog1 : 1078239
+	prog2 : 1078242
+	filhos : [  ]
+
+I_1078241:
+	nome : Francisca Carolina Antunes Rodrigues Guimarães
+	nasc : 1842
+	fam : F_1076106_1076107
+	cas : [ F_1078238_1078241, F_1078241_1078243 ]
+	filhos : [ I_1078239, I_1078240, I_1078246 ]
+
+F_1078241_1078243:
+	prog1 : 1078241
+	prog2 : 1078243
+	filhos : [ I_1078239, I_1078240 ]
+	local : 'Donim - Guimarães, Casa de Sande'
+	data : 03.02.1872
+
+I_1076107:
+	nome : D. Francisca Eulália Rodrigues de Araújo
+	fam : F_1076108_1076109
+	cas : [ F_1076106_1076107 ]
+	filhos : [ I_1076112, I_1076113, I_1076115, I_1078241 ]
+
+I_1076075:
+	nome : Francisco
+	nasc : 29.09.1799
+	morte : 15.10.1799
+	fam : F_1076019_1076014
+
+I_1076112:
+	nome : Francisco Antunes Guimarães
+	fam : F_1076106_1076107
+	docs : [ D_2 ]
+
+D_2:
+	txt : | Advogado em Pelotas
+
+I_1076106:
+	nome : Francisco Antunes Guimarães
+	nasc : 13.02.1806
+	fam : F_1076019_1076014
+	cas : [ F_1076106_1076107 ]
+	filhos : [ I_1076112, I_1076113, I_1076115, I_1078241 ]
+
+F_1076106_1076107:
+	prog1 : 1076106
+	prog2 : 1076107
+	filhos : [ I_1076112, I_1076113, I_1076115, I_1078241 ]
+	local : Brasil, Rio Grande do Sul, Pelotas
+
+I_1087737:
+	nome : Francisco Antunes Guimarães
+	nasc : 04.03.1887
+	morte : 16.01.1890
+	fam : F_1076115_1076116
+	docs : [ D_3 ]
+
+D_3:
+	txt : | Sepultado no jazigo de Donim
+
+I_1077246:
+	nome : Francisco Feio Vale
+	nasc : 12.03.1881
+	morte : 07.04.1961
+	fam : F_1077253_1077251
+	cas : [ F_1077246_1077247 ]
+	filhos : [ I_1075918 ]
+	docs : [ D_4 ]
+
+F_1077246_1077247:
+	prog1 : 1077246
+	prog2 : 1077247
+	filhos : [ I_1075918 ]
+	local : 'Braga, Braga'
+	data : 21.09.1908
+
+D_4:
+	txt : | Coronel de Infantaria
+
+I_1078341:
+	nome : Francisco Feyo de Figueiredo Correia
+	nasc : 28.02.1747
+	fam : F_1078345_1078346
+	cas : [ F_1078341_1078342 ]
+	filhos : [ I_1077256 ]
+
+F_1078341_1078342:
+	prog1 : 1078341
+	prog2 : 1078342
+	filhos : [ I_1077256 ]
+	local : 'Vila Real, Vila Real'
+	data : 13.06.1796
+
+I_1079228:
+	nome : Francisco Gonçalves
+	cas : [ F_1079229_1079228 ]
+	filhos : [ I_1079220 ]
+
+I_1079213:
+	nome : Francisco José da Silva
+	cas : [ F_1079213_1079214 ]
+	filhos : [ I_1079209 ]
+
+F_1079213_1079214:
+	prog1 : 1079213
+	prog2 : 1079214
+	filhos : [ I_1079209 ]
+
+I_1077254:
+	nome : Francisco Pereira Rebelo Feio
+	fam : F_1078336_1077256
+	cas : [ F_1077254_1077255 ]
+	filhos : [ I_1077251 ]
+
+F_1077254_1077255:
+	prog1 : 1077254
+	prog2 : 1077255
+	filhos : [ I_1077251 ]
+
+I_1077967:
+	nome : Guilherme Santos Barreiro Aguiar Branco
+	nasc : 02.05.2002
+	fam : F_1076126_1077966
+
+I_1076109:
+	nome : D. Inácia da Silva Araújo
+	cas : [ F_1076108_1076109 ]
+	filhos : [ I_1076107 ]
+
+I_1077964:
+	nome : Isabel Cristina Silva Peres Samões
+	cas : [ F_1077964_1076124 ]
+
+F_1077964_1076124:
+	prog1 : 1077964
+	prog2 : 1076124
+	filhos : [  ]
+	data : 18.12.1999
+
+I_1093202:
+	nome : Isabel de Macedo
+	fam : F_1093203_1093204
+	cas : [ F_1093202_1093201 ]
+	filhos : [ I_1093199 ]
+
+F_1093202_1093201:
+	prog1 : 1093202
+	prog2 : 1093201
+	filhos : [ I_1093199 ]
+
+I_1093198:
+	nome : Isabel Lopes de Barros
+	cas : [ F_1093198_1093197 ]
+	filhos : [ I_1093196 ]
+
+F_1093198_1093197:
+	prog1 : 1093198
+	prog2 : 1093197
+	filhos : [ I_1093196 ]
+
+I_1077241:
+	nome : Jerónimo José Fernandes
+	nasc : 10.11.1783
+	fam : F_1079218_1079217
+	cas : [ F_1077241_1077242 ]
+	filhos : [ I_1076343 ]
+
+F_1077241_1077242:
+	prog1 : 1077241
+	prog2 : 1077242
+	filhos : [ I_1076343 ]
+
+I_1087001:
+	nome : Jerónimo Rodrigues
+	cas : [ F_1087002_1087001 ]
+	filhos : [ I_1086996 ]
+
+I_1076857:
+	nome : Joana Antunes Guimarães Ferreira Soares
+	nasc : 04.02.1996
+	fam : F_1076855_1076856
+
+I_1077242:
+	nome : Joana Teresa Rodrigues de Barros
+	nasc : 19.07.1785
+	morte : 31.12.1865
+	cas : [ F_1077241_1077242 ]
+	filhos : [ I_1076343 ]
+	docs : [ D_5 , D_6 ]
+
+D_5:
+	txt : | Padrinhos: Martinho Leite de Azevedo de Menezes (por procuração) (de Guimarães). Tocou a criança Jerónimo do Vale
+
+D_6:
+	txt : | Nossa Senhora
+
+I_1076110:
+	nome : João Antunes Guimarães
+	nasc : 13.11.1808
+	morte : 02.02.1891
+	fam : F_1076019_1076014
+	cas : [ F_1076110_1076111 ]
+
+F_1076110_1076111:
+	prog1 : 1076110
+	prog2 : 1076111
+	filhos : [  ]
+	local : 'Fafe, Moreira de Rei'
+	data : 27.01.1858
+
+I_1076278:
+	nome : João Antunes Guimarães
+	nasc : 16.02.1877
+	fam : F_1076115_1076116
+
+I_1078246:
+	nome : João da Cunha Velho Sotomaior
+	fam : F_1078241_1078243
+
+I_1078763:
+	nome : João Fernandes Pereira
+	cas : [ F_1078763_1078764 ]
+	filhos : [ I_1076211 ]
+
+F_1078763_1078764:
+	prog1 : 1078763
+	prog2 : 1078764
+	filhos : [ I_1076211 ]
+
+I_1076855:
+	nome : João Hélio Ferreira Soares
+	nasc : 01.04.1959
+	cas : [ F_1076855_1076856 ]
+	filhos : [ I_1076857 ]
+
+F_1076855_1076856:
+	prog1 : 1076855
+	prog2 : 1076856
+	filhos : [ I_1076857 ]
+	local : Braga, Braga
+
+I_1078028:
+	nome : João José Rodrigues de Feitas
+	nasc : 24.06.1787
+	morte : 07.01.1861
+	cas : [ F_1078029_1078028 ]
+	filhos : [ I_1076344 ]
+	docs : [ D_7 ]
+
+D_7:
+	txt : | Doutor em leis
+
+I_1078852:
+	nome : João Martins de Oliveira Antunes Guimarães
+	nasc : 19.02.1907
+	morte : 26.04.1957
+	fam : F_1076210_1076211
+	cas : [ F_1078852_1078853 ]
+
+F_1078852_1078853:
+	prog1 : 1078852
+	prog2 : 1078853
+	filhos : [  ]
+	local : 'Guimarães, Donim'
+	data : 18.11.1940
+
+I_1078765:
+	nome : José Alves de Sousa
+	cas : [ F_1078766_1078765 ]
+	filhos : [ I_1076111 ]
+
+I_1076020:
+	nome : José Antunes
+	morte : 29.09.1837
+	cas : [ F_1076020_1076021 ]
+	filhos : [ I_1076019 ]
+
+F_1076020_1076021:
+	prog1 : 1076020
+	prog2 : 1076021
+	filhos : [ I_1076019 ]
+
+I_1076103:
+	nome : José Antunes Guimarães
+	nasc : 25.10.1803
+	fam : F_1076019_1076014
+	cas : [ F_1076104_1076103 ]
+
+I_1079215:
+	nome : José Germano Fernandes Dias
+	nasc : 15.11.1813
+	morte : 05.01.1875
+	cas : [ F_1079215_1079216 ]
+	filhos : [ I_1078573 ]
+
+F_1079215_1079216:
+	prog1 : 1079215
+	prog2 : 1079216
+	filhos : [ I_1078573 ]
+
+I_1076119:
+	nome : José Luís Pires Ribeiro Antunes Guimarães
+	nasc : 19.06.1961
+	fam : F_1076051_1076053
+	cas : [ F_1076119_1076848 ]
+	filhos : [ I_1076852, I_1076853 ]
+	docs : [ D_8 ]
+
+F_1076119_1076848:
+	prog1 : 1076119
+	prog2 : 1076848
+	filhos : [ I_1076852, I_1076853 ]
+	local : Braga, Braga
+
+D_8:
+	txt : | casamento dissolvido por divórcio
+
+I_1076051:
+	nome : José Luís Vale Antunes Guimarães
+	nasc : 25.09.1934
+	fam : F_1075916_1075918
+	cas : [ F_1076051_1076053 ]
+	filhos : [ I_1076119, I_1076120, I_1076124, I_1076856 ]
+
+F_1076051_1076053:
+	prog1 : 1076051
+	prog2 : 1076053
+	filhos : [ I_1076119, I_1076120, I_1076124, I_1076856 ]
+	local : 'braga, sameiro'
+	data : 25.07.1959
+
+I_1075916:
+	nome : José Martins de Oliveira Antunes Guimarães
+	nasc : 27.04.1904
+	morte : 14.04.1948
+	fam : F_1076210_1076211
+	cas : [ F_1075916_1075918 ]
+	filhos : [ I_1075942, I_1076051, I_1076054 ]
+
+F_1075916_1075918:
+	prog1 : 1075916
+	prog2 : 1075918
+	filhos : [ I_1075942, I_1076051, I_1076054 ]
+	local : 'Braga'
+	data : 04.08.1932
+
+I_1077960:
+	nome : José Pedro Ferreira da Cunha Antunes Guimarães
+	nasc : 17.02.1992
+	fam : F_1077961_1076124
+
+I_1078342:
+	nome : Josefa Joaquina Correia de Carvalho
+	cas : [ F_1078341_1078342 ]
+	filhos : [ I_1077256 ]
+
+I_1076210:
+	nome : Justino Antunes Guimarães
+	nasc : 30.09.1878
+	morte : 24.07.1957
+	fam : F_1076115_1076116
+	cas : [ F_1076210_1076211 ]
+	filhos : [ I_1075916, I_1078841, I_1078852 ]
+
+F_1076210_1076211:
+	prog1 : 1076210
+	prog2 : 1076211
+	filhos : [ I_1075916, I_1078841, I_1078852 ]
+	local : 'Braga'
+	data : 07.1932
+
+I_1075942:
+	nome : Justino Feio Vale Antunes Guimarães
+	nasc : 10.03.1933
+	fam : F_1075916_1075918
+	cas : [ F_1075942_1075944, F_1075942_1076050 ]
+	filhos : [ I_1075943 ]
+
+F_1075942_1075944:
+	prog1 : 1075942
+	prog2 : 1075944
+	filhos : [ I_1075943 ]
+
+F_1075942_1076050:
+	prog1 : 1075942
+	prog2 : 1076050
+	filhos : [  ]
+	local : 'Braga, Cividade'
+	data : 19.01.1979
+
+I_1076281:
+	nome : Leonor Antunes Guimarães
+	nasc : 14.04.1881
+	morte : 01.11.1890
+	fam : F_1076115_1076116
+	docs : [ D_9 ]
+
+D_9:
+	txt : | Sepultada no jazigo de Donim
+
+I_1078243:
+	nome : Lourenço da Cunha Velho Sotomaior
+	nasc : 1840
+	cas : [ F_1078241_1078243 ]
+	filhos : [ I_1078246 ]
+
+I_1078345:
+	nome : Luís António Feyo
+	fam : F_1078349_1078350
+	cas : [ F_1078345_1078346 ]
+	filhos : [ I_1078341 ]
+
+F_1078345_1078346:
+	prog1 : 1078345
+	prog2 : 1078346
+	filhos : [ I_1078341 ]
+
+I_1076279:
+	nome : Luís Antunes Guimarães
+	nasc : 13.01.1880
+	fam : F_1076115_1076116
+
+I_1077253:
+	nome : Luís Cândido Fernandez Vale
+	nasc : 22.10.1854
+	morte : 26.10.1897
+	cas : [ F_1077253_1077251 ]
+	filhos : [ I_1077246 ]
+	docs : [ D_10 , D_11 ]
+
+F_1077253_1077251:
+	prog1 : 1077253
+	prog2 : 1077251
+	filhos : [ I_1077246 ]
+
+D_10:
+	txt : | Médico Militar
+
+D_11:
+	txt : | Cirurgiâo-mor
+
+I_1076853:
+	nome : Luís Represas Antunes Guimarães
+	nasc : 05.07.2000
+	fam : F_1076119_1076848
+
+I_1078350:
+	nome : Luísa Teixeira Camelo
+	cas : [ F_1078349_1078350 ]
+	filhos : [ I_1078345 ]
+
+I_1075984:
+	nome : Manoel Alvares
+	cas : [ F_1075984_1075985 ]
+	filhos : [ I_1075983 ]
+
+F_1075984_1075985:
+	prog1 : 1075984
+	prog2 : 1075985
+	filhos : [ I_1075983 ]
+	local : 'Guimarães, São Torcato, Casal do Monte'
+	data : 08.07.1732
+
+I_1076014:
+	nome : Manoel José Francisco
+	nasc : 12.09.1765
+	morte : 21.06.1811
+	fam : F_1075983_1075981
+	cas : [ F_1076019_1076014 ]
+	filhos : [ I_1076073, I_1076074, I_1076075, I_1076103, I_1076106, I_1076110 ]
+
+I_1076011:
+	nome : Manuel da Costa de Macedo
+	nasc : 16.05.1673
+	morte : 13.12.1719
+	fam : F_1093195_1093196
+	cas : [ F_1076011_1076012 ]
+	filhos : [ I_1075782 ]
+
+F_1076011_1076012:
+	prog1 : 1076011
+	prog2 : 1076012
+	filhos : [ I_1075782 ]
+	local : 'Guimarães, Souto (Santa Maria)'
+	data : 16.04.1694
+
+I_1078238:
+	nome : Manuel José Lopes Guimarães
+	morte : 08.01.1875
+	cas : [ F_1078241_1078238 ]
+	filhos : [ I_1078239, I_1078240 ]
+
+I_1079220:
+	nome : Marcelina Fernandes
+	nasc : 07.03.1729
+	fam : F_1079229_1079228
+	cas : [ F_1079219_1079220 ]
+	filhos : [ I_1079217 ]
+
+I_1086997:
+	nome : Marcos Fernandes
+	cas : [ F_1086998_1086997 ]
+	filhos : [ I_1079225 ]
+
+I_1075944:
+	nome : Maria Adelaide Rodrigues Pais dos Santos
+	morte : 1996
+	cas : [ F_1075942_1075944 ]
+	filhos : [ I_1075943 ]
+
+I_1076344:
+	nome : Maria Antónia da Conceição de Macedo e Lima de Freitas
+	nasc : 25.05.1819
+	morte : 24.08.1908
+	fam : F_1078029_1078028
+	cas : [ F_1076343_1076344 ]
+	filhos : [ I_1076116 ]
+
+I_1076284:
+	nome : Maria Antunes Guimarães
+	nasc : 03.01.1885
+	morte : 26.03.1979
+	fam : F_1076115_1076116
+
+I_1076050:
+	nome : Maria Clotilde Miranda Cardoso do Vale
+	nasc : 19.01.1940
+	cas : [ F_1075942_1076050 ]
+
+I_1078240:
+	nome : Maria da Conceição Antunes Guimarães
+	nasc : 08.09.1874
+	fam : F_1078238_1078241
+	docs : [ D_12 ]
+
+D_12:
+	txt : | Foi sepultada "pomposamente" na igreja mas mais tarde trasladada para o jazigo de João Antunes Guimarães, em Donim, por vontade deste, expressa em testamento.
+
+I_1078573:
+	nome : Maria da Glória Fernandes Dias
+	nasc : 04.12.1849
+	fam : F_1079215_1079216
+	cas : [ F_1078572_1078573 ]
+	filhos : [ I_1077247 ]
+
+I_1078352:
+	nome : Maria de Carvalho
+	cas : [ F_1078351_1078352 ]
+	filhos : [ I_1078349 ]
+
+I_1093196:
+	nome : Maria de Macedo
+	fam : F_1093198_1093197
+	cas : [ F_1093195_1093196 ]
+	filhos : [ I_1076011 ]
+
+I_1077251:
+	nome : Maria Emilia Rebelo Feio
+	nasc : 27.09.1854
+	morte : 07.12.1955
+	fam : F_1077254_1077255
+	cas : [ F_1077253_1077251 ]
+	filhos : [ I_1077246 ]
+
+I_1075918:
+	nome : Maria Fernanda de Amorim Feio Vale
+	nasc : 04.09.1912
+	morte : 09.12.1945
+	fam : F_1077246_1077247
+	cas : [ F_1075916_1075918 ]
+	filhos : [ I_1075942, I_1076051, I_1076054 ]
+
+I_1076856:
+	nome : Maria Fernanda Pires Ribeiro Antunes Guimarães
+	nasc : 22.07.1962
+	fam : F_1076051_1076053
+	cas : [ F_1076855_1076856 ]
+	filhos : [ I_1076857 ]
+
+I_1076111:
+	nome : Maria Joaquina Alves Pereira de Sousa
+	nasc : 22.07.1812
+	fam : F_1078766_1078765
+	cas : [ F_1076110_1076111 ]
+
+I_1078764:
+	nome : Maria Joaquina de Oliveira Martins
+	cas : [ F_1078763_1078764 ]
+	filhos : [ I_1076211 ]
+
+I_1077255:
+	nome : Maria Lúcia Adelaide de Azevedo Taveira
+	cas : [ F_1077254_1077255 ]
+	filhos : [ I_1077251 ]
+
+I_1076126:
+	nome : Maria Manuela Antunes Guimarães dos Santos Barreiro
+	nasc : 11.06.1963
+	fam : F_1076055_1076054
+	cas : [ F_1076126_1077966 ]
+	filhos : [ I_1077967 ]
+
+F_1076126_1077966:
+	prog1 : 1076126
+	prog2 : 1077966
+	filhos : [ I_1077967 ]
+
+I_1076054:
+	nome : Maria Manuela Feio Antunes Guimarães
+	nasc : 23.10.1935
+	morte : 19.06.2007
+	fam : F_1075916_1075918
+	cas : [ F_1076055_1076054 ]
+	filhos : [ I_1076125, I_1076126 ]
+
+I_1078841:
+	nome : Maria Martins de Oliveira Antunes Guimarães
+	nasc : 20.10.1905
+	morte : 30.12.1946
+	fam : F_1076210_1076211
+	docs : [ D_13 ]
+
+D_13:
+	txt : | Foi sempre chamada Maria do Céu
+
+I_1079210:
+	nome : Maria Narcisa da Silva Soares de Azevedo
+	fam : F_1079212_1079211
+	cas : [ F_1079209_1079210 ]
+	filhos : [ I_1078572 ]
+
+I_1079216:
+	nome : Maria Rita da Silva
+	nasc : 04.01.1822
+	cas : [ F_1079215_1079216 ]
+	filhos : [ I_1078573 ]
+
+I_1076021:
+	nome : Maria Teixeira
+	morte : 20.08.1814
+	cas : [ F_1076020_1076021 ]
+	filhos : [ I_1076019 ]
+
+I_1078346:
+	nome : Maria Teresa de Figueiredo
+	cas : [ F_1078345_1078346 ]
+	filhos : [ I_1078341 ]
+
+I_1076053:
+	nome : Maria Teresa Pires Ribeiro Antunes Guimarães
+	nasc : 31.03.1940
+	cas : [ F_1076051_1076053 ]
+	filhos : [ I_1076119, I_1076120, I_1076124, I_1076856 ]
+
+I_1077256:
+	nome : Mariana Ezequiel Feyo de Figueiredo Correia
+	nasc : 07.11.1801
+	fam : F_1078341_1078342
+	cas : [ F_1078336_1077256 ]
+	filhos : [ I_1077254 ]
+
+I_1076055:
+	nome : Mario Alberto da Hora Santos Barreiro
+	nasc : 12.11.1930
+	cas : [ F_1076055_1076054 ]
+	filhos : [ I_1076125, I_1076126 ]
+
+F_1076055_1076054:
+	prog1 : 1076055
+	prog2 : 1076054
+	filhos : [ I_1076125, I_1076126 ]
+	local : 'Braga, São Vítor'
+	data : 08.12.1958
+
+I_1076125:
+	nome : Mário Manuel Antunes Guimarâes dos Santos Barreiro
+	nasc : 08.12.1959
+	fam : F_1076055_1076054
+
+I_1093200:
+	nome : Marta Gonçalves
+	cas : [ F_1093200_1093199 ]
+	filhos : [ I_1093197 ]
+
+F_1093200_1093199:
+	prog1 : 1093200
+	prog2 : 1093199
+	filhos : [ I_1093197 ]
+
+I_1078242:
+	nome : Miguel da Cunha Velho de Vilhena Sotomaior
+	cas : [ F_1078239_1078242 ]
+
+I_1079226:
+	nome : Miguel Fernandes
+	cas : [ F_1079227_1079226 ]
+	filhos : [ I_1079219 ]
+
+I_1076120:
+	nome : Miguel Pedro Pires Ribeiro Antunes Guimarães
+	nasc : 19.09.1965
+	fam : F_1076051_1076053
+	cas : [ F_1076120_1077955, F_1077957_1076120 ]
+	docs : [ D_14 ]
+
+F_1076120_1077955:
+	prog1 : 1076120
+	prog2 : 1077955
+	filhos : [  ]
+
+D_14:
+	txt : | Casamentos dissolvidos por divórcio
+
+I_1079214:
+	nome : Mria Josefa Francisca
+	cas : [ F_1079213_1079214 ]
+	filhos : [ I_1079209 ]
+
+I_1077247:
+	nome : Palmira da Glória Fernandes dias de Amorim
+	nasc : 07.03.1879
+	morte : 30.07.1976
+	fam : F_1078572_1078573
+	cas : [ F_1077246_1077247 ]
+	filhos : [ I_1075918 ]
+
+I_1076124:
+	nome : Paulo Alexandre Pires Ribeiro Antunes Guimarães
+	nasc : 23.08.1974
+	fam : F_1076051_1076053
+	cas : [ F_1077964_1076124 ]
+	filhos : [ I_1077961, I_1077960 ]
+
+I_1093197:
+	nome : Pedro de Macedo
+	fam : F_1093200_1093199
+	cas : [ F_1093198_1093197 ]
+	filhos : [ I_1093196 ]
+
+I_1076113:
+	nome : Piedade
+	fam : F_1076106_1076107
+
+I_1079225:
+	nome : Prudencia Rodrigues
+	fam : F_1086998_1086997
+	cas : [ F_1079224_1079225 ]
+	filhos : [ I_1079218 ]
+
+I_1076116:
+	nome : Rita Isabel de Freitas Fernandes
+	nasc : 05.08.1855
+	morte : 28.11.1894
+	fam : F_1076343_1076344
+	cas : [ F_1076115_1076116 ]
+	filhos : [ I_1076276, I_1076277, I_1076278, I_1076210, I_1076279, I_1076281, I_1076282, I_1076284, I_1087737, I_1076285, I_1076286 ]
+	docs : [ D_15 ]
+
+D_15:
+	txt : | Causa da morte:"doença orgânica do coração (mitral)
+
+I_1078853:
+	nome : Rosa dos Santos Rodrigues Viana
+	cas : [ F_1078852_1078853 ]
+
+I_1079221:
+	nome : Rosa Maria Ferreira
+	cas : [ F_1079217_1079221 ]
+
+I_1076211:
+	nome : Rosa Martins de Oliveira
+	nasc : 16.11.1884
+	morte : 07.02.1968
+	fam : F_1078763_1078764
+	cas : [ F_1076210_1076211 ]
+	filhos : [ I_1075916, I_1078841, I_1078852 ]
+
+I_1093201:
+	nome : Salvador Francisco de Abreu
+	cas : [ F_1093202_1093201 ]
+	filhos : [ I_1093199 ]
+
+I_1077955:
+	nome : Sandra Moura
+	cas : [ F_1076120_1077955 ]
+
+I_1086995:
+	nome : Santos Ferreira
+	fam : F_1086999_1087000
+	cas : [ F_1086995_1086996 ]
+	filhos : [ I_1079224 ]
+
+F_1086995_1086996:
+	prog1 : 1086995
+	prog2 : 1086996
+	filhos : [ I_1079224 ]
+
+I_1076848:
+	nome : Sara Augusta Miranda Represas
+	nasc : 02.01.1972
+	cas : [ F_1076119_1076848 ]
+	filhos : [ I_1076852, I_1076853 ]
+
+I_1076277:
+	nome : Serafim Antunes Guimarães
+	nasc : 06.09.1875
+	fam : F_1076115_1076116
+
+I_1076115:
+	nome : Serafim Antunes Rodrigues Guimarães
+	nasc : 1847
+	morte : 25.11.1930
+	fam : F_1076106_1076107
+	cas : [ F_1076115_1076116 ]
+	filhos : [ I_1076276, I_1076277, I_1076278, I_1076210, I_1076279, I_1076281, I_1076282, I_1076284, I_1087737, I_1076285, I_1076286 ]
+	docs : [ D_16 ]
+
+F_1076115_1076116:
+	prog1 : 1076115
+	prog2 : 1076116
+	filhos : [ I_1076276, I_1076277, I_1076278, I_1076210, I_1076279, I_1076281, I_1076282, I_1076284, I_1087737, I_1076285, I_1076286 ]
+
+D_16:
+	txt : | Causa da morte: nefrite
+
+I_1076108:
+	nome : Serafim José Rodrigues de Araújo
+	cas : [ F_1076108_1076109 ]
+	filhos : [ I_1076107 ]
+
+F_1076108_1076109:
+	prog1 : 1076108
+	prog2 : 1076109
+	filhos : [ I_1076107 ]
+
+I_1093199:
+	nome : Simão Francisco de Macedo
+	fam : F_1093202_1093201
+	cas : [ F_1093200_1093199 ]
+	filhos : [ I_1093197 ]
+
+I_1093204:
+	nome : Simoa de Macedo
+	cas : [ F_1093203_1093204 ]
+	filhos : [ I_1093202 ]
+
+I_1075782:
+	nome : Úrsula de Macedo
+	nasc : 08.02.1705
+	morte : 23.02.1791
+	fam : F_1076011_1076012
+	cas : [ F_1075781_1075782 ]
+	filhos : [ I_1076013, I_1075901, I_1075981 ]
+
+I_1076012:
+	nome : Úrsula Francisca
+	morte : 13.12.1730
+	cas : [ F_1076011_1076012 ]
+	filhos : [ I_1075782 ]
+	docs : [ D_17 ]
+
+D_17:
+	txt : | Os irmãos usavam o apelido "Ribeiro Guimarães)
+
+I_1093203:
+	nome : Valentim Gonçalves
+	cas : [ F_1093203_1093204 ]
+	filhos : [ I_1093202 ]
+
+F_1093203_1093204:
+	prog1 : 1093203
+	prog2 : 1093204
+	filhos : [ I_1093202 ]
+	data : 1540
+
+I_1077966:
+	nome : Vitor Aguiar Branco Sampaio
+	cas : [ F_1076126_1077966 ]
+	filhos : [ I_1077967 ]

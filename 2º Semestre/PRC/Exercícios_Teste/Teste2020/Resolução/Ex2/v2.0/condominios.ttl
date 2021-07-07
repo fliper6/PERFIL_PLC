@@ -1,0 +1,508 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#entidade
+:entidade rdf:type owl:ObjectProperty ;
+          rdfs:domain :entradaLivro ;
+          rdfs:range :fracção .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Data
+:Data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :entradaLivro .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Descricao
+:Descricao rdf:type owl:DatatypeProperty ;
+           rdfs:domain :entradaLivro .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Letra
+:Letra rdf:type owl:DatatypeProperty ;
+       rdfs:domain :fracção .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Mensalidade
+:Mensalidade rdf:type owl:DatatypeProperty ;
+             rdfs:domain :fracção .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Numero
+:Numero rdf:type owl:DatatypeProperty ;
+        rdfs:domain :entradaLivro .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Permilagem
+:Permilagem rdf:type owl:DatatypeProperty ;
+            rdfs:domain :fracção .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Tipo
+:Tipo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :entradaLivro .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#ÚltimoPagamento
+:ÚltimoPagamento rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :fracção .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#entradaLivro
+:entradaLivro rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#fracção
+:fracção rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Loja
+:Loja rdf:type owl:NamedIndividual ,
+               :fracção ;
+      :Letra "A" ;
+      :Mensalidade "6.06"^^xsd:double ;
+      :Permilagem 50 ;
+      :ÚltimoPagamento 0 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#1Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#1Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "F" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 4 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#1Esq
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#1Esq> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "G" ;
+                                                                      :Mensalidade "51.63"^^xsd:double ;
+                                                                      :Permilagem 34 ;
+                                                                      :ÚltimoPagamento 3 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "H" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 0 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#3Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#3Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "I" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 12 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#3Esq
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#3Esq> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "J" ;
+                                                                      :Mensalidade "51.63"^^xsd:double ;
+                                                                      :Permilagem 34 ;
+                                                                      :ÚltimoPagamento 3 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#4Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#4Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "L" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 12 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#5Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#5Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "M" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 6 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#5Esq
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#5Esq> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "N" ;
+                                                                      :Mensalidade "51.63"^^xsd:double ;
+                                                                      :Permilagem 34 ;
+                                                                      :ÚltimoPagamento 4 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#6Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#6Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "O" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 8 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#7Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#7Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "P" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 4 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#7Esq
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#7Esq> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "Q" ;
+                                                                      :Mensalidade "51.63"^^xsd:double ;
+                                                                      :Permilagem 34 ;
+                                                                      :ÚltimoPagamento 4 .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#8Dto
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#8Dto> rdf:type owl:NamedIndividual ,
+                                                                               :fracção ;
+                                                                      :Letra "R" ;
+                                                                      :Mensalidade "36.45"^^xsd:double ;
+                                                                      :Permilagem 24 ;
+                                                                      :ÚltimoPagamento 0 .
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_001
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_001> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :CGD;
+   :Numero "2020/001";
+   :Tipo "Despesa";
+   :Data "2020-01-04";
+   :Valor 7.28;
+   :Descricao "Manutenção da conta".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_002
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_002> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Esq;
+   :Numero "2020/002";
+   :Tipo "Receita";
+   :Data "2020-01-06";
+   :Valor 64.00;
+   :Descricao "Janeiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_003
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_003> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :2Dto;
+   :Numero "2020/003";
+   :Tipo "Receita";
+   :Data "2020-01-06";
+   :Valor 406.62;
+   :Descricao "Abril a Dezembro de 2019".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_004
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_004> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :EDP;
+   :Numero "2020/004";
+   :Tipo "Despesa";
+   :Data "2020-01-08";
+   :Valor 222.65;
+   :Descricao "Luz".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_005
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_005> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Dto;
+   :Numero "2020/005";
+   :Tipo "Receita";
+   :Data "2020-01-16";
+   :Valor 45.18;
+   :Descricao "Janeiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_006
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_006> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :CGD;
+   :Numero "2020/006";
+   :Tipo "Despesa";
+   :Data "2020-02-01";
+   :Valor 7.28;
+   :Descricao "Manutenção da conta".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_007
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_007> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :5Esq;
+   :Numero "2020/007";
+   :Tipo "Receita";
+   :Data "2020-02-04";
+   :Valor 64.00;
+   :Descricao "Fevereiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_008
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_008> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Esq;
+   :Numero "2020/008";
+   :Tipo "Receita";
+   :Data "2020-02-06";
+   :Valor 64.00;
+   :Descricao "Fevereiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_009
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_009> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :Kone;
+   :Numero "2020/009";
+   :Tipo "Despesa";
+   :Data "2020-01-20";
+   :Valor 439.77;
+   :Descricao "Manutenção dos elevadores: 1º trimestre".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_010
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_010> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :1Esq,
+             :3Esq;
+   :Numero "2020/010";
+   :Tipo "Receita";
+   :Data "2020-02-12";
+   :Valor 384.00;
+   :Descricao "Janeiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_011
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_011> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Dto;
+   :Numero "2020/011";
+   :Tipo "Receita";
+   :Data "2020-02-20";
+   :Valor 45.18;
+   :Descricao "Fevereiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_012
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_012> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :Serralheiro;
+   :Numero "2020/012";
+   :Tipo "Despesa";
+   :Data "2020-02-24";
+   :Valor 20.00;
+   :Descricao "Concerto do trinco da porta".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_013
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_013> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :CMB;
+   :Numero "2020/013";
+   :Tipo "Despesa";
+   :Data "2020-02-24";
+   :Valor 174.30;
+   :Descricao "Inspeção dos elevadores".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_014
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_014> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :1Dto;
+   :Numero "2020/014";
+   :Tipo "Receita";
+   :Data "2020-02-24";
+   :Valor 194.30;
+   :Descricao "Acertos: Janeiro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_015
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_015> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :5Dto;
+   :Numero "2020/015";
+   :Tipo "Receita";
+   :Data "2020-03-11";
+   :Valor 271.08;
+   :Descricao "Janeiro a Junho".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_016
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_016> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :PluriRapel;
+   :Numero "2020/016";
+   :Tipo "Despesa";
+   :Data "2020-03-11";
+   :Valor 1655.00;
+   :Descricao "Reparação das fachadas".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_017
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_017> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :5Esq;
+   :Numero "2020/017";
+   :Tipo "Receita";
+   :Data "2020-02-26";
+   :Valor 64.00;
+   :Descricao "Março".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_018
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_018> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :3Dto;
+   :Numero "2020/018";
+   :Tipo "Receita";
+   :Data "2020-02-29";
+   :Valor 542.16;
+   :Descricao "Janeiro a Dezembro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_019
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_019> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :EDP;
+   :Numero "2020/019";
+   :Tipo "Despesa";
+   :Data "2020-03-04";
+   :Valor 236.59;
+   :Descricao "Luz".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_020
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_020> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Esq;
+   :Numero "2020/020";
+   :Tipo "Receita";
+   :Data "2020-03-06";
+   :Valor 64.00;
+   :Descricao "Março".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_021
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_021> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :CGD;
+   :Numero "2020/021";
+   :Tipo "Despesa";
+   :Data "2020-03-07";
+   :Valor 7.28;
+   :Descricao "Manutenção da conta".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_022
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_022> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Dto;
+   :Numero "2020/022";
+   :Tipo "Receita";
+   :Data "2020-03-15";
+   :Valor 45.18;
+   :Descricao "Março".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_023
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_023> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :5Esq;
+   :Numero "2020/023";
+   :Tipo "Receita";
+   :Data "2020-03-30";
+   :Valor 64.00;
+   :Descricao "Abril ".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_024
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_024> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :CGD;
+   :Numero "2020/024";
+   :Tipo "Despesa";
+   :Data "2020-04-04";
+   :Valor 7.28;
+   :Descricao "Manutenção da conta".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_025
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_025> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Esq;
+   :Numero "2020/025";
+   :Tipo "Receita";
+   :Data "2020-04-06";
+   :Valor 64.00;
+   :Descricao "Abril".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_026
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_026> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :6Dto;
+   :Numero "2020/026";
+   :Tipo "Receita";
+   :Data "2020-04-07";
+   :Valor 225.90;
+   :Descricao "Abril a Agosto".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_027
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_027> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :7Dto;
+   :Numero "2020/027";
+   :Tipo "Receita";
+   :Data "2020-04-14";
+   :Valor 45.18;
+   :Descricao "Abril".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_028
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_028> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :Vizinhos;
+   :Numero "2020/028";
+   :Tipo "Despesa";
+   :Data "2020-04-15";
+   :Valor 207.98;
+   :Descricao "Luz Comum".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_029
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_029> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :Limpeza;
+   :Numero "2020/029";
+   :Tipo "Despesa";
+   :Data "2020-04-15";
+   :Valor 1080.00;
+   :Descricao "Limpeza 2020".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_030
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_030> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :4Dto;
+   :Numero "2020/030";
+   :Tipo "Receita";
+   :Data "2020-04-15";
+   :Valor 542.16;
+   :Descricao "Janeiro a Dezembro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_031
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#2020_031> rdf:type owl:NamedIndividual ,
+       :entradaLivro;
+   :entidade :Kone;
+   :Numero "2020/031";
+   :Tipo "Despesa";
+   :Data "2020-04-01";
+   :Valor 439.77;
+   :Descricao "Manutenção dos elevadores: 2º trimestre".
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

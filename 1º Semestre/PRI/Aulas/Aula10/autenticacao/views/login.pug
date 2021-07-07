@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .w3-container.w3-margin.w3-amber.w3-border
+    .w3-container-w3-red
+        h2 Introduza as suas credenciais:
+    form.w3-container(action='/users/login' method='POST')
+        label Username:
+        input.w3-input(type="text" name="id")
+        label Password:
+        input.w3-input(type="password" name="password")
+        input.w3-btn.w3-red(type="submit" value="Enviar")

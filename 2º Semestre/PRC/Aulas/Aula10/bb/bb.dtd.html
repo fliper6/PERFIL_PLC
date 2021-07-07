@@ -1,0 +1,901 @@
+<pre>
+**********************************************************************
+* ezDTD                                        
+* VERSION 1.0                                  
+* BY DUCNAN CHEN                               
+* ====================================================================
+* THIS IS A FREEWARE.                          
+* PLEASE SEND COMMENT TO FASTHAND@BIGFOOT.COM  
+**********************************************************************
+
+
+
+# Author: Jos&eacute; Lu&iacute;s dos Santos Costa
+# Version: 1.0
+# Organization: Universidade do Minho
+# Date: 17 de Janeiro de 2000
+</pre>
+<PRE>
+&lt;!-- 'Bul&aacute;rio Bracarense' Data Type Definition (DTD) -->
+
+&lt;!-- START OF ENTITIES DECLARATION SECTION -->
+
+&lt;!-- General Entities as Constants (abbreviations) -->
+
+&lt;!ENTITY aacute "&#225;">
+&lt;!ENTITY eacute "&#233;">
+&lt;!ENTITY iacute "&#237;">
+&lt;!ENTITY oacute "&#243;">
+&lt;!ENTITY uacute "&#250;">
+&lt;!ENTITY agrave "&#224;">
+&lt;!ENTITY egrave "&#232;">
+&lt;!ENTITY igrave "&#236;">
+&lt;!ENTITY ograve "&#242;">
+&lt;!ENTITY ugrave "&#249;">
+&lt;!ENTITY ccedil "&#231;">
+&lt;!ENTITY atilde "&#227;">
+&lt;!ENTITY otilde "&#245;">
+&lt;!ENTITY acirc "&#226;">
+&lt;!ENTITY ecirc "&#234;">
+&lt;!ENTITY icirc "&#238;">
+&lt;!ENTITY ocirc "&#244;">
+&lt;!ENTITY ucirc "&#251;">
+
+&lt;!ENTITY Aacute "&#193;">
+&lt;!ENTITY Eacute "&#201;">
+&lt;!ENTITY Iacute "&#205;">
+&lt;!ENTITY Oacute "&#211;">
+&lt;!ENTITY Uacute "&#218;">
+&lt;!ENTITY Agrave "&#192;">
+&lt;!ENTITY Egrave "&#200;">
+&lt;!ENTITY Igrave "&#204;">
+&lt;!ENTITY Ograve "&#210;">
+&lt;!ENTITY Ugrave "&#217;">
+&lt;!ENTITY Ccedil "&#199;">
+&lt;!ENTITY Atilde "&#195;">
+&lt;!ENTITY Otilde "&#213;">
+&lt;!ENTITY Acirc "&#194;">
+&lt;!ENTITY Ecirc "&#202;">
+&lt;!ENTITY Icirc "&#206;">
+&lt;!ENTITY Ocirc "&#212;">
+&lt;!ENTITY Ucirc "&#219;">
+
+&lt;!ENTITY bbtitle "Bul&aacute;rio Bracarense - Sum&aacute;rios de Diplomas Pontif&iacute;cios dos S&eacute;culos XI a XIX">
+&lt;!ENTITY bbotitle "bul&aacute;rio bracarense">
+&lt;!ENTITY bbcollection "Edi&ccedil;&otilde;es do Arquivo Distrital/Universidade do Minho/1986">
+&lt;!ENTITY bbauthor1 "Maria da Assun&ccedil;&atilde;o J. Vasconcelos">
+&lt;!ENTITY bbauthor2 "Ant&oacute;nio de Sousa Ara&uacute;jo">
+
+&lt;!ENTITY bbsideinfo "Bul&aacute;rio Bracarense ">
+
+&lt;!ENTITY adb "Arquivo Distrital de Braga">
+&lt;!ENTITY antt "Arquivo Nacional da Torre do Tombo">
+&lt;!ENTITY av "Arquivo do Vaticano">
+&lt;!ENTITY bmv "Biblioteca Municipal de Viseu">
+&lt;!ENTITY bnl "Biblioteca Nacional de Lisboa">
+&lt;!ENTITY um "Universidade do Minho">
+
+&lt;!ENTITY sgml "Standard Generalized Markup Language">
+&lt;!ENTITY html "HyperText Markup Language">
+&lt;!ENTITY xml "eXtensible Markup Language">
+
+&lt;!ENTITY frontpic SYSTEM "images/frontpic.gif" NDATA gif>
+&lt;!ENTITY backpic SYSTEM "images/backpic.gif" NDATA gif>
+
+&lt;!-- for references to undefined entities -->
+&lt;!--ENTITY #DEFAULT "!!!!! MISSING ENTITY !!!!!"-->
+
+&lt;!-- END OF ENTITIES DECLARATION SECTION -->
+
+&lt;!-- START OF NOTATIONS DECLARATION SECTION -->
+
+&lt;!NOTATION gif SYSTEM "">
+&lt;!-- GIF - The CompuServe Graphics Interchange Format (GIF)
+is the file format used to display indexed-color graphics and images.
+GIF is a compressed format that is designed to minimize 
+file transfer time over phone lines. -->
+
+&lt;!-- END OF NOTATIONS DECLARATION SECTION -->
+
+&lt;!-- START OF EXTERNAL PARAMETER NON-PARSED (BINARY) ENTITIES -->
+</PRE>
+
+
+<A name="#bulario">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: bulario
+COMMENT: Elemento ra&iacute;z da &aacute;rvore.
+Atributos:
+(i) 
+ title - t&iacute;tulo do documento;
+(ii) pages - n&uacute;mero 
+ de p&aacute;ginas do documento original;
+(iii) s-title - 
+ t&iacute;tulo da lombada do documento original;
+iv) s-slabel - 
+ pequena etiqueta da lombada do documento. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT bulario (<A HREF="##intro">intro</A>, <A HREF="##synctable">synctable</A>, <A HREF="##bibsiglas">bibsiglas</A>, <A HREF="##summaries">summaries</A>, <A HREF="##appendix">appendix</A>)  >
+<pre>&lt;!ATTLIST bulario  
+title CDATA #FIXED "&bbtitle;"
+pages CDATA #FIXED "256"
+s-title CDATA #FIXED "&bbotitle;"
+s-slabel CDATA #FIXED "adb/um 1986" ></pre>
+
+<A name="#appendix">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: appendix
+COMMENT: Ap&ecirc;ndice.
+Atributos:
+(i) title - t&iacute;tulo 
+ do ap&ecirc;ndice. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT appendix (<A HREF="##subtitle">subtitle</A>, <A HREF="##block">block</A>+, <A HREF="##transfbulas">transfbulas</A>)  >
+<pre>&lt;!ATTLIST appendix  
+title CDATA #FIXED "Ap&ecirc;ndice" ></pre>
+
+<A name="#transfbulas">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: transfbulas
+COMMENT: Conjunto de bulas que foram transferidas de Braga para 
+ o Arquivo Nacional da Torre do Tombo em 1858, por Augusto 
+ Soromenho. Elemento integrante do ap&ecirc;ndice. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT transfbulas (<A HREF="##transfbula">transfbula</A>+)  >
+<pre>&lt;!ATTLIST transfbulas  
+ ></pre>
+
+<A name="#transfbula">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: transfbula
+COMMENT: Bula transferida de Braga para Lisboa 
+ (T.T.).
+Atributos:
+(i) id - identificador da bula 
+ transferida;
+(ii) year - ano de transfer&ecirc;ncia da 
+ bula;
+(iii) eyear - ano alternativo de transfer&ecirc;ncia da 
+ bula. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT transfbula (#PCDATA)  >
+<pre>&lt;!ATTLIST transfbula  
+id CDATA #REQUIRED
+year CDATA #IMPLIED
+eyear CDATA #IMPLIED ></pre>
+
+<A name="#block">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: block
+COMMENT: Bloco de texto, tipicamente um par&aacute;grafo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT block (#PCDATA)  >
+<pre>&lt;!ATTLIST block  
+ ></pre>
+
+<A name="#subtitle">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: subtitle
+COMMENT: Subt&iacute;tulo do ap&ecirc;ndice. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT subtitle (#PCDATA)  >
+<pre>&lt;!ATTLIST subtitle  
+ ></pre>
+
+<A name="#summaries">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: summaries
+COMMENT: Cap&iacute;tulo "IV - Sum&aacute;rios" que 
+ cont&eacute;m efectivamente as bulas emitidas entre os 
+ s&eacute;culos XI e XIX.
+Atributos:
+(i) docidx - &iacute;ndice 
+ deste cap&iacute;tulo;
+(ii) title - t&iacute;tulo deste 
+ cap&iacute;tulo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT summaries (<A HREF="##century">century</A>)+  >
+<pre>&lt;!ATTLIST summaries  
+docidx CDATA #FIXED "IV - "
+title CDATA #FIXED "Sum&aacute;rios" ></pre>
+
+<A name="#century">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: century
+COMMENT: Cada uma das sec&ccedil;&otilde;es "IV - S&eacute;culo 
+ [XI..XIX]". Elemento que cont&eacute;m um conjunto de bulas 
+ referentes a um determinado s&eacute;culo; elemento constituinte 
+ do cap&iacute;tulo "IV - Sum&aacute;rios".
+Atributos:
+(i) 
+ title - parte do t&iacute;tulo desta sec&ccedil;&atilde;o (a 
+ outra %eacute; o identificador do s&eacute;culo);
+(ii) century 
+ - identificador do s&eacute;culo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT century (<A HREF="##bula">bula</A>+)  >
+<pre>&lt;!ATTLIST century  
+title CDATA #FIXED "S&eacute;culo"
+century CDATA #REQUIRED ></pre>
+
+<A name="#bula">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: bula
+COMMENT: Bula ou breve.
+Atributos:
+(i) id - identificador 
+ un&iacute;voco da bula (formado por 'B' concatenado com o 
+ n&uacute;mero de ordem da bula);
+(ii) role - 
+ caracteriza&ccedil;&atilde;o da bula como Bula ou Breve;
+(iii) 
+ syear - ano de emiss&atilde;o da bula;
+(iv) eyear - ano final 
+ de emiss&atilde;o da bula (apenas existente como atributo de um 
+ intervalo de tempo [syear; eyear]);
+(v) yabout - booleano 
+ representativo da exactid&atilde;o em rela&ccedil;&atilde;o ao 
+ ano de emiss&atilde;o da bula: ("no", "yes") = (exacto, 
+ n&atilde;o exacto);
+(vi) ysure - booleano representativo da 
+ certeza em rela&ccedil;&atilde;o ao ano de emiss&atilde;o da 
+ bula: ("no", "yes") = (incerto, certo);
+(vii) month - m&ecirc;s 
+ de emiss&atilde;o da bula;
+(viii) day - dia de emiss&atilde;o 
+ de bula;
+(ix) dsure - booleano representativo da certeza em 
+ rela&ccedil;&atilde;o ao dia de emiss&atilde;o da bula: ("no", 
+ "yes") = (incerto, certo);
+(x) where - local de emiss&atilde;o 
+ da bula;
+(xi) wsure - booleano representativo da certeza em 
+ rela&ccedil;&atilde;o ao local de emiss&atilde;o da bula: ("no", 
+ "yes") = (incerto, certo);
+(x) sure - booleano representativo 
+ da certeza em rela&ccedil;&atilde;o &agrave; veracidade de todos 
+ os atributos da bula. ("no", "yes") = (incerta, certa). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT bula (<A HREF="##header">header</A>, <A HREF="##content">content</A>, <A HREF="##addon">addon</A>)  >
+<pre>&lt;!ATTLIST bula  
+id ID #REQUIRED
+role (BULA | BREVE) "BULA"
+syear CDATA #REQUIRED
+eyear CDATA #IMPLIED
+yabout (yes | no) "no"
+ysure (yes | no) "yes"
+month CDATA #IMPLIED
+day CDATA #IMPLIED
+dsure (yes | no) "yes"
+where CDATA #IMPLIED
+wsure (yes | no) "yes"
+sure (yes|no) "yes" ></pre>
+
+<A name="#addon">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: addon
+COMMENT: Informa&ccedil;&atilde;o adicional da bula. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT addon (<A HREF="##quoted">quoted</A>?, <A HREF="##library">library</A>*, <A HREF="##publ">publ</A>?, <A HREF="##ref">ref</A>?, <A HREF="##note">note</A>?)  >
+<pre>&lt;!ATTLIST addon  
+ ></pre>
+
+<A name="#note">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: note
+COMMENT: Pequena nota ou observa&ccedil;&atilde;o relativamente 
+ a uma bula. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT note (#PCDATA)  >
+<pre>&lt;!ATTLIST note  
+ ></pre>
+
+<A name="#ref">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: ref
+COMMENT: Informa&ccedil;&atilde;o relativa &agrave; 
+ men&ccedil;&atilde;o da bula noutros trabalhos. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT ref (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST ref  
+ ></pre>
+
+<A name="#topos">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: topos
+COMMENT: Local a adicionar no &iacute;ndice 
+ topon&iacute;
+Atributos:
+(i) contents - valor que prevalece em 
+ rela&ccedil;&atilde;o ao conte&uacute;do do elemento para 
+ efeitos de gera&ccedil;&atilde;o de &iacute;ndice 
+ topon&iacute;mico;
+(ii) name - informa&ccedil;&atilde;o 
+ geogr&aacute;fica complementar do local;
+(iii) geoinfo - 
+ informa&ccedil;&atilde;o geogr&aacute;fica do local;
+(iv) role 
+ - especifica&ccedil;&atilde;o do local. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT topos (#PCDATA)  >
+<pre>&lt;!ATTLIST topos  
+contents CDATA #IMPLIED
+name CDATA #IMPLIED
+geoinfo CDATA #IMPLIED
+role CDATA #IMPLIED ></pre>
+
+<A name="#anthropos">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: anthropos
+COMMENT: Pessoa a adicionar no &iacute;ndice 
+ antropon&iacute;mico.
+Atributos:
+(i) fullname - nome completo 
+ da pessoa (tem prioridade sobre o nome que consta no 
+ conte&uacute;do do elemento, i.e., se definido, o valor deste 
+ atributo dever&aacute; ser gerado);
+(ii) role - 
+ designa&ccedil;&atilde;o da posi&ccedil;&atilde;o (e.g., grau) 
+ da pessoa. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT anthropos (#PCDATA)  >
+<pre>&lt;!ATTLIST anthropos  
+fullname CDATA #IMPLIED
+role CDATA #IMPLIED ></pre>
+
+<A name="#publ">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: publ
+COMMENT: Informa&ccedil;&atilde;o relativa a uma pr&eacute;via 
+ publica&ccedil;&atilde;o da bula. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT publ (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST publ  
+ ></pre>
+
+<A name="#library">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: library
+COMMENT: Indica&ccedil;&atilde;o da cota original e/ou das cotas 
+ dos cart&oacute;rios em que a bula se encontra 
+ localizada.
+Atributos:
+(i) name - nome do arquivo ou 
+ biblioteca a que a(s) cota(s) se refere(m). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT library (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST library  
+name CDATA #REQUIRED ></pre>
+
+<A name="#quoted">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: quoted
+COMMENT: Frase em latim que aparece depois do conte&uacute;do da 
+ bula.
+Atributos:
+(i) xml:lang: a l&iacute;ngua utilizada neste 
+ elemento. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT quoted (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST quoted  
+xml:lang CDATA "pt" ></pre>
+
+<A name="#content">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: content
+COMMENT: Conte&uacute;do da bula (o sum&aacute;rio do diploma 
+ pontif&iacute;cio). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT content (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST content  
+ ></pre>
+
+<A name="#header">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: header
+COMMENT: Cabe&ccedil;alho da bula: constitu&iacute;da pelo 
+ emissor e destinat&aacute;rio(s) da bula. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT header (<A HREF="##who">who</A>, <A HREF="##whom">whom</A>*)  >
+<pre>&lt;!ATTLIST header  
+ ></pre>
+
+<A name="#whom">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: whom
+COMMENT: O(s) destinat&aacute;rio(s) da bula; pode(m) ser: 
+ arcebispo(s), bispo(s), abade(s), priore(s), de&atilde;es, reis 
+ de Portugal ou outras pessoas).
+Atributos:
+(i) link - 
+ conectivo de liga&ccedil;&atilde;o entre os destinat&aacute;rios 
+ da bula. Tipicamente pertencente ao conjunto de conectivos {", 
+ ", " e "}. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT whom (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST whom  
+link CDATA #IMPLIED ></pre>
+
+<A name="#who">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: who
+COMMENT: Nome do papa autor-emissor da bula.
+Atributos:
+(i) 
+ link - conectivo de liga&ccedil;&atilde;o entre o emissor e o 
+ destinat&aacute;rio (ou conjunto de destinat&aacute;rios) da 
+ bula. Tipicamente pertencente ao conjunto de conectivos {"a", 
+ "ao", "aos"}. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT who (#PCDATA | <A HREF="##anthropos">anthropos</A> | <A HREF="##topos">topos</A>)*  >
+<pre>&lt;!ATTLIST who  
+link CDATA "a" ></pre>
+
+<A name="#bibsiglas">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: bibsiglas
+COMMENT: Cap&iacute;tulo "III - Bibliografia e 
+ Siglas".
+Atributos:
+(i) docidx - &iacute;ndice deste 
+ cap&iacute;tulo;
+(ii) title - t&iacute;tulo deste 
+ cap&iacute;tulo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT bibsiglas (<A HREF="##printedrefs">printedrefs</A>, <A HREF="##hwrittenrefs">hwrittenrefs</A>, <A HREF="##abbsiglas">abbsiglas</A>)  >
+<pre>&lt;!ATTLIST bibsiglas  
+docidx CDATA #FIXED "III - "
+title CDATA #FIXED "Bibliografia e Siglas" ></pre>
+
+<A name="#abbsiglas">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: abbsiglas
+COMMENT: Sec&ccedil;&atilde;o "III - 3 - Abreviaturas e 
+ Siglas".
+Atributos:
+(i) docidx - identifica&ccedil;&atilde;o 
+ desta sec&ccedil;&atilde;o.
+(ii) title - t&iacute;tulo desta 
+ sec&ccedil;&atilde;o. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT abbsiglas (<A HREF="##abbsigla">abbsigla</A>)+  >
+<pre>&lt;!ATTLIST abbsiglas  
+docidx CDATA #FIXED "3 - "
+title CDATA #FIXED "Abreviaturas e Siglas" ></pre>
+
+<A name="#abbsigla">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: abbsigla
+COMMENT: Abreviatura e sigla. Elemento constituinte da 
+ sec&ccedil;&atilde;o "III - 3 - Abreviaturas e Siglas". 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT abbsigla (<A HREF="##abb">abb</A>, <A HREF="##sigla">sigla</A>)  >
+<pre>&lt;!ATTLIST abbsigla  
+ ></pre>
+
+<A name="#sigla">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: sigla
+COMMENT: Sigla. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT sigla (#PCDATA)  >
+<pre>&lt;!ATTLIST sigla  
+ ></pre>
+
+<A name="#abb">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: abb
+COMMENT: Abreviatura. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT abb (#PCDATA)  >
+<pre>&lt;!ATTLIST abb  
+ ></pre>
+
+<A name="#hwrittenrefs">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: hwrittenrefs
+COMMENT: Sec&ccedil;&atilde;o "III - 2. Refer&ecirc;ncias 
+ Manuscritas". Constitu&iacute;da por conjuntos de 
+ refer&ecirc;ncias manuscritas.
+Atributos:
+(i) docidx - 
+ &iacute;ndice desta sec&ccedil;&atilde;o;
+(i) title - 
+ t&iacute;tulo desta sec&ccedil;&atilde;o. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT hwrittenrefs (<A HREF="##hwrittenrefset">hwrittenrefset</A>)+  >
+<pre>&lt;!ATTLIST hwrittenrefs  
+docidx CDATA #FIXED "2 - "
+title CDATA #FIXED "Refer&ecirc;ncias Manuscritas" ></pre>
+
+<A name="#hwrittenrefset">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: hwrittenrefset
+COMMENT: Conjunto de refer&ecirc;ncias manuscritas, identificado 
+ por um arquivo ou biblioteca.
+Atributos:
+(i) archive - o 
+ arquivo ou biblioteca que identifica este conjunto de 
+ refer&ecirc;ncias manuscritas. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT hwrittenrefset (<A HREF="##hwref">hwref</A>)+  >
+<pre>&lt;!ATTLIST hwrittenrefset  
+archive CDATA #REQUIRED ></pre>
+
+<A name="#hwref">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: hwref
+COMMENT: Refer&ecirc;ncia manuscrita (elemento constituinte de 
+ um conjunto de refer&ecirc;ncias manuscritas). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT hwref (#PCDATA)  >
+<pre>&lt;!ATTLIST hwref  
+ ></pre>
+
+<A name="#printedrefs">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: printedrefs
+COMMENT: Sec&ccedil;&atilde;o "III. 1 - Refer&ecirc;ncias 
+ impressas".
+Atributos:
+(i) docidx - &iacute;ndice desta 
+ sec&ccedil;&atilde;o;
+(ii) title - t&iacute;tulo desta 
+ sec&ccedil;&atilde;o. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT printedrefs (<A HREF="##printedref">printedref</A>)+  >
+<pre>&lt;!ATTLIST printedrefs  
+docidx CDATA #FIXED "1 - "
+title CDATA #FIXED "Refer&ecirc;ncias Impressas" ></pre>
+
+<A name="#printedref">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: printedref
+COMMENT: Refer&ecirc;ncia impressa. Elemento constituinte da 
+ sec&ccedil;&atilde;o "III. 1 - Refer&ecirc;ncias 
+ impressas".
+Atributos:
+(i) years - lista de anos a que a 
+ refer&ecirc;ncia impressa se reporta. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT printedref (<A HREF="##author">author</A>, <A HREF="##docname">docname</A>)  >
+<pre>&lt;!ATTLIST printedref  
+years NMTOKENS #IMPLIED ></pre>
+
+<A name="#docname">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: docname
+COMMENT: Nome do documento referido nas refer&ecirc;ncias 
+ impressas. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT docname (#PCDATA)  >
+<pre>&lt;!ATTLIST docname  
+ ></pre>
+
+<A name="#author">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: author
+COMMENT: Autor de um determinado documento. No bul&aacute;rio 
+ bracarense, este elemento &eacute; usado nos elementos 
+ printedref (refer&ecirc;ncia impressa) e quotation 
+ (cita&ccedil;&atilde;o do cap&iacute;tulo "I - 
+ Introdu&ccedil;&atilde;o"). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT author (#PCDATA)  >
+<pre>&lt;!ATTLIST author  
+ ></pre>
+
+<A name="#synctable">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: synctable
+COMMENT: Cap&iacute;tulo "Quadro sincr&oacute;nico". Este 
+ elemento &eacute; constitu&iacute;do por duas tabelas 
+ cronologicamente ordenadas de arcebispos de Braga e de 
+ papas.
+Atributos:
+(i) docidx - &iacute;ndice deste 
+ cap&iacute;tulo;
+(ii) title - t&iacute;tulo deste 
+ cap&iacute;tulo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT synctable (<A HREF="##archbishops">archbishops</A>, <A HREF="##popes">popes</A>)  >
+<pre>&lt;!ATTLIST synctable  
+docidx CDATA #FIXED "II - "
+title CDATA #FIXED "Quadro Sincr&oacute;nico" ></pre>
+
+<A name="#popes">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: popes
+COMMENT: Lista de papas (elemento constituinte do "II - Quadro 
+ Sincr&oacute;nico").
+Atributos:
+(i) title - t&iacute;tulo 
+ desta lista. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT popes (<A HREF="##pope">pope</A>)+  >
+<pre>&lt;!ATTLIST popes  
+title CDATA #FIXED "Papas" ></pre>
+
+<A name="#pope">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: pope
+COMMENT: Cada um dos papas que &eacute; elemento constituinte da 
+ lista de papas que constam do quadro sincr&oacute;nico ("II - 
+ Quadro Sincr&oacute;nico / Papas").
+Atributos:
+(i) syear - ano 
+ em que o papa foi ordenado como tal;
+(ii) ano em que o papa 
+ deixou de o ser. Se este atributo estiver omisso, ent&atilde;o o 
+ per&iacute;odo de papado &eacute; de [syear; syear];
+(iii) sure 
+ - indicador da certeza em rela&ccedil;&atilde;o &agrave; data 
+ relativa ao per&iacute;odo de papado: ("no", "yes") = (incerta, 
+ certa). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT pope (#PCDATA)  >
+<pre>&lt;!ATTLIST pope  
+syear CDATA #REQUIRED
+eyear CDATA #IMPLIED
+sure (yes | no) "yes" ></pre>
+
+<A name="#archbishops">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: archbishops
+COMMENT: Lista de arcebispos de Braga (elemento constituinte do 
+ "II - Quadro Sincr&oacute;nico").
+Atributos:
+(i) title - 
+ t&iacute;tulo desta lista. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT archbishops (<A HREF="##archbishop">archbishop</A>)+  >
+<pre>&lt;!ATTLIST archbishops  
+title CDATA #FIXED "Arcebispos de Braga" ></pre>
+
+<A name="#archbishop">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: archbishop
+COMMENT: Arcebispo de Braga. Elemento integrante de "II - Quadro 
+ Sincr&oacute;nico / Arcebispos de Braga".
+Atributos:
+(i) syear 
+ - ano em que o arcebispo foi ordenado como tal;
+(ii) ano em que 
+ o arcebispo deixou de o ser. Se este atributo estiver omisso, 
+ ent&atilde;o o per&iacute;odo de arcebispado &eacute; de [syear; 
+ syear];
+(iii) sure - indicador da certeza em 
+ rela&ccedil;&atilde;o &agrave; data relativa ao per&iacute;odo 
+ de arcebispado: ("no", "yes") = (incerta, certa). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT archbishop (#PCDATA)  >
+<pre>&lt;!ATTLIST archbishop  
+syear CDATA #REQUIRED
+eyear CDATA #IMPLIED
+sure (yes | no) "yes" ></pre>
+
+<A name="#intro">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: intro
+COMMENT: Cap&iacute;tulo 
+ "Introdu&ccedil;&atilde;o".
+Atributos:
+(i) docidx - 
+ &iacute;ndice deste cap&iacute;tulo;
+(ii) title - t&iacute;tulo 
+ deste cap&iacute;tulo. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT intro (<A HREF="##quotation">quotation</A>, <A HREF="##idxlist">idxlist</A>)  >
+<pre>&lt;!ATTLIST intro  
+docidx CDATA #FIXED "I - "
+title CDATA #FIXED "Introdu&ccedil;&atilde;o" ></pre>
+
+<A name="#idxlist">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: idxlist
+COMMENT: Lista indexada e numericamente ordenada de items. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT idxlist (<A HREF="##idxitem">idxitem</A>+)  >
+<pre>&lt;!ATTLIST idxlist  
+ ></pre>
+
+<A name="#idxitem">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: idxitem
+COMMENT: Elemento indexado (pertencente a uma lista indexada). 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT idxitem (#PCDATA)  >
+<pre>&lt;!ATTLIST idxitem  
+ ></pre>
+
+<A name="#quotation">
+</A>
+<pre>
+**********************************************************************
+ELEMENT: quotation
+COMMENT: Cita&ccedil;&atilde;o.
+Atributos:
+(i) author - autor 
+ da cita&ccedil;&atilde;o;
+(ii) title - t&iacute;tulo da obra 
+ onde a cita&ccedil;&atilde;o aparece;
+(iii) local - local da 
+ publica&ccedil;&atilde;o/edi&ccedil;&atilde;o da obra;
+(iv) 
+ year - ano da obra;
+(v) page - p&aacute;gina da obra onde a 
+ cita&ccedil;&atilde;o se encontra. 
+**********************************************************************
+</pre>
+
+<pre>&lt;!ELEMENT quotation (<A HREF="##block">block</A>+)  >
+<pre>&lt;!ATTLIST quotation  
+author CDATA #REQUIRED
+title CDATA #REQUIRED
+local CDATA #REQUIRED
+year CDATA #REQUIRED
+page CDATA #REQUIRED ></pre>

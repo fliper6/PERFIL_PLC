@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3 Indivíduos da Classe "#{classe}"
+
+      if indivs
+        each i in indivs
+          ul
+            li(style="padding-bottom:10px")  
+              b Indivíduo: 
+              | 
+              a(href=`/${id}/${classe}/${i.s.value.split("#")[1]}`) #{i.s.value.split("#")[1]}
+      else
+        div.w3-container
+          p Nenhum indivíduo encontrado nesta classe.

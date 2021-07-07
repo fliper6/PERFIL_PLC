@@ -1,0 +1,2006 @@
+{ 
+  "alunos":[
+    {
+      "_id": "603c2c033d57c5846f155578",
+      "name": "Lewis Obrien",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03136ea582b320be1d",
+      "name": "Cook Heath",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03958a3886333a8e44",
+      "name": "Sheila Mcgee",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03995115cb1bb0e9d5",
+      "name": "Bruce Juarez",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c038f5907fce357141d",
+      "name": "Louella Mcneil",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03359ce8a0d196a3cf",
+      "name": "Newton Gates",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03d9227f614b8fe06d",
+      "name": "Heather Melton",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03a51d0590ae33807d",
+      "name": "Georgia Brady",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03b630604c1fa24702",
+      "name": "Annmarie Conway",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03003da2c4d87b1835",
+      "name": "Allison Contreras",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0347385bf7cb4ac65c",
+      "name": "Bentley Roach",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03833472a4b61c63d1",
+      "name": "Horton Mitchell",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03d63131850e1f02b1",
+      "name": "Roman Duran",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c037af299ecb34117fb",
+      "name": "Mable Callahan",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03c427a3610c450cb7",
+      "name": "Sharpe Berry",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03b1861c3452fa94cb",
+      "name": "Shelley Ray",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0360c850ec2aa31696",
+      "name": "Bowen Cote",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03b71bf9bb031525da",
+      "name": "Navarro Bowen",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03bb1425eb79b69483",
+      "name": "Acosta Wright",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03439b88d40df8eda2",
+      "name": "Latisha Clark",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c037ae399d677b06733",
+      "name": "Cotton Howell",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03fc666948f448fcda",
+      "name": "Shepard Williams",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0385dd1113dedd662d",
+      "name": "Holland Guzman",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c030e6195b292797d14",
+      "name": "Roxanne Sharp",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03992af7898f08f7ef",
+      "name": "Velazquez Pate",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c036fc2dc76ecca9b9c",
+      "name": "Myra Kirk",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c032183a3182e8c53e2",
+      "name": "Weiss Gregory",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c031ce843b386ed9458",
+      "name": "Acevedo Sweet",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03a85ca0841dd728b1",
+      "name": "Rebecca Atkins",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c032b576a1d7486b1aa",
+      "name": "Gwendolyn Russo",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0346a70ab357d8f858",
+      "name": "Bartlett Durham",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0302033cf487cc520c",
+      "name": "Francesca Woods",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03b04cd601cf0818f9",
+      "name": "Luisa Wong",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0390bca0db5c31a7b2",
+      "name": "Eloise Rowe",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03a1df46b11fab8880",
+      "name": "Ladonna Estes",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c030c983c68eefe4686",
+      "name": "Dora Coffey",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03655db1017f80d03d",
+      "name": "Dolly Snider",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c035700114f5c24c61a",
+      "name": "Watkins Stokes",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c030923bbf6f24c5ee9",
+      "name": "Massey Mathews",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c031c9bc0d2181db194",
+      "name": "Candy Parsons",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03a333c3eb010ab651",
+      "name": "Berg Lloyd",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03ed2a3ff91f09ef0d",
+      "name": "Alberta Aguilar",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c034806e6564284f46c",
+      "name": "Camille Schultz",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c032b7d797c1e193a02",
+      "name": "Andrews Middleton",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c030b46b1b794913cea",
+      "name": "Spencer Aguirre",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03f43462e7120290ff",
+      "name": "Jaclyn Barnett",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c031174ac19f749d6f1",
+      "name": "Vivian Montoya",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03783313d1a2fc0f38",
+      "name": "Blackburn Marshall",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c03ecd401ee38145503",
+      "name": "Burch Weber",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2c0345cce9ccd69d2360",
+      "name": "Roach Mullins",
+      "frequenta": [
+        "PRC2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5baac067c5ae0e0c5",
+      "name": "Pennington Beach",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce55bd622b95e8bd42c",
+      "name": "Buck Marquez",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5c372fb9a3b568d46",
+      "name": "Cooke Harper",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5a95bdb3b7c6afe9c",
+      "name": "Cote Daugherty",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce57f9384ec8cfd4ca7",
+      "name": "Jodie Rowe",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5d91710f4413623fa",
+      "name": "Enid Maynard",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5e21e1a92550dd02f",
+      "name": "Dillard Davenport",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce50d5c771cf28cd931",
+      "name": "Barbara Farrell",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce556bd0c0705df3dfa",
+      "name": "Wilcox Guy",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce574f1d7f3cb1540fd",
+      "name": "Courtney Dickson",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5a5d7ef263ab56f7e",
+      "name": "Viola Ray",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5f6be5852d5c9c5a4",
+      "name": "Ochoa Slater",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5c4baa5369f0d2e02",
+      "name": "Minerva Shaffer",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5146cf99a5b6e3aa3",
+      "name": "Tasha Aguirre",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5d04469bb44d0eac3",
+      "name": "Frieda Schneider",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5c12fc3901eb3ad59",
+      "name": "Green Howard",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce56a4a4e8d2ae15b69",
+      "name": "Luna Hubbard",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce56379e625de8f149f",
+      "name": "Sellers Russo",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5706555a9c31079fe",
+      "name": "Reeves Hale",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5828c93ab49a57e5d",
+      "name": "Johnson Ramirez",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce57c83fcd17a42ddb9",
+      "name": "Le Greene",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce54a28720161185853",
+      "name": "Pruitt Colon",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5b63553d3eec7380a",
+      "name": "Rochelle Hartman",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5e97a9d8ca112548b",
+      "name": "Benson Rush",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5bd2e13bec5c7ed5c",
+      "name": "Carolina Salazar",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5cac1304d0f1a9202",
+      "name": "Mcfarland Cabrera",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce51a9691cc27a9b2a5",
+      "name": "Powell Knox",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5e22bdb6670406c3f",
+      "name": "Wright Cannon",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce51e7cd7357ecab4b3",
+      "name": "Kenya Lamb",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5e463bd6b4824cbfe",
+      "name": "Buchanan Hewitt",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce583cf07d8593cc41d",
+      "name": "Conley Le",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce50757f010e392bc23",
+      "name": "Bettie Bond",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5bd7e8c599b8ad541",
+      "name": "Crosby Rowland",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5d80dba9f095dbcf2",
+      "name": "Contreras Hughes",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5e9d8efd1e95ae133",
+      "name": "Gallagher Fry",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce58466d211bb80ab3f",
+      "name": "Clemons Brock",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5ed1ee4ed183dee93",
+      "name": "Janie Hunt",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce50f1454b2c31c2250",
+      "name": "Willa Bass",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5d3f51c3fb10648db",
+      "name": "Henry Mcdaniel",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce58de9e3b922f0a87f",
+      "name": "Tonia Galloway",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce584f8b75f7c3944f8",
+      "name": "Susanna Hodge",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5cf13a8f6c59f1e13",
+      "name": "Briana Sloan",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce51a6e442f59a16afe",
+      "name": "Lindsey Leonard",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5f414fcb596d6ac67",
+      "name": "Joyce Barton",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce5dc2e8aedfb40c617",
+      "name": "Ramirez Hodges",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce59795711c0dcb9940",
+      "name": "Jo Whitfield",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce50b07912def04296f",
+      "name": "Burgess Ball",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce512d3e342acc26135",
+      "name": "Gwen Richardson",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce576a65653504987eb",
+      "name": "Bridget Randall",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2ce59824d1f1ee0cee0c",
+      "name": "Bowers Sweeney",
+      "frequenta": [
+        "SPLN2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e090ff87553608d99f0",
+      "name": "Faulkner Porter",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0986f19258ffaea4f2",
+      "name": "Jacquelyn Kent",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09b850385bb17b1fa2",
+      "name": "Roberson Bullock",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09d826d64a6c6e1ed8",
+      "name": "Huffman Mcintyre",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0914059ed2c620c2fc",
+      "name": "Miller Stein",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0910f178da5ffcb7ae",
+      "name": "Ryan Bryant",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e099df9530b4d5eeba3",
+      "name": "Linda Neal",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09930025035e6e7684",
+      "name": "Rollins Dudley",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09a5b9e1c02b66b704",
+      "name": "Oneal Hunter",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09105f94cfe1d1a716",
+      "name": "Annette Mcfadden",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09839df52690995042",
+      "name": "Jimmie Flynn",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e095ce6e42e06902d2f",
+      "name": "Fuller Estes",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e092ea9840c7f6b281e",
+      "name": "Miriam Dyer",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0943a8cab10c0d4205",
+      "name": "Pittman Watkins",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0979be709c22d5a03e",
+      "name": "Phoebe Sparks",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e094102359b03088b5f",
+      "name": "Lauren Donovan",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09207d88d9aa6e2dd2",
+      "name": "Mercedes Charles",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e094a2bf20ec0740a79",
+      "name": "Reva Walls",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09c3923395f7fdccb3",
+      "name": "Kellie Terry",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09f547ce0c34aa0df4",
+      "name": "Nunez Reynolds",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09ac180e13e2d85a62",
+      "name": "Tyson Madden",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09f747455835f10936",
+      "name": "Nellie Thornton",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e099f63624515fcdac0",
+      "name": "Kitty Norton",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e095673a47b72751b55",
+      "name": "Barnes Berger",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e091013af15f29e9187",
+      "name": "Livingston Lewis",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0986a0de001d0ff15d",
+      "name": "Viola Weeks",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09f11c6390aa5b051a",
+      "name": "Cherie Booth",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09515ec856aa4b4d41",
+      "name": "Huff Chang",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e098f1d74f3c7a7b3b2",
+      "name": "Benson Sherman",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09eaf67846b9f0c68e",
+      "name": "Christina Figueroa",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09ace19e004d4520dc",
+      "name": "Suzanne Dillard",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e096edd368e97bf940a",
+      "name": "Lillie Marks",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0977a5a2f31f508ed3",
+      "name": "Deanne Parrish",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0927f7a79163e84137",
+      "name": "Reeves Hester",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e096775242d91f9d204",
+      "name": "Price Adams",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0910bc7f7f2eb17041",
+      "name": "Terry Franco",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09c89443f22eee1e2e",
+      "name": "Cardenas Vincent",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0950981656d536b7a9",
+      "name": "Dana Kirby",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09a83adb87ab237b73",
+      "name": "Tessa Page",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e099b4c660ebd4b4f5d",
+      "name": "Keith Kramer",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09ecb56dd1ce290faa",
+      "name": "Marian Stout",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0964098fb66313eb8e",
+      "name": "Hendricks Key",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e097de58c8e3241c97d",
+      "name": "Kerry Stark",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0996d6c7f9767cb02e",
+      "name": "Sonya Rogers",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0931448edc5609d3cc",
+      "name": "Collins Daniels",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0931b613b980ced51b",
+      "name": "Mclean Thompson",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e0911446798653663de",
+      "name": "Klein Bond",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09f98dbfd4a4dfa9b6",
+      "name": "Rich Robertson",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e095fe82e4920ced1dc",
+      "name": "Craft Wiggins",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e09ed147911f6080a94",
+      "name": "Claudine Hobbs",
+      "frequenta": [
+        "SI2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1eb9e2a1261243dc",
+      "name": "Hawkins Irwin",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7def7317fbc30e9a75",
+      "name": "Elise Russo",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d3b89b1eb25b1f02f",
+      "name": "Reynolds Baird",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d9bb2f717d9357e00",
+      "name": "Charlotte Decker",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d32ef7c759e779bcf",
+      "name": "Kitty Mcdaniel",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7da46b005ccc088f78",
+      "name": "Gilliam Adams",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7da268080b442e6b29",
+      "name": "Sheena Bridges",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1bdf2b5a876fbc6f",
+      "name": "Lawanda Stone",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d3a51aa2bfb517ac3",
+      "name": "Berry Stuart",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d9dece67e479f2248",
+      "name": "Bridget Valentine",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d04c8694ceffbb419",
+      "name": "Jimenez Hardy",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d595f9f0f3bfe1412",
+      "name": "Barbara Shelton",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d74f73df79e445517",
+      "name": "Julia Clemons",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7dc97a77c87e7ad2bb",
+      "name": "Angel Armstrong",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7dfd915b941f085f6f",
+      "name": "Francis Velasquez",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d6ce72966f7e948ef",
+      "name": "Jessica Riggs",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d28993f59e06f6545",
+      "name": "Frieda Rose",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d332439bcdd0464ec",
+      "name": "Richardson Woodard",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1cc31af0822bcf10",
+      "name": "Ingram Schmidt",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7de743456226d86ace",
+      "name": "Henson Wilder",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7db5fbe1283e59cfde",
+      "name": "Arlene Jennings",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d07137571a3ea1e0b",
+      "name": "Hurley Pearson",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7de7cbbafc421db46c",
+      "name": "Aurora Petty",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d9c8319bb45f7aca2",
+      "name": "Shanna Randolph",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d6e2fb3415d3f087e",
+      "name": "Collier Todd",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d57fe7294a8b065e3",
+      "name": "Lawrence Montgomery",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d0793e3249db91146",
+      "name": "Miles Travis",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d7697b6f564761f51",
+      "name": "Bradshaw Cohen",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d99c50b7eeb725fa1",
+      "name": "Hilary Hicks",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d147c74945da7c3b5",
+      "name": "Marianne Faulkner",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7dba6931496bc6078c",
+      "name": "Dixon Stanley",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d39911ddd1167d835",
+      "name": "Rasmussen Buckley",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d37e3d8176ef0519f",
+      "name": "Gibson Sandoval",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d049b44fba02885b8",
+      "name": "Nicholson Rush",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1ae10d62226ed33f",
+      "name": "Blevins Farrell",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1c3c90bd8d129418",
+      "name": "Katrina Spence",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d9414cb744b1729fb",
+      "name": "Thomas Ayala",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7dd80fd2cf9f5c9ea0",
+      "name": "Neva Morton",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d3b089c6f01d7509d",
+      "name": "Holder Oneil",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7deeb9f9cdb8798792",
+      "name": "Barry England",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d7ae66f62736ca77e",
+      "name": "Kathrine Thompson",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7da17d4a3d13476b23",
+      "name": "Cohen Arnold",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7df53323d4fc942ee6",
+      "name": "Roy Cooper",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d7b83f419d33313d7",
+      "name": "French Hubbard",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d1e31bdd2743f4fa8",
+      "name": "Delaney Underwood",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d7a8a359beb532426",
+      "name": "Caroline Sparks",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d3591b31971cae363",
+      "name": "Chaney King",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7deeb7600db388a3db",
+      "name": "Melton Nolan",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d66eaa520adaa59b9",
+      "name": "Nieves Rivers",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    },
+    {
+      "_id": "603c2e7d365dc741aa73058f",
+      "name": "Angelita Bonner",
+      "frequenta": [
+        "AA2021"
+      ],
+      "type": [
+        "Aluno"
+      ]
+    }
+  ]
+}
+
+  

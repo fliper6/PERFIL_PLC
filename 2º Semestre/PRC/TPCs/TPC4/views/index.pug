@@ -1,0 +1,44 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal(style="padding:15px")
+        h3 Tabela Periódica
+    
+      #accordion
+          .card
+            .card-header
+              a.collapsed.card-link(data-toggle='collapse', href='#collapseOne')
+                | Elementos
+            #collapseOne.collapse(data-parent='#accordion')
+              .card-body
+                if el
+                  ul
+                    each a in el
+                      if a.s.value.split("#")[1]
+                        li(style="padding-bottom:15px") 
+                          a(href=`/el/${a.s.value.split("#")[1]}`) #{a.s.value.split("#")[1]}
+          .card
+            .card-header
+              a.collapsed.card-link(data-toggle='collapse', href='#collapseTwo')
+                | Grupos
+            #collapseTwo.collapse(data-parent='#accordion')
+              .card-body
+                if gr
+                  ul
+                    each a in gr
+                      if a.s.value.split("#")[1]
+                        li(style="padding-bottom:15px") 
+                          p #{a.s.value.split("#")[1]}
+          .card
+            .card-header
+              a.collapsed.card-link(data-toggle='collapse', href='#collapseThree')
+                | Períodos
+            #collapseThree.collapse(data-parent='#accordion')
+              .card-body
+                if pd
+                  ul
+                    each a in pd
+                      if a.s.value.split("#")[1]
+                        li(style="padding-bottom:15px") 
+                          p #{a.s.value.split("#")[1]}

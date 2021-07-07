@@ -1,0 +1,87 @@
+1) Constrói os triplos da relação Irmão;
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {  
+    ?p1 :irmao ?p2.
+    ?p2 :irmao ?p1.
+} WHERE { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t1.
+    ?p1 :temProgenitor ?t2.
+    ?p2 :temProgenitor ?t2.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2)
+}
+
+###############################################################################################################################################################
+2) Constrói os triplos da relação Bisavô;
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+	?b :bisavo ?n.
+} WHERE {
+    ?n :temProgenitor ?p.
+    ?p :temProgenitor ?a.
+    ?a :temProgenitor ?b.
+    FILTER (?b != ?n).
+}
+
+###############################################################################################################################################################
+3) Constrói os triplos da relação Descendentes;
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {
+	?n :descendente ?v.
+} WHERE {
+    ?n :temProgenitor+ ?v.
+    FILTER (?n != ?v).
+}
+
+###############################################################################################################################################################
+4) Constrói os triplos da relação Primo;
+
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+CONSTRUCT {  
+    ?p1 :primo ?p2.
+    ?p2 :primo ?p1.
+} WHERE { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t2.
+    ?t2 :temProgenitor ?pr.
+    ?t1 :temProgenitor ?pr.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2)
+}
+
+###############################################################################################################################################################
+5) Acrescenta o atributo sexo à tua ontologia, há várias formas de o fazer, escolhe a que entenderes. 
+Constrói os triplos relacionados com esta propriedade usando as propriedades existentes: temPai e temMae;
+
+PREFIX : http://prc.di.uminho.pt/2021/myfamily#
+
+CONSTRUCT { 
+    ?m :sexo 'Masculino'.
+    ?f :sexo 'Feminino'.
+} WHERE {
+    {?l1 :temMae ?f}
+    UNION
+    {?l2 :temPai ?m}
+}
+
+###############################################################################################################################################################
+6) Constrói os triplos das pessoas relacionadas com "José_Carlos_Leite_Ramalho_1967", diretamente ou indiretamente, 
+ou seja, para todas as pessoas com caminho no grafo até ao indivíduo em questão constrói o triplo: :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom :indivíduoX .
+
+PREFIX : http://prc.di.uminho.pt/2021/myfamily#
+
+CONSTRUCT { 
+    ?s :temRelacaoCom :José_Carlos_Leite_Ramalho_1967 .
+} WHERE {
+    {?s :eProgenitorDe+ :José_Carlos_Leite_Ramalho_1967 .}
+    UNION
+    {?s :temProgenitor+ :José_Carlos_Leite_Ramalho_1967 .}
+}

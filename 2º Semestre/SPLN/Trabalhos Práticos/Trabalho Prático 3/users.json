@@ -1,0 +1,13 @@
+{
+	"users": [
+		{
+			"username": "fliper6",
+			"bio": "Software Engineering Student and dog lover",
+			"organização": "Universidade do Minho",
+			"local": "Braga",
+			"followers": "13",
+			"following": "14",
+			"repositórios": ["PRC_TP", "SPLN_TP", "EA_TP", "PRC2020", "MIEI-Licenciatura", "PRI2020-Teste", "PRI2020"]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+
+PREFIX : <http://purl.org/ontology/fo/>
+select * where { 
+	?p :hasIngredient :Camarão .
+} 
+
+
+PREFIX : <http://purl.org/ontology/fo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select * where { 
+	?menu rdf:type :Menu ;
+    	:dessert ?dessert .
+} 
+
+PREFIX : <http://purl.org/ontology/fo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select distinct ?f where { 
+	?f rdf:type :Food;
+    FILTER not exists { ?f :hasIngredient :Molho_de_Amendoim } .
+} 

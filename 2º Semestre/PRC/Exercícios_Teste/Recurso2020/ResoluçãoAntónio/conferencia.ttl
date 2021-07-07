@@ -1,0 +1,381 @@
+@prefix : <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia> .
+
+<http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#apresentadaNaSessao
+:apresentadaNaSessao rdf:type owl:ObjectProperty ;
+                     owl:inverseOf :contemApresentacao .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#contemApresentacao
+:contemApresentacao rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Sessao ;
+                    rdfs:range :Apresentacao .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#moderadaPor
+:moderadaPor rdf:type owl:ObjectProperty ;
+             rdfs:domain :Sessao ;
+             rdfs:range :Chair .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#temApresentacao
+:temApresentacao rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Conferencia ;
+                 rdfs:range :Apresentacao .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#temAutor
+:temAutor rdf:type owl:ObjectProperty ;
+          rdfs:domain :Apresentacao ;
+          rdfs:range :Autor .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#data
+:data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#descricao
+:descricao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#hora
+:hora rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#local
+:local rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#resumo
+:resumo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#titulo
+:titulo rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Apresentacao
+:Apresentacao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Apresentacao_Convidada
+:Apresentacao_Convidada rdf:type owl:Class ;
+                        rdfs:subClassOf :Apresentacao .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Autor
+:Autor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Chair
+:Chair rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Conferencia
+:Conferencia rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Sessao
+:Sessao rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Alberto_Simões
+:Alberto_Simões rdf:type owl:NamedIndividual ,
+                         :Chair .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#André_Santos
+:André_Santos rdf:type owl:NamedIndividual ,
+                       :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Assessing_Factoid_Question-Answer_Generation_for_Portuguese
+:Assessing_Factoid_Question-Answer_Generation_for_Portuguese rdf:type owl:NamedIndividual ,
+                                                                      :Apresentacao ;
+                                                             :temAutor :Hugo_Gonçalo_Oliveira ,
+                                                                       :João_Ferreira ,
+                                                                       :Ricardo_Rodrigues ;
+                                                             :titulo "Assessing Factoid Question-Answer Generation for Portuguese" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Behavior_Trees_Specification_and_Processing
+:Behavior_Trees_Specification_and_Processing rdf:type owl:NamedIndividual ,
+                                                      :Apresentacao ;
+                                             :temAutor :José_João_Almeida ,
+                                                       :Miguel_Oliveira ,
+                                                       :Pedro_Moura ,
+                                                       :Pedro_Rangel_Henriques ,
+                                                       :Pedro_Silva ;
+                                             :titulo "Behavior Trees Specification and Processing" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms
+:Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms rdf:type owl:NamedIndividual ,
+                                                                                               :Apresentacao ;
+                                                                                      :temAutor :Maria_Varanda_Pereira ,
+                                                                                                :Mario_Beron ,
+                                                                                                :Mauro_Argañaraz ,
+                                                                                                :Pedro_Henriques ;
+                                                                                      :titulo "Detection of Vulnerabilities in Smart Contracts Specifications in Ethereum Platforms" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Hristo_Valkanov
+:Hristo_Valkanov rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Hugo_Gonçalo_Oliveira
+:Hugo_Gonçalo_Oliveira rdf:type owl:NamedIndividual ,
+                                :Autor ,
+                                :Chair .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Integrating_multi-source_data_into_HandSpy
+:Integrating_multi-source_data_into_HandSpy rdf:type owl:NamedIndividual ,
+                                                     :Apresentacao ;
+                                            :temAutor :Hristo_Valkanov ,
+                                                      :José_Paulo_Leal ;
+                                            :titulo "Integrating multi-source data into HandSpy" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Jakub_Swacha
+:Jakub_Swacha rdf:type owl:NamedIndividual ,
+                       :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Jorge_Baptista
+:Jorge_Baptista rdf:type owl:NamedIndividual ,
+                         :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#José_Carlos_Paiva
+:José_Carlos_Paiva rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#José_João_Almeida
+:José_João_Almeida rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#José_Leal
+:José_Leal rdf:type owl:NamedIndividual ,
+                    :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#José_Paulo_Leal
+:José_Paulo_Leal rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#João_Ferreira
+:João_Ferreira rdf:type owl:NamedIndividual ,
+                        :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#João_Silva
+:João_Silva rdf:type owl:NamedIndividual ,
+                     :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Maria_João_Varanda_Pereira
+:Maria_João_Varanda_Pereira rdf:type owl:NamedIndividual ,
+                                     :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Maria_Varanda_Pereira
+:Maria_Varanda_Pereira rdf:type owl:NamedIndividual ,
+                                :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Mario_Beron
+:Mario_Beron rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Mauro_Argañaraz
+:Mauro_Argañaraz rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Miguel_Oliveira
+:Miguel_Oliveira rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Nuno_Mamede
+:Nuno_Mamede rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Pedro_Henriques
+:Pedro_Henriques rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Pedro_M._Silva
+:Pedro_M._Silva rdf:type owl:NamedIndividual ,
+                         :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Pedro_Moura
+:Pedro_Moura rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Pedro_Rangel_Henriques
+:Pedro_Rangel_Henriques rdf:type owl:NamedIndividual ,
+                                 :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Pedro_Silva
+:Pedro_Silva rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Renato_Preigschadt_De_Azevedo
+:Renato_Preigschadt_De_Azevedo rdf:type owl:NamedIndividual ,
+                                        :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Ricardo_Queirós
+:Ricardo_Queirós rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Ricardo_Rodrigues
+:Ricardo_Rodrigues rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#SLATE_2020
+:SLATE_2020 rdf:type owl:NamedIndividual ,
+                     :Conferencia ;
+            :temApresentacao :Assessing_Factoid_Question-Answer_Generation_for_Portuguese ,
+                             :Behavior_Trees_Specification_and_Processing ,
+                             :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ,
+                             :Integrating_multi-source_data_into_HandSpy ,
+                             :Yet_Another_Programming_Exercises_Interoperability_Language ,
+                             :DAOLOT:_a_Semantic_Browser ,
+                             <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Development_of_Q&A_Systems_using_AcQA> ,
+                             :Framework_Factory:_Avoiding_chaos_with_clever_decisions ,
+                             :Musikla:_Language_for_Generating_Musical_Events ,
+                             :Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese ,
+                             :bOWL:_A_Pluggable_OWL_Browser .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Samuel_Ferreira
+:Samuel_Ferreira rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Session_I
+:Session_I rdf:type owl:NamedIndividual ,
+                    :Sessao ;
+           :contemApresentacao :Assessing_Factoid_Question-Answer_Generation_for_Portuguese ,
+                               :Behavior_Trees_Specification_and_Processing ,
+                               :DAOLOT:_a_Semantic_Browser ,
+                               <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Development_of_Q&A_Systems_using_AcQA> ,
+                               :bOWL:_A_Pluggable_OWL_Browser ;
+           :moderadaPor :Alberto_Simões ;
+           :data "13-06-2020" ;
+           :hora "10h" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Session_II
+:Session_II rdf:type owl:NamedIndividual ,
+                     :Sessao ;
+            :contemApresentacao :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ,
+                                :Integrating_multi-source_data_into_HandSpy ,
+                                :Yet_Another_Programming_Exercises_Interoperability_Language ,
+                                :Musikla:_Language_for_Generating_Musical_Events ,
+                                :Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese ;
+            :moderadaPor :Hugo_Gonçalo_Oliveira ;
+            :data "13-06-2020" ;
+            :hora "11h45" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Yet_Another_Programming_Exercises_Interoperability_Language
+:Yet_Another_Programming_Exercises_Interoperability_Language rdf:type owl:NamedIndividual ,
+                                                                      :Apresentacao ;
+                                                             :temAutor :Jakub_Swacha ,
+                                                                       :José_Carlos_Paiva ,
+                                                                       :José_Paulo_Leal ,
+                                                                       :Ricardo_Queirós ;
+                                                             :titulo "Yet Another Programming Exercises Interoperability Language" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#DAOLOT:_a_Semantic_Browser
+:DAOLOT:_a_Semantic_Browser rdf:type owl:NamedIndividual ,
+                                     :Apresentacao ;
+                            :temAutor :André_Santos ,
+                                      :José_Leal ,
+                                      :João_Silva ;
+                            :titulo "DAOLOT: a Semantic Browser" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Development_of_Q&A_Systems_using_AcQA
+<http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Development_of_Q&A_Systems_using_AcQA> rdf:type owl:NamedIndividual ,
+                                                                                                                   :Apresentacao ;
+                                                                                                          :temAutor :Maria_João_Varanda_Pereira ,
+                                                                                                                    :Pedro_Rangel_Henriques ,
+                                                                                                                    :Renato_Preigschadt_De_Azevedo ;
+                                                                                                          :titulo "Development of Q&A Systems using AcQA" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Framework_Factory:_Avoiding_chaos_with_clever_decisions
+:Framework_Factory:_Avoiding_chaos_with_clever_decisions rdf:type owl:NamedIndividual ,
+                                                                  :Apresentacao_Convidada ;
+                                                         :temAutor :Samuel_Ferreira ;
+                                                         :resumo "We live in a time where new trendy frameworks arise frequently. When the mission is to parse and interpret code of several programming languages, dealing with all the behavioral changes a framework introduces to its mother language is not an easy task. This is the story of how Checkmarx dodged chaos and developed an organized and efficient mechanism to handle this challenge." ;
+                                                         :titulo "Framework Factory: Avoiding chaos with clever decisions" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Musikla:_Language_for_Generating_Musical_Events
+:Musikla:_Language_for_Generating_Musical_Events rdf:type owl:NamedIndividual ,
+                                                          :Apresentacao ;
+                                                 :temAutor :José_João_Almeida ,
+                                                           :Pedro_M._Silva ;
+                                                 :titulo "Musikla: Language for Generating Musical Events" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese
+:Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese rdf:type owl:NamedIndividual ,
+                                                                                                                           :Apresentacao ;
+                                                                                                                  :temAutor :Jorge_Baptista ,
+                                                                                                                            :Nuno_Mamede ;
+                                                                                                                  :titulo "Syntactic Transformations in Rule-based Parsing of Support Verb Constructions: Examples from European Portuguese" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#bOWL:_A_Pluggable_OWL_Browser
+:bOWL:_A_Pluggable_OWL_Browser rdf:type owl:NamedIndividual ,
+                                        :Apresentacao ;
+                               :temAutor :Alberto_Simões ,
+                                         :Ricardo_Queirós ;
+                               :titulo "bOWL: A Pluggable OWL Browser" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

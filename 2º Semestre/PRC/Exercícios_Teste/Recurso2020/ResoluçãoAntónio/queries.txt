@@ -1,0 +1,31 @@
+1- PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?a where {
+    ?s rdf:type :Apresentacao;
+     :temAutor ?a;
+ } ORDER BY (?a) 
+
+2-
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select * where {
+    ?a rdf:type :Apresentacao;
+        :apresentadaNaSessao ?s;
+    	:titulo ?t;
+     } ORDER BY (?t)
+
+3- PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?t where {
+    ?a rdf:type :Apresentacao;
+       :titulo ?t
+    FILTER regex(?t, "OWL")
+ } 
+OU
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/conferencia#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?a where {
+    ?a rdf:type :Apresentacao;
+       FILTER regex(str(?a), "OWL")
+ } 

@@ -1,0 +1,83 @@
+COM CURL:
+ - curl http://localhost:3000/alunos
+
+COM GOOGLE:
+ - pôr no url: http://localhost:3000/alunos
+
+COM POSTMAN:
+ - New > Request > http://localhost:3000/alunos na barra de cima (GET)
+
+---------------------------------------------------------------------------------------------------
+
+FILTROS
+Alunos no 2º ano + tocam Violoncelo: http://localhost:3000/alunos?instrumento=Violoncelo&anoCurso=2
+Cursos de clarinete: http://localhost: 3000/cursos?instrumento.id=I1
+
+PAGINAÇÃO
+http://localhost:3000/instrumentos?_page=2_limit=4
+
+---------------------------------------------------------------------------------------------------
+NO POSTMAN, para obtermos mais informação, temos o campo link (dentro da secção Headers)
+input: http://localhost:3000/alunos?_page=7&_limit=5
+output (no link): <http://localhost:3000/alunos?_page=1_limit=5>; rel="first", 
+		  <http://localhost:3000/alunos?_page=6_limit=5>; rel="prev", 
+	 	  <http://localhost:3000/alunos?_page=8_limit=5>; rel="next", 
+		  <http://localhost:3000/alunos?_page=37_limit=5>; rel="last"
+---------------------------------------------------------------------------------------------------
+
+SORT
+Sort pelo id: http://localhost:3000/alunos?_sort=id
+Sort por curs e nomes: http://localhost:3000/alunos?_sort=curso,nome&_order=desc,asc
+
+SLICING 
+http://localhost:3000/alunos?_start=5&_end=8
+
+FULL-TEXT SEARCH
+http://localhost:3000/alunos?q=MARTINS
+
+---------------------------------------------db2.json----------------------------------------------
+Exercícios:
+(pôr objeto à volta da lista) -> "pubs":[...conteúdo do ficheiro...]
+
+http://localhost:3000/pubs?_sort=year,title&_order=desc,asc
+
+----------------------------------------------db.json----------------------------------------------
+Inserir aluno: ------------------------------------------------------------------------------------
+   {
+      "id": "A7588",
+      "nome": "José Pedro Alves",
+      "dataNasc": "1999-4-19",
+      "curso": "CB1",
+      "anoCurso": "2",
+      "instrumento": "Clarinente"
+    }
+
+- Body (de cima) > raw > paste aluno
+- Headers (de cima) > Content-Type > application/json
+
+- POST http://localhost:3000/alunos
+(Se tudo correr bem, Headers (de baixo), aparece na Location: http://localhost:3000/alunos/A7588)
+
+Atualizar aluno: ----------------------------------------------------------------------------------
+   {
+      "id": "A7588",
+      "nome": "José Pedro Alves",
+      "dataNasc": "1999-4-19",
+      "curso": "CB2", <------ atualizar o curso
+      "anoCurso": "2",
+      "instrumento": "Clarinente"
+    }
+
+- (settings iguais ao do POST)
+- PUT http://localhost:3000/alunos/A7588
+(Se tudo correr bem, http://localhost:3000/alunos/A7588 vai atualizar)
+
+(PATCH igual ao PUT)
+
+Apagar aluno: -------------------------------------------------------------------------------------
+  
+- Body (de cima) > none
+- DELETE http://localhost:3000/alunos/A7588
+(Se tudo correr bem, http://localhost:3000/alunos/A7588 vai dar vazio)
+---------------------------------------------------------------------------------------------------
+s

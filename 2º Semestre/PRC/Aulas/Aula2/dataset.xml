@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapa>
+
+	<cidades>
+
+		<cidade id="brg">
+
+			<nome>Braga</nome>
+
+			<descricao>Cidade dos Arcebispos</descricao>
+
+			<populacao>140000</populacao>
+
+			<distrito>Braga</distrito>
+
+		</cidade>
+
+		<cidade id="bcl">
+
+			<nome>Barcelos</nome>
+
+			<descricao>Cidade do Galo</descricao>
+
+			<populacao>60000</populacao>
+
+			<distrito>Braga</distrito>
+
+		</cidade>
+
+		<cidade id="ptl">
+
+			<nome>Ponte de Lima</nome>
+
+			<descricao>Vila mais antiga de Portugal</descricao>
+
+			<populacao>70000</populacao>
+
+			<distrito>Viana do Castelo</distrito>
+
+		</cidade>
+
+		<cidade id="gmr">
+
+			<nome>Guimarães</nome>
+
+			<descricao>Cidade berço</descricao>
+
+			<populacao>80000</populacao>
+
+			<distrito>Braga</distrito>
+
+		</cidade>
+
+		<cidade id="fml">
+
+			<nome>Famalicão</nome>
+
+			<descricao>Princesa do Ave</descricao>
+
+			<populacao>90000</populacao>
+
+			<distrito>Braga</distrito>
+
+		</cidade>
+
+		<cidade id="prt">
+
+			<nome>Porto</nome>
+
+			<descricao>Cidade invicta</descricao>
+
+			<populacao>1000000</populacao>
+
+			<distrito>Porto</distrito>
+
+		</cidade>
+
+		<cidade id="vct">
+
+			<nome>Viana do Castelo</nome>
+
+			<descricao>Cidade dos pescadores</descricao>
+
+			<populacao>60000</populacao>
+
+			<distrito>Viana do Castelo</distrito>
+
+		</cidade>
+
+	</cidades>
+
+	<ligacoes>
+
+		<ligacao>
+
+			<origem cidade="ptl"/>
+
+			<destino cidade="bcl"/>
+
+			<distancia>19</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="ptl"/>
+
+			<destino cidade="brg"/>
+
+			<distancia>31</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="brg"/>
+
+			<destino cidade="bcl"/>
+
+			<distancia>20</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="brg"/>
+
+			<destino cidade="gmr"/>
+
+			<distancia>18</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="brg"/>
+
+			<destino cidade="fml"/>
+
+			<distancia>17</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="gmr"/>
+
+			<destino cidade="fml"/>
+
+			<distancia>22</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="fml"/>
+
+			<destino cidade="bcl"/>
+
+			<distancia>25</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="fml"/>
+
+			<destino cidade="prt"/>
+
+			<distancia>30</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="bcl"/>
+
+			<destino cidade="vct"/>
+
+			<distancia>22</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="vct"/>
+
+			<destino cidade="prt"/>
+
+			<distancia>61</distancia>
+
+		</ligacao>
+
+		<ligacao>
+
+			<origem cidade="gmr"/>
+
+			<destino cidade="prt"/>
+
+			<distancia>38</distancia>
+
+		</ligacao>
+
+	</ligacoes>
+
+</mapa>

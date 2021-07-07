@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Tipologias
+  table.w3-table-all
+    tr
+      th ID
+      th Designacao
+    each t in tips
+      tr
+        td
+          a(href='/tipologias/'+ t.id) #{t.id}
+        td= t.designacao

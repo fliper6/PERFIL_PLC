@@ -1,0 +1,21 @@
+{
+  "alunos": [
+    {
+      "id": "A83631",
+      "nome": "Filipa Alves dos Santos",
+      "curso": "MIEI",
+      "git": "https://github.com/fliper6"
+    },
+    {
+      "id": "A83632",
+      "nome": "Ana Fernanda Soares Ramos",
+      "curso": "Medicina",
+      "git": ""
+    },
+    {
+      "id": "A83633",
+      "nome": "Maria Teresa Forte Fernandes Gonçalves Teixeira",
+      "curso": "MIEGI",
+      "git": ""
+    }]
+}

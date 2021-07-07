@@ -1,0 +1,32 @@
+Instalar MongoDB no Windows:
+
+
+- Sacar isto: https://www.mongodb.com/try/download/community?fbclid=IwAR1kEViL1SMUZMW0DSAHWXTz24FsEqMwSKVjrF5VhB0OBKhsqrKsk9BEa6k
+
+- Seguir isto: https://dangphongvanthanh.wordpress.com/2017/06/12/add-mongos-bin-folder-to-the-path-environment-variable/
+
+[Neste ponto o comando mongo já deve dar mas o mongod ou mongoimport ainda não]
+
+- Criar uma pasta chamada MyDataFolder num nível antes da pasta que está a ser usada 
+ex:
+- PRI
+  - MyDataFolder
+  - Aula 7
+    - PRI.json
+
+- Correr o comando: "mongod --dbpath MyDataFolder &" (dentro do Aula7)
+
+[Neste ponto o mongoimport ainda não deve dar]
+
+- Seguir isto https://stackoverflow.com/questions/63275424/mongoimport-is-not-recognized-as-an-internal-or-external-command
+
+(^isto basicamente é ir a https://www.mongodb.com/try/download/database-tools, sacar o zip, ir à pasta bin do MongoDB e extrair os ficheiros do zip (os .exe dentro do bin) para lá)
+
+- Correr o comando: "mongoimport -d PRI2020 -c work --jsonArray PRI2020.json" (dentro da Aula 7)
+
+- Agora dentro do mongo:
+  - show dbs (para verificar que o PRI2020 existe)
+  - use PRI2020
+  - db.work.find().pretty()
+
+Done :)

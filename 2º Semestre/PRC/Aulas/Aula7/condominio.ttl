@@ -1,0 +1,239 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/3/condominio> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temArredentario
+:temArredentario rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Fracao ;
+                 rdfs:range :Arrendatario .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temEntradasL
+:temEntradasL rdf:type owl:ObjectProperty ;
+              rdfs:domain :Livro ;
+              rdfs:range :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temEntradasM
+:temEntradasM rdf:type owl:ObjectProperty ;
+              rdfs:domain :Mapa ;
+              rdfs:range :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temFrac
+:temFrac rdf:type owl:ObjectProperty ;
+         rdfs:domain :Condominio ;
+         rdfs:range :Fracao .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temLivro
+:temLivro rdf:type owl:ObjectProperty ;
+          rdfs:domain :Condominio ;
+          rdfs:range :Livro .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temMapa
+:temMapa rdf:type owl:ObjectProperty ;
+         rdfs:domain :Condominio ;
+         rdfs:range :Mapa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#temProprietario
+:temProprietario rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Fracao ;
+                 rdfs:range :Proprietario .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Data
+:Data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Descricao
+:Descricao rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Designacao
+:Designacao rdf:type owl:DatatypeProperty ;
+            rdfs:domain :EntradaM ,
+                        :Fracao .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Email
+:Email rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Pessoa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Entidade
+:Entidade rdf:type owl:DatatypeProperty ;
+          rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoAbr
+:EstadoAbr rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoAgo
+:EstadoAgo rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoDez
+:EstadoDez rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoFev
+:EstadoFev rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoJan
+:EstadoJan rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoJul
+:EstadoJul rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoJun
+:EstadoJun rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoMai
+:EstadoMai rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoMar
+:EstadoMar rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoNov
+:EstadoNov rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoOut
+:EstadoOut rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EstadoSet
+:EstadoSet rdf:type owl:DatatypeProperty ;
+           rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Frac
+:Frac rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Fracao .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Mensalidade
+:Mensalidade rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fracao .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Mês
+:Mês rdf:type owl:DatatypeProperty ;
+     rdfs:domain :EntradaM .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Nome
+:Nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Pessoa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Numero
+:Numero rdf:type owl:DatatypeProperty ;
+        rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Origem
+:Origem rdf:type owl:DatatypeProperty ;
+        rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Permilagem
+:Permilagem rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Fracao .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Telefone
+:Telefone rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Pessoa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Tipo
+:Tipo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :EntradaL .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Valor
+:Valor rdf:type owl:DatatypeProperty ;
+       rdfs:domain :EntradaL .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Arrendatario
+:Arrendatario rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Condominio
+:Condominio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EntradaL
+:EntradaL rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#EntradaM
+:EntradaM rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Fracao
+:Fracao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Livro
+:Livro rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Mapa
+:Mapa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#Proprietario
+:Proprietario rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

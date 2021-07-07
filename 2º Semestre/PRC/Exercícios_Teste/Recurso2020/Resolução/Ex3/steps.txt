@@ -1,0 +1,16 @@
+Relembra a metodologia de usar queries CONSTRUCT para calcular novos triplos e injetá-los na ontologia através de queries INSERT DATA. Usando essa metodologia, cria as ligações inversas se 
+estas não existirem: por exemplo, existe uma ligação de Barcelos a Viana do Castelo, mas não existe de Viana a Barcelos. Ao criar a inversa atribui-lhe o mesmo peso (neste caso, distância).
+
+> Queries:
+
+CONSTRUCT {
+    ?name rdf:type :Ligação .
+	?name :temOrigem ?s1 .
+    ?name :temDestino ?s2 .
+    ?name :distância ?d
+} WHERE {
+    ?l :temOrigem ?s2 .
+    ?l :temDestino ?s1 .
+    ?l :distância ?d .
+    BIND(IRI(Concat("http://prc.di.uminho.pt/2020/mapa#lig-",STRAFTER(STR(?s1),'#') ,"-",STRAFTER(STR(?s2),'#'))) AS ?name).
+}

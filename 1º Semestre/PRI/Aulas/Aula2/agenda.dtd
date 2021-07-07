@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT agenda (entrada|grupo)+ >
+<!ELEMENT entrada (nome, email, telefone) >
+
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT telefone (#PCDATA) >
+
+<!ATTLIST entrada
+    id ID #REQUIRED
+    tipo CDATA #IMPLIED >
+
+<!ELEMENT grupo (entrada|grupo|ref)+ >
+<!ATTLIST grupo
+    gid ID #REQUIRED>
+
+<!ELEMENT ref EMPTY >
+<!ELEMENT ref
+    apontado IDREF #REQUIRED >
+
+
+
+<!--Pretende-se criar uma agenda para gerir contactos de pessoas e empresas.
+
+    Uma agenda deste tipo é essencialmente constituída por uma lista de entradas.
+
+    Uma entrada pode ser simples, correspondendo a uma pessoa ou empresa, ou pode ser composta, neste caso corresponde a uma lista de pessoas 
+    e/ou empresas.
+
+    A agenda poderá conter um número livre de grupos aninhados.
+
+    Um grupo poderá ainda conter referências a entradas definidas noutros pontos da agenda.
+      
+     | id       : string que corresponderá ao identificador único da entrada.
+     | tipo     : campo com dois valores possíveis: pessoa ou empresa.
+     | nome     : nome da pessoa ou da empresa.
+     | email    : email da pessoa ou empresa.
+     | telefone : telefone da empresa ou pessoa.
+     | gid      : no caso da entrada se tratar dum grupo este campo deverá conter o identificador do grupo. -->

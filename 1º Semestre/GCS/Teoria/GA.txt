@@ -1,0 +1,39 @@
+Seja G, uma gramática independente de contexto definida como um tuplo G=<T,N,S,P>, onde:
+
+-T representa o conjunto de símbolos terminais (o alfabeto).
+
+-N é o conjunto de símbolos não-terminais.
+
+-S é o símbolo inicial, ou axioma: S ∈ N.
+
+-P é o conjunto de produções, ou regras de derivação, cada uma com a forma:
+
+         A → &dgr;, A ∈ N e &dgr; ∈ (T U N)*
+  que representaremos neste documento como:
+
+          X0 → X1 X2 ... Xn
+
+Uma gramática de atributos (GA) é um tuplo GA=<G,A,R,C>, onde:
+
+-G é uma GIC que segue a definição dada acima.
+
+-A é a união dos A(X) para cada X ∈ (T U N) e representa o conjunto de todos os atributos (cada um com um nome e um tipo); os atributos dos símbolos terminais chamam-se intrínsecos e o seu valor não precisa de ser calculado, provém da análise léxica; para cada não-terminal X, o conjunto dos respectivos atributos A(X) divide-se em dois subconjuntos: os atributos herdados AH(X) e os atributos sintetizados AS(X).
+
+-R é a união dos Rp, o conjunto das regras de cálculo dos valores dos atributos para cada produção p ∈ P.
+
+-C é a união dos Cp, o conjunto das condições de contexto para cada produção p ∈ P.
+
+
+Seja p uma produção de uma GIC (p ∈ P), Rp o respectivo conjunto de regras de cálculo e Cp o respectivo conjunto de condições de contexto. Neste contexto:
+
+-Xi.a, i ≥ 0, representa o atributo a associado ao símbolo X que ocorre na posição i da produção p.
+
+-uma regra de cálculo, r ∈ Rp, é uma expressão da forma Xi.a = ƒun( ..., Xj.b, ... ) com:
+
+	-a ∈ AS(X0) V a ∈ AH(Xi), i > 0
+
+	-b ∈ AH(X0) V b ∈ AS(Xj), j > 0
+
+	-ƒun é uma função do tipo Va (o tipo do atributo a)
+
+-uma condição de contexto, c ∈ Cp, é um predicado da forma: pred( ..., Xi.a, ... ), i ≥ 0

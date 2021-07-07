@@ -1,0 +1,36 @@
+extends layout 
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Editar Registo de Aluno
+        .w3-container
+            form(action=`/alunos/editar/${al.Número}`, method='PUT') 
+                table(class="w3-table-all")
+                    tr 
+                        th 
+                            label Número:
+                            input(class="w3-input w3-border w3-light-grey", type="text", name="Número", value=`${al.Número}`)  
+                        th 
+                            label Nome:
+                            input(class="w3-input w3-border w3-light-grey", type="text", name="Nome", value=`${al.Nome}`)    
+                        th 
+                            label Github:
+                            input(class="w3-input w3-border w3-light-grey", type="text", name="Git", value=`${al.Git}`)  
+                        th 
+                            label TPCs:
+                            br
+                            - var tpcNr = 1
+                            while tpcNr < 8
+                                label(style="margin-right:5px; font-weight:normal;") TPC #{tpcNr}
+                                if(al.tpc[tpcNr-1]==1)
+                                    input(style="margin-right:10px;",type="checkbox", name=`tpc#{tpcNr}` checked)   
+                                else
+                                    input(style="margin-right:10px;",type="checkbox", name=`tpc#{tpcNr}`)   
+                                - tpcNr++
+                    tr(style="background-color:#fff;") 
+                        th 
+                            button(class="w3-light-grey" style="margin-right:10px;" type="submit") Editar
+        
+
+
+        

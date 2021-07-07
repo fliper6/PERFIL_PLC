@@ -1,0 +1,8 @@
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="version 1.1">
+<header>... </header>
+<body>
+<tu>
+<seg xml:lang="PT">O gato está  a  dormir.</seg>
+<seg xml:lang="ES">O el gato está durmiendo.</seg>
+</tu>

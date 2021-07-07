@@ -1,0 +1,43 @@
+QUESTÃO PRÁTICA
+
+QUESTÃO TEÓRICA 1
+  Na minha opinião, uma boa linguagem de programação para iniciar alunos universitários na atividade de programação seria o Python. 
+  Em termos de expressividade (CL1), é uma linguagem fácil de compreender e transmite a sua mensagem de forma clara e natural, ao contrário de
+linguagens como o C ou Java que respetivamente introduzem conceitos confusos como apontadores e objetos, respetivamente. 
+  Já em termos de documentação (CL2), também é bem sucedida porque é uma linguagem bastante utilizada atualmente e existe muito material 
+por onde consultar. Também tem ferramentas e librarias de documentação próprias, como a função help().
+  Tem também uma boa consistência (CL4) pois tem a capacidade de escrever o mesmo tipo de ideias de forma coerente.
+  Quanto à extensibilidade (CL5), capacidade que uma linguagem oferece para ser modificada pelo utilizador e à escalabilidade (CL6), capacidade 
+de lidar uniformemente com problemas sucessivamente mais complexos, o Python não é tão evoluído como outras linguagens, sendo que é uma linguagem
+muito adaptada para a eficácia do lado do programador e não a eficácia do lado do computador.
+  Por fim, quanto à modularidade (CL8), a facilidade reutilizar partes do código em componentes para serem reutilizados, também é um ótima 
+linguagem sendo que é muitas vezes utilizada para resolver problemas simples que apenas precisam de segmentos como esses. 
+
+
+QUESTÃO TEÓRICA 2 
+   Tanto as GTs como as GAs oferecem as suas vantagens e desvantagens. Pessoalmente, considero que seria beneficial utilizar uma GA (Gramática de
+Atributos) devido às inúmeras vantagens. Apesar que ter uma maior complexidade e ser efetivamente mais difícil de utilizar e dominar uma GA, 
+a introdução de atributos (herdados e sintetizados) e variavéis locais possibilita uma maior flexibilidade e eficácia na gramática. 
+
+
+QUESTÃO TEÓRICA 3
+   Na minha opinião, a segunda gramática (GIC2) é de melhor qualidade relativamente à primeira (GIC1). Apesar de à primeira vista a GIC1 parecer 
+ser mais "limpa" e simples, acaba por falhar na eficácia relativamente à segunda. 
+   Para começar, a GIC2 tem muitos mais pormenores que estão em falta na primeira, com a introdução de símbolos como hífens e pontos-vírgulas de 
+modo a facilitar a posterior leitura dos tokens. Também efetua uma maior separação dos termos ao introduzir os conceitos "alunos" e "grupos". 
+   A linguagem gerada pela GIC1 vai ser muito díficil em termos de leitura e análise enquanto a GIC2 não terá estes problemas. 
+
+
+QUESTÃO TEÓRICA 4
+
+QUESTÃO TEÓRICA 5 
+  Uma ontologia é uma especificação específica de uma concetualização. As entidades da ontologia são bem definidas e é especificado as 
+suas diversas relações. Contém todas as características de um modelo abstrato de um domínio de conhecimento.
+  Em termos formais podemos definir uma como sendo: O = (C,I,H,R,P,A)
+    onde:
+            C – conjunto de conceitos
+            I – conjunto de indivíduos cujos conceitos com uma relação "is instance of"
+            H – conjunto de relações hierárquicas
+            R – conjunto de relações não taxonómicas
+            P – conjunto de propriedades dos conceitos e relações
+            A – conjunto de axiomas

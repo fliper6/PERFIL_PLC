@@ -1,0 +1,379 @@
+@prefix : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa> .
+
+<http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#eMaeDe
+:eMaeDe rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temMae .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#ePaiDe
+:ePaiDe rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temPai .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#eProgenitorDe
+:eProgenitorDe rdf:type owl:ObjectProperty ;
+               owl:inverseOf :temProgenitor .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#temMae
+:temMae rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#temPai
+:temPai rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#temProgenitor
+:temProgenitor rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#temSexo
+:temSexo rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#DominioFamiliar
+:DominioFamiliar rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Feminino
+:Feminino rdf:type owl:Class ;
+          rdfs:subClassOf :Sexo ;
+          owl:disjointWith :Masculino .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Masculino
+:Masculino rdf:type owl:Class ;
+           rdfs:subClassOf :Sexo .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Pessoa
+:Pessoa rdf:type owl:Class ;
+        rdfs:subClassOf :DominioFamiliar .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Sexo
+:Sexo rdf:type owl:Class ;
+      rdfs:subClassOf :DominioFamiliar .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Abilio_Silva_Ramalho
+:Abilio_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                               :Pessoa ;
+                      :temMae :Custodia_Azevedo_1867 ;
+                      :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Albina_Esteves_Araujo_1910
+:Albina_Esteves_Araujo_1910 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Araujo_1884 ;
+                            :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Ana_Margarida_Ribeiro_Leite_1980
+:Ana_Margarida_Ribeiro_Leite_1980 rdf:type owl:NamedIndividual ,
+                                           :Pessoa ;
+                                  :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                  :temPai :Rui_Alberto_Araujo_Leite_1948 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Ana_Silva_Ramalho
+:Ana_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                            :Pessoa ;
+                   :temMae :Custodia_Azevedo_1867 ;
+                   :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Antonio_Silva_Ramalho
+:Antonio_Silva_Ramalho rdf:type owl:NamedIndividual .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Antonio_Silva_Ramalho_1904
+:Antonio_Silva_Ramalho_1904 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Custodia_Azevedo_1867 ;
+                            :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Arminda_Silva_Ramalho
+:Arminda_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Custodia_Azevedo_1867 ;
+                       :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Christina_Rosa_Silva_Santos_1879
+:Christina_Rosa_Silva_Santos_1879 rdf:type owl:NamedIndividual ,
+                                           :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Custodia_Azevedo_1867
+:Custodia_Azevedo_1867 rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Maria_Goncalves_Azevedo ;
+                       :temPai :Jose_Francisco_Ramos_Mouco .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Emilia_Esteves_Araujo_1908
+:Emilia_Esteves_Araujo_1908 rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Araujo_1884 ;
+                            :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Ezequiel_Silva_Ramalho
+:Ezequiel_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                 :Pessoa ;
+                        :temMae :Custodia_Azevedo_1867 ;
+                        :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Filomena_Esteves_Araujo_1927
+:Filomena_Esteves_Araujo_1927 rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Araujo_1884 ;
+                              :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Flora_Castilho_Couto_Leite
+:Flora_Castilho_Couto_Leite rdf:type owl:NamedIndividual ,
+                                     :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Florinda_Alves_Santos
+:Florinda_Alves_Santos rdf:type owl:NamedIndividual ,
+                                :Pessoa ;
+                       :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                       :temPai :Joze_Silva_Santos_1879 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Generosa_Silva_Ramalho
+:Generosa_Silva_Ramalho rdf:type owl:NamedIndividual ,
+                                 :Pessoa ;
+                        :temMae :Custodia_Azevedo_1867 ;
+                        :temPai :Manuel_Silva_Ramalho_1866 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Henrique_Luis_Esteves_Araujo_1924
+:Henrique_Luis_Esteves_Araujo_1924 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Maria_Araujo_1884 ;
+                                   :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Henrique_Luiz_Araujo_1867
+:Henrique_Luiz_Araujo_1867 rdf:type owl:NamedIndividual .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Henrique_Marcal_Araujo_Leite_1943
+:Henrique_Marcal_Araujo_Leite_1943 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Maria_Esteves_Araujo_1912 ;
+                                   :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Henrique_Miguel_Cabrita_Araujo_Leite_1971
+:Henrique_Miguel_Cabrita_Araujo_Leite_1971 rdf:type owl:NamedIndividual ,
+                                                    :Pessoa ;
+                                           :temMae :Maria_Otilia_Araujo_Leite_1944 ;
+                                           :temPai :Henrique_Marcal_Araujo_Leite_1943 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Ilda_Santos_Ramalho_1949
+:Ilda_Santos_Ramalho_1949 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Alves_Santos_1906 ;
+                          :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Isabel_Maria_Cabrita_Araujo_Leite_1971
+:Isabel_Maria_Cabrita_Araujo_Leite_1971 rdf:type owl:NamedIndividual ,
+                                                 :Pessoa ;
+                                        :temMae :Maria_Otilia_Araujo_Leite_1944 ;
+                                        :temPai :Henrique_Marcal_Araujo_Leite_1943 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Jose_Carlos_Leite_Ramalho_1967
+:Jose_Carlos_Leite_Ramalho_1967 rdf:type owl:NamedIndividual ,
+                                         :Pessoa ;
+                                :temMae :Maria_Flora_Araujo_Leite_1941 ;
+                                :temPai :Jose_Santos_Ramalho_1942 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Jose_Emilio_Esteves_Araujo_1916
+:Jose_Emilio_Esteves_Araujo_1916 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Araujo_1884 ;
+                                 :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Jose_Francisco_Ramos_Mouco
+:Jose_Francisco_Ramos_Mouco rdf:type owl:NamedIndividual ,
+                                     :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Jose_Santos_Ramalho_1942
+:Jose_Santos_Ramalho_1942 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Alves_Santos_1906 ;
+                          :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Joze_Silva_Santos_1879
+:Joze_Silva_Santos_1879 rdf:type owl:NamedIndividual ,
+                                 :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Luis_Esteves_Araujo_1918
+:Luis_Esteves_Araujo_1918 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Araujo_1884 ;
+                          :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Manuel_Carlos_Santos_Ramalho
+:Manuel_Carlos_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Alves_Santos_1906 ;
+                              :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Manuel_Fernando_Santos_Ramalho
+:Manuel_Fernando_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                         :Pessoa ;
+                                :temMae :Maria_Alves_Santos_1906 ;
+                                :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Manuel_Silva_Ramalho_1866
+:Manuel_Silva_Ramalho_1866 rdf:type owl:NamedIndividual ,
+                                    :Pessoa ;
+                           :temMae :Maria_Dias_Reis ;
+                           :temPai :Antonio_Silva_Ramalho .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Marcal_Aristides_Costa_Leite_1909
+:Marcal_Aristides_Costa_Leite_1909 rdf:type owl:NamedIndividual ,
+                                            :Pessoa ;
+                                   :temMae :Flora_Castilho_Couto_Leite ;
+                                   :temPai :Marcal_Costa_Leite .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Marcal_Costa_Leite
+:Marcal_Costa_Leite rdf:type owl:NamedIndividual ,
+                             :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Alves_Santos_1906
+:Maria_Alves_Santos_1906 rdf:type owl:NamedIndividual ,
+                                  :Pessoa ;
+                         :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                         :temPai :Joze_Silva_Santos_1879 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Araujo_1884
+:Maria_Araujo_1884 rdf:type owl:NamedIndividual ,
+                            :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Dias_Reis
+:Maria_Dias_Reis rdf:type owl:NamedIndividual ,
+                          :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Esteves_Araujo_1912
+:Maria_Esteves_Araujo_1912 rdf:type owl:NamedIndividual ,
+                                    :Pessoa ;
+                           :temMae :Maria_Araujo_1884 ;
+                           :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Flora_Araujo_Leite_1941
+:Maria_Flora_Araujo_Leite_1941 rdf:type owl:NamedIndividual ,
+                                        :Pessoa ;
+                               :temMae :Maria_Esteves_Araujo_1912 ;
+                               :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Flora_Santos_Ramalho
+:Maria_Flora_Santos_Ramalho rdf:type owl:NamedIndividual ,
+                                     :Pessoa ;
+                            :temMae :Maria_Alves_Santos_1906 ;
+                            :temPai :Antonio_Silva_Ramalho_1904 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Goncalves_Azevedo
+:Maria_Goncalves_Azevedo rdf:type owl:NamedIndividual ,
+                                  :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Helena_Leite_Ramalho_1968
+:Maria_Helena_Leite_Ramalho_1968 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Flora_Araujo_Leite_1941 ;
+                                 :temPai :Jose_Santos_Ramalho_1942 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Margarida_Ribeiro_1954
+:Maria_Margarida_Ribeiro_1954 rdf:type owl:NamedIndividual ,
+                                       :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Maria_Otilia_Araujo_Leite_1944
+:Maria_Otilia_Araujo_Leite_1944 rdf:type owl:NamedIndividual ,
+                                         :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Rui_Alberto_Araujo_Leite_1948
+:Rui_Alberto_Araujo_Leite_1948 rdf:type owl:NamedIndividual ,
+                                        :Pessoa ;
+                               :temMae :Maria_Esteves_Araujo_1912 ;
+                               :temPai :Marcal_Aristides_Costa_Leite_1909 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Sara_Esteves_Araujo_1914
+:Sara_Esteves_Araujo_1914 rdf:type owl:NamedIndividual ,
+                                   :Pessoa ;
+                          :temMae :Maria_Araujo_1884 ;
+                          :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Teresa_Maria_Ribeiro_Leite_1985
+:Teresa_Maria_Ribeiro_Leite_1985 rdf:type owl:NamedIndividual ,
+                                          :Pessoa ;
+                                 :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                 :temPai :Rui_Alberto_Araujo_Leite_1948 .
+
+
+###  http://www.di.uminho.pt/prc/ontologies/2020/prc-genoa#Virginia_Esteves_Araujo_1921
+:Virginia_Esteves_Araujo_1921 rdf:type owl:NamedIndividual ,
+                                       :Pessoa ;
+                              :temMae :Maria_Araujo_1884 ;
+                              :temPai :Henrique_Luiz_Araujo_1867 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

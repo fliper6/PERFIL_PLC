@@ -1,0 +1,47 @@
+Aula 1 (Introdução a Python)
+
+int: *  (multiplicação) 
+	 /  (divisão)
+	 +  (soma)
+	 -  (subtração) 
+	 %  (resto da divisão inteira)
+	 // (divisão inteira)
+	 divmod( , ) (divide e devolve quociente e resto)
+
+
+str: + (concatenação)
+     * (multiplicação)
+
+   Exemplo - quadrado de o's: 
+   m = 5
+   n = 5
+   s = ("o"*n+"\n")*m  
+   print(s)
+
+   	 r (raw mode)
+   	 f (eval exp)
+
+   Exemplo de f: 
+   >>> f "{m} somado com {n}\n daria {n+m}"
+   5 somado com 5
+   daria 10
+	
+   \x8202 (02) , \6233 (caracter chinês), \1 (\a, não se nota)
+
+
+   	 Ao fazer s., dá-nos uma biblioteca de funções relativas a strings, como s.capitalize(), s.upper(), s.split() ...
+
+   Exemplo - quadrado de o's: 
+   s.split() --> devolve array com cada a linha separada
+
+
+outros: None / False
+
+estruturas de control: if / else (ter atenção à identação)
+					   if / elif / else
+					   for a in iterador
+
+funções: def f (a,b):
+		 return 
+
+		 função anónima: lambda(x,y)

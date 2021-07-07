@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT poema (titulo, autor, corpo, data)>
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT autor (#PCDATA) >
+<!ELEMENT data (#PCDATA) >
+
+
+<!-- Para sonetos, aka, estrutura definida: <!ELEMENT corpo (quadra, quadra, terceto, terceto) > -->
+<!ELEMENT corpo (estrofe+) >
+<!ELEMENT estrofe (verso+) >
+<!ELEMENT verso (#PCDATA|nome|local)* >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT local (#PCDATA) >

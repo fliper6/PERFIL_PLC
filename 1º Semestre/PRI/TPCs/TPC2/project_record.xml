@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "project_record.dtd">
+
+<project_record>
+  <main_title> Project Record </main_title>
+  <intro>
+    <key_name>PRI2020::TPC2</key_name>
+    <title>Ficheiro DTD e respetivo XML</title>
+    <!--Optional:-->
+    <subtitle> Criação de um ficheiro DTD relativo aos "Project Record" e preeenchimento do XML gerado </subtitle>
+    <date_b>19/10/20</date_b>
+    <date_e>26/10/20</date_e>
+    <supervisor>
+      <name link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</name>
+      <email link="mailto:jcr@di.uminho.pt">jcr@di.uminho.pt</email>
+    </supervisor>
+  </intro>
+  <workteam>
+    <!--1 or more repetitions:-->
+    <member>
+      <name link="https://github.com/fliper6/PRI2020">Filipa Santos</name>
+      <email link="mailto:a83631@alunos.uminho.pt">a83631@alunos.uminho.pt</email>
+    </member>
+  </workteam>
+  <abstract>
+    <!--1 or more repetitions:-->
+    <paragraph>
+      <!--You have a CHOICE of the next 4 items at this level-->
+      A parte "Abstract" do ficheiro XML pode ter vários parágrafos, com texto em <italic>itálico</italic> e texto a <bold>negrito</bold>.
+      Também pode conter texto <underline>sublinhado</underline> bem como links <link type="int_link">internos</link> e externos como,
+      por exemplo, <link type="ext_link">http://www4.di.uminho.pt/</link>.
+    </paragraph>
+  </abstract>
+  <deliverables>
+    <!--Zero or more repetitions:-->
+    <ref>
+      <name link="https://github.com/fliper6/PRI2020/blob/main/TPC2/project_record.dtd">Ficheiro dtd</name>
+    </ref>
+  </deliverables>
+  <date>string</date>
+</project_record>

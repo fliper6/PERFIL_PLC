@@ -1,0 +1,476 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/4/trail2> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                     rdfs:range <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:domain <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                        rdfs:range <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#António_Fernandes
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#António_Fernandes> rdf:type owl:NamedIndividual ,
+                                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua S. Tiago Nº297, Caldelas" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Artur_Bernardo
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Artur_Bernardo> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Jose Relvas n8" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Blue_O
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Blue_O> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Born_Be_Wild
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Born_Be_Wild> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Bruno_Manuel_Henriques_Maceda
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Bruno_Manuel_Henriques_Maceda> rdf:type owl:NamedIndividual ,
+                                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Caga_Tacos_Running_Tean> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Joaquim Lagoeiro, 11 Veiros Estarreja" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#COM
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#COM> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Carlos_Alberto_da_Silva_Cardoso
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Carlos_Alberto_da_Silva_Cardoso> rdf:type owl:NamedIndividual ,
+                                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> ;
+                                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua 25 Abril Nr.193" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Celeste_Cruz
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Celeste_Cruz> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Graça Júnior, nº 14, Braga" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Cães_da_Avenida
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Cães_da_Avenida> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Dulce_Moreda
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Dulce_Moreda> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Valongo" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#EDV-Viana_Trail
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#EDV-Viana_Trail> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Emanuel_Durães
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Emanuel_Durães> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Born_Be_Wild> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Av.Bombeiros Voluntarios, Nº27 3ºB - 4580-053 Paredes" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#FERNANDO_JORGE_MENDES_CARNEIRO
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#FERNANDO_JORGE_MENDES_CARNEIRO> rdf:type owl:NamedIndividual ,
+                                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Nast> ;
+                                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Estrada Nacional 105 - n.º 571 - Carreira - Santo Tirso" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Francisco_Neto_Silva
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Francisco_Neto_Silva> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#individual> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua da Ermida, 235" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Francisco_Terra
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Francisco_Terra> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Olhares_Sublimes> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "São João da Madeira" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Helder_Matos
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Helder_Matos> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Caga_Tacos_Running_Tean> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Pcta Nova do picao 114b, 1esq, 4400-424 Canidelo" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Hélder_Silva
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Hélder_Silva> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Luis de Camões, 320 2ºDto Post" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#JOSE_COELHO
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#JOSE_COELHO> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "RUA PADRE SA N.º 60, 4505-384 FIÃES" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#J_Paulo_Marques
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#J_Paulo_Marques> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Caga_Tacos_Running_Tean> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Tv da Seara N64 3esq 269-4450 Matosinhos" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Jorge_Lourenço
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Jorge_Lourenço> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Eduardo Esperança, 7" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Jorge_Yong
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Jorge_Yong> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Barcelos" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#José_Fernanades_Ferreira
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#José_Fernanades_Ferreira> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Porto_Runners> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Avelino Soares Carneiro, 111 - R/C - Esº" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#José_Moreira
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#José_Moreira> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Central nº 905, 1º direito, Fiães" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#João_Costa
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#João_Costa> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Carolina Rosa Alves Nº27 Braga" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#João_Manuel_Dias_Rei
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#João_Manuel_Dias_Rei> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#na> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua do Areal, V.F.S.Martinho, Barcelos" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Luis_Santos_Poeira
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Luis_Santos_Poeira> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                               <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Porto_Runners> ;
+                                                                               <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                               <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "R. Soc. Nacional Fósforos, 160 - 1º Andar Hab. 6  4150 Porto" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#MARIO_PIRES
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#MARIO_PIRES> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "RUA CÂNDIDO DOS REIS , nº 86 , 2º ," .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Manuel_Moura
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Manuel_Moura> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Barriguitas> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Tv Julio Dinis 124" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Maria_de_Fatima_Batista_Geraldes
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Maria_de_Fatima_Batista_Geraldes> rdf:type owl:NamedIndividual ,
+                                                                                                      <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                             <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tugas_na_Estrada> ;
+                                                                                             <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                             <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Duque da Terceira, nº 249, 1.1, 4050-536 Porto" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Nast
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Nast> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Olhares_Sublimes
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Olhares_Sublimes> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Barriguitas
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Barriguitas> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Caga_Tacos_Running_Tean
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Os_Caga_Tacos_Running_Tean> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Domingues
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Domingues> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                            <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Valongo" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Pimentel_Torres
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Pimentel_Torres> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Costa Soares, 39" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Serra
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Paulo_Serra> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Maia" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Porto_Runners
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Porto_Runners> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ricardo_Salgueiro
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ricardo_Salgueiro> rdf:type owl:NamedIndividual ,
+                                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Cães_da_Avenida> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua de Gondarém nr 765-5 A 4150-378 Porto" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ricardo_Silva
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ricardo_Silva> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tugas_na_Estrada> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua das cavadas 178 10 Dtº tras" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Rui_Gilberto_Santos_Correia
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Rui_Gilberto_Santos_Correia> rdf:type owl:NamedIndividual ,
+                                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Clube_Atletismo_de_Lamas> ;
+                                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Jorge Barradas nr6" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sonia_Parente
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sonia_Parente> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#EDV-Viana_Trail> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Av,Mateus Carvalhido nº19, Sta Maria Maior" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sérgio_Duarte
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sérgio_Duarte> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#COM> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Bairro da Alegria, Rua 10 de Junho nº 11, 4710-332 Braga" ,
+                                                                                                                                             "Rua Graça Júnior, nº 14, Braga" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sérgio_Moreira
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Sérgio_Moreira> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Blue_O> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua Nova da Serra, n.º 61 4415-280 Pedroso" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tiago_José_Cadima_Borges
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tiago_José_Cadima_Borges> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                     <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua do Campos Verdes nº161 R/C" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tugas_na_Estrada
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tugas_na_Estrada> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araújo
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araújo> rdf:type owl:NamedIndividual ,
+                                                                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#TURBULENTOS> ;
+                                                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Rua S. Domingos 174 3º esq." .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Vera_Cristina_Moreira_Delgado
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Vera_Cristina_Moreira_Delgado> rdf:type owl:NamedIndividual ,
+                                                                                                   <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                          <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "rua do freixo, 51" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#clube_de_veteranos_do_porto
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#clube_de_veteranos_do_porto> rdf:type owl:NamedIndividual ,
+                                                                                                 <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#individual
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#individual> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#jorge_manuel_martins_silva
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#jorge_manuel_martins_silva> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Individual> ;
+                                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                       <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "rua domingos nunes lt 2" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#jose_moura_de_sousa
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#jose_moura_de_sousa> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#os_barriguitas> ;
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira> ;
+                                                                                <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "rua joaquim da silva torres, 261  4470-312 maia" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#na
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#na> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#os_barriguitas
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#os_barriguitas> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa> .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#paulo_Vilaça
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#paulo_Vilaça> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Tugas_na_Estrada> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                         <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "Tv Elaine Sanceau, 51 3ºDto  4465-620 Leça do Balio" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#paulo_de_castro_rocha
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail#paulo_de_castro_rocha> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#clube_de_veteranos_do_porto> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm> <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail> ;
+                                                                                  <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada> "rua gil eanes, 67 - 1º - 4400-165 - vila nova de gaia" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

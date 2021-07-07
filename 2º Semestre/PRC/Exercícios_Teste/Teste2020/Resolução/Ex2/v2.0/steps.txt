@@ -1,0 +1,59 @@
+> Ler queries primeiro para perceber a maneira mais eficaz de guardar os dados na nossa ontologia
+> Decidir o que fazer à mão vs. o que fazer por código
+  > Neste caso, fiz as frações / mapa de pagamentos tudo numa classe e à mãe, e as despesas / receitas por código (c/ o script.py)
+> Validar TTL em http://ttl.summerofcode.be/
+> Queries:
+
+#####################################################################################################################
+1) Que entidades (receitas e despesas) estão referenciadas na ontologia? ############################################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#>
+select * where {
+  ?s rdf:type :entradaLivro.
+}
+#####################################################################################################################
+2) Que frações não pagaram o mês de Abril de 2020? ##################################################################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?s where {
+  ?s rdf:type :fracção.
+  ?s :ÚltimoPagamento ?u
+    FILTER(?u < 4)
+}
+
+#####################################################################################################################
+3) Para as despesas, qual o montante por entidade já dispendido? ####################################################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?e (SUM(?v) AS ?totalValor) where {
+    ?s rdf:type :entradaLivro.
+    ?s :Tipo "Despesa".
+    ?s :Valor ?v.
+    ?s :entidade ?e
+} GROUP BY ?e
+
+#####################################################################################################################
+4) Qual a receita líquida que se pode concluir do mapa de pagamento (contando apenas as mensalidades pagas)? ########
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select (SUM(?total) as ?totalValor) WHERE {
+	select ?s ?u ?m (?m*?u as ?total) where {
+    	?s ?o :fracção.
+    	?s :ÚltimoPagamento ?u.
+    	?s :Mensalidade ?m.
+	}
+}
+
+#####################################################################################################################
+5) Do mapa de pagamento, qual o montante pago por cada uma das frações? #############################################
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/3/condominio#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?s (?m*?u as ?total) where {
+    ?s ?o :fracção.
+    ?s :ÚltimoPagamento ?u.
+    ?s :Mensalidade ?m.
+}

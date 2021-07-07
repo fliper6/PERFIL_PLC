@@ -1,0 +1,93 @@
+> Download "mini-familia.ttl" 
+> Queries:
+
+##################################################################
+1) Adicionar relações "Tio" e "Sobrinho" #########################
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#> 
+CONSTRUCT {  
+    ?t :tio ?s.
+    ?s :sobrinho ?t.
+} WHERE { 
+    ?s :temProgenitor ?t2. ## t2 é o pai de s
+    ?t :temProgenitor ?pr. ## pr é o pai de t ...
+    ?t2 :temProgenitor ?pr. ## ... e o pai de t2
+    FILTER NOT EXISTS {?s :temProgenitor ?t} ## excluir casos em que t é o pai (e não tio) de s
+}
+
+##################################################################
+2) Adicionar relação "Primo" #####################################
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT {  
+    ?p1 :primo ?p2.
+    ?p2 :primo ?p1.
+} WHERE { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t2.
+    ?t2 :temProgenitor ?pr.
+    ?t1 :temProgenitor ?pr.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2) ## se t1 = t2, eles são irmãos, não primos
+}
+
+##################################################################  
+3) Adicionar relações "Avós" e "Netos" ###########################
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+CONSTRUCT {
+	  ?b :avo ?a.
+    ?a :neto ?b.
+} WHERE {
+    ?b rdf:type :Pessoa.
+    ?a :temProgenitor ?p.
+    ?p :temProgenitor ?b.
+    FILTER (?b != ?a).
+}
+
+##################################################################
+4) Adicionar relações "Irmão" ####################################
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT {  
+    ?p1 :irmao ?p2.
+    ?p2 :irmao ?p1.
+} WHERE { 
+    ?p1 :temProgenitor ?t1.
+    ?p2 :temProgenitor ?t1.
+    ?p1 :temProgenitor ?t2.
+    ?p2 :temProgenitor ?t2.
+    FILTER (?p1 != ?p2)
+    FILTER (?t1 != ?t2)
+}
+
+##################################################################
+5) Adicionar relação "Meio-Irmão" ################################
+
+PREFIX : <http://www.tartesdajulia.com/ontologies/2020/prc-genoa#>
+CONSTRUCT {
+    ?i1 :temMeioIrmao ?i2.
+} WHERE {
+    ?i1 a :Pessoa.
+    ?i2 a :Pessoa.
+    FILTER (?i1 != ?i2).
+    ?i1 :temPai ?p1 .
+    ?i1 :temMae ?m1 .
+    ?i2 :temPai ?p2 .
+    ?i2 :temMae ?m2 .
+    {
+        {
+          filter(?p1 = ?p2) . ## filhos do mesmo pai
+          filter(?m1 != ?m2) .
+        }
+        UNION
+        {
+          filter(?m1 = ?m2) . ## filhos da mesma mãe
+          filter(?p1 != ?p2) .
+      }  
+    }
+}
+
+
+  

@@ -1,0 +1,63 @@
+######################################################################################################
+######################################################################################################
+
+Questão teórica 
+
+######################################################################################################
+
+Questão a) - "Uma Gramática de Atributos permite definir formalmente a sintaxe e a semântica (estática e dinâmica) das linguagens de programação"
+
+	Uma Gramática de Atributos é constituída em parte por um conjunto A(X), que representa todos os atributos de todos os símbolos da gramática. 
+	Em termos sintáticos, uma frase de uma linguagem é considerada correta pelas produções da GIC (Gramática Independente de Contexto), sendo que é esta
+a responsável por definir o vocabulário e as formas como os símbolos se podem combinar de modo a exprimir ideias válidas na específica linguagem.
+	Já em termos semânticos, a sua validade é estabelecida pelas condições de contexto da GA que restringem os valores que podem ser atribuídos a cada 
+atributo, garantindo que cada frase faz sentido. 
+	Em suma, uma Gramática de Atributos, através das suas produções e condições de contexto, invalida construções sintáticas erradas e atribui significado
+às frases garantido, respetivamente, correção da sintaxe e da semântica das linguagens de programação. 
+
+
+######################################################################################################
+
+Questão b) "A Geração automática de programas, como se faz no caso concreto dos compiladores (processadores de linguagens), é possível porque o problema 
+a resolver se pode especificar formalmente e é uma forma excelente de reutilização de programas."
+
+	Um Processador reconhece e executa as ordens de cada frase de uma linguagem, podendo ser um Compilador ou Interpretador.
+	Para realizar a sua tarefa, um processador de linguagens efetua os seguintes passos: primeiro reconhece e depois verifica e por fim transforma, i.e.:
+									processador(G; f) ≡ tradutor(verificador(reconhecedor(G; f)))
+
+	Há dois modos distintos de implementar este processo, sendo um deles o compilador. Um compilador processa uma linguagem em modo não-interactivo. Após a edição 
+da frase completa, o compilador procede à sua leitura, reconhecimento e tradução integral sem intervenção nem diálogo com o utilizador; no fim devolve o resultado
+esperado ou reporta todos os erros detectados.
+
+
+	A qualidade de uma gramática, quando gera um processador, afere-se em termos da eficiência do programa que dela deriva e da eficiência do próprio processo de geração. 
+Neste sentido, diz-se, então, que uma gramática tem qualidade se permite gerar processadores de linguagens, como compiladores, eficientes sem degradar a facilidade de 
+geração automática.
+
+
+######################################################################################################
+
+Questão c) "A análise estática de código apresenta um conjunto de técnicas e ferramentas bastante úteis na Compreensão de Programas"
+
+- Snippets - pequenos fragmentos ou blocos de código que são reutilizados com frequência na escrita de frases de uma determinada
+linguagem - os snippets podem ser estáticos.
+
+- Compilador Estático, clássico, que reconhece todo o código-fonte, desde o início até ao fim e de uma só vez, e gera o código-máquina
+também de uma só vez e após proceder a diversos níveis de optimização.
+
+######################################################################################################
+######################################################################################################
+
+Questão prática 
+
+######################################################################################################
+
+Questão a)
+
+######################################################################################################
+
+Questão b)
+
+######################################################################################################
+
+Questão c)

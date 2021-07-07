@@ -1,0 +1,144 @@
+/*   
+FORMATO RECURSO : RA ID "DESCRIÇÃO" (CARACTERISTICA1,CARACTERISTICA2,...) IDADE CONCEITO 
+FORMATO CONCEITO : CPROG "NOME"
+FORMATO ALUNO : ID "NOME" (CARACTERISTICA1,CARACTERISTICA2,...) IDADE
+ALGORITMO : notaRecurso = %caracteristicasIguais x 0.7 + 0.3 x ( 0.9 x (Distancia de gerações) + 0.1 x (Diferença de idades) )
+*/
+
+RA 1 "Demonstrações Práticas" (desorganizado, desconcentrado) 18
+    CPROG "Programação Orientada a Objetos"
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Desenvolvimento de Aplicações Web"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Algoritmos"
+    CPROG "Cálculo de Programas"
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+    CPROG "Programação Funcional"
+    CPROG "Gramáticas na Compreensão de Software"
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 2 "Palestras" (desconcentrado) 18
+    CPROG "Programação Orientada a Objetos"
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Desenvolvimento de Aplicações Web"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Algoritmos"
+    CPROG "Cálculo de Programas"
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+    CPROG "Programação Funcional"
+    CPROG "Gramáticas na Compreensão de Software"
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 3 "Projetos de Grupo" (energetico)  18
+    CPROG "Programação Orientada a Objetos"
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Desenvolvimento de Aplicações Web"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Algoritmos"
+    CPROG "Cálculo de Programas"
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+    CPROG "Programação Funcional"
+    CPROG "Gramáticas na Compreensão de Software"
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 4 "Jogos/Aplicações educacionais" (emotivo, desconcentrado)  8
+    CPROG "Programação Orientada a Objetos"
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Desenvolvimento de Aplicações Web"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Algoritmos"
+    CPROG "Cálculo de Programas"
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+    CPROG "Programação Funcional"
+    CPROG "Gramáticas na Compreensão de Software"
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 5 "Avaliações Individuais" (hiperativo, desorganizado)  18
+    CPROG "Programação Orientada a Objetos"
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Desenvolvimento de Aplicações Web"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Algoritmos"
+    CPROG "Cálculo de Programas"
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+    CPROG "Programação Funcional"
+    CPROG "Gramáticas na Compreensão de Software"
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 6"Livro: JAVA 8 - POO e Construções Funcionais" (hiperativo) 24 
+    CPROG "Programação Orientada a Objetos"
+RA 7 "Livro: Head First Object-Oriented Analysis and Design" (curioso,emotivo) 26 
+    CPROG "Programação Orientada a Objetos"
+RA 8 "Livro: Hands‑On Object‑Oriented Programming with C#: Build Maintainable Software with C#" (observador, curioso) 30 
+    CPROG "Programação Orientada a Objetos"
+RA 9 "Livro: Head First SQL" (emotivo, desconcentrado) 30
+    CPROG "Bases de Dados"
+RA 10 "Livro: Beginning Node.js, Express & MongoDB Development" (energetico) 32
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Desenvolvimento de Aplicações Web"
+RA 11 "Livro: Learning PHP, MySQL, JavaScript, CSS & HTML5" (hiperativo, desorganizado) 31 
+    CPROG "Processamento e Reconhecimento de Informação"
+    CPROG "Desenvolvimento de Aplicações Web"
+RA 12 "Livro: The Art of Computer Programming" (observador, curioso) 45
+    CPROG "Algoritmos"
+RA 13 "Livro: Program design by calculation" (observador, curioso, desorganizado) 30 
+    CPROG "Cálculo de Programas"
+RA 14 "Video: Python Object Oriented Programming (OOP) - For Beginners" (observador, curioso, desorganizado, energetico) 20
+    CPROG "Programação Orientada a Objetos"
+RA 15 "Video: Intro to Object Oriented Programming - Crash Course" (desconcentrado, desorganizado, observador) 18
+    CPROG "Programação Orientada a Objetos"
+RA 16 "Video: What is Database & SQL?" (hiperativo, desconcentrado) 18 
+    CPROG "Bases de Dados"
+RA 17 "Video: SQL vs NoSQL or MySQL vs MongoDB" (hiperativo, desorganizado) 19 
+    CPROG "Bases de Dados"
+    CPROG "Bases de Dados NoSQL"
+RA 18 "Video: Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer" (observador, curioso, energetico) 22 
+    CPROG "Algoritmos"
+RA 19 "Video: Data Structures and Algorithms in 15 Minutes" (hiperativo, desconcentrado, curioso) 18 
+    CPROG "Algoritmos"
+RA 20 "Video: Pointers in C / C++ [Full Course]" (desorganizado, curioso) 18 
+    CPROG "Programação Imperativa"
+    CPROG "Computação Gráfica"
+RA 21 "Video: Haskell Tutorial" (energetico, curioso, observador) 18 
+    CPROG "Programação Funcional"
+    CPROG "Cálculo de Programas"
+RA 22 "Video: Introduction to Data Science with R - Data Analysis Part 1"(desorganizado, desconcentrado) 23 
+    CPROG "Aprendizagem Automática"
+    CPROG "Computação em R"
+RA 23 "Video: Conheça o ANTLR - Ferramenta para gerar Compiladores!" (curioso, observador, desorganizado) 22 
+    CPROG "Gramáticas na Compreensão de Software"
+RA 24 "Video: 7.1: Intro to Session 7: Context-Free Grammar - Programming with Text" (curioso, desconcentrado) 24
+    CPROG "Gramáticas na Compreensão de Software"
+
+AL A84302 "José Ricardo Cunha" (hiperativo,desconcentrado,observador,curioso) 22
+AL A83631 "Filipa Alves dos Santos" (timido,emotivo,desconcentrado,observador) 21
+AL A11111 "Lira Varela Cantanhede" (desorganizado,falador,observador,curioso,energetico) 55
+AL A22222 "Eddy Aldeia Penteado" (extrovertido,hiperativo,emotivo,falador) 10
+AL A33333 "Aaron Parente Almada" (hiperativo,emotivo,desconcentrado) 13
+AL A44444 "Matheus Parracho Remígio" (timido,curioso) 25
+AL A55555 "Allana Ninharelhos Tedim" (desconcentrado,falador) 65
+AL A66666 "Mouhamed Valgueiro Lima" (falador,energetico,curioso) 44
+AL A77777 "Fabiana Neto Figueiró" (desorganizado,hiperativo) 34
+AL A88888 "Antoine Cordeiro Naves" (desconcentrado) 27
+AL A99999 "Nair Rabelo Guterres" (emotivo,desconcentrado) 23
+AL A12121 "Estrela Guilheiro Melo" (desorganizado) 52
+AL A13131 "Hawa Lancastre Lamenha" (timido,curioso) 36
+AL A14141 "Bernardo Parracho Madeira" (energetico,curioso) 43
+AL A15151 "Raíssa Carrilho Pestana" (desorganizado,hiperativo) 18
+AL A16161 "Ming Rabelo Castanheira" (emotivo,falador) 19
+AL A17171 "Eurico Muniz Cidreira" (observador,curioso) 35
+AL A18181 "Diniz Paião Castanheira" (timido) 29
+AL A19191 "Nayra Pereira Salgado" (curioso) 31
+AL A21212 "Estevão Ataíde Sales" (desorganizado,hiperativo,timido) 16

@@ -1,0 +1,29 @@
+--- Feito por:
+Filipa Alves dos Santos - A83631
+José Ricardo Sousa Mendes da Cunha - A84302
+
+--- Comandos:
+python tpo0.py showAll - cria o ficheiro yaml correspondente a todas as pessoas registadas no site
+python tpo0.py id      - mostra dados da pessoa cujo id corresponde, se existir, e cria o yaml correspondente
+
+--- Estrutura do yaml:
+
+Para cada indivíduo:
+- Id 
+- Nome
+- Data de Nascimento
+- Data da Morte
+- Lista dos ids de todos os filhos 
+- Referência à família dos pais + irmãos
+- Referência à(s) família(s) com o(s) cônjuge(s) e filhos 
+- Referência aos documentos sobre o indivíduo (notas)
+
+Para cada família:
+- Ids dos 2 cônjuges (pai e mãe)
+- Local / Data do casamento
+- Lista dos ids de todos os filhos correspondentes
+
+Para cada documento:
+- Conteúdo das notas
+ 
+Nota: São tratados problemas / exeções como quando há filhos de diferentes casamentos, não são criadas famílias repetidas, casamentos sem filhos, campos opcionais, etc

@@ -1,0 +1,2194 @@
+﻿﻿###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#cisti2017
+:cisti2017 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "RODA-in: A generic tool for the mass creation of Submission Information Packages";
+   :booktitle "12th Iberian Conference on Information Systems and Technologies (CISTI),";
+   :address "ISCTE, Lisboa, Portugal";
+   :year "2017";
+   :month "06.24";
+   :doi "http://hdl.handle.net/1822/46093";
+   :hasAuthor :jcr,
+              :ap,
+              :mf,
+              :lf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#iPRES2016
+:iPRES2016 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Database Preservation Toolkit: A relational database conversion and normalization tool";
+   :booktitle "iPRES: 13th International Conference on Digital Preservation";
+   :address "Bern, Switzerland";
+   :year "2016";
+   :month "10.04";
+   :doi "http://hdl.handle.net/1822/43479";
+   :hasAuthor :bf,
+              :lf,
+              :jcr,
+              :mf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#bad2015b
+:bad2015b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "PT-CRIS: Um miradouro sobre o universo científico nacional";
+   :booktitle "12º Congresso Nacional BAD";
+   :address "Universidade de Évora, Portugal";
+   :year "2015";
+   :month "10.21";
+   :doi "http://hdl.handle.net/1822/37856";
+   :hasAuthor :asantos,
+              :jcr,
+              :mf,
+              :hsilva,
+              :lf,
+              :jmoreira,
+              :eloy,
+              :jcarvalho.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#bad2015a
+:bad2015a rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Uma ontologia para os processos de negócio da Administração";
+   :booktitle "12º Congresso Nacional BAD";
+   :address "Universidade de Évora, Portugal";
+   :year "2015";
+   :month "10.21";
+   :doi "http://hdl.handle.net/1822/38497";
+   :hasAuthor :alexandra,
+              :jcr,
+              :penteado.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#edicic2015
+:edicic2015 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal";
+   :booktitle "VII Encuentro Ibérico EDICIC 2015";
+   :address "Madrid, Espanha";
+   :year "2015";
+   :month "11.16";
+   :doi "http://hdl.handle.net/1822/38496";
+   :hasAuthor :alexandra,
+              :jcr,
+              :penteado.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#dlm2014
+:dlm2014 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Database Preservation Toolkit: a flexible tool to normalize and give access to databases";
+   :booktitle "DLM Forum – 7th Triennial Conference: Making the Information Governance Landscape in Europe";
+   :address "Lisbon, Portugal";
+   :year "2014";
+   :month "11.12";
+   :doi "http://hdl.handle.net/1822/35183";
+   :hasAuthor :jcr,
+              :lf,
+              :hsilva.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#IGI2013
+:IGI2013 rdf:type owl:NamedIndividual ,
+       :Inbook,
+       :Publication;
+   :title "Innovations in XML Applications and Metadata Management: Advancing Technologies";
+   :chapter "New Dimension in Relational Database Preservation: Using Ontologies";
+   :pages "160-173";
+   :publisher "IGI Global";
+   :year "2013";
+   :month "06";
+   :doi "10.4018/978-1-4666-2669-0.ch009";
+   :hasAuthor :rf,
+              :jcr;
+   :editedBy :jcr,
+             :albie,
+             :rq.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ipres2013
+:ipres2013 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation";
+   :booktitle "iPRES 2013 - 10th International Conference on Preservation of Digital Objects";
+   :address "Lisbon, Portugal";
+   :year "2013";
+   :month "09.20";
+   :doi "http://hdl.handle.net/1822/25214";
+   :hasAuthor :lf,
+              :aa,
+              :bs,
+              :mr,
+              :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#or2013
+:or2013 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Supporting the preservation lifecycle in repositories";
+   :booktitle "Open Repositories 2013";
+   :address "Charlottetown, Canada";
+   :year "2013";
+   :month "07.08";
+   :doi " http://hdl.handle.net/1822/25101";
+   :hasAuthor :lf,
+              :cb,
+              :kd,
+              :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#archiving2013
+:archiving2013 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "	Guidelines for legacy repository migration";
+   :booktitle "IS&T Archiving 2013";
+   :address "Washington DC, Estados Unidos";
+   :year "2013";
+   :month "04.02-05";
+   :doi "http://hdl.handle.net/1822/23978";
+   :hasAuthor :mf,
+              :jcr,
+              :lf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#guimaramus2012
+:guimaramus2012 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "	MuseCode: à procura da linearidade na música tonal";
+   :booktitle "Pensar a Música";
+   :address "Palácio Vila Flor, Guimarães";
+   :year "2012";
+   :month "03.23";
+   :doi "http://hdl.handle.net/1822/21660";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#bad2012
+:bad2012 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE";
+   :booktitle "11º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas";
+   :address "Fundação Calouste Gulbenkian, Lisboa";
+   :year "2012";
+   :month "10.20";
+   :doi "http://hdl.handle.net/1822/21611";
+   :hasAuthor :jcr,
+              :mf,
+              :lf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#icadl2012
+:icadl2012 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Design and architecture of a novel preservation watch system";
+   :booktitle "14th International Conference on Asia-Pacific Digital Libraries, ICADL 2012";
+   :address "Taipei, Taiwan";
+   :year "2012";
+   :month "11.12";
+   :doi "http://hdl.handle.net/1822/21447";
+   :hasAuthor :lf,
+              :pp,
+              :kd,
+              :cb,
+              :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ipres2012
+:ipres2012 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Preservation watch : what to monitor and how";
+   :booktitle "iPRES 2012 - 9th International Conference on Preservation of Digital Objects";
+   :address "Toronto, Canada";
+   :year "2012";
+   :month "11.01";
+   :doi "http://hdl.handle.net/1822/20666";
+   :hasAuthor :cb,
+              :kd,
+              :pp,
+              :lf,
+              :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR11e
+:FR11e rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "New dimension in relational database preservation: raising the abstraction level";
+   :booktitle "iPRES 2011 - 8th International Conference on Preservation of Digital Objects";
+   :address "Singapore";
+   :month "11.04";
+   :year "2011";
+   :doi "http://hdl.handle.net/1822/15859";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR11d
+:FR11d rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Relational Databases Conceptual Preservation";
+   :booktitle "VLDL2011 - Fourth Workshop on Very Large Digital Libraries (In conjunction with the International Conference on Theory and Practice of Digital Libraries (TPDL2011))";
+   :address "Berlin, Germany";
+   :month "09.29";
+   :year "2011";
+   :doi "http://hdl.handle.net/1822/16019";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR11c
+:FR11c rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Using Ontologies to Abstract Relational Databases Conceptual Model";
+   :booktitle "EPIA2011 - 15th Portuguese Conference on Artificial Intelligence";
+   :address "Lisboa, Portugal";
+   :month "10.10";
+   :year "2011";
+   :doi "http://hdl.handle.net/1822/16113";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR11b
+:FR11b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Preservation of Relational Databases";
+   :booktitle "MSKE2011- International Conference on Managing Services in the Knowledge Economy";
+   :address "Universidade Lusíada, Vila Nova de Famalicão, Portugal";
+   :month "07.13";
+   :year "2011";
+   :doi "http://hdl.handle.net/1822/13704";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR11
+:FR11 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Using Ontologies in Database Preservation";
+   :booktitle "9th Conference on XML: Aplicações e Tecnologias Associadas, XATA 2011";
+   :address "ESEIG -IPP, Vila do Conde - Portugal";
+   :month "06.01";
+   :year "2011";
+   :doi "http://hdl.handle.net/1822/13703";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR10
+:FR10 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Significant Properties in the Preservation of Relational Databases";
+   :booktitle "Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010";
+   :address "Glasgow, UK";
+   :month "09.06";
+   :year "2010";
+   :isbn "978-3-642-15463-8";
+   :doi "http://hdl.handle.net/1822/13702";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RQR10
+:RQR10 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa";
+   :booktitle "10º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas";
+   :address "Guimarães, Portugal";
+   :month "04.08";
+   :year "2010";
+   :isbn "978-972-9067-39-6";
+   :doi "http://hdl.handle.net/1822/11081";
+   :hasAuthor :mjc,
+              :mam,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FFR10
+:FFR10 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "DigitArq e o novo módulo de interoperabilidade OAI-PMH";
+   :booktitle "10º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS";
+   :address "Guimarães, Portugal";
+   :month "04.08";
+   :year "2010";
+   :doi "http://hdl.handle.net/1822/10532";
+   :hasAuthor :mf,
+              :lmf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR09
+:FR09 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Relational databases digital preservation";
+   :booktitle "INFORUM : SIMPÓSIO DE INFORMÁTICA, Lisboa, 2009";
+   :year "2009";
+   :address "Lisboa - Portugal";
+   :month "11.09";
+   :isbn "978-972-9348-18-1";
+   :doi "http://hdl.handle.net/1822/9740";
+   :hasAuthor :rf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#GARH09
+:GARH09 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "Topic maps constraint languages : understanding and comparing";
+   :journal "International Journal of Reasoning-based Intelligent Systems";
+   :publisher "Inderscience";
+   :issn "1755-0556. 1:3-4 (2009) 173 - 181";
+   :year "2009";
+   :doi "http://hdl.handle.net/1822/9741";
+   :hasAuthor :grl,
+              :rpa,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRHGT08
+:LRHGT08 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "A Framework to specify, extract and manage Topic Maps driven by ontologies";
+   :booktitle "SIGDOC'08 -- 26th ACM International Conference on Design of Communication";
+   :year "2008";
+   :month "09-23";
+   :address "Lisboa, Portugal";
+   :doi "http://hdl.handle.net/1822/8236";
+   :hasAuthor :grl,
+              :jcr,
+              :prh,
+              :jg,
+              :rct.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#BKRFBR08
+:BKRFBR08 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Distributed Preservation Services: Integrating Planning and Actions";
+   :booktitle "ECDL2008 - European Conference on Research and Advanced Technology for Digital Libraries";
+   :year "2008";
+   :month "09";
+   :address "Aarhus, Danmark";
+   :doi "http://hdl.handle.net/1822/8239";
+   :hasAuthor :cb,
+              :mk,
+              :ar,
+              :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RFFCBC08
+:RFFCBC08 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "RODA and Crib: A Service-Oriented Digital Repository";
+   :booktitle "iPRES 2008: The Fifth International Conference on Preservation of Digital Objects";
+   :year "2008";
+   :month "09";
+   :address "London, England";
+   :doi "http://hdl.handle.net/1822/8226";
+   :hasAuthor :jcr,
+              :mf,
+              :lf,
+              :rc,
+              :fb,
+              :lc.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLA08
+:RLA08 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas";
+   :year "2008";
+   :address "Departamento de Informática da Universidade de Évora, Évora - Portugal";
+   :month "02.14";
+   :doi "http://hdl.handle.net/1822/7708";
+   :isbn "978-972-99166-5-6";
+   :editedBy :jcr,
+             :jcl,
+             :sa.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LMMVRH08-XATA
+:LMMVRH08-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Generating a Semantic Network for PubMed";
+   :booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)";
+   :year "2008";
+   :address "Évora - Portugal";
+   :month "02.14";
+   :hasAuthor :grl,
+              :mm,
+              :hm,
+              :jv,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FRF-XATA
+:FRF-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Creating a National Federation of Archives using OAI-PMH";
+   :booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)";
+   :year "2008";
+   :address "Évora - Portugal";
+   :month "02.14";
+   :doi "http://hdl.handle.net/1822/7821";
+   :hasAuthor :lmf,
+              :jcr,
+              :mf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LGRH07-CLEI
+:LGRH07-CLEI rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Using Web Services to put Metamorphosis on the Web";
+   :booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)";
+   :year "2007";
+   :address "San José - Costa Rica";
+   :doi "http://hdl.handle.net/1822/7354";
+   :hasAuthor :grl,
+              :jg,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LATRH07-CLEI
+:LATRH07-CLEI rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Implementing TMCL: XTche - a topic map schema and constraint specification language";
+   :booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)";
+   :year "2007";
+   :address "San José - Costa Rica";
+   :doi "http://hdl.handle.net/1822/7364";
+   :hasAuthor :grl,
+              :rpa,
+              :rct,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LARH07-EPIA
+:LARH07-EPIA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Topic Maps Constraint Languages: understanding and comparing";
+   :booktitle "Portuguese Conference on Artificial Intelligence (EPIA2007)";
+   :year "2007";
+   :address "Guimarães - Portugal";
+   :doi "http://hdl.handle.net/1822/7368";
+   :hasAuthor :grl,
+              :rpa,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LMMFRH07-TMRA
+:LMMFRH07-TMRA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Comparing Topic Maps Constraint Specification Languages";
+   :booktitle "International Conference on Topic Maps Research and Applications (TMRA2007)";
+   :year "2007";
+   :address "Leipzig - Germany";
+   :doi "http://hdl.handle.net/1822/7399";
+   :hasAuthor :grl,
+              :htm,
+              :mom,
+              :pgf,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH06-SBSI06
+:LRH06-SBSI06 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps";
+   :booktitle "III Simpósio Brasileiro de Sistemas de Informação";
+   :year "2006";
+   :address "Curitiba, Paraná - Brasil";
+   :doi "http://hdl.handle.net/1822/7359";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH07-SEMINFO
+:LRH07-SEMINFO rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Estruturando o conhecimento com a norma ISO 13250 Topic Maps";
+   :booktitle "VI Seminário de Informática - SEMINFO, 2007, Torres, RS, Brasil.";
+   :year "2007";
+   :address "Torres, RS - Brasil";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RFFC07-EML
+:RFFC07-EML rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Relational database preservation through XML modelling";
+   :booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007.";
+   :year "2007";
+   :address "Montréal - Canada";
+   :month "08";
+   :doi "http://hdl.handle.net/1822/7120";
+   :hasAuthor :jcr,
+              :mf,
+              :lf,
+              :rc.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH07-EML
+:RLH07-EML rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Topic Maps applied to PubMed";
+   :booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007.";
+   :year "2007";
+   :address "Montréal - Canada";
+   :month "08";
+   :doi "http://hdl.handle.net/1822/7330";
+   :hasAuthor :grl,
+              :rpa,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LPRH07-XATA
+:LPRH07-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Navegando na Rede Semântica dos Topic Maps com o Ulisses";
+   :booktitle "XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)";
+   :year "2007";
+   :address "Lisboa - Portugal";
+   :month "02.14";
+   :doi "http://hdl.handle.net/1822/6482";
+   :hasAuthor :grl,
+              :rpa,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LPRH07-TM
+:LPRH07-TM rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche";
+   :booktitle "Topic Maps 2007 -  The First International Topic Maps User Conference";
+   :year "2007";
+   :address "Oslo - Norway";
+   :month "03.21";
+   :doi "http://hdl.handle.net/1822/6474";
+   :hasAuthor :grl,
+              :rpa,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FBR07-IJDL
+:FBR07-IJDL rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "An intelligent decision support system for digital preservation";
+   :journal "International Journal on Digital Libraries";
+   :publisher "Springer Berlin / Heidelberg";
+   :issn "1432-5012 (Print) 1432-1300 (Online)";
+   :month "05";
+   :year "2007";
+   :doi "http://hdl.handle.net/1822/6648";
+   :hasAuthor :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RFCFBC06
+:RFCFBC06 rdf:type owl:NamedIndividual ,
+       :Misc,
+       :Publication;
+   :title "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais";
+   :howpublished "Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006.";
+   :year "2006";
+   :doi "http://hdl.handle.net/1822/6420";
+   :hasAuthor :jcr,
+              :mf,
+              :rc,
+              :lf,
+              :fb,
+              :lcor.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FCRBCF07
+:FCRBCF07 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "RODA : Repositório de Objectos Digitais Autênticos";
+   :booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS";
+   :address "Ponta Delgada, Açores, Portugal";
+   :month "03.29";
+   :year "2007";
+   :doi "http://hdl.handle.net/1822/6330";
+   :hasAuthor :mf,
+              :rc,
+              :jcr,
+              :fb,
+              :lcor,
+              :lf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#SFRL07
+:SFRL07 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo";
+   :booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS";
+   :address "Ponta Delgada, Açores, Portugal";
+   :month "03.29";
+   :year "2007";
+   :doi "http://hdl.handle.net/1822/6432";
+   :hasAuthor :as,
+              :lmf,
+              :jcr,
+              :mjpl.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RFCFBC07
+:RFCFBC07 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XML e preservação digital";
+   :booktitle "XATA2007 : XML : aplicações e tecnologias associadas : actas da Conferência Nacional";
+   :address "Lisboa, Portugal";
+   :month "02.15";
+   :year "2007";
+   :doi "http://hdl.handle.net/1822/6224";
+   :hasAuthor :jcr,
+              :mf,
+              :rc,
+              :lf,
+              :fb,
+              :lcor.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLC07
+:RLC07 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas";
+   :year "2007";
+   :address "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal";
+   :month "02.14-15";
+   :doi "http://hdl.handle.net/1822/6234";
+   :isbn "978-972-99166-4-9";
+   :editedBy :jcr,
+             :jcl,
+             :lc.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FBR07
+:FBR07 rdf:type owl:NamedIndividual ,
+       :Misc,
+       :Publication;
+   :title "CRiB : preservation services for Digital Repositories";
+   :howpublished "Apresentação efectuada na International Conference Open Repositories, 2, San
+		Antonio, Texas, United States of America, 2007.";
+   :year "2007";
+   :doi "http://hdl.handle.net/1822/6195";
+   :hasAuthor :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLS06
+:RLS06 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas";
+   :year "2006";
+   :address "Instituto Politécnico de Portalegre, Portalegre - Portugal";
+   :month "02.09-10";
+   :doi "http://hdl.handle.net/1822/4744";
+   :isbn "972-99166-2-4";
+   :editedBy :jcr,
+             :jcl,
+             :albie.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RFFLS06
+:RFFLS06 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos";
+   :booktitle "2ª Conferência Internacional de Arquivos Empresariais";
+   :address "Seixal, Portugal";
+   :month "11.27";
+   :year "2006";
+   :doi "http://hdl.handle.net/1822/6038";
+   :hasAuthor :jcr,
+              :mf,
+              :lmf,
+              :mjpl,
+              :as.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FBR06-Ariadne
+:FBR06-Ariadne rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "A foundation for automatic digital preservation";
+   :journal "Ariadne";
+   :number "48";
+   :issn "1361-3200";
+   :doi "http://hdl.handle.net/1822/5571";
+   :month "July";
+   :year "2006";
+   :hasAuthor :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH2002
+:RH2002 rdf:type owl:NamedIndividual ,
+       :Book,
+       :Publication;
+   :title "XML e XSL: da teoria à prática";
+   :publisher "Colecção Tecnologias da Informação";
+   :year "2002";
+   :address "FCA - Editora de Informática";
+   :month "11";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram2000
+:Ram2000 rdf:type owl:NamedIndividual ,
+       :Phdthesis,
+       :Publication;
+   :title "Anotação Estrutural de Documentos e sua Semântica";
+   :school "Tese de Doutoramento";
+   :year "2000";
+   :address "Universidade do Minho";
+   :month "07";
+   :doi "http://hdl.handle.net/1822/5625";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RAH1998
+:RAH1998 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "Algebraic Specification of Documents";
+   :journal "Theoretical Computer Science journal, volume 199";
+   :year "1998";
+   :volume "Elsevier";
+   :month "06";
+   :hasAuthor :jcr,
+              :jj,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RS2003
+:RS2003 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Electronic Publishing of ADB editions";
+   :booktitle "Electronic Publishing 2003: From information to knowledge";
+   :year "2003";
+   :address "Universidade do Minho - Guimarães - Portugal";
+   :month "06.25";
+   :doi "http://hdl.handle.net/1822/552";
+   :hasAuthor :jcr,
+              :jls.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH2003
+:RLH2003 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites";
+   :booktitle "Electronic Publishing 2003: From information to knowledge";
+   :year "2003";
+   :address "Universidade do Minho - Guimarães - Portugal";
+   :month "06.25";
+   :doi "http://hdl.handle.net/1822/553";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RARH98
+:RARH98 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "SGML Documents: Where does quality go?";
+   :journal "Markup Languages: theory and practice ";
+   :year "1999";
+   :volume "journal, num. 1 vol. 1, MIT Press";
+   :month "01";
+   :issn "1099-6621";
+   :doi "http://hdl.handle.net/1822/644";
+   :hasAuthor :jcr,
+              :jj,
+              :jgr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH98
+:RH98 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "Qualidade na Publicação Electrónica: como controlá-la?";
+   :journal "Sistemas de Informação";
+   :year "1998";
+   :volume "journal, num. 9, pg 69-83, Associação Portuguesa de Sistemas de Informação";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram01
+:Ram01 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Constraining Content: specification and processing";
+   :booktitle "XML Europe'01";
+   :year "2001";
+   :address "Berlin - Germany";
+   :month "05";
+   :doi "http://hdl.handle.net/1822/623";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram99
+:Ram99 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Recovering Old Paper Historical Documents Through SGML/XML Modelling";
+   :booktitle "Digital Resources for the Humanities - DRH99";
+   :year "1999";
+   :address "London - England";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH99
+:RH99 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XML::DT - a Perl Down Translation Module";
+   :booktitle "XML Europe'99";
+   :year "1999";
+   :address "Granada - Espanha";
+   :doi "http://hdl.handle.net/1822/632";
+   :hasAuthor :jcr,
+              :jj.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH98
+:RLH98 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Generating SGML specific editors: from DTDs to Attribute Grammars";
+   :booktitle "Markup Technologies'98";
+   :year "1998";
+   :address "Chicago - USA";
+   :month "12";
+   :doi "http://hdl.handle.net/1822/637";
+   :hasAuthor :jcr,
+              :prh,
+              :arl.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RHb98
+:RHb98 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Beyond DTDs: Constraining Data Content";
+   :booktitle "SGML Europe 98 Conference";
+   :year "1998";
+   :address "Paris - France";
+   :month "05";
+   :doi "http://hdl.handle.net/1822/636";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RHHRAF98
+:RHHRAF98 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Adapting Museum Structures for the Web: No Changes Needed!";
+   :booktitle "Museums and the Web: An International Conference";
+   :year "1998";
+   :address "Toronto, Canada";
+   :month "04.22";
+   :doi "http://hdl.handle.net/1822/624";
+   :hasAuthor :jgr,
+              :mrh,
+              :prh,
+              :jcr,
+              :jj,
+              :jlf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH97
+:LRH97 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "INES, an Environment for Structured Editions of SGML Documents";
+   :booktitle "II Brasilian Symposium on Programming Languages (SBLP'97)";
+   :year "1997";
+   :address "Campinas-SP -- Brasil";
+   :month "09";
+   :doi "http://hdl.handle.net/1822/616";
+   :hasAuthor :arl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RAH96
+:RAH96 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Document Semantics: two approaches";
+   :booktitle "SGML96";
+   :year "1996";
+   :address "Boston - USA";
+   :month "12";
+   :doi "http://hdl.handle.net/1822/622";
+   :hasAuthor :jcr,
+              :jj,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JLRH02
+:JLRH02 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XCSL: XML Constraint Specification Language";
+   :booktitle "CLEI'02";
+   :year "2002";
+   :address "Montevideo, Uruguai,";
+   :month "11";
+   :doi "http://hdl.handle.net/1822/612";
+   :hasAuthor :mhj,
+              :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JLRHb02
+:JLRHb02 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Bidirectional Conversion between XML Documents and Relational Data Bases";
+   :booktitle "7th International Conference on CSCW in  Design";
+   :year "2002";
+   :address "Rio de Janeiro - Brasil";
+   :month "09.25";
+   :doi "http://hdl.handle.net/1822/601";
+   :hasAuthor :mhj,
+              :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JHR00
+:JHR00 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XML and Semantic Validation";
+   :booktitle "Logic, Language and Information: Proceedings of the First Workshop on Logic and Language";
+   :year "2000";
+   :address "Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha";
+   :month "11.29";
+   :doi "http://hdl.handle.net/1822/597";
+   :hasAuthor :mhj,
+              :prh,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JLRHc02
+:JLRHc02 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema";
+   :booktitle "XML Europe'02";
+   :year "2002";
+   :address "Barcelona - Espanha";
+   :month "05.20";
+   :doi "http://hdl.handle.net/1822/619";
+   :hasAuthor :mhj,
+              :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH94
+:RH94 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização";
+   :booktitle "I Conferência Nacional WWW,    Informação Multimédia na Internet";
+   :year "1995";
+   :address "Universidade do Minho";
+   :month "07";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RAH95
+:RAH95 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "DAVID, Algebraic Specification of Documents";
+   :booktitle "Algebraic Methods in Language Processing";
+   :year "1995";
+   :address "Twente - Holanda";
+   :month "12";
+   :doi "http://hdl.handle.net/1822/618";
+   :issn "0929-0672";
+   :hasAuthor :jcr,
+              :jj,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram96
+:Ram96 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "DSSSL: basic topics";
+   :booktitle "Workshop: Document    Processing and SGML";
+   :year "1996";
+   :address "Universidade do Minho";
+   :month "09";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RRAH97
+:RRAH97 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "SGML Documents: Where Does Quality Go?";
+   :booktitle "SGML/XML'97";
+   :year "1997";
+   :address "Washinton - USA";
+   :month "12.08";
+   :doi "http://hdl.handle.net/1822/617";
+   :hasAuthor :jcr,
+              :jgr,
+              :jj,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH03
+:RLH03 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "Ontology driven websites with Topic Maps";
+   :journal "III International Conference on Web Engineering (ICWE)";
+   :year "2003";
+   :volume "Oviedo - Espanha";
+   :month "07.15";
+   :deliverables "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2003/icwe.pdf";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JLRH03
+:JLRH03 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "XCSL: XML Constraint Specification Language";
+   :journal "CLEI Electronic Journal,  ISSN 0717-5000. 2003. ";
+   :year "2003";
+   :volume "Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002";
+   :hasAuthor :mhj,
+              :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH03
+:LRH03 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XML Topic Map Builder: Specification and Generation";
+   :booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas";
+   :year "2003";
+   :address "Braga - Portugal";
+   :month "02.13";
+   :doi "http://hdl.handle.net/1822/620";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram03
+:Ram03 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "O XML nos curriculae das licenciaturas em informática";
+   :booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas";
+   :year "2003";
+   :address "Braga - Portugal";
+   :month "02.13";
+   :doi "http://hdl.handle.net/1822/554";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#SRFP95
+:SRFP95 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "A Heterogeneous Computer Vision Architecture: Implementation Issues";
+   :journal "Computing Systems in Engineering";
+   :year "1995";
+   :volume "volume 6, número 4/5, páginas 401-408";
+   :hasAuthor :hs,
+              :jcr,
+              :jmf,
+              :ajp.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH03b
+:LRH03b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps";
+   :booktitle "CLEI'03";
+   :year "2003";
+   :address "La Paz, Bolívia";
+   :month "09.29";
+   :doi "http://hdl.handle.net/1822/555";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH03c
+:LRH03c rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Geração automática de interfaces Web para sistemas de informação: Metamorphosis";
+   :booktitle "COOPMedia 2003";
+   :year "2003";
+   :address "ISEP, Porto, Portugal";
+   :month "10.08";
+   :doi "http://hdl.handle.net/1822/556";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#SMR03
+:SMR03 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Xexam: uma linguagem de suporte para exames online (e-learning)";
+   :booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas";
+   :year "2003";
+   :address "Vila Verde - Portugal";
+   :month "02.13-14";
+   :doi "http://hdl.handle.net/1822/557";
+   :hasAuthor :des,
+              :mcm,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JRH03
+:JRH03 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
+			Especificação de Restrições";
+   :booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas";
+   :year "2003";
+   :address "Vila Verde - Portugal";
+   :month "02.13-14";
+   :doi "http://hdl.handle.net/1822/4911";
+   :hasAuthor :mhj,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RHLA03
+:RHLA03 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2003 - XML: Aplicações e Tecnologias Associadas";
+   :year "2003";
+   :address "Vila Verde - Portugal";
+   :month "02.13-14";
+   :doi "http://hdl.handle.net/1822/607";
+   :editedBy :jcr,
+             :prh,
+             :grl,
+             :gva.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram99b
+:Ram99b rdf:type owl:NamedIndividual ,
+       :Inbook,
+       :Publication;
+   :title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação";
+   :chapter "Extensible Markup Language (XML)- A promessa e a esperança?...";
+   :pages "49-76";
+   :publisher "Sociedade Brasileira de Computação (SBC)";
+   :year "1999";
+   :month "11.23-26";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram93
+:Ram93 rdf:type owl:NamedIndividual ,
+       :Masterthesis,
+       :Publication;
+   :title "Um Compilador para o GLiTCH";
+   :school "Escola de Engenharia - Universidade do Minho";
+   :year "1993";
+   :month "10";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#VECPAR93
+:VECPAR93 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "A Heterogeneous Computer Vision Architecture: Implementation Issues";
+   :booktitle "1st International Meeting on Vector and Paralell Processing";
+   :year "1993";
+   :hasAuthor :hs,
+              :jcr,
+              :jmf,
+              :ajp.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH98b
+:RH98b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Qualidade na Publicação Electrónica: como controlá-la?";
+   :booktitle "Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e
+			Comunicação";
+   :year "1998";
+   :address "Guimarães - Portugal";
+   :doi "http://hdl.handle.net/1822/621";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH98c
+:RH98c rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Informatics and Archives: a present needed symbiosis";
+   :booktitle "Workshop internacional Informação e documentos de arquivo em ambientes digitais";
+   :year "1998";
+   :address "Porto - Portugal";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RH98d
+:RH98d rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga";
+   :booktitle "IX encontro nacional de Museus e Autarquias";
+   :year "1998";
+   :address "Loures - Portugal ";
+   :hasAuthor :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram98
+:Ram98 rdf:type owl:NamedIndividual ,
+       :Misc,
+       :Publication;
+   :title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?";
+   :howpublished "tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de
+			informação e comunicação, Guimarães - Portugal";
+   :year "1998";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH03b
+:RLH03b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Adrian: a platform for E-Learning Content Prodution";
+   :booktitle "Second International Conference on Multimedia and ICTs in Education";
+   :year "2003";
+   :address "Badajoz - Espanha";
+   :month "12.04";
+   :doi "http://hdl.handle.net/1822/558";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LR04
+:LR04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Web Services: Metodologias de Desenvolvimento";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)";
+   :year "2004";
+   :address "Faculdade de Engenharia da Universidade do Porto - Porto";
+   :month "02.12";
+   :doi "http://hdl.handle.net/1822/559";
+   :isbn "972-99166-0-8";
+   :hasAuthor :cajo,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR04
+:FR04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)";
+   :year "2004";
+   :address "Faculdade de Engenharia da Universidade do Porto - Porto";
+   :month "02.12";
+   :doi "http://hdl.handle.net/1822/614";
+   :isbn "972-99166-0-8";
+   :hasAuthor :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH04
+:LRH04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)";
+   :year "2004";
+   :address "Faculdade de Engenharia da Universidade do Porto - Porto";
+   :month "02.12";
+   :doi "http://hdl.handle.net/1822/613";
+   :isbn "972-99166-0-8";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RTFR04
+:RTFR04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Gerador de Web Services para cadeias de transformações de documentos XML";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)";
+   :year "2004";
+   :address "Faculdade de Engenharia da Universidade do Porto - Porto";
+   :month "02.12";
+   :doi "http://hdl.handle.net/1822/561";
+   :isbn "972-99166-0-8";
+   :hasAuthor :jcr,
+              :pt,
+              :rf,
+              :vr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#MRH04
+:MRH04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Comparação de Linguagens para descrição de Interfaces baseadas em XML";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)";
+   :year "2004";
+   :address "Faculdade de Engenharia da Universidade do Porto - Porto";
+   :month "02.12";
+   :doi "http://hdl.handle.net/1822/562";
+   :isbn "972-99166-0-8";
+   :hasAuthor :ram,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RS04
+:RS04 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas";
+   :year "2004";
+   :address "Faculdade de Engenharia do Porto - Portugal";
+   :month "02.12-13";
+   :doi "http://hdl.handle.net/1822/602";
+   :isbn "972-99166-0-8";
+   :editedBy :jcr,
+             :albie.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR04b
+:FR04b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE";
+   :booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science";
+   :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil";
+   :year "2004";
+   :month "06.23-26";
+   :doi "http://hdl.handle.net/1822/615";
+   :isbn "85-88130-02-05";
+   :hasAuthor :jcr,
+              :mf.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH04
+:RLH04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Adrian - E-Learning Content Production (creating online exams)";
+   :booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science";
+   :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil";
+   :year "2004";
+   :month "06.23-26";
+   :doi "http://hdl.handle.net/1822/608";
+   :isbn "85-88130-02-05";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LSRH04
+:LSRH04 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Using the Ontology Paradigm to integrate Information Systems";
+   :booktitle "International Conference on Knowledge Engineering and Decision Support";
+   :address "Porto - Portugal";
+   :year "2004";
+   :month "07.21-23";
+   :doi "http://hdl.handle.net/1822/584";
+   :hasAuthor :grl,
+              :ws,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#JLRH02b
+:JLRH02b rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "XCSL tutorial";
+   :journal "ACM Crossroads";
+   :volume "8.5";
+   :year "2002";
+   :uri "http://doi.acm.org/10.1145/991118.991122";
+   :publisher "ACM Press";
+   :doi "http://hdl.handle.net/1822/610";
+   :hasAuthor :mhj,
+              :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH04-Clei
+:LRH04-Clei rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Extração de Topic Maps no Oveia: Especificação e Processamento";
+   :booktitle "30ma Conferencia Latinoamericana de
+Informática (CLEI2004)";
+   :year "2004";
+   :address "Sociedad Peruana de Computación, Peru";
+   :month "Sept.";
+   :uri "http://clei2004.spc.org.pe/es/html/pdfs/140.pdf";
+   :isbn "9972-9876-2-0";
+   :doi "http://hdl.handle.net/1822/594";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+   :editedBy :clei04.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RHL04-eLes
+:RHL04-eLes rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "ADRIAN: Sistema de Suporte à Produção de Conteúdos";
+   :booktitle "Conferência eLes'04 - E-Learning no Ensino Superior";
+   :year "2004";
+   :address "Universidade de Aveiro, Portugal";
+   :month "Outubro";
+   :doi "http://hdl.handle.net/1822/733";
+   :isbn "972-789-134-9";
+   :hasAuthor :jcr,
+              :prh,
+              :grl.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FR04-capsi
+:FR04-capsi rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "DigitArq: Creating a Historical Digital Archive";
+   :booktitle "5ª Conferência da APSI - Associação Portuguesa dos Sistemas de Informação";
+   :year "2004";
+   :address "Instituto Superior Técnico, Lisboa, Portugal";
+   :month "11.03";
+   :doi "http://hdl.handle.net/1822/718";
+   :hasAuthor :mf,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH04-XMLw
+:LRH04-XMLw rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "XTche - A Language for Topic Maps Schema and Constraints";
+   :booktitle "XML Conference and Exhibition 2004 Proceedings";
+   :year "2004";
+   :month "12";
+   :address "Washington, USA";
+   :doi "http://hdl.handle.net/1822/681";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RSL05
+:RSL05 rdf:type owl:NamedIndividual ,
+       :Proceedings,
+       :Publication;
+   :title "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas";
+   :year "2005";
+   :address "Casa da Torre, Vila Verde - Portugal";
+   :month "02.10-11";
+   :doi "http://hdl.handle.net/1822/865";
+   :isbn "972-99166-1-6";
+   :editedBy :jcr,
+             :albie,
+             :jcl.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#Ram05
+:Ram05 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Document Composer: uma aplicação XML para extracção de informação de repositórios XML";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)";
+   :year "2005";
+   :address "Braga";
+   :month "02.10";
+   :doi "http://hdl.handle.net/1822/884";
+   :isbn "972-99166-1-6";
+   :hasAuthor :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH05
+:LRH05 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)";
+   :year "2005";
+   :address "Braga";
+   :month "02.10";
+   :doi "http://hdl.handle.net/1822/1020";
+   :isbn "972-99166-1-6";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH05b
+:LRH05b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Constraining XML Topic Maps with XTche";
+   :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)";
+   :year "2005";
+   :address "Braga";
+   :month "02.10";
+   :doi "http://hdl.handle.net/1822/994";
+   :isbn "972-99166-1-6";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RL05
+:RL05 rdf:type owl:NamedIndividual ,
+       :Book,
+       :Publication;
+   :title "Web Services: Aplicações Distribuídas sobre Protocolos Internet";
+   :publisher "Colecção Web Pro";
+   :year "2005";
+   :address "FCA - Editora de Informática";
+   :month "03";
+   :isbn "972-722-421-0";
+   :hasAuthor :jcr,
+              :cajo.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH04-WWS
+:LRH04-WWS rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps";
+   :booktitle "I  Workshop de Web Semântica (WWS2004)";
+   :year "2004";
+   :address "Brasília, Brasil";
+   :month "10.22";
+   :deliverables "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2004/LRH04-WWS.pdf";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH05
+:RLH05 rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Constraining Topic Maps: A TMCL declarative implementation";
+   :booktitle "Extreme Markup Languages 2005, Montréal - Canada, 1-5 August 2005.";
+   :year "2005";
+   :address "Montréal - Canada";
+   :month "08.04";
+   :doi "http://hdl.handle.net/1822/3117";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH06
+:RLH06 rdf:type owl:NamedIndividual ,
+       :Inbook,
+       :Publication;
+   :title "Lecture Notes in Computer Science";
+   :chapter "Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources";
+   :pages "14-25";
+   :publisher "Springer-Verlag GmbH";
+   :year "2006";
+   :month "02";
+   :volume "3873 / 2006";
+   :isbn "3-540-32527-1";
+   :doi "10.1007/11676904_2";
+   :hasAuthor :jcr,
+              :grl,
+              :prh;
+   :editedBy :lutz,
+             :park.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH05b
+:RLH05b rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources";
+   :booktitle "TMRA'05 - International Workshop on  Topic Map Research and Applications ";
+   :year "2005";
+   :address "Leipzig - Germany";
+   :month "10.06";
+   :deliverables "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/RLH05-TMRA.pdf";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FBR05-CAPSI
+:FBR05-CAPSI rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Avaliação Automática de Migração em Redes Distribuídas de
+Conversores";
+   :booktitle "6ª Conferência da Associação Portuguesa de Sistemas de Informação";
+   :year "2005";
+   :address "Bragança - Portugal";
+   :month "10.26";
+   :doi "http://hdl.handle.net/1822/3616";
+   :hasAuthor :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RLH05-revAPSI17
+:RLH05-revAPSI17 rdf:type owl:NamedIndividual ,
+       :Article,
+       :Publication;
+   :title "Geração automática de interfaces Web para Sistemas de Informação:
+Metamorphosis";
+   :journal "Revista da Associação Portuguesa de Sistemas de Informação";
+   :volume "17";
+   :year "2005";
+   :publisher "APSI";
+   :issn "0872-7031";
+   :doi "http://hdl.handle.net/1822/4365";
+   :hasAuthor :jcr,
+              :grl,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH05-CLEI
+:LRH05-CLEI rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Ulisses: Um Navegador Conceptual para Topic Maps";
+   :booktitle "XXXI Conferência Latinoamericana de Informática";
+   :year "2005";
+   :address "Santiago de Cali - Colombia";
+   :month "10.10";
+   :isbn "958-670-422-X";
+   :doi "http://hdl.handle.net/1822/3532";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#FBR06-XATA
+:FBR06-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "CRIB : a service oriented architecture for digital preservation outsourcing";
+   :booktitle "XATA - XML: Aplicações e Tecnologias Associadas";
+   :year "2006";
+   :address "Portalegre - Portugal";
+   :month "02.09";
+   :isbn "972-99166-2-4";
+   :doi "http://hdl.handle.net/1822/4457";
+   :hasAuthor :mf,
+              :aab,
+              :jcr.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#RD06-XATA
+:RD06-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web";
+   :booktitle "XATA - XML: Aplicações e Tecnologias Associadas";
+   :year "2006";
+   :address "Portalegre - Portugal";
+   :month "02.09";
+   :isbn "972-99166-2-4";
+   :doi "http://hdl.handle.net/1822/4576";
+   :hasAuthor :jcr,
+              :migaldo.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#LRH06-XATA
+:LRH06-XATA rdf:type owl:NamedIndividual ,
+       :Inproceedings,
+       :Publication;
+   :title "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração";
+   :booktitle "XATA - XML: Aplicações e Tecnologias Associadas";
+   :year "2006";
+   :address "Portalegre - Portugal";
+   :month "02.09";
+   :isbn "972-99166-2-4";
+   :doi "http://hdl.handle.net/1822/4910";
+   :hasAuthor :grl,
+              :jcr,
+              :prh.
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ap
+:ap rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :cisti2017;
+   :name "André Pereira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#bf
+:bf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :iPRES2016;
+   :name "Bruno Ferreira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#asantos
+:asantos rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :bad2015b,
+             :RFFLS06;
+   :name "André Santos".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jmoreira
+:jmoreira rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :bad2015b;
+   :name "João Moreira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#eloy
+:eloy rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :bad2015b;
+   :name "Eloy Rodrigues".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jcarvalho
+:jcarvalho rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :bad2015b,
+             :BKRFBR08;
+   :name "José Carvalho".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#alexandra
+:alexandra rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :edicic2015;
+   :name "Alexandra Lourenço".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#penteado
+:penteado rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :edicic2015;
+   :name "Pedro Penteado".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#hsilva
+:hsilva rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :dlm2014,
+             :SRFP95;
+   :name "Hélder Silva".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#aa
+:aa rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2013;
+   :name "Alan Akbik".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#bs
+:bs rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2013;
+   :name "Barbara Sierman".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mr
+:mr rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2013;
+   :name "Marcel Ras".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#cb
+:cb rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2012;
+   :name "Christoph Becker".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#kd
+:kd rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2012;
+   :name "Kresimir Duretec ".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#pp
+:pp rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2012;
+   :name "Petar Petrov".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mjc
+:mjc rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RQR10;
+   :name "Maria Jesus Colmenero Ruiz".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mam
+:mam rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RQR10;
+   :name "Miguel Ángel Marzal Garcia-Quismondo".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#rf
+:rf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :FR09;
+   :name "Ricardo Freitas".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mk
+:mk rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :BKRFBR08;
+   :name "Michael Kraxner".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ar
+:ar rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :BKRFBR08;
+   :name "Andreas Rauber".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mm
+:mm rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMVRH08-XATA;
+   :name "Mirkos Martins".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#hm
+:hm rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMVRH08-XATA;
+   :name "Henrique Machado".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jv
+:jv rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMVRH08-XATA;
+   :name "Juliana Vizzotto".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#lmf
+:lmf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :FRF-XATA,
+             :FR04;
+   :name "Luis Miguel Ferros".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jg
+:jg rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LGRH07-CLEI;
+   :name "Jonas Gassen".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#rct
+:rct rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LATRH07-CLEI,
+             :RFCFBC07;
+   :name "Rogério Correa Turchetti".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#htm
+:htm rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMFRH07-TMRA;
+   :name "H. T. Machado".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mom
+:mom rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMFRH07-TMRA;
+   :name "M. O. Martins".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#pgf
+:pgf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LMMFRH07-TMRA;
+   :name "P. G. D. Ferreira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#rpa
+:rpa rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LPRH07-XATA;
+   :name "Renato Preigschadt de Azevedo".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#rc
+:rc rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFCFBC07;
+   :name "Rui Castro".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#lf
+:lf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFCFBC07;
+   :name "Luis Faria".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#fb
+:fb rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFCFBC07;
+   :name "Francisco Barbedo".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#lcor
+:lcor rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFCFBC07;
+   :name "Luis Corujo".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mjpl
+:mjpl rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFFLS06;
+   :name "Maria João Pires Lima".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#as
+:as rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFFLS06;
+   :name "António Sousa".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jcr
+:jcr rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RH2002;
+   :name "José Carlos Ramalho".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#prh
+:prh rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RH2002;
+   :name "Pedro Rangel Henriques".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jj
+:jj rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RAH1998;
+   :name "José João Almeida".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jls
+:jls rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RS2003;
+   :name "José Luis Santos".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#grl
+:grl rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RLH2003;
+   :name "Giovani Rubert Librelotto".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jgr
+:jgr rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LGRH07-CLEI,
+             :RARH98;
+   :name "J. G. Rocha".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#arl
+:arl rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :BKRFBR08,
+             :RLH98;
+   :name "A. R. Lopes".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mrh
+:mrh rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2013,
+             :RHHRAF98;
+   :name "M. R. Henriques".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jlf
+:jlf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RFCFBC07,
+             :RHHRAF98;
+   :name "J. L. Faria".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mhj
+:mhj rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :JLRH02;
+   :name "M. H.  Jacinto".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#hs
+:hs rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :SRFP95;
+   :name "H. Santos".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jmf
+:jmf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :SRFP95,
+             :FR04;
+   :name "J. M. Fernandes".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ajp
+:ajp rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :SRFP95;
+   :name "A. J. Proença".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#des
+:des rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :SMR03;
+   :name "Daniel Edgar Pinto Soares".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mcm
+:mcm rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :SMR03;
+   :name "Maria da Conceição Vieira Mota".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#cajo
+:cajo rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LR04;
+   :name "Carlos J. Feijó Lopes".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#mf
+:mf rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :FR04;
+   :name "Miguel Ferreira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#pt
+:pt rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RTFR04;
+   :name "Pedro Taveira".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#vr
+:vr rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :RTFR04;
+   :name "Vasco Rocha".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ram
+:ram rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :MRH04;
+   :name "Ricardo Martins".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#ws
+:ws rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :LSRH04;
+   :name "Weber Souza".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#aab
+:aab rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :authorOf :ipres2013,
+             :FBR05-CAPSI;
+   :name "Ana Alice Baptista".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#migaldo
+:migaldo rdf:type owl:NamedIndividual ,
+       :Author,
+       :Person;
+   :name "Luis Miguel Alves Domingues".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#rq
+:rq rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :IGI2013;
+   :name "Ricardo Queirós".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#sa
+:sa rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RLA08;
+   :name "Salvador Abreu".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#lc
+:lc rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RLC07;
+   :name "Luis Carriço".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#gva
+:gva rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RHLA03;
+   :name "Gustavo V. Arnold".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#albie
+:albie rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RS04;
+   :name "Alberto Simões".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#clei04
+:clei04 rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :LRH04-Clei;
+   :name "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#jcl
+:jcl rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RSL05;
+   :name "João Correia Lopes".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#lutz
+:lutz rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :editorOf :RLH06;
+   :name "Lutz Maicher".
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/3/jcrpubs#park
+:park rdf:type owl:NamedIndividual ,
+       :Editor,
+       :Person;
+   :name "Jack Park".
+

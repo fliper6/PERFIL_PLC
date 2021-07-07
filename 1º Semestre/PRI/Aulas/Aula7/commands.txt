@@ -1,0 +1,29 @@
+// Instalar mongoose
+> npm install mongoose
+
+// Instalar express
+> npm i express-generator -g
+
+// Correr express
+> express --view pug PRI2020
+
+[** Gera pasta PRI2020 **]
+> cd PRI2020
+
+[Fazer as mudanças no www, package.json e app.js:
+ - app.js: tirar tudo sobre as 2 linhas sobre cookies e "app.use('/users', usersRouter);"
+ - www: Mudar o port para 7700 e em baixo de todo mudar a função "onListening()" para só ter "console.log('Servidor à escuta na porta' + port + '...'"
+ - package.json: tirar cookies]
+
+> cd PRI2020
+> npm install 
+> npm start
+
+[Começar a mexer no index.html, criar alunos.js, e muitos outros
+- Criar pasta models com o alunos.js 
+- Criar pasta controllers com o alunos.js
+- Criar alunos.pug
+
+Guardar w3.css por cima]
+
+> npm install mongoose --save

@@ -1,0 +1,1040 @@
+@prefix : <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo> .
+
+<http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#nif
+:nif rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#atletaEm
+:atletaEm rdf:type owl:ObjectProperty ;
+          owl:inverseOf :temAtleta .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#participaEm
+:participaEm rdf:type owl:ObjectProperty ;
+             owl:inverseOf :participadaPor ;
+             rdfs:domain :Atleta ;
+             rdfs:range :Prova .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#participadaPor
+:participadaPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#temAtleta
+:temAtleta rdf:type owl:ObjectProperty ;
+           rdfs:domain :Equipa ;
+           rdfs:range :Atleta .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#biCC
+:biCC rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#dataNascimento
+:dataNascimento rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#dataSituacao
+:dataSituacao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#email
+:email rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#escalao
+:escalao rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Atleta .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#morada
+:morada rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Atleta .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#numEvento
+:numEvento rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#numTipo
+:numTipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#siCard
+:siCard rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#situacao
+:situacao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#telefone
+:telefone rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#tipoPagamento
+:tipoPagamento rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#tshirt
+:tshirt rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Atleta
+:Atleta rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Equipa
+:Equipa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Prova
+:Prova rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Antonio_Fernandes
+:Antonio_Fernandes rdf:type owl:NamedIndividual ,
+                            :Atleta ;
+                   :participaEm :Corrida_da_Geira ;
+                   :biCC "11387194" ;
+                   :dataNascimento "24/05/1977" ;
+                   :dataSituacao "05/02/2014" ;
+                   :email "cisterbtt@gmail.com" ;
+                   :escalao "SENIOR Masc" ;
+                   :morada "Rua S. Tiago Nº297, Caldelas" ;
+                   :situacao "Registada" ;
+                   :telefone 931668407 ;
+                   :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Artur_Bernardo
+:Artur_Bernardo rdf:type owl:NamedIndividual ,
+                         :Atleta; 
+                :participaEm :Ultra_Trail ;
+                :biCC 9886788 ;
+                :dataNascimento "22/05/1972" ;
+                :dataSituacao "04/02/2014" ;
+                :email "ajbernardo@netcabo.pt" ;
+                :escalao "M40" ;
+                :morada "Rua Jose Relvas n8" ;
+                :numEvento 17 ;
+                :numTipo "10" ;
+                :situacao "Confirmada" ;
+                :telefone 927033868 ;
+                :tipoPagamento "Multibanco" ;
+                :tshirt "M" ;
+                :nif 206228317 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Blue_O
+:Blue_O rdf:type owl:NamedIndividual ,
+                 :Equipa ;
+        :temAtleta :Sergio_Moreira .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Born_Be_Wild
+:Born_Be_Wild rdf:type owl:NamedIndividual ,
+                       :Equipa ;
+              :temAtleta :Emanuel_Duroes .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Bruno_Manuel_Henriques_Maceda
+:Bruno_Manuel_Henriques_Maceda rdf:type owl:NamedIndividual ,
+                                        :Atleta ;
+                               :atletaEm :Os_Caga_Tacos_Running_Tean ;
+                               :participaEm :Ultra_Trail ;
+                               :biCC 11573784 ;
+                               :dataNascimento "11/06/1979" ;
+                               :dataSituacao "04/02/2014" ;
+                               :email "macedobruno10@gmail.com" ;
+                               :escalao "SENIOR Masc" ;
+                               :morada "Rua Joaquim Lagoeiro, 11 Veiros Estarreja" ;
+                               :numEvento 20 ;
+                               :numTipo "12" ;
+                               :situacao "Confirmada" ;
+                               :telefone 918834475 ;
+                               :tipoPagamento "Multibanco" ;
+                               :tshirt "M" ;
+                               :nif 221428526 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#COM
+:COM rdf:type owl:NamedIndividual ,
+              :Equipa ;
+     :temAtleta :Sergio_Duarte .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Caes_da_Avenida
+:Caes_da_Avenida rdf:type owl:NamedIndividual ,
+                          :Equipa ;
+                 :temAtleta :Ricardo_Salgueiro .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Carlos_Alberto_da_Silva_Cardoso
+:Carlos_Alberto_da_Silva_Cardoso rdf:type owl:NamedIndividual ,
+                                          :Atleta ;
+                                 :atletaEm :Clube_Atletismo_de_Lamas ;
+                                 :participaEm :Ultra_Trail ;
+                                 :biCC 10213914 ;
+                                 :dataNascimento "08/02/1973" ;
+                                 :dataSituacao "03/02/2014" ;
+                                 :email "casc1972@hotmail.com" ;
+                                 :escalao "M40" ;
+                                 :morada "Rua 25 Abril Nr.193" ;
+                                 :numEvento 5 ;
+                                 :numTipo "3" ;
+                                 :situacao "Confirmada" ;
+                                 :telefone 917569332 ;
+                                 :tipoPagamento "Multibanco" ;
+                                 :tshirt "L" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Celeste_Cruz
+:Celeste_Cruz rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :TURBULENTOS ;
+              :participaEm :Corrida_da_Geira ;
+              :biCC "7371693" ;
+              :dataNascimento "23/10/1965" ;
+              :dataSituacao "06/02/2014" ;
+              :email "mcrus@stec.uminho.pt" ;
+              :escalao "SENIOR Fem" ;
+              :morada "Rua Gra├ºa J├║nior, nº 14, Braga" ;
+              :numEvento 31 ;
+              :numTipo "511" ;
+              :situacao "Confirmada" ;
+              :telefone 919967574 ;
+              :tipoPagamento "Multibanco" ;
+              :nif 181296543 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Clube_Atletismo_de_Lamas
+:Clube_Atletismo_de_Lamas rdf:type owl:NamedIndividual ,
+                                   :Equipa ;
+                          :temAtleta :Carlos_Alberto_da_Silva_Cardoso ,
+                                     :Helder_Silva ,
+                                     :JOSE_COELHO ,
+                                     :Jose_Moreira ,
+                                     :Rui_Gilberto_Santos_Correia .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Corrida_da_Geira
+:Corrida_da_Geira rdf:type owl:NamedIndividual ,
+                           :Prova ;
+                  :participadaPor :Antonio_Fernandes ,
+                                  :Celeste_Cruz ,
+                                  :Dulce_Moreda ,
+                                  :Emanuel_Duroes ,
+                                  :Francisco_Neto_Silva ,
+                                  :Helder_Silva ,
+                                  :Joao_Manuel_Dias_Rei ,
+                                  :Jorge_Lourenço ,
+                                  :Jorge_Yong ,
+                                  :Manuel_Moura ,
+                                  :Paulo_Pimentel_Torres ,
+                                  :Ricardo_Salgueiro ,
+                                  :Sergio_Duarte ,
+                                  :Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araujo ,
+                                  :Vera_Cristina_Moreira_Delgado ,
+                                  :jose_moura_de_sousa .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Dulce_Moreda
+:Dulce_Moreda rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :participaEm :Corrida_da_Geira ;
+              :biCC "8546031" ;
+              :dataNascimento "25/05/1969" ;
+              :dataSituacao "06/02/2014" ;
+              :email "dulcemoreda@hotmail.com" ;
+              :escalao "SENIOR Fem" ;
+              :morada "Valongo" ;
+              :numEvento 32 ;
+              :numTipo "512" ;
+              :situacao "Confirmada" ;
+              :telefone 913997298 ;
+              :tipoPagamento "Multibanco" ;
+              :nif 195812921 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#EDV-Viana_Trail
+:EDV_Viana_Trail rdf:type owl:NamedIndividual ,
+                          :Equipa ;
+                 :temAtleta :Sonia_Parente .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Emanuel_Duroes
+:Emanuel_Duroes rdf:type owl:NamedIndividual ,
+                         :Atleta ;
+                :atletaEm :Born_Be_Wild ;
+                :participaEm :Corrida_da_Geira ;
+                :biCC "9911168" ;
+                :dataNascimento "05/12/1972" ;
+                :dataSituacao "05/02/2014" ;
+                :email "emanuel.duraes@gmail.com" ;
+                :escalao "SENIOR Masc" ;
+                :morada "Av.Bombeiros Voluntarios, Nº27 3ºB - 4580-053 Paredes" ;
+                :situacao "Registada" ;
+                :telefone 964601294 ;
+                :tipoPagamento "Multibanco" ;
+                :nif 204211514 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#FERNANDO_JORGE_MENDES_CARNEIRO
+:FERNANDO_JORGE_MENDES_CARNEIRO rdf:type owl:NamedIndividual ,
+                                         :Atleta ;
+                                :atletaEm :Nast ;
+                                :participaEm :Ultra_Trail ;
+                                :biCC 12041256 ;
+                                :dataNascimento "17/09/1982" ;
+                                :dataSituacao "03/02/2014" ;
+                                :email "nando_1982_sts@hotmail.com" ;
+                                :escalao "SENIOR Masc" ;
+                                :morada "Estrada Nacional 105 - n.º 571 - Carreira - Santo Tirso" ;
+                                :numEvento 4 ;
+                                :numTipo "2" ;
+                                :situacao "Confirmada" ;
+                                :telefone 917306682 ;
+                                :tipoPagamento "Multibanco" ;
+                                :tshirt "M" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Francisco_Neto_Silva
+:Francisco_Neto_Silva rdf:type owl:NamedIndividual ,
+                               :Atleta ;
+                      :participaEm :Corrida_da_Geira ;
+                      :biCC "13474034" ;
+                      :dataNascimento "22/04/1989" ;
+                      :dataSituacao "30/01/2014" ;
+                      :email "netosilva.francisco@gmail.com" ;
+                      :escalao "SENIOR Masc" ;
+                      :morada "Rua da Ermida, 235" ;
+                      :numEvento 2 ;
+                      :numTipo "501" ;
+                      :siCard 713511 ;
+                      :situacao "Confirmada" ;
+                      :telefone 919777166 ;
+                      :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Francisco_Terra
+:Francisco_Terra rdf:type owl:NamedIndividual ,
+                          :Atleta ;
+                 :atletaEm :Olhares_Sublimes ;
+                 :participaEm :Ultra_Trail ;
+                 :biCC 11811598 ;
+                 :dataNascimento "30/10/1980" ;
+                 :dataSituacao "06/02/2014" ;
+                 :email "franciscomsterra@gmail.com" ;
+                 :escalao "SENIOR Masc" ;
+                 :morada "S├úo Jo├úo da Madeira" ;
+                 :situacao "Registada" ;
+                 :telefone 933841656 ;
+                 :tipoPagamento "Multibanco" ;
+                 :tshirt "L" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Helder_Matos
+:Helder_Matos rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :Os_Caga_Tacos_Running_Tean ;
+              :participaEm :Ultra_Trail ;
+              :biCC 11118855 ;
+              :dataNascimento "07/12/1976" ;
+              :dataSituacao "05/02/2014" ;
+              :email "Helder_Matos@sapo.pt" ;
+              :escalao "SENIOR Masc" ;
+              :morada "Pcta Nova do picao 114b, 1esq, 4400-424 Canidelo" ;
+              :numEvento 23 ;
+              :numTipo "14" ;
+              :situacao "Confirmada" ;
+              :telefone 918791083 ;
+              :tipoPagamento "Multibanco" ;
+              :tshirt "M" ;
+              :nif 203438000 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Helder_Silva
+:Helder_Silva rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :Clube_Atletismo_de_Lamas ;
+              :participaEm :Corrida_da_Geira ;
+              :biCC "10635448" ;
+              :dataNascimento "09/01/1975" ;
+              :dataSituacao "05/02/2014" ;
+              :email "helder.santos.silva@hotmail.com" ;
+              :escalao "SENIOR Masc" ;
+              :morada "Rua Luis de Cam├Áes, 320 2ºDto Post" ;
+              :numEvento 26 ;
+              :numTipo "510" ;
+              :situacao "Confirmada" ;
+              :telefone 919543200 ;
+              :tipoPagamento "Multibanco" ;
+              :nif 204210984 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#JOSE_COELHO
+:JOSE_COELHO rdf:type owl:NamedIndividual ,
+                      :Atleta ;
+             :atletaEm :Clube_Atletismo_de_Lamas ;
+             :participaEm :Ultra_Trail ;
+             :biCC 11287454 ;
+             :dataNascimento "09/12/1978" ;
+             :dataSituacao "03/02/2014" ;
+             :email "rota_pontual@sapo.pt" ;
+             :escalao "SENIOR Masc" ;
+             :morada "RUA PADRE SA N.º 60, 4505-384 FI├âES" ;
+             :numEvento 10 ;
+             :numTipo "7" ;
+             :situacao "Confirmada" ;
+             :telefone 912711148 ;
+             :tipoPagamento "Multibanco" ;
+             :tshirt "M" ;
+             :nif 201941015 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#J_Paulo_Marques
+:J_Paulo_Marques rdf:type owl:NamedIndividual ,
+                          :Atleta ;
+                 :atletaEm :Os_Caga_Tacos_Running_Tean ;
+                 :participaEm :Ultra_Trail ;
+                 :biCC 10625737 ;
+                 :dataNascimento "09/06/1974" ;
+                 :dataSituacao "06/02/2014" ;
+                 :email "pmarques269@gmail.com" ;
+                 :escalao "SENIOR Masc" ;
+                 :morada "Tv da Seara N64 3esq 269-4450 Matosinhos" ;
+                 :numEvento 30 ;
+                 :numTipo "20" ;
+                 :situacao "Confirmada" ;
+                 :telefone 918657054 ;
+                 :tipoPagamento "Multibanco" ;
+                 :tshirt "M" ;
+                 :nif 202213722 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Joao_Costa
+:Joao_Costa rdf:type owl:NamedIndividual ,
+                     :Atleta ;
+            :atletaEm :TURBULENTOS ;
+            :participaEm :Ultra_Trail ;
+            :biCC 9152050 ;
+            :dataNascimento "04/04/1970" ;
+            :dataSituacao "03/02/2014" ;
+            :email "jfscosta@gmail.com" ;
+            :escalao "M40" ;
+            :morada "Rua Carolina Rosa Alves Nº27 Braga" ;
+            :numEvento 12 ;
+            :numTipo "9" ;
+            :situacao "Confirmada" ;
+            :telefone 915303594 ;
+            :tipoPagamento "Multibanco" ;
+            :tshirt "L" ;
+            :nif 195973631 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Joao_Manuel_Dias_Rei
+:Joao_Manuel_Dias_Rei rdf:type owl:NamedIndividual ,
+                               :Atleta ;
+                      :atletaEm :na ;
+                      :participaEm :Corrida_da_Geira ;
+                      :biCC "9839249" ;
+                      :dataNascimento "21/07/1972" ;
+                      :dataSituacao "05/02/2014" ;
+                      :email "joao.rei@sapo.pt" ;
+                      :escalao "SENIOR Masc" ;
+                      :morada "Rua do Areal, V.F.S.Martinho, Barcelos" ;
+                      :situacao "Registada" ;
+                      :telefone 916141504 ;
+                      :tipoPagamento "Multibanco" ;
+                      :nif 207354367 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jorge_Lourenço
+:Jorge_Lourenço rdf:type owl:NamedIndividual ,
+                         :Atleta ;
+                :atletaEm :TURBULENTOS ;
+                :participaEm :Corrida_da_Geira ;
+                :biCC "8472361" ;
+                :dataNascimento "27/10/1969" ;
+                :dataSituacao "05/02/2014" ;
+                :email "jlourenzo@hotmail.com" ;
+                :escalao "SENIOR Masc" ;
+                :morada "Rua Eduardo Esperan├ºa, 7" ;
+                :situacao "Registada" ;
+                :telefone 969037767 ;
+                :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jorge_Yong
+:Jorge_Yong rdf:type owl:NamedIndividual ,
+                     :Atleta ;
+            :participaEm :Corrida_da_Geira ;
+            :biCC "12531442" ;
+            :dataNascimento "13/11/1970" ;
+            :dataSituacao "04/02/2014" ;
+            :email "pintojo@gmail.com" ;
+            :escalao "SENIOR Masc" ;
+            :morada "Barcelos" ;
+            :numEvento 18 ;
+            :numTipo "508" ;
+            :situacao "Confirmada" ;
+            :telefone 919144861 ;
+            :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jose_Fernanades_Ferreira
+:Jose_Fernanades_Ferreira rdf:type owl:NamedIndividual ,
+                                   :Atleta ;
+                          :atletaEm :Porto_Runners ;
+                          :participaEm :Ultra_Trail ;
+                          :biCC 6992199 ;
+                          :dataNascimento "09/09/1965" ;
+                          :dataSituacao "05/02/2014" ;
+                          :email "j.manuelff@gmail.com" ;
+                          :escalao "M40" ;
+                          :morada "Rua Avelino Soares Carneiro, 111 - R/C - Esº" ;
+                          :numEvento 24 ;
+                          :numTipo "15" ;
+                          :situacao "Confirmada" ;
+                          :telefone 917363961 ;
+                          :tipoPagamento "Multibanco" ;
+                          :tshirt "XL" ;
+                          :nif 157189775 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jose_Moreira
+:Jose_Moreira rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :Clube_Atletismo_de_Lamas ;
+              :participaEm :Ultra_Trail ;
+              :biCC 12298012 ;
+              :dataNascimento "12/04/1978" ;
+              :dataSituacao "03/02/2014" ;
+              :email "jmoreiracdf@gmail.com" ;
+              :escalao "SENIOR Masc" ;
+              :morada "Rua Central nº 905, 1º direito, Fi├úes" ;
+              :numEvento 11 ;
+              :numTipo "8" ;
+              :situacao "Confirmada" ;
+              :telefone 926440506 ;
+              :tipoPagamento "Multibanco" ;
+              :tshirt "XL" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Luis_Santos_Poeira
+:Luis_Santos_Poeira rdf:type owl:NamedIndividual ,
+                             :Atleta ;
+                    :atletaEm :Porto_Runners ;
+                    :participaEm :Ultra_Trail ;
+                    :biCC 7329735 ;
+                    :dataNascimento "01/05/1966" ;
+                    :dataSituacao "03/02/2014" ;
+                    :email "lspoeira@gmail.com" ;
+                    :escalao "M40" ;
+                    :morada "R. Soc. Nacional F├│sforos, 160 - 1º Andar Hab. 6  4150 Porto" ;
+                    :numEvento 8 ;
+                    :numTipo "5" ;
+                    :situacao "Confirmada" ;
+                    :telefone 963036120 ;
+                    :tipoPagamento "Multibanco" ;
+                    :tshirt "M" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#MARIO_PIRES
+:MARIO_PIRES rdf:type owl:NamedIndividual ,
+                      :Atleta ;
+             :participaEm :Ultra_Trail ;
+             :biCC 5236428 ;
+             :dataNascimento "04/04/1959" ;
+             :dataSituacao "30/01/2014" ;
+             :email "mgpires@netcabo.pt" ;
+             :escalao "M50" ;
+             :morada "RUA C├éNDIDO DOS REIS , nº 86 , 2º ," ;
+             :numEvento 1 ;
+             :numTipo "1" ;
+             :situacao "Confirmada" ;
+             :telefone 969370898 ;
+             :tipoPagamento "Multibanco" ;
+             :tshirt "L" ;
+             :nif 138087130 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Manuel_Moura
+:Manuel_Moura rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :Os_Barriguitas ;
+              :participaEm :Corrida_da_Geira ;
+              :biCC "3149382" ;
+              :dataNascimento "27/04/1955" ;
+              :dataSituacao "04/02/2014" ;
+              :email "mamgs@sapo.pt" ;
+              :escalao "SENIOR Masc" ;
+              :morada "Tv Julio Dinis 124" ;
+              :numEvento 22 ;
+              :numTipo "509" ;
+              :situacao "Confirmada" ;
+              :telefone 916614683 ;
+              :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Maria_de_Fatima_Batista_Geraldes
+:Maria_de_Fatima_Batista_Geraldes rdf:type owl:NamedIndividual ,
+                                           :Atleta ;
+                                  :atletaEm :Tugas_na_Estrada ;
+                                  :participaEm :Ultra_Trail ;
+                                  :biCC 11353169 ;
+                                  :dataNascimento "29/07/1969" ;
+                                  :dataSituacao "05/02/2014" ;
+                                  :email "mfatima_geraldes@hotmail.com" ;
+                                  :escalao "SENIOR Fem" ;
+                                  :morada "Rua Duque da Terceira, nº 249, 1.1, 4050-536 Porto" ;
+                                  :numEvento 27 ;
+                                  :numTipo "17" ;
+                                  :situacao "Confirmada" ;
+                                  :telefone 919057654 ;
+                                  :tipoPagamento "Multibanco" ;
+                                  :tshirt "S" ;
+                                  :nif 201632020 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Nast
+:Nast rdf:type owl:NamedIndividual ,
+               :Equipa ;
+      :temAtleta :FERNANDO_JORGE_MENDES_CARNEIRO .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Olhares_Sublimes
+:Olhares_Sublimes rdf:type owl:NamedIndividual ,
+                           :Equipa ;
+                  :temAtleta :Francisco_Terra .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Os_Barriguitas
+:Os_Barriguitas rdf:type owl:NamedIndividual ,
+                         :Equipa ;
+                :temAtleta :Manuel_Moura .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Os_Caga_Tacos_Running_Tean
+:Os_Caga_Tacos_Running_Tean rdf:type owl:NamedIndividual ,
+                                     :Equipa ;
+                            :temAtleta :Bruno_Manuel_Henriques_Maceda ,
+                                       :Helder_Matos ,
+                                       :J_Paulo_Marques .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Domingues
+:Paulo_Domingues rdf:type owl:NamedIndividual ,
+                          :Atleta ;
+                 :participaEm :Ultra_Trail ;
+                 :biCC 9338295 ;
+                 :dataNascimento "05/08/1970" ;
+                 :dataSituacao "05/02/2014" ;
+                 :email "p.j.p.domingues@gmail.com" ;
+                 :escalao "M40" ;
+                 :morada "Valongo" ;
+                 :numEvento 29 ;
+                 :numTipo "19" ;
+                 :situacao "Confirmada" ;
+                 :telefone 917067362 ;
+                 :tipoPagamento "Multibanco" ;
+                 :tshirt "M" ;
+                 :nif 193896001 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Pimentel_Torres
+:Paulo_Pimentel_Torres rdf:type owl:NamedIndividual ,
+                                :Atleta ;
+                       :atletaEm :TURBULENTOS ;
+                       :participaEm :Corrida_da_Geira ;
+                       :biCC "13358723" ,
+                             "3720394" ;
+                       :dataNascimento "10/09/1959" ,
+                                       "11/09/1988" ;
+                       :dataSituacao "03/02/2014" ;
+                       :email "geral@vieirafreitas.pt" ;
+                       :escalao "SENIOR Masc" ;
+                       :morada "Rua Costa Soares, 39" ;
+                       :numEvento 13 ,
+                                  14 ;
+                       :numTipo "504" ,
+                                "505" ;
+                       :situacao "Confirmada" ;
+                       :telefone 966040136 ;
+                       :tipoPagamento "Multibanco" ;
+                       :nif 132287641 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Serra
+:Paulo_Serra rdf:type owl:NamedIndividual ,
+                      :Atleta ;
+             :participaEm :Ultra_Trail ;
+             :biCC 11894534 ;
+             :dataNascimento "22/08/1981" ;
+             :dataSituacao "04/02/2014" ;
+             :email "paulo.serra@gmail.com" ;
+             :escalao "SENIOR Masc" ;
+             :morada "Maia" ;
+             :numEvento 21 ;
+             :numTipo "13" ;
+             :situacao "Confirmada" ;
+             :telefone 914465667 ;
+             :tipoPagamento "Multibanco" ;
+             :tshirt "M" ;
+             :nif 217590128 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Porto_Runners
+:Porto_Runners rdf:type owl:NamedIndividual ,
+                        :Equipa ;
+               :temAtleta :Jose_Fernanades_Ferreira ,
+                          :Luis_Santos_Poeira .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Ricardo_Salgueiro
+:Ricardo_Salgueiro rdf:type owl:NamedIndividual ,
+                            :Atleta ;
+                   :atletaEm :Caes_da_Avenida ;
+                   :participaEm :Corrida_da_Geira ;
+                   :biCC "5948349" ;
+                   :dataNascimento "22/11/1963" ;
+                   :dataSituacao "03/02/2014" ;
+                   :email "rs@selcofootwear.com" ;
+                   :escalao "SENIOR Masc" ;
+                   :morada "Rua de Gondar├®m nr 765-5 A 4150-378 Porto" ;
+                   :numEvento 6 ;
+                   :numTipo "503" ;
+                   :situacao "Confirmada" ;
+                   :telefone 936107476 ;
+                   :tipoPagamento "Multibanco" ;
+                   :nif 180348531 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Ricardo_Silva
+:Ricardo_Silva rdf:type owl:NamedIndividual ,
+                        :Atleta ;
+               :atletaEm :Tugas_na_Estrada ;
+               :participaEm :Ultra_Trail ;
+               :biCC 10497907 ;
+               :dataNascimento "12/02/2014" ;
+               :dataSituacao "04/02/2014" ;
+               :email "jo_ricardo_silva@hotmail.com" ;
+               :escalao "SENIOR Masc" ;
+               :morada "Rua das cavadas 178 10 Dtº tras" ;
+               :situacao "Registada" ;
+               :telefone 964644171 ;
+               :tipoPagamento "Multibanco" ;
+               :tshirt "M" ;
+               :nif 204581249 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Rui_Gilberto_Santos_Correia
+:Rui_Gilberto_Santos_Correia rdf:type owl:NamedIndividual ,
+                                      :Atleta ;
+                             :atletaEm :Clube_Atletismo_de_Lamas ;
+                             :participaEm :Ultra_Trail ;
+                             :biCC 10352924 ;
+                             :dataNascimento "23/02/1974" ;
+                             :dataSituacao "03/02/2014" ;
+                             :email "gilcorreia@yahoo.com" ;
+                             :escalao "M40" ;
+                             :morada "Rua Jorge Barradas nr6" ;
+                             :numEvento 7 ;
+                             :numTipo "4" ;
+                             :situacao "Confirmada" ;
+                             :telefone 913036566 ;
+                             :tipoPagamento "Multibanco" ;
+                             :tshirt "M" ;
+                             :nif 201709520 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sergio_Duarte
+:Sergio_Duarte rdf:type owl:NamedIndividual ,
+                        :Atleta ;
+               :atletaEm :COM ;
+               :participaEm :Corrida_da_Geira ;
+               :biCC "14602498" ,
+                     "7371693" ;
+               :dataNascimento "06/10/1994" ,
+                               "23/10/1965" ;
+               :dataSituacao "03/02/2014" ,
+                             "04/02/2014" ;
+               :email "sergioduarte5140@gmail.com" ;
+               :escalao "SENIOR Fem" ,
+                        "SENIOR Masc" ;
+               :morada "Bairro da Alegria, Rua 10 de Junho nº 11, 4710-332 Braga" ,
+                       "Rua Gra├ºa J├║nior, nº 14, Braga" ;
+               :numEvento 16 ;
+               :numTipo "507" ;
+               :siCard 7005140 ;
+               :situacao "Confirmada" ,
+                         "Registada" ;
+               :telefone 916147589 ,
+                         919967574 ;
+               :tipoPagamento "Multibanco" ;
+               :nif 218985681 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sergio_Moreira
+:Sergio_Moreira rdf:type owl:NamedIndividual ,
+                         :Atleta ;
+                :atletaEm :Blue_O ;
+                :participaEm :Ultra_Trail ;
+                :biCC 11425779 ;
+                :dataNascimento "09/09/1979" ;
+                :dataSituacao "03/02/2014" ;
+                :email "sergio_moreira_79@hotmail.com" ;
+                :escalao "SENIOR Masc" ;
+                :morada "Rua Nova da Serra, n.º 61 4415-280 Pedroso" ;
+                :situacao "Registada" ;
+                :telefone 963536358 ;
+                :tipoPagamento "Multibanco" ;
+                :tshirt "M" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sonia_Parente
+:Sonia_Parente rdf:type owl:NamedIndividual ,
+                        :Atleta ;
+               :atletaEm :EDV_Viana_Trail ;
+               :participaEm :Ultra_Trail ;
+               :biCC 11407298 ;
+               :dataNascimento "28/10/1977" ;
+               :dataSituacao "05/02/2014" ;
+               :email "parente.sonia@gmail.com" ;
+               :escalao "SENIOR Fem" ;
+               :morada "Av,Mateus Carvalhido nº19, Sta Maria Maior" ;
+               :situacao "Registada" ;
+               :telefone 969139240 ;
+               :tipoPagamento "Multibanco" ;
+               :tshirt "S" ;
+               :nif 218174470 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#TURBULENTOS
+:TURBULENTOS rdf:type owl:NamedIndividual ,
+                      :Equipa ;
+             :temAtleta :Celeste_Cruz ,
+                        :Joao_Costa ,
+                        :Jorge_Lourenço ,
+                        :Paulo_Pimentel_Torres ,
+                        :Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araujo .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Tiago_Jose_Cadima_Borges
+:Tiago_Jose_Cadima_Borges rdf:type owl:NamedIndividual ,
+                                   :Atleta ;
+
+                          :participaEm :Ultra_Trail ;
+                          :biCC 12105381 ;
+                          :dataNascimento "15/10/1982" ;
+                          :dataSituacao "05/02/2014" ;
+                          :email "tjcborges@gmail.com" ;
+                          :escalao "SENIOR Masc" ;
+                          :morada "Rua do Campos Verdes nº161 R/C" ;
+                          :numEvento 25 ;
+                          :numTipo "16" ;
+                          :situacao "Confirmada" ;
+                          :telefone 933868011 ;
+                          :tipoPagamento "Multibanco" ;
+                          :tshirt "S" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Tugas_na_Estrada
+:Tugas_na_Estrada rdf:type owl:NamedIndividual ,
+                           :Equipa ;
+                  :temAtleta :Maria_de_Fatima_Batista_Geraldes ,
+                             :Ricardo_Silva ,
+                             :paulo_Vilaça .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Ultra_Trail
+:Ultra_Trail rdf:type owl:NamedIndividual ,
+                      :Prova ;
+             :participadaPor :Artur_Bernardo ,
+                             :Bruno_Manuel_Henriques_Maceda ,
+                             :Carlos_Alberto_da_Silva_Cardoso ,
+                             :FERNANDO_JORGE_MENDES_CARNEIRO ,
+                             :Francisco_Terra ,
+                             :Helder_Matos ,
+                             :JOSE_COELHO ,
+                             :J_Paulo_Marques ,
+                             :Joao_Costa ,
+                             :Jose_Fernanades_Ferreira ,
+                             :Jose_Moreira ,
+                             :Luis_Santos_Poeira ,
+                             :MARIO_PIRES ,
+                             :Maria_de_Fatima_Batista_Geraldes ,
+                             :Paulo_Domingues ,
+                             :Paulo_Serra ,
+                             :Ricardo_Silva ,
+                             :Rui_Gilberto_Santos_Correia ,
+                             :Sergio_Moreira ,
+                             :Sonia_Parente ,
+                             :Tiago_Jose_Cadima_Borges ,
+                             :jorge_manuel_martins_silva ,
+                             :paulo_Vilaça ,
+                             :paulo_de_castro_rocha .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araujo
+:Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araujo rdf:type owl:NamedIndividual ,
+                                                              :Atleta ;
+                                                     :atletaEm :TURBULENTOS ;
+                                                     :participaEm :Corrida_da_Geira ;
+                                                     :biCC "6672944" ;
+                                                     :dataNascimento "26/05/1964" ;
+                                                     :dataSituacao "03/02/2014" ;
+                                                     :email "vascosequeiros@yahoo.com" ;
+                                                     :escalao "SENIOR Masc" ;
+                                                     :morada "Rua S. Domingos 174 3º esq." ;
+                                                     :numEvento 15 ;
+                                                     :numTipo "506" ;
+                                                     :siCard 337363 ;
+                                                     :situacao "Confirmada" ;
+                                                     :telefone 919421515 ;
+                                                     :tipoPagamento "Multibanco" ;
+                                                     :nif 192410148 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Vera_Cristina_Moreira_Delgado
+:Vera_Cristina_Moreira_Delgado rdf:type owl:NamedIndividual ,
+                                        :Atleta ;
+
+                               :participaEm :Corrida_da_Geira ;
+                               :biCC "11714215" ;
+                               :dataNascimento "28/11/1980" ;
+                               :dataSituacao "06/02/2014" ;
+                               :email "veramdelgado@hotmail.com" ;
+                               :escalao "SENIOR Fem" ;
+                               :morada "rua do freixo, 51" ;
+                               :situacao "Registada" ;
+                               :telefone 917861497 ;
+                               :tipoPagamento "Multibanco" ;
+                               :nif 207053057 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#clube_de_veteranos_do_porto
+:clube_de_veteranos_do_porto rdf:type owl:NamedIndividual ,
+                                      :Equipa ;
+                             :temAtleta :paulo_de_castro_rocha .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#jorge_manuel_martins_silva
+:jorge_manuel_martins_silva rdf:type owl:NamedIndividual ,
+                                     :Atleta ;
+
+                            :participaEm :Ultra_Trail ;
+                            :biCC 8129659 ;
+                            :dataNascimento "17/06/1968" ;
+                            :dataSituacao "05/02/2014" ;
+                            :email "jorge.silva2005@sapo.pt" ;
+                            :escalao "M40" ;
+                            :morada "rua domingos nunes lt 2" ;
+                            :numEvento 28 ;
+                            :numTipo "18" ;
+                            :situacao "Confirmada" ;
+                            :telefone 964414481 ;
+                            :tipoPagamento "Multibanco" ;
+                            :tshirt "M" ;
+                            :nif 199624429 .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#jose_moura_de_sousa
+:jose_moura_de_sousa rdf:type owl:NamedIndividual ,
+                              :Atleta ;
+                     :atletaEm :os_barriguitas ;
+                     :participaEm :Corrida_da_Geira ;
+                     :biCC "2993162" ;
+                     :dataNascimento "24/01/1954" ;
+                     :dataSituacao "03/02/2014" ;
+                     :email "jomogoso@gmail.com" ;
+                     :escalao "SENIOR Masc" ;
+                     :morada "rua joaquim da silva torres, 261  4470-312 maia" ;
+                     :numEvento 3 ;
+                     :numTipo "502" ;
+                     :situacao "Confirmada" ;
+                     :telefone 912302111 ;
+                     :tipoPagamento "Multibanco" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#na
+:na rdf:type owl:NamedIndividual ,
+             :Equipa ;
+    :temAtleta :Joao_Manuel_Dias_Rei .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#os_barriguitas
+:os_barriguitas rdf:type owl:NamedIndividual ,
+                         :Equipa ;
+                :temAtleta :jose_moura_de_sousa .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#paulo_Vilaça
+:paulo_Vilaça rdf:type owl:NamedIndividual ,
+                       :Atleta ;
+              :atletaEm :Tugas_na_Estrada ;
+              :participaEm :Ultra_Trail ;
+              :biCC 5935709 ;
+              :dataNascimento "09/12/1963" ;
+              :dataSituacao "04/02/2014" ;
+              :email "pmv777@gmail.com" ;
+              :escalao "M50" ;
+              :morada "Tv Elaine Sanceau, 51 3ºDto  4465-620 Le├ºa do Balio" ;
+              :numEvento 19 ;
+              :numTipo "11" ;
+              :situacao "Confirmada" ;
+              :telefone 939867583 ;
+              :tipoPagamento "Multibanco" ;
+              :tshirt "S" .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#paulo_de_castro_rocha
+:paulo_de_castro_rocha rdf:type owl:NamedIndividual ,
+                                :Atleta ;
+                       :atletaEm :clube_de_veteranos_do_porto ;
+                       :participaEm :Ultra_Trail ;
+                       :biCC 3588751 ;
+                       :dataNascimento "22/05/1959" ;
+                       :dataSituacao "03/02/2014" ;
+                       :email "pcastrorocha@gmail.com" ;
+                       :escalao "M50" ;
+                       :morada "rua gil eanes, 67 - 1º - 4400-165 - vila nova de gaia" ;
+                       :numEvento 9 ;
+                       :numTipo "6" ;
+                       :situacao "Confirmada" ;
+                       :telefone 933364233 ;
+                       :tipoPagamento "Multibanco" ;
+                       :tshirt "L" ;
+                       :nif 160149070 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

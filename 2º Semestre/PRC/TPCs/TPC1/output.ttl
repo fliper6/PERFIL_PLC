@@ -1,0 +1,1460 @@
+
+###http://www.di.uminho.pt/prc2021/uc#jcr
+:jcr:rdf:type owl:NamedIndividual,
+			 :Professor ;
+	:ensina :PRC2021 ;
+	:nome"José Carlos Ramalho".
+
+
+###http://www.di.uminho.pt/prc2021/uc#jj
+:jj:rdf:type owl:NamedIndividual,
+			 :Professor ;
+	:ensina :SPLN2021 ;
+	:nome"José João Antunes".
+
+
+###http://www.di.uminho.pt/prc2021/uc#jfc
+:jfc:rdf:type owl:NamedIndividual,
+			 :Professor ;
+	:ensina :SI2021 ;
+	:nome"José Francisco Creissac".
+
+
+###http://www.di.uminho.pt/prc2021/uc#anr
+:anr:rdf:type owl:NamedIndividual,
+			 :Professor ;
+	:ensina :AA2021 ;
+	:nome"António Nestor Ribeiro".
+
+
+###http://www.di.uminho.pt/prc2021/uc#PRC2021
+:PRC2021:rdf:type owl:NamedIndividual,
+			 :UnidadeCurricular ;
+	:éEnsinadaPor :jcr ;
+	:anoLetivo "2020/2021" ;
+	:designacao "Processamento e Representação de Conhecimento" .
+
+
+###http://www.di.uminho.pt/prc2021/uc#SPLN2021
+:SPLN2021:rdf:type owl:NamedIndividual,
+			 :UnidadeCurricular ;
+	:éEnsinadaPor :jj ;
+	:anoLetivo "2020/2021" ;
+	:designacao "Scripting no Processamento de Linguagem Natural" .
+
+
+###http://www.di.uminho.pt/prc2021/uc#SI22021
+:SI22021:rdf:type owl:NamedIndividual,
+			 :UnidadeCurricular ;
+	:éEnsinadaPor :jfc ;
+	:anoLetivo "2020/2021" ;
+	:designacao "Sistemas Interativos" .
+
+
+###http://www.di.uminho.pt/prc2021/uc#AA2021
+:AA2021:rdf:type owl:NamedIndividual,
+			 :UnidadeCurricular ;
+	:éEnsinadaPor :anr ;
+	:anoLetivo "2020/2021" ;
+	:designacao "Arquiteturas Aplicacionais" .
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c033d57c5846f155578
+:603c2c033d57c5846f155578:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Lewis Obrien".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03136ea582b320be1d
+:603c2c03136ea582b320be1d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Cook Heath".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03958a3886333a8e44
+:603c2c03958a3886333a8e44:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Sheila Mcgee".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03995115cb1bb0e9d5
+:603c2c03995115cb1bb0e9d5:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Bruce Juarez".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c038f5907fce357141d
+:603c2c038f5907fce357141d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Louella Mcneil".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03359ce8a0d196a3cf
+:603c2c03359ce8a0d196a3cf:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Newton Gates".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03d9227f614b8fe06d
+:603c2c03d9227f614b8fe06d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Heather Melton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03a51d0590ae33807d
+:603c2c03a51d0590ae33807d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Georgia Brady".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03b630604c1fa24702
+:603c2c03b630604c1fa24702:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Annmarie Conway".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03003da2c4d87b1835
+:603c2c03003da2c4d87b1835:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Allison Contreras".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0347385bf7cb4ac65c
+:603c2c0347385bf7cb4ac65c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Bentley Roach".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03833472a4b61c63d1
+:603c2c03833472a4b61c63d1:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Horton Mitchell".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03d63131850e1f02b1
+:603c2c03d63131850e1f02b1:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Roman Duran".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c037af299ecb34117fb
+:603c2c037af299ecb34117fb:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Mable Callahan".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03c427a3610c450cb7
+:603c2c03c427a3610c450cb7:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Sharpe Berry".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03b1861c3452fa94cb
+:603c2c03b1861c3452fa94cb:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Shelley Ray".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0360c850ec2aa31696
+:603c2c0360c850ec2aa31696:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Bowen Cote".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03b71bf9bb031525da
+:603c2c03b71bf9bb031525da:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Navarro Bowen".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03bb1425eb79b69483
+:603c2c03bb1425eb79b69483:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Acosta Wright".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03439b88d40df8eda2
+:603c2c03439b88d40df8eda2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Latisha Clark".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c037ae399d677b06733
+:603c2c037ae399d677b06733:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Cotton Howell".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03fc666948f448fcda
+:603c2c03fc666948f448fcda:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Shepard Williams".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0385dd1113dedd662d
+:603c2c0385dd1113dedd662d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Holland Guzman".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c030e6195b292797d14
+:603c2c030e6195b292797d14:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Roxanne Sharp".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03992af7898f08f7ef
+:603c2c03992af7898f08f7ef:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Velazquez Pate".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c036fc2dc76ecca9b9c
+:603c2c036fc2dc76ecca9b9c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Myra Kirk".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c032183a3182e8c53e2
+:603c2c032183a3182e8c53e2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Weiss Gregory".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c031ce843b386ed9458
+:603c2c031ce843b386ed9458:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Acevedo Sweet".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03a85ca0841dd728b1
+:603c2c03a85ca0841dd728b1:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Rebecca Atkins".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c032b576a1d7486b1aa
+:603c2c032b576a1d7486b1aa:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Gwendolyn Russo".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0346a70ab357d8f858
+:603c2c0346a70ab357d8f858:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Bartlett Durham".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0302033cf487cc520c
+:603c2c0302033cf487cc520c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Francesca Woods".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03b04cd601cf0818f9
+:603c2c03b04cd601cf0818f9:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Luisa Wong".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0390bca0db5c31a7b2
+:603c2c0390bca0db5c31a7b2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Eloise Rowe".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03a1df46b11fab8880
+:603c2c03a1df46b11fab8880:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Ladonna Estes".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c030c983c68eefe4686
+:603c2c030c983c68eefe4686:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Dora Coffey".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03655db1017f80d03d
+:603c2c03655db1017f80d03d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Dolly Snider".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c035700114f5c24c61a
+:603c2c035700114f5c24c61a:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Watkins Stokes".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c030923bbf6f24c5ee9
+:603c2c030923bbf6f24c5ee9:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Massey Mathews".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c031c9bc0d2181db194
+:603c2c031c9bc0d2181db194:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Candy Parsons".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03a333c3eb010ab651
+:603c2c03a333c3eb010ab651:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Berg Lloyd".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03ed2a3ff91f09ef0d
+:603c2c03ed2a3ff91f09ef0d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Alberta Aguilar".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c034806e6564284f46c
+:603c2c034806e6564284f46c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Camille Schultz".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c032b7d797c1e193a02
+:603c2c032b7d797c1e193a02:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Andrews Middleton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c030b46b1b794913cea
+:603c2c030b46b1b794913cea:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Spencer Aguirre".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03f43462e7120290ff
+:603c2c03f43462e7120290ff:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Jaclyn Barnett".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c031174ac19f749d6f1
+:603c2c031174ac19f749d6f1:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Vivian Montoya".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03783313d1a2fc0f38
+:603c2c03783313d1a2fc0f38:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Blackburn Marshall".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c03ecd401ee38145503
+:603c2c03ecd401ee38145503:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Burch Weber".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2c0345cce9ccd69d2360
+:603c2c0345cce9ccd69d2360:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :PRC2021 ;
+	:nome "Roach Mullins".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5baac067c5ae0e0c5
+:603c2ce5baac067c5ae0e0c5:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Pennington Beach".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce55bd622b95e8bd42c
+:603c2ce55bd622b95e8bd42c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Buck Marquez".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5c372fb9a3b568d46
+:603c2ce5c372fb9a3b568d46:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Cooke Harper".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5a95bdb3b7c6afe9c
+:603c2ce5a95bdb3b7c6afe9c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Cote Daugherty".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce57f9384ec8cfd4ca7
+:603c2ce57f9384ec8cfd4ca7:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Jodie Rowe".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5d91710f4413623fa
+:603c2ce5d91710f4413623fa:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Enid Maynard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5e21e1a92550dd02f
+:603c2ce5e21e1a92550dd02f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Dillard Davenport".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce50d5c771cf28cd931
+:603c2ce50d5c771cf28cd931:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Barbara Farrell".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce556bd0c0705df3dfa
+:603c2ce556bd0c0705df3dfa:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Wilcox Guy".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce574f1d7f3cb1540fd
+:603c2ce574f1d7f3cb1540fd:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Courtney Dickson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5a5d7ef263ab56f7e
+:603c2ce5a5d7ef263ab56f7e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Viola Ray".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5f6be5852d5c9c5a4
+:603c2ce5f6be5852d5c9c5a4:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Ochoa Slater".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5c4baa5369f0d2e02
+:603c2ce5c4baa5369f0d2e02:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Minerva Shaffer".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5146cf99a5b6e3aa3
+:603c2ce5146cf99a5b6e3aa3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Tasha Aguirre".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5d04469bb44d0eac3
+:603c2ce5d04469bb44d0eac3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Frieda Schneider".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5c12fc3901eb3ad59
+:603c2ce5c12fc3901eb3ad59:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Green Howard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce56a4a4e8d2ae15b69
+:603c2ce56a4a4e8d2ae15b69:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Luna Hubbard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce56379e625de8f149f
+:603c2ce56379e625de8f149f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Sellers Russo".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5706555a9c31079fe
+:603c2ce5706555a9c31079fe:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Reeves Hale".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5828c93ab49a57e5d
+:603c2ce5828c93ab49a57e5d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Johnson Ramirez".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce57c83fcd17a42ddb9
+:603c2ce57c83fcd17a42ddb9:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Le Greene".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce54a28720161185853
+:603c2ce54a28720161185853:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Pruitt Colon".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5b63553d3eec7380a
+:603c2ce5b63553d3eec7380a:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Rochelle Hartman".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5e97a9d8ca112548b
+:603c2ce5e97a9d8ca112548b:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Benson Rush".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5bd2e13bec5c7ed5c
+:603c2ce5bd2e13bec5c7ed5c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Carolina Salazar".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5cac1304d0f1a9202
+:603c2ce5cac1304d0f1a9202:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Mcfarland Cabrera".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce51a9691cc27a9b2a5
+:603c2ce51a9691cc27a9b2a5:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Powell Knox".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5e22bdb6670406c3f
+:603c2ce5e22bdb6670406c3f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Wright Cannon".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce51e7cd7357ecab4b3
+:603c2ce51e7cd7357ecab4b3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Kenya Lamb".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5e463bd6b4824cbfe
+:603c2ce5e463bd6b4824cbfe:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Buchanan Hewitt".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce583cf07d8593cc41d
+:603c2ce583cf07d8593cc41d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Conley Le".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce50757f010e392bc23
+:603c2ce50757f010e392bc23:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Bettie Bond".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5bd7e8c599b8ad541
+:603c2ce5bd7e8c599b8ad541:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Crosby Rowland".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5d80dba9f095dbcf2
+:603c2ce5d80dba9f095dbcf2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Contreras Hughes".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5e9d8efd1e95ae133
+:603c2ce5e9d8efd1e95ae133:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Gallagher Fry".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce58466d211bb80ab3f
+:603c2ce58466d211bb80ab3f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Clemons Brock".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5ed1ee4ed183dee93
+:603c2ce5ed1ee4ed183dee93:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Janie Hunt".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce50f1454b2c31c2250
+:603c2ce50f1454b2c31c2250:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Willa Bass".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5d3f51c3fb10648db
+:603c2ce5d3f51c3fb10648db:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Henry Mcdaniel".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce58de9e3b922f0a87f
+:603c2ce58de9e3b922f0a87f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Tonia Galloway".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce584f8b75f7c3944f8
+:603c2ce584f8b75f7c3944f8:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Susanna Hodge".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5cf13a8f6c59f1e13
+:603c2ce5cf13a8f6c59f1e13:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Briana Sloan".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce51a6e442f59a16afe
+:603c2ce51a6e442f59a16afe:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Lindsey Leonard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5f414fcb596d6ac67
+:603c2ce5f414fcb596d6ac67:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Joyce Barton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce5dc2e8aedfb40c617
+:603c2ce5dc2e8aedfb40c617:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Ramirez Hodges".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce59795711c0dcb9940
+:603c2ce59795711c0dcb9940:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Jo Whitfield".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce50b07912def04296f
+:603c2ce50b07912def04296f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Burgess Ball".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce512d3e342acc26135
+:603c2ce512d3e342acc26135:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Gwen Richardson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce576a65653504987eb
+:603c2ce576a65653504987eb:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Bridget Randall".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2ce59824d1f1ee0cee0c
+:603c2ce59824d1f1ee0cee0c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SPLN2021 ;
+	:nome "Bowers Sweeney".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e090ff87553608d99f0
+:603c2e090ff87553608d99f0:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Faulkner Porter".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0986f19258ffaea4f2
+:603c2e0986f19258ffaea4f2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Jacquelyn Kent".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09b850385bb17b1fa2
+:603c2e09b850385bb17b1fa2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Roberson Bullock".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09d826d64a6c6e1ed8
+:603c2e09d826d64a6c6e1ed8:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Huffman Mcintyre".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0914059ed2c620c2fc
+:603c2e0914059ed2c620c2fc:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Miller Stein".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0910f178da5ffcb7ae
+:603c2e0910f178da5ffcb7ae:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Ryan Bryant".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e099df9530b4d5eeba3
+:603c2e099df9530b4d5eeba3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Linda Neal".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09930025035e6e7684
+:603c2e09930025035e6e7684:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Rollins Dudley".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09a5b9e1c02b66b704
+:603c2e09a5b9e1c02b66b704:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Oneal Hunter".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09105f94cfe1d1a716
+:603c2e09105f94cfe1d1a716:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Annette Mcfadden".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09839df52690995042
+:603c2e09839df52690995042:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Jimmie Flynn".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e095ce6e42e06902d2f
+:603c2e095ce6e42e06902d2f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Fuller Estes".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e092ea9840c7f6b281e
+:603c2e092ea9840c7f6b281e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Miriam Dyer".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0943a8cab10c0d4205
+:603c2e0943a8cab10c0d4205:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Pittman Watkins".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0979be709c22d5a03e
+:603c2e0979be709c22d5a03e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Phoebe Sparks".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e094102359b03088b5f
+:603c2e094102359b03088b5f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Lauren Donovan".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09207d88d9aa6e2dd2
+:603c2e09207d88d9aa6e2dd2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Mercedes Charles".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e094a2bf20ec0740a79
+:603c2e094a2bf20ec0740a79:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Reva Walls".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09c3923395f7fdccb3
+:603c2e09c3923395f7fdccb3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Kellie Terry".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09f547ce0c34aa0df4
+:603c2e09f547ce0c34aa0df4:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Nunez Reynolds".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09ac180e13e2d85a62
+:603c2e09ac180e13e2d85a62:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Tyson Madden".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09f747455835f10936
+:603c2e09f747455835f10936:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Nellie Thornton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e099f63624515fcdac0
+:603c2e099f63624515fcdac0:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Kitty Norton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e095673a47b72751b55
+:603c2e095673a47b72751b55:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Barnes Berger".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e091013af15f29e9187
+:603c2e091013af15f29e9187:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Livingston Lewis".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0986a0de001d0ff15d
+:603c2e0986a0de001d0ff15d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Viola Weeks".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09f11c6390aa5b051a
+:603c2e09f11c6390aa5b051a:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Cherie Booth".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09515ec856aa4b4d41
+:603c2e09515ec856aa4b4d41:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Huff Chang".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e098f1d74f3c7a7b3b2
+:603c2e098f1d74f3c7a7b3b2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Benson Sherman".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09eaf67846b9f0c68e
+:603c2e09eaf67846b9f0c68e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Christina Figueroa".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09ace19e004d4520dc
+:603c2e09ace19e004d4520dc:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Suzanne Dillard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e096edd368e97bf940a
+:603c2e096edd368e97bf940a:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Lillie Marks".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0977a5a2f31f508ed3
+:603c2e0977a5a2f31f508ed3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Deanne Parrish".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0927f7a79163e84137
+:603c2e0927f7a79163e84137:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Reeves Hester".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e096775242d91f9d204
+:603c2e096775242d91f9d204:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Price Adams".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0910bc7f7f2eb17041
+:603c2e0910bc7f7f2eb17041:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Terry Franco".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09c89443f22eee1e2e
+:603c2e09c89443f22eee1e2e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Cardenas Vincent".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0950981656d536b7a9
+:603c2e0950981656d536b7a9:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Dana Kirby".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09a83adb87ab237b73
+:603c2e09a83adb87ab237b73:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Tessa Page".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e099b4c660ebd4b4f5d
+:603c2e099b4c660ebd4b4f5d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Keith Kramer".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09ecb56dd1ce290faa
+:603c2e09ecb56dd1ce290faa:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Marian Stout".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0964098fb66313eb8e
+:603c2e0964098fb66313eb8e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Hendricks Key".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e097de58c8e3241c97d
+:603c2e097de58c8e3241c97d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Kerry Stark".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0996d6c7f9767cb02e
+:603c2e0996d6c7f9767cb02e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Sonya Rogers".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0931448edc5609d3cc
+:603c2e0931448edc5609d3cc:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Collins Daniels".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0931b613b980ced51b
+:603c2e0931b613b980ced51b:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Mclean Thompson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e0911446798653663de
+:603c2e0911446798653663de:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Klein Bond".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09f98dbfd4a4dfa9b6
+:603c2e09f98dbfd4a4dfa9b6:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Rich Robertson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e095fe82e4920ced1dc
+:603c2e095fe82e4920ced1dc:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Craft Wiggins".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e09ed147911f6080a94
+:603c2e09ed147911f6080a94:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :SI2021 ;
+	:nome "Claudine Hobbs".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1eb9e2a1261243dc
+:603c2e7d1eb9e2a1261243dc:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Hawkins Irwin".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7def7317fbc30e9a75
+:603c2e7def7317fbc30e9a75:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Elise Russo".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d3b89b1eb25b1f02f
+:603c2e7d3b89b1eb25b1f02f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Reynolds Baird".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d9bb2f717d9357e00
+:603c2e7d9bb2f717d9357e00:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Charlotte Decker".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d32ef7c759e779bcf
+:603c2e7d32ef7c759e779bcf:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Kitty Mcdaniel".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7da46b005ccc088f78
+:603c2e7da46b005ccc088f78:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Gilliam Adams".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7da268080b442e6b29
+:603c2e7da268080b442e6b29:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Sheena Bridges".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1bdf2b5a876fbc6f
+:603c2e7d1bdf2b5a876fbc6f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Lawanda Stone".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d3a51aa2bfb517ac3
+:603c2e7d3a51aa2bfb517ac3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Berry Stuart".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d9dece67e479f2248
+:603c2e7d9dece67e479f2248:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Bridget Valentine".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d04c8694ceffbb419
+:603c2e7d04c8694ceffbb419:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Jimenez Hardy".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d595f9f0f3bfe1412
+:603c2e7d595f9f0f3bfe1412:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Barbara Shelton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d74f73df79e445517
+:603c2e7d74f73df79e445517:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Julia Clemons".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7dc97a77c87e7ad2bb
+:603c2e7dc97a77c87e7ad2bb:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Angel Armstrong".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7dfd915b941f085f6f
+:603c2e7dfd915b941f085f6f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Francis Velasquez".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d6ce72966f7e948ef
+:603c2e7d6ce72966f7e948ef:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Jessica Riggs".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d28993f59e06f6545
+:603c2e7d28993f59e06f6545:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Frieda Rose".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d332439bcdd0464ec
+:603c2e7d332439bcdd0464ec:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Richardson Woodard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1cc31af0822bcf10
+:603c2e7d1cc31af0822bcf10:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Ingram Schmidt".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7de743456226d86ace
+:603c2e7de743456226d86ace:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Henson Wilder".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7db5fbe1283e59cfde
+:603c2e7db5fbe1283e59cfde:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Arlene Jennings".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d07137571a3ea1e0b
+:603c2e7d07137571a3ea1e0b:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Hurley Pearson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7de7cbbafc421db46c
+:603c2e7de7cbbafc421db46c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Aurora Petty".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d9c8319bb45f7aca2
+:603c2e7d9c8319bb45f7aca2:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Shanna Randolph".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d6e2fb3415d3f087e
+:603c2e7d6e2fb3415d3f087e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Collier Todd".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d57fe7294a8b065e3
+:603c2e7d57fe7294a8b065e3:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Lawrence Montgomery".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d0793e3249db91146
+:603c2e7d0793e3249db91146:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Miles Travis".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d7697b6f564761f51
+:603c2e7d7697b6f564761f51:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Bradshaw Cohen".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d99c50b7eeb725fa1
+:603c2e7d99c50b7eeb725fa1:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Hilary Hicks".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d147c74945da7c3b5
+:603c2e7d147c74945da7c3b5:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Marianne Faulkner".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7dba6931496bc6078c
+:603c2e7dba6931496bc6078c:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Dixon Stanley".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d39911ddd1167d835
+:603c2e7d39911ddd1167d835:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Rasmussen Buckley".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d37e3d8176ef0519f
+:603c2e7d37e3d8176ef0519f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Gibson Sandoval".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d049b44fba02885b8
+:603c2e7d049b44fba02885b8:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Nicholson Rush".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1ae10d62226ed33f
+:603c2e7d1ae10d62226ed33f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Blevins Farrell".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1c3c90bd8d129418
+:603c2e7d1c3c90bd8d129418:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Katrina Spence".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d9414cb744b1729fb
+:603c2e7d9414cb744b1729fb:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Thomas Ayala".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7dd80fd2cf9f5c9ea0
+:603c2e7dd80fd2cf9f5c9ea0:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Neva Morton".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d3b089c6f01d7509d
+:603c2e7d3b089c6f01d7509d:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Holder Oneil".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7deeb9f9cdb8798792
+:603c2e7deeb9f9cdb8798792:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Barry England".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d7ae66f62736ca77e
+:603c2e7d7ae66f62736ca77e:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Kathrine Thompson".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7da17d4a3d13476b23
+:603c2e7da17d4a3d13476b23:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Cohen Arnold".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7df53323d4fc942ee6
+:603c2e7df53323d4fc942ee6:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Roy Cooper".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d7b83f419d33313d7
+:603c2e7d7b83f419d33313d7:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "French Hubbard".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d1e31bdd2743f4fa8
+:603c2e7d1e31bdd2743f4fa8:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Delaney Underwood".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d7a8a359beb532426
+:603c2e7d7a8a359beb532426:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Caroline Sparks".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d3591b31971cae363
+:603c2e7d3591b31971cae363:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Chaney King".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7deeb7600db388a3db
+:603c2e7deeb7600db388a3db:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Melton Nolan".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d66eaa520adaa59b9
+:603c2e7d66eaa520adaa59b9:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Nieves Rivers".
+
+
+###http://www.di.uminho.pt/prc2021/uc#603c2e7d365dc741aa73058f
+:603c2e7d365dc741aa73058f:rdf:type owl:NamedIndividual,
+			 :Aluno ;
+	:frequenta :AA2021 ;
+	:nome "Angelita Bonner".
+

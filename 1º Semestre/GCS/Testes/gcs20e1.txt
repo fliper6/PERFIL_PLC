@@ -1,0 +1,136 @@
+######################################################################################################
+######################################################################################################
+
+Questão prática
+
+exemplo -> [ 3 , cinco , 1 , 6 , escola , 4 , livro ]
+
+output -> [ livro , escola , cinco ] //Lista inversa de palavras
+          2 //Quantidade de números pares na lista
+
+
+//PARSER
+listamista: '[' lista ']' 
+              {
+               System.out.println($lista.listaInversaPalavras);
+               System.out.println($lista.contadorPares);
+              }
+		    ;
+
+lista returns [int contadorPares, ArrayList<String> listaInversaPalavras]
+@init{ //Inicia o contador de pares e o array que vai guardar a lista invertida
+	contadorPares=0;
+	ArrayList<String> listaInversaPalavras = new ArrayList<String>();
+}
+       : valor //: valor {} (',' valor {})*
+          { if ($valor.numero) { //Se o valor for um número...
+              if ($valor.numero % 2 == 0) contadorPares++; //...e par
+            }
+           else { //Se o valor for uma palavra...
+              listaInversaPalavras.cons($valor.palavra);
+           }
+          }
+         ( ',' valor {
+          { if ($valor.numero) {
+              if ($valor.numero % 2 == 0) contadorPares++;
+            }
+            else {
+              listaInversaPalavras.cons($valor.palavra);
+            }
+           }
+          })* 
+
+
+valor returns [String palavra, int numero]
+     : NUM {$numero=$NUM.int;}
+     | PAL {$palavra=$PAL.tex;}
+     ;
+
+
+//LEXER
+NUM: [0-9]+
+PAL: [a-zA-Z]+
+WS: ('\r'? '\n' | ' ' | '\t')+ ->skip;
+
+
+
+######################################################################################################
+######################################################################################################
+
+Questão teórica 1
+
+Penso que uma boa linguagem para iniciar alunos universitários na atividade de programação é Java:
+(CL1) Quanto à expressividade é uma linguagem bastante satisfatória pois tem um bom nível de naturalidade na maneira como exprime a mensagem que pretende comunicar. 
+(CL2) Em termos de documentação, é excelente pois para além dos comentários habituais ao código, permite criar documentação em HTML, através do JavaDoc. 
+(CL4) Tem uma consistência boa, pois em geral, a forma de escrever o mesmo tipo de ideias é consistente. 
+(CL8) Permite também a modularidade, uma vez que é possível, organizar partes de código em vários ficheiros que podem ser reutilizados e importados, tem uma excelente fiabilidade, pois oferece várias facilidades para aumentar a confiança no código a executar como, por exemplo as exceções para apanhar erros. 
+(CL5) Apresenta também uma boa extensibilidade pois tem uma boa capacidade para ser alterada por um utilizador, por exemplo com a criação de classes e objetos.
+
+
+
+
+######################################################################################################
+######################################################################################################
+
+Questão teórica 2
+
+Como se trata de uma DSL (domain specific language), ou seja, uma linguagem para resolver problemas num domínio específico. Estando em ANTLR, e sendo então um domínio específico é mais vantajoso utilizar uma GA, pois esta permite a troca de atributos entre os vários símbolos da produção e ainda uma correção semântica, devido às suas condições de contexto que iriam impor restrições aos valores
+dos atributos das várias produções de modo a que as frases fizessem sentido. Ou seja, a GA iria dar significado as frases e restringir algumas contruções sintáticas o que seria benéfico.
+
+Se tivesse de escolher entre uma GT e uma GA, eu optaria pela GA, porque acho que é mais fácil, mais completa e acho que o resultado final seria mais apelativo. Com GA recorremos às condições de contexto para validar a semântica, regras de cálculo para determinar valor dos atributos dos determinados simbolos, regras de tradução para exprimir resultados desejados e recorremos também a atributos herdados e sintetizados. Com este conjunto todo, é possível fazer uma DSL muito facilmente e com bastante elengância.
+
+PORQUE GA > GT: 
+- melhor em DSL's;
+- permite a troca de atributos entre os vários símbolos da produção;
+- correção semântica --> condições de contexto restringem os valores dos atributos --> invalidam algumas construções sintáticas --> certificam que as frases da linguagem fazem sentido;
+- regras de cáclculo e regras de tradução;
+- atributos herdados e sintetizados;
+- em geral, muito mais completa, permite um nível de elegância e refinação muito superior;
+
+
+######################################################################################################
+######################################################################################################
+
+Questão teórica 3
+
+Das 2 GIC, a de maior qualidade é a GIC1. O facto de a GIC1 precisar de apenas 5 linhas para definir o mesmo que a GIC2 define mas em 9 linhas, é sem dúvida um fator a considerar. A GIC1 tem apenas 3 produções, enquanto que a GIC2 tem 5. O ter menos produçõesé uma vantagem pois permite uma melhor leitura e compreensão da gramática. A GIC2 tem também produções com compriemntos de RHS grandes como é o caso da produção grupo. Em geral penso que a GIC1 consegue expressar a mesma gramática, mas de uma forma mais eficiente e organizada, que permitiu uma melhor compreensão da minha parte. Quanto à linguagem por elas geradas, no caso da GIC1 a linguagem não será terá simbolos como virgulas ou "<" a separar as listas, o que fará com que seja um pouco mais confusa e desorganizada do que a linguagem gerada por GIC2.
+
+Na minha opinião, a GIC2 tem maior qualidade pois é possível verificar que tudo está dividido por campos, sendo assim mais fácil de perceber e usar a gramática. 
+Por exemplo, antes de inserir os alunos, na GIC2, aparece um TOKEN "ALS" avisando que o que aí vem são alunos, enquanto que a GIC1 apenas mete diretamente os alunos. 
+A linguagem da GIC2 é mais fácil de compreender, aprender e usar. Esta facilita a legibilidade sem degradar o processamento.
+
+######################################################################################################
+######################################################################################################
+
+Questão teórica 4
+
+A utilização da abordagem das ontologias é importante, pois estas são excelentes para especificar de forma explícita uma conceptualização, ou seja, 
+descrever de uma forma simples e organizada o conceito que envolve o que fizemos no nosso trabalho prático, de modo a este ser mais percetível a um utilizador,
+por exemplo. 
+
+Quantos aos conceitos utilizados, temos, por exemplo Alunos que têm uma relação "têm" com o conceito Emoções (as suas características psicológicas), o conceito 
+Recurso, tem também a mesma relação ("têm") com o conceito Emoção.
+
+A ontologia é muito importante porque representa o modelo abstrato e cognitivo de um dominimo de conhecimento. A vantagem é que através desse modelo, conseguimos 
+perceber toda a estrutura e todas as relações sem conhecermos necessáriamente o trabalho. No nosso trabalho prático a ontologia consistia:
+
+conceitos{Aluno, Recurso de apredizagem, Conceito, Características}
+
+individuos{Número de aluno, Idade, Identificador do recurso, Tipo do recurso, Descrição, Idade ideal}
+
+relações{contém, ensina, iof, utiliza}
+
+triplos{
+	Número de aluno = iof => Aluno
+	Idade = iof => Aluno
+	Aluno = contém => Características
+	Identificador do recurso  = iof => Recurso de aprendizagem 
+	Tipo do recurso  = iof => Recurso de aprendizagem 
+	Descrição  = iof => Recurso de aprendizagem 
+	Idade ideal  = iof => Recurso de aprendizagem 
+	Recurso de aprendizagem = ensina => Conceitos
+	Recurso de aprendizagem = contém => Características
+	Aluno = utiliza => Recurso de aprendizagem
+}
+
+Os conceitos mais importantes neste trabalho foram o aluno, o conceito e o recurso de aprendizagem. As relações mais importantes foram o contém e o ensina para determinar quais os recursos de aprendizagem que ensinam determinado conceito e o contém para determinar quais as caracteristicas que um aluno e que um recurso de aprendizagem tem.

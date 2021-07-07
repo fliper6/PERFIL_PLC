@@ -1,0 +1,9 @@
+Dentro do generate.js:
+> Colar o JSON em questão dentro da var
+
+> npm i generate-schema
+> node generate.js
+
+> Como output, no final da string diz "required":["model","doors"]" (no exemplo que tá) e assim sabemos todas as possíveis propriedades dos items
+-------------------------------------------------------------------------------------------------------------------------------------------------
+!! Also, como alternativa podemos simplesmente aceder ao MongoDB Compass e na tab "Schema" (dentro da coleção) diz tudo o necessário !!

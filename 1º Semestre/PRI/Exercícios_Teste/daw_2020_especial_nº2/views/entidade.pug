@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Entidade
+  table.w3-table-all
+    tr
+      th Sigla
+      th Estado
+      th Designacao
+    tr
+      td= e.sigla
+      td= e.estado
+      td= e.designacao
+  a(href=('/tipologias'))
+    p Voltar ao menu principal

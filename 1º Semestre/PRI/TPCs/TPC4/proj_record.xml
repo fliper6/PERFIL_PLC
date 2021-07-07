@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>Project Record - TPC4</key>
+        <title>Site do arquivo de arqueossítios do NW Português através de Node.js</title>
+        <bdate>05-Nov-2020</bdate>
+        <edate>09-Nov-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="a83631">
+            <name>Filipa Alves dos Santos</name>
+            <email>a83631@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho foi realizado no contexto da Unidade Curricular <b>PRI</b>
+            (Processamento e Representação de Informação) do Mestrado em Engenharia Informática da  
+            Universidade do Minho.
+        </p>
+        <p>
+            Consiste num servidor <i>Node.js</i>, que envia ficheiros sobre arqueossítios portugueses.
+            Toda a informação é originada de um ficheiro <i>XML</i> fornecido pelo supervisor.
+        </p>
+        <p>
+            No site, temos um índice com todos os arqueossítios. Ao clicar em cada um, obtemos um 
+            ficheiro com toda a informação arquivada sobre esse arqueossítio.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/fliper6/PRI2020/blob/main/TPC4/">Ficheiros do TPC4 </link>
+        <link url="https://github.com/fliper6/PRI2020/blob/main/TPC4/arq-original.xml">Ficheiro XML dos arqueossítios</link>
+        <link url="https://github.com/fliper6/PRI2020/blob/main/TPC4/proj_record.dtd">Ficheiro DTD deste project record</link>
+        <link url="https://github.com/fliper6/PRI2020/tree/main/TPC4/site">Pasta com os ficheiros do site</link>
+        <link url="https://github.com/fliper6/PRI2020/blob/main/TPC4/server.js">Ficheiro do servidor Node.js</link>
+    </deliverables>
+</pr>

@@ -1,0 +1,151 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/1/uc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/1/uc> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/1/uc> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#ensina
+:ensina rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éEnsinadaPor ;
+        rdfs:domain :Professor ;
+        rdfs:range :UnidadeCurricular .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#frequenta
+:frequenta rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éFrequentadaPor ;
+           rdfs:domain :Aluno ;
+           rdfs:range :UnidadeCurricular .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#éAlunoDe
+:éAlunoDe rdf:type owl:ObjectProperty ;
+          owl:inverseOf :éProfessorDe .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#éEnsinadaPor
+:éEnsinadaPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#éFrequentadaPor
+:éFrequentadaPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#éProfessorDe
+:éProfessorDe rdf:type owl:ObjectProperty ;
+              owl:propertyChainAxiom ( :ensina
+                                       :éFrequentadaPor
+                                     ) .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#anoLetivo
+:anoLetivo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#designação
+:designação rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#Aluno
+:Aluno rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :frequenta ;
+                         owl:someValuesFrom :UnidadeCurricular
+                       ] .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#Professor
+:Professor rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :ensina ;
+                             owl:someValuesFrom :UnidadeCurricular
+                           ] .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#UnidadeCurricular
+:UnidadeCurricular rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#AL
+:AL rdf:type owl:NamedIndividual ,
+             :Aluno ;
+    :frequenta :PRC2021 ,
+               :SPLN2021 ;
+    :éAlunoDe :JCR ,
+              :JJ ;
+    :nome "António Lindo" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#JCR
+:JCR rdf:type owl:NamedIndividual ,
+              :Professor ;
+     :ensina :PRC2021 ;
+     :éProfessorDe :AL ,
+                   :RN ;
+     :nome "José Carlos Ramalho" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#JJ
+:JJ rdf:type owl:NamedIndividual ,
+             :Professor ;
+    :ensina :SPLN2021 ;
+    :éProfessorDe :AL ,
+                  :RN ;
+    :nome "José João" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#PRC2021
+:PRC2021 rdf:type owl:NamedIndividual ,
+                  :UnidadeCurricular ;
+         :éEnsinadaPor :JCR ;
+         :éFrequentadaPor :AL ,
+                          :RN ;
+         :anoLetivo "2020/2021" ;
+         :designação "PRC" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#RN
+:RN rdf:type owl:NamedIndividual ,
+             :Aluno ;
+    :frequenta :PRC2021 ,
+               :SPLN2021 ;
+    :éAlunoDe :JCR ,
+              :JJ ;
+    :nome "Raimundo Lindo" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/1/uc#SPLN2021
+:SPLN2021 rdf:type owl:NamedIndividual ,
+                   :UnidadeCurricular ;
+          :éEnsinadaPor :JJ ;
+          :éFrequentadaPor :AL ,
+                           :RN ;
+          :anoLetivo "2020/2021" ;
+          :designação "SPLN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,367 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/4/slate#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/4/slate> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/4/slate> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#temApresentação
+:temApresentação rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Conferência ,
+                             :Sessão ;
+                 rdfs:range :Apresentação .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#temAutor
+:temAutor rdf:type owl:ObjectProperty ;
+          rdfs:domain :Apresentação ;
+          rdfs:range :Autor .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#chair
+:chair rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Sessão .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#data
+:data rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Conferência ,
+                  :Sessão .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#hora
+:hora rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Sessão .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#local
+:local rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Conferência .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#resumo
+:resumo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Apresentação .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#tipo
+:tipo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Apresentação .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#título
+:título rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Apresentação .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Apresentação
+:Apresentação rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Autor
+:Autor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Conferência
+:Conferência rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Sessão
+:Sessão rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#André_Santos
+:André_Santos rdf:type owl:NamedIndividual ,
+                       :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap1
+:Ap1 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Hugo_Gonçalo_Oliveira ,
+               :João_Ferreira ,
+               :Ricardo_Rodrigues ;
+     :data "13-07-2021" ;
+     :hora "10:05" ;
+     :tipo "Programada" ;
+     :título "Assessing Factoid Question-Answer Generation for Portuguese" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap2
+:Ap2 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Maria_João_Varanda_Pereira ,
+               :Pedro_Rangel_Henriques ,
+               :Renato_Preigschadt_De_Azevedo ;
+     :data "13-07-2021" ;
+     :hora "10:30" ;
+     :tipo "Programada" ;
+     :título "Development of Q&A Systems using AcQA" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap3
+:Ap3 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :André_Santos ,
+               :José_Leal ,
+               :João_Silva ;
+     :data "13-07-2021" ;
+     :hora "10:55" ;
+     :tipo "Programada" ;
+     :título "DAOLOT: a Semantic Browser" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap4
+:Ap4 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :José_João_Almeida ,
+               :Miguel_Oliveira ,
+               :Pedro_Moura ,
+               :Pedro_Rangel_Henriques ,
+               :Pedro_Silva ;
+     :data "13-07-2021" ;
+     :hora "11:20" ;
+     :tipo "Programada" ;
+     :título "Behavior Trees Specification and Processing" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap5
+:Ap5 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Maria_Varanda_Pereira ,
+               :Mario_Beron ,
+               :Mauro_Argañaraz ,
+               :Pedro_Henriques ;
+     :data "13-07-2021" ;
+     :hora "14:30" ;
+     :tipo "Programada" ;
+     :título "Detection of Vulnerabilities in Smart Contracts Specifications in Ethereum Platforms" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap6
+:Ap6 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :José_João_Almeida ,
+               :Pedro_M._Silva ;
+     :data "13-07-2021" ;
+     :hora "14:55" ;
+     :tipo "Programada" ;
+     :título "Musikla: Language for Generating Musical Events" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap7
+:Ap7 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Jorge_Baptista ,
+               :Nuno_Mamede ;
+     :data "13-07-2021" ;
+     :hora "15:20" ;
+     :tipo "Programada" ;
+     :título "Syntactic Transformations in Rule-based Parsing of Support Verb Constructions: Examples from European Portuguese" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap8
+:Ap8 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Hristo_Valkanov ,
+               :José_Paulo_Leal ;
+     :data "13-07-2021" ;
+     :hora "15:45" ;
+     :tipo "Programada" ;
+     :título "Integrating multi-source data into HandSpy" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ap9
+:Ap9 rdf:type owl:NamedIndividual ,
+              :Apresentação ;
+     :temAutor :Jakub_Swacha ,
+               :José_Carlos_Paiva ,
+               :José_Paulo_Leal ,
+               :Ricardo_Queirós ;
+     :data "13-07-2021" ;
+     :hora "16:00" ;
+     :tipo "Programada" ;
+     :título "Yet Another Programming Exercises Interoperability Language" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Hristo_Valkanov
+:Hristo_Valkanov rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Hugo_Gonçalo_Oliveira
+:Hugo_Gonçalo_Oliveira rdf:type owl:NamedIndividual ,
+                                :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Jakub_Swacha
+:Jakub_Swacha rdf:type owl:NamedIndividual ,
+                       :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Jorge_Baptista
+:Jorge_Baptista rdf:type owl:NamedIndividual ,
+                         :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#José_Carlos_Paiva
+:José_Carlos_Paiva rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#José_João_Almeida
+:José_João_Almeida rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#José_Leal
+:José_Leal rdf:type owl:NamedIndividual ,
+                    :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#José_Paulo_Leal
+:José_Paulo_Leal rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#João_Ferreira
+:João_Ferreira rdf:type owl:NamedIndividual ,
+                        :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#João_Silva
+:João_Silva rdf:type owl:NamedIndividual ,
+                     :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Maria_João_Varanda_Pereira
+:Maria_João_Varanda_Pereira rdf:type owl:NamedIndividual ,
+                                     :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Maria_Varanda_Pereira
+:Maria_Varanda_Pereira rdf:type owl:NamedIndividual ,
+                                :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Mario_Beron
+:Mario_Beron rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Mauro_Argañaraz
+:Mauro_Argañaraz rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Miguel_Oliveira
+:Miguel_Oliveira rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Nuno_Mamede
+:Nuno_Mamede rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Pedro_Henriques
+:Pedro_Henriques rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Pedro_M._Silva
+:Pedro_M._Silva rdf:type owl:NamedIndividual ,
+                         :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Pedro_Moura
+:Pedro_Moura rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Pedro_Rangel_Henriques
+:Pedro_Rangel_Henriques rdf:type owl:NamedIndividual ,
+                                 :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Pedro_Silva
+:Pedro_Silva rdf:type owl:NamedIndividual ,
+                      :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Renato_Preigschadt_De_Azevedo
+:Renato_Preigschadt_De_Azevedo rdf:type owl:NamedIndividual ,
+                                        :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ricardo_Queirós
+:Ricardo_Queirós rdf:type owl:NamedIndividual ,
+                          :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Ricardo_Rodrigues
+:Ricardo_Rodrigues rdf:type owl:NamedIndividual ,
+                            :Autor .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Session_I
+:Session_I rdf:type owl:NamedIndividual ,
+                    :Sessão ;
+           :temApresentação :Ap1 ,
+                            :Ap2 ,
+                            :Ap3 ,
+                            :Ap4 ;
+           :chair "Alberto_Simões" ;
+           :data "13-07-2021" ;
+           :hora "10h" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Session_II
+:Session_II rdf:type owl:NamedIndividual ,
+                     :Sessão ;
+            :temApresentação :Ap5 ,
+                             :Ap6 ,
+                             :Ap7 ,
+                             :Ap8 ,
+                             :Ap9 ;
+            :chair "Hugo_Gonçalo_Oliveira" ;
+            :data "13-07-2021" ;
+            :hora "11:45h" .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/slate#Slate
+:Slate rdf:type owl:NamedIndividual ,
+                :Conferência ;
+       :temApresentação :Ap1 ,
+                        :Ap2 ,
+                        :Ap3 ,
+                        :Ap4 ,
+                        :Ap5 ,
+                        :Ap6 ,
+                        :Ap7 ,
+                        :Ap8 ,
+                        :Ap9 ;
+       :data 2021 ;
+       :local "Braga" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

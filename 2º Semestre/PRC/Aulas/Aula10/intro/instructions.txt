@@ -1,0 +1,22 @@
+>docker run -d -p 7008:7200 --name gdb 69eaf6b958d4
+
+website estático --> usar nginx
+
+docker compose dá docker run de todas as imagens:
+> docker-compose up -d
+cria uma rede default com os serviçoes todos --> "aula10_default"
+
+mandar abaixo E apaga (stop + rm)
+> docker-compose down
+
+localhost só, leva-nos para a pagina com todas as imagens (main)
+
+--------------------------
+mudar o link para link interno
+- alterações no docker-compose.yml e index.html
+- vamos ter de recriar a imagem do main
+  > docker build -t zzglider/hello
+
+it did not work 
+--------------------------
+

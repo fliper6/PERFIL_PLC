@@ -1,0 +1,16 @@
+Dar fix a JSON com erros: 
+> https://jsonformatter.curiousconcept.com/
+> Ir corrigir restantes erros no VSCode
+
+Importar JSON da DB:
+> "Create Database"
+  > Database Name: ir a app.js > var mongoDB = 'mongodb://127.0.0.1/myPubs' > myPubs
+  > Collection Name: ir a module.exports = mongoose.model('pub', pubSchema) > pub + s > pubs
+> "myPubs"
+  > "pubs"
+    > "ADD DATA" 
+      > Importar ficheiro JSON (corrigido)
+
+Correr:
+> npm start
+> http://localhost:8000/api/pubs p.e. para vermos a funcionar

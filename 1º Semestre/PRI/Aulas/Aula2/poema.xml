@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="poema.css"?>
+
+<poema> 
+    <titulo>"Soneto Já Antigo" </titulo>
+    <autor>Álvaro de Campos </autor>
+    <corpo>
+        <quadra>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+        </quadra>
+        <quadra>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+        </quadra>
+        <terceto>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+        </terceto>
+        <terceto>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+            <verso> dizes aos meus amigos aí de <local>Londres</local>: quando eu morrer tu hás-de </verso>
+            <verso> Olha, <nome>Daisy</nome>: quando eu morrer tu hás-de </verso>
+        </terceto>
+    </corpo>
+    <data> (1995) </data>
+</poema>

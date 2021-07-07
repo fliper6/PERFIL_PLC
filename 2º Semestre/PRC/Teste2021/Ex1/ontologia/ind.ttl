@@ -1,0 +1,5401 @@
+
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee00725274024d5a2
+	:60b3ee0ee00725274024d5a2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 0 ;
+	:dataEMD "2020-07-27" ;
+    :doAtleta :Emily_Terrell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Emily_Terrell
+	:Emily_Terrell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Emily_Terrell" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Clay" ;
+    :email "emily.terrell@gdgoma.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Futebol ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e62b59d062f2018a3
+	:60b3ee0e62b59d062f2018a3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 1 ;
+	:dataEMD "2019-01-17" ;
+    :doAtleta :Medina_Hartman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Medina_Hartman
+	:Medina_Hartman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Medina_Hartman" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Orick" ;
+    :email "medina.hartman@avcfamalicão.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e01ada8b23fc63b31
+	:60b3ee0e01ada8b23fc63b31 rdf:type owl:NamedIndividual , :EMD ;
+	:index 2 ;
+	:dataEMD "2020-04-09" ;
+    :doAtleta :Andrews_Rivas .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Andrews_Rivas
+	:Andrews_Rivas rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Andrews_Rivas" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Saticoy" ;
+    :email "andrews.rivas@abcbraga.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e6ab8471af29e2014
+	:60b3ee0e6ab8471af29e2014 rdf:type owl:NamedIndividual , :EMD ;
+	:index 3 ;
+	:dataEMD "2020-06-12" ;
+    :doAtleta :Marcella_Combs .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Marcella_Combs
+	:Marcella_Combs rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Marcella_Combs" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Manila" ;
+    :email "marcella.combs@clube de orientação do minho.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ed16d4695ffdf5f17
+	:60b3ee0ed16d4695ffdf5f17 rdf:type owl:NamedIndividual , :EMD ;
+	:index 4 ;
+	:dataEMD "2019-09-13" ;
+    :doAtleta :Mendoza_Buckner .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mendoza_Buckner
+	:Mendoza_Buckner rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mendoza_Buckner" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Brogan" ;
+    :email "mendoza.buckner@scbraga.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e2707c21708cc3418
+	:60b3ee0e2707c21708cc3418 rdf:type owl:NamedIndividual , :EMD ;
+	:index 5 ;
+	:dataEMD "2021-04-25" ;
+    :doAtleta :Sellers_Copeland .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sellers_Copeland
+	:Sellers_Copeland rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sellers_Copeland" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Spelter" ;
+    :email "sellers.copeland@clube de orientação do minho.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e4a1e0233af16ac8c
+	:60b3ee0e4a1e0233af16ac8c rdf:type owl:NamedIndividual , :EMD ;
+	:index 6 ;
+	:dataEMD "2020-12-29" ;
+    :doAtleta :Bernard_Stokes .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bernard_Stokes
+	:Bernard_Stokes rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bernard_Stokes" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Sussex" ;
+    :email "bernard.stokes@avcfamalicão.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ed5225a2a93a69c3a
+	:60b3ee0ed5225a2a93a69c3a rdf:type owl:NamedIndividual , :EMD ;
+	:index 7 ;
+	:dataEMD "2021-03-04" ;
+    :doAtleta :Alfreda_Raymond .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Alfreda_Raymond
+	:Alfreda_Raymond rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Alfreda_Raymond" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Sultana" ;
+    :email "alfreda.raymond@abcbraga.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e9488e742d1600f58
+	:60b3ee0e9488e742d1600f58 rdf:type owl:NamedIndividual , :EMD ;
+	:index 8 ;
+	:dataEMD "2021-05-29" ;
+    :doAtleta :Alston_Green .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Alston_Green
+	:Alston_Green rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Alston_Green" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Thornport" ;
+    :email "alston.green@scbraga.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ef8b2c3b732bc0d82
+	:60b3ee0ef8b2c3b732bc0d82 rdf:type owl:NamedIndividual , :EMD ;
+	:index 9 ;
+	:dataEMD "2019-10-27" ;
+    :doAtleta :Paige_Mccarthy .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Paige_Mccarthy
+	:Paige_Mccarthy rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Paige_Mccarthy" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Brandywine" ;
+    :email "paige.mccarthy@acdrcrespos.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ec14a4ad7e917ed36
+	:60b3ee0ec14a4ad7e917ed36 rdf:type owl:NamedIndividual , :EMD ;
+	:index 10 ;
+	:dataEMD "2020-08-09" ;
+    :doAtleta :Claudine_Gill .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Claudine_Gill
+	:Claudine_Gill rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Claudine_Gill" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Katonah" ;
+    :email "claudine.gill@acrroriz.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ecf1638e25755912c
+	:60b3ee0ecf1638e25755912c rdf:type owl:NamedIndividual , :EMD ;
+	:index 11 ;
+	:dataEMD "2019-12-03" ;
+    :doAtleta :Summer_Calhoun .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Summer_Calhoun
+	:Summer_Calhoun rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Summer_Calhoun" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "National" ;
+    :email "summer.calhoun@clube de orientação do minho.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e2fac3611c3cd7291
+	:60b3ee0e2fac3611c3cd7291 rdf:type owl:NamedIndividual , :EMD ;
+	:index 12 ;
+	:dataEMD "2020-01-22" ;
+    :doAtleta :Slater_David .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Slater_David
+	:Slater_David rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Slater_David" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Chicopee" ;
+    :email "slater.david@vitoria.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e1f3d25c518678bd7
+	:60b3ee0e1f3d25c518678bd7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 13 ;
+	:dataEMD "2020-09-03" ;
+    :doAtleta :Ophelia_Boyd .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ophelia_Boyd
+	:Ophelia_Boyd rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ophelia_Boyd" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Chaparrito" ;
+    :email "ophelia.boyd@amigosmontanha.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee62c8f8a846459ea
+	:60b3ee0ee62c8f8a846459ea rdf:type owl:NamedIndividual , :EMD ;
+	:index 14 ;
+	:dataEMD "2019-08-02" ;
+    :doAtleta :Evans_Singleton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Evans_Singleton
+	:Evans_Singleton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Evans_Singleton" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Sunwest" ;
+    :email "evans.singleton@clube de orientação do minho.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e0539642b38645cb3
+	:60b3ee0e0539642b38645cb3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 15 ;
+	:dataEMD "2020-08-07" ;
+    :doAtleta :Church_Bishop .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Church_Bishop
+	:Church_Bishop rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Church_Bishop" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Vallonia" ;
+    :email "church.bishop@vitoria.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3f327a6ba71f77b0
+	:60b3ee0e3f327a6ba71f77b0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 16 ;
+	:dataEMD "2019-07-13" ;
+    :doAtleta :Woodard_Bennett .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Woodard_Bennett
+	:Woodard_Bennett rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Woodard_Bennett" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Ruckersville" ;
+    :email "woodard.bennett@edviana.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e30fc3c2042f955eb
+	:60b3ee0e30fc3c2042f955eb rdf:type owl:NamedIndividual , :EMD ;
+	:index 17 ;
+	:dataEMD "2019-09-15" ;
+    :doAtleta :Vasquez_Michael .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Vasquez_Michael
+	:Vasquez_Michael rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Vasquez_Michael" ;
+	:idade 27 ;
+    :género "M" ;
+    :morada "Munjor" ;
+    :email "vasquez.michael@vitoria.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee90bdefcc8703185
+	:60b3ee0ee90bdefcc8703185 rdf:type owl:NamedIndividual , :EMD ;
+	:index 18 ;
+	:dataEMD "2019-09-04" ;
+    :doAtleta :Holloway_Maxwell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Holloway_Maxwell
+	:Holloway_Maxwell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Holloway_Maxwell" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Waikele" ;
+    :email "holloway.maxwell@avcfamalicão.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e559fb2fd0142f64c
+	:60b3ee0e559fb2fd0142f64c rdf:type owl:NamedIndividual , :EMD ;
+	:index 19 ;
+	:dataEMD "2020-02-04" ;
+    :doAtleta :Michele_Barber .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Michele_Barber
+	:Michele_Barber rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Michele_Barber" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Oberlin" ;
+    :email "michele.barber@clube de orientação do minho.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0eb2087f8cccef830d
+	:60b3ee0eb2087f8cccef830d rdf:type owl:NamedIndividual , :EMD ;
+	:index 20 ;
+	:dataEMD "2020-03-01" ;
+    :doAtleta :Chambers_Burton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Chambers_Burton
+	:Chambers_Burton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Chambers_Burton" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Boling" ;
+    :email "chambers.burton@vitoria.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea0dc6768a6ca7192
+	:60b3ee0ea0dc6768a6ca7192 rdf:type owl:NamedIndividual , :EMD ;
+	:index 21 ;
+	:dataEMD "2021-03-26" ;
+    :doAtleta :Massey_Goodman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Massey_Goodman
+	:Massey_Goodman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Massey_Goodman" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Garfield" ;
+    :email "massey.goodman@amigosmontanha.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee3d27702cac0b7cd
+	:60b3ee0ee3d27702cac0b7cd rdf:type owl:NamedIndividual , :EMD ;
+	:index 22 ;
+	:dataEMD "2021-02-26" ;
+    :doAtleta :Klein_Cameron .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Klein_Cameron
+	:Klein_Cameron rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Klein_Cameron" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Twilight" ;
+    :email "klein.cameron@scbraga.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e23a38b2da3f0a76e
+	:60b3ee0e23a38b2da3f0a76e rdf:type owl:NamedIndividual , :EMD ;
+	:index 23 ;
+	:dataEMD "2020-07-11" ;
+    :doAtleta :Lambert_Mueller .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lambert_Mueller
+	:Lambert_Mueller rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lambert_Mueller" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Oretta" ;
+    :email "lambert.mueller@acdrcrespos.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e172e761f8d52c213
+	:60b3ee0e172e761f8d52c213 rdf:type owl:NamedIndividual , :EMD ;
+	:index 24 ;
+	:dataEMD "2021-02-15" ;
+    :doAtleta :Ewing_Drake .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ewing_Drake
+	:Ewing_Drake rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ewing_Drake" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Nanafalia" ;
+    :email "ewing.drake@acdrcrespos.org" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e2573d42d411cc591
+	:60b3ee0e2573d42d411cc591 rdf:type owl:NamedIndividual , :EMD ;
+	:index 25 ;
+	:dataEMD "2019-01-04" ;
+    :doAtleta :Lester_Manning .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lester_Manning
+	:Lester_Manning rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lester_Manning" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Grandview" ;
+    :email "lester.manning@acdrcrespos.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee95a95d0c9bc3e5f
+	:60b3ee0ee95a95d0c9bc3e5f rdf:type owl:NamedIndividual , :EMD ;
+	:index 26 ;
+	:dataEMD "2020-04-16" ;
+    :doAtleta :Nina_Fowler .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Nina_Fowler
+	:Nina_Fowler rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Nina_Fowler" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Turah" ;
+    :email "nina.fowler@amigosmontanha.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0effaf9b013df4203d
+	:60b3ee0effaf9b013df4203d rdf:type owl:NamedIndividual , :EMD ;
+	:index 27 ;
+	:dataEMD "2020-07-25" ;
+    :doAtleta :Lynn_Shaw .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lynn_Shaw
+	:Lynn_Shaw rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lynn_Shaw" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Cutter" ;
+    :email "lynn.shaw@clube de orientação do minho.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee3f58fda00f17cc6
+	:60b3ee0ee3f58fda00f17cc6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 28 ;
+	:dataEMD "2021-01-13" ;
+    :doAtleta :Betty_Blake .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Betty_Blake
+	:Betty_Blake rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Betty_Blake" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Teasdale" ;
+    :email "betty.blake@abcbraga.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee7cb2701483df2c9
+	:60b3ee0ee7cb2701483df2c9 rdf:type owl:NamedIndividual , :EMD ;
+	:index 29 ;
+	:dataEMD "2020-10-23" ;
+    :doAtleta :Oneill_Roth .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Oneill_Roth
+	:Oneill_Roth rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Oneill_Roth" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Graball" ;
+    :email "oneill.roth@edviana.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e74703dea724376f8
+	:60b3ee0e74703dea724376f8 rdf:type owl:NamedIndividual , :EMD ;
+	:index 30 ;
+	:dataEMD "2019-06-03" ;
+    :doAtleta :Roxanne_Miles .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Roxanne_Miles
+	:Roxanne_Miles rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Roxanne_Miles" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Haring" ;
+    :email "roxanne.miles@vitoria.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ef3bfaf77b4e67849
+	:60b3ee0ef3bfaf77b4e67849 rdf:type owl:NamedIndividual , :EMD ;
+	:index 31 ;
+	:dataEMD "2019-04-20" ;
+    :doAtleta :Cecelia_Adams .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cecelia_Adams
+	:Cecelia_Adams rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cecelia_Adams" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Fairlee" ;
+    :email "cecelia.adams@amigosmontanha.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Futebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e54b12900f5e6c314
+	:60b3ee0e54b12900f5e6c314 rdf:type owl:NamedIndividual , :EMD ;
+	:index 32 ;
+	:dataEMD "2019-12-12" ;
+    :doAtleta :Irma_Jacobs .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Irma_Jacobs
+	:Irma_Jacobs rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Irma_Jacobs" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Driftwood" ;
+    :email "irma.jacobs@edviana.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ef050e91efe68a668
+	:60b3ee0ef050e91efe68a668 rdf:type owl:NamedIndividual , :EMD ;
+	:index 33 ;
+	:dataEMD "2020-12-23" ;
+    :doAtleta :Angelia_Noel .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Angelia_Noel
+	:Angelia_Noel rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Angelia_Noel" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Martell" ;
+    :email "angelia.noel@edviana.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e536b83d9d562f9c8
+	:60b3ee0e536b83d9d562f9c8 rdf:type owl:NamedIndividual , :EMD ;
+	:index 34 ;
+	:dataEMD "2020-06-02" ;
+    :doAtleta :Sallie_Shaffer .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sallie_Shaffer
+	:Sallie_Shaffer rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sallie_Shaffer" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Brownlee" ;
+    :email "sallie.shaffer@clube de orientação do minho.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e6dbcbe60effe125d
+	:60b3ee0e6dbcbe60effe125d rdf:type owl:NamedIndividual , :EMD ;
+	:index 35 ;
+	:dataEMD "2020-06-22" ;
+    :doAtleta :Jordan_Bonner .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jordan_Bonner
+	:Jordan_Bonner rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jordan_Bonner" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Northchase" ;
+    :email "jordan.bonner@vitoria.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e8b4f7dca2601ddfc
+	:60b3ee0e8b4f7dca2601ddfc rdf:type owl:NamedIndividual , :EMD ;
+	:index 36 ;
+	:dataEMD "2019-12-17" ;
+    :doAtleta :Bartlett_Sexton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bartlett_Sexton
+	:Bartlett_Sexton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bartlett_Sexton" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Rehrersburg" ;
+    :email "bartlett.sexton@gdgoma.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e59411e4e9d97d70a
+	:60b3ee0e59411e4e9d97d70a rdf:type owl:NamedIndividual , :EMD ;
+	:index 37 ;
+	:dataEMD "2019-07-27" ;
+    :doAtleta :Opal_Stewart .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Opal_Stewart
+	:Opal_Stewart rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Opal_Stewart" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Dola" ;
+    :email "opal.stewart@avcfamalicão.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Basquetebol ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee78616dd040e4dca
+	:60b3ee0ee78616dd040e4dca rdf:type owl:NamedIndividual , :EMD ;
+	:index 38 ;
+	:dataEMD "2020-11-26" ;
+    :doAtleta :Ola_Glover .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ola_Glover
+	:Ola_Glover rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ola_Glover" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Barronett" ;
+    :email "ola.glover@clube de orientação do minho.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea3043984230726fc
+	:60b3ee0ea3043984230726fc rdf:type owl:NamedIndividual , :EMD ;
+	:index 39 ;
+	:dataEMD "2019-11-21" ;
+    :doAtleta :Shelia_York .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Shelia_York
+	:Shelia_York rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Shelia_York" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Escondida" ;
+    :email "shelia.york@scbraga.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e242cedae88a5f12c
+	:60b3ee0e242cedae88a5f12c rdf:type owl:NamedIndividual , :EMD ;
+	:index 40 ;
+	:dataEMD "2019-07-31" ;
+    :doAtleta :Raquel_Ratliff .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Raquel_Ratliff
+	:Raquel_Ratliff rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Raquel_Ratliff" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Goldfield" ;
+    :email "raquel.ratliff@abcbraga.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e846df12b8f8e750d
+	:60b3ee0e846df12b8f8e750d rdf:type owl:NamedIndividual , :EMD ;
+	:index 41 ;
+	:dataEMD "2019-09-14" ;
+    :doAtleta :Burke_Weeks .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Burke_Weeks
+	:Burke_Weeks rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Burke_Weeks" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Mapletown" ;
+    :email "burke.weeks@amigosmontanha.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3f165afa6f23a0eb
+	:60b3ee0e3f165afa6f23a0eb rdf:type owl:NamedIndividual , :EMD ;
+	:index 42 ;
+	:dataEMD "2019-04-30" ;
+    :doAtleta :Best_French .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Best_French
+	:Best_French rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Best_French" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Longbranch" ;
+    :email "best.french@gdgoma.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e0ee0185da196c9ab
+	:60b3ee0e0ee0185da196c9ab rdf:type owl:NamedIndividual , :EMD ;
+	:index 43 ;
+	:dataEMD "2019-10-08" ;
+    :doAtleta :Fowler_Alvarez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Fowler_Alvarez
+	:Fowler_Alvarez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Fowler_Alvarez" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Choctaw" ;
+    :email "fowler.alvarez@amigosmontanha.tv" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ecfbe9bf6149ba53b
+	:60b3ee0ecfbe9bf6149ba53b rdf:type owl:NamedIndividual , :EMD ;
+	:index 44 ;
+	:dataEMD "2020-03-16" ;
+    :doAtleta :Terri_Avila .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Terri_Avila
+	:Terri_Avila rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Terri_Avila" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Crown" ;
+    :email "terri.avila@avcfamalicão.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e84beb8fe0be593a5
+	:60b3ee0e84beb8fe0be593a5 rdf:type owl:NamedIndividual , :EMD ;
+	:index 45 ;
+	:dataEMD "2019-10-14" ;
+    :doAtleta :Alford_Small .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Alford_Small
+	:Alford_Small rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Alford_Small" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Alamo" ;
+    :email "alford.small@avcfamalicão.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ebab436c1d23c2a84
+	:60b3ee0ebab436c1d23c2a84 rdf:type owl:NamedIndividual , :EMD ;
+	:index 46 ;
+	:dataEMD "2020-03-01" ;
+    :doAtleta :Key_Arnold .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Key_Arnold
+	:Key_Arnold rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Key_Arnold" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Orason" ;
+    :email "key.arnold@amigosmontanha.me" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e20e993d5010857a4
+	:60b3ee0e20e993d5010857a4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 47 ;
+	:dataEMD "2021-04-16" ;
+    :doAtleta :Nguyen_Diaz .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Nguyen_Diaz
+	:Nguyen_Diaz rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Nguyen_Diaz" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Watchtower" ;
+    :email "nguyen.diaz@amigosmontanha.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee409ac878ba9b99b
+	:60b3ee0ee409ac878ba9b99b rdf:type owl:NamedIndividual , :EMD ;
+	:index 48 ;
+	:dataEMD "2021-04-04" ;
+    :doAtleta :Sherry_Morales .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sherry_Morales
+	:Sherry_Morales rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sherry_Morales" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Waukeenah" ;
+    :email "sherry.morales@avcfamalicão.org" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ed7a60ecd07dadb9e
+	:60b3ee0ed7a60ecd07dadb9e rdf:type owl:NamedIndividual , :EMD ;
+	:index 49 ;
+	:dataEMD "2019-09-11" ;
+    :doAtleta :Crane_Ballard .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Crane_Ballard
+	:Crane_Ballard rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Crane_Ballard" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Fedora" ;
+    :email "crane.ballard@vitoria.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e07cb41f968328e60
+	:60b3ee0e07cb41f968328e60 rdf:type owl:NamedIndividual , :EMD ;
+	:index 50 ;
+	:dataEMD "2020-07-11" ;
+    :doAtleta :Terry_Chaney .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Terry_Chaney
+	:Terry_Chaney rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Terry_Chaney" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Blanco" ;
+    :email "terry.chaney@scbraga.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee48920a886a461e2
+	:60b3ee0ee48920a886a461e2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 51 ;
+	:dataEMD "2019-03-04" ;
+    :doAtleta :Sheppard_Bryant .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sheppard_Bryant
+	:Sheppard_Bryant rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sheppard_Bryant" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Brandermill" ;
+    :email "sheppard.bryant@avcfamalicão.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e79c5349b29557a62
+	:60b3ee0e79c5349b29557a62 rdf:type owl:NamedIndividual , :EMD ;
+	:index 52 ;
+	:dataEMD "2020-11-03" ;
+    :doAtleta :Janis_Mckinney .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Janis_Mckinney
+	:Janis_Mckinney rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Janis_Mckinney" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Osage" ;
+    :email "janis.mckinney@abcbraga.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3bffb9b3df6f5ea4
+	:60b3ee0e3bffb9b3df6f5ea4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 53 ;
+	:dataEMD "2020-05-10" ;
+    :doAtleta :Sue_Waters .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sue_Waters
+	:Sue_Waters rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sue_Waters" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Carrizo" ;
+    :email "sue.waters@vitoria.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e03c621784bf7b2eb
+	:60b3ee0e03c621784bf7b2eb rdf:type owl:NamedIndividual , :EMD ;
+	:index 54 ;
+	:dataEMD "2019-05-30" ;
+    :doAtleta :Cynthia_Page .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cynthia_Page
+	:Cynthia_Page rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cynthia_Page" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Forestburg" ;
+    :email "cynthia.page@acrroriz.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea96d47b79642735d
+	:60b3ee0ea96d47b79642735d rdf:type owl:NamedIndividual , :EMD ;
+	:index 55 ;
+	:dataEMD "2019-10-14" ;
+    :doAtleta :Montgomery_Rhodes .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Montgomery_Rhodes
+	:Montgomery_Rhodes rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Montgomery_Rhodes" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Rivers" ;
+    :email "montgomery.rhodes@vitoria.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e63cc2530b136daef
+	:60b3ee0e63cc2530b136daef rdf:type owl:NamedIndividual , :EMD ;
+	:index 56 ;
+	:dataEMD "2021-03-22" ;
+    :doAtleta :Claire_Joyce .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Claire_Joyce
+	:Claire_Joyce rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Claire_Joyce" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Belgreen" ;
+    :email "claire.joyce@acdrcrespos.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e8a311b08fca3541b
+	:60b3ee0e8a311b08fca3541b rdf:type owl:NamedIndividual , :EMD ;
+	:index 57 ;
+	:dataEMD "2021-04-16" ;
+    :doAtleta :Evangelina_Key .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Evangelina_Key
+	:Evangelina_Key rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Evangelina_Key" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Whitewater" ;
+    :email "evangelina.key@acdrcrespos.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea9b4c2114abcf6d7
+	:60b3ee0ea9b4c2114abcf6d7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 58 ;
+	:dataEMD "2020-11-24" ;
+    :doAtleta :Effie_Gibson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Effie_Gibson
+	:Effie_Gibson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Effie_Gibson" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Virgie" ;
+    :email "effie.gibson@acrroriz.me" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e16fc834f28234ef4
+	:60b3ee0e16fc834f28234ef4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 59 ;
+	:dataEMD "2021-03-16" ;
+    :doAtleta :Maureen_Cobb .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Maureen_Cobb
+	:Maureen_Cobb rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Maureen_Cobb" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Venice" ;
+    :email "maureen.cobb@amigosmontanha.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0efe55045feaaea0d0
+	:60b3ee0efe55045feaaea0d0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 60 ;
+	:dataEMD "2020-11-22" ;
+    :doAtleta :Dee_Holman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Dee_Holman
+	:Dee_Holman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Dee_Holman" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Brenton" ;
+    :email "dee.holman@avcfamalicão.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e53dad18808565be7
+	:60b3ee0e53dad18808565be7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 61 ;
+	:dataEMD "2019-02-13" ;
+    :doAtleta :Larson_Morin .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Larson_Morin
+	:Larson_Morin rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Larson_Morin" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Summerset" ;
+    :email "larson.morin@gdgoma.name" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e25015995bacd5bed
+	:60b3ee0e25015995bacd5bed rdf:type owl:NamedIndividual , :EMD ;
+	:index 62 ;
+	:dataEMD "2021-01-29" ;
+    :doAtleta :Ursula_Martinez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ursula_Martinez
+	:Ursula_Martinez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ursula_Martinez" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Lorraine" ;
+    :email "ursula.martinez@amigosmontanha.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ed8819374df399b72
+	:60b3ee0ed8819374df399b72 rdf:type owl:NamedIndividual , :EMD ;
+	:index 63 ;
+	:dataEMD "2020-10-10" ;
+    :doAtleta :English_Clemons .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#English_Clemons
+	:English_Clemons rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "English_Clemons" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Ticonderoga" ;
+    :email "english.clemons@gdgoma.com" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e47a5478e9b66110d
+	:60b3ee0e47a5478e9b66110d rdf:type owl:NamedIndividual , :EMD ;
+	:index 64 ;
+	:dataEMD "2020-10-28" ;
+    :doAtleta :Stella_Jackson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Stella_Jackson
+	:Stella_Jackson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Stella_Jackson" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Kaka" ;
+    :email "stella.jackson@acdrcrespos.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0eddf26117e9d32bcb
+	:60b3ee0eddf26117e9d32bcb rdf:type owl:NamedIndividual , :EMD ;
+	:index 65 ;
+	:dataEMD "2019-05-01" ;
+    :doAtleta :Haley_Joseph .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Haley_Joseph
+	:Haley_Joseph rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Haley_Joseph" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Brantleyville" ;
+    :email "haley.joseph@avcfamalicão.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ebc5f8bcac6a4b89d
+	:60b3ee0ebc5f8bcac6a4b89d rdf:type owl:NamedIndividual , :EMD ;
+	:index 66 ;
+	:dataEMD "2020-04-09" ;
+    :doAtleta :Kelsey_Roberts .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kelsey_Roberts
+	:Kelsey_Roberts rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kelsey_Roberts" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Morgandale" ;
+    :email "kelsey.roberts@vitoria.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e9f0c3dbf2ecc854f
+	:60b3ee0e9f0c3dbf2ecc854f rdf:type owl:NamedIndividual , :EMD ;
+	:index 67 ;
+	:dataEMD "2019-06-26" ;
+    :doAtleta :Watson_Lynch .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Watson_Lynch
+	:Watson_Lynch rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Watson_Lynch" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Fillmore" ;
+    :email "watson.lynch@gdgoma.tv" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e6cb88f8d26691e15
+	:60b3ee0e6cb88f8d26691e15 rdf:type owl:NamedIndividual , :EMD ;
+	:index 68 ;
+	:dataEMD "2021-05-14" ;
+    :doAtleta :Chasity_Coffey .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Chasity_Coffey
+	:Chasity_Coffey rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Chasity_Coffey" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Kersey" ;
+    :email "chasity.coffey@edviana.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e0797a9f03b138d18
+	:60b3ee0e0797a9f03b138d18 rdf:type owl:NamedIndividual , :EMD ;
+	:index 69 ;
+	:dataEMD "2021-02-26" ;
+    :doAtleta :Paula_Delaney .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Paula_Delaney
+	:Paula_Delaney rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Paula_Delaney" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Disautel" ;
+    :email "paula.delaney@edviana.co.uk" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e769aecb50db619f2
+	:60b3ee0e769aecb50db619f2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 70 ;
+	:dataEMD "2019-06-27" ;
+    :doAtleta :Galloway_Sanders .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Galloway_Sanders
+	:Galloway_Sanders rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Galloway_Sanders" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Allendale" ;
+    :email "galloway.sanders@acrroriz.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e553355b77862ea98
+	:60b3ee0e553355b77862ea98 rdf:type owl:NamedIndividual , :EMD ;
+	:index 71 ;
+	:dataEMD "2021-04-12" ;
+    :doAtleta :Tina_Blankenship .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tina_Blankenship
+	:Tina_Blankenship rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tina_Blankenship" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Longoria" ;
+    :email "tina.blankenship@acdrcrespos.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ee3bb3fd71f515d88
+	:60b3ee0ee3bb3fd71f515d88 rdf:type owl:NamedIndividual , :EMD ;
+	:index 72 ;
+	:dataEMD "2021-04-11" ;
+    :doAtleta :Whitehead_Montgomery .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Whitehead_Montgomery
+	:Whitehead_Montgomery rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Whitehead_Montgomery" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Fairview" ;
+    :email "whitehead.montgomery@avcfamalicão.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ed5dd8522cc53e7b0
+	:60b3ee0ed5dd8522cc53e7b0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 73 ;
+	:dataEMD "2021-04-22" ;
+    :doAtleta :Dominguez_Chambers .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Dominguez_Chambers
+	:Dominguez_Chambers rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Dominguez_Chambers" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Malott" ;
+    :email "dominguez.chambers@abcbraga.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Equitação ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e28ab1329e2ed0888
+	:60b3ee0e28ab1329e2ed0888 rdf:type owl:NamedIndividual , :EMD ;
+	:index 74 ;
+	:dataEMD "2019-05-23" ;
+    :doAtleta :Booth_Eaton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Booth_Eaton
+	:Booth_Eaton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Booth_Eaton" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Terlingua" ;
+    :email "booth.eaton@scbraga.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e7524108bf9936414
+	:60b3ee0e7524108bf9936414 rdf:type owl:NamedIndividual , :EMD ;
+	:index 75 ;
+	:dataEMD "2019-07-14" ;
+    :doAtleta :Joanna_Grant .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Joanna_Grant
+	:Joanna_Grant rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Joanna_Grant" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Noblestown" ;
+    :email "joanna.grant@amigosmontanha.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e59e86eaf9b9a5372
+	:60b3ee0e59e86eaf9b9a5372 rdf:type owl:NamedIndividual , :EMD ;
+	:index 76 ;
+	:dataEMD "2019-03-28" ;
+    :doAtleta :Jeri_Pearson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jeri_Pearson
+	:Jeri_Pearson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jeri_Pearson" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Falmouth" ;
+    :email "jeri.pearson@acrroriz.ca" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e13085dc64e17e4b0
+	:60b3ee0e13085dc64e17e4b0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 77 ;
+	:dataEMD "2021-05-13" ;
+    :doAtleta :Sanchez_Mcgee .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sanchez_Mcgee
+	:Sanchez_Mcgee rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sanchez_Mcgee" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Bascom" ;
+    :email "sanchez.mcgee@acdrcrespos.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3d4f8a3a439f8b7a
+	:60b3ee0e3d4f8a3a439f8b7a rdf:type owl:NamedIndividual , :EMD ;
+	:index 78 ;
+	:dataEMD "2019-12-02" ;
+    :doAtleta :Magdalena_Francis .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Magdalena_Francis
+	:Magdalena_Francis rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Magdalena_Francis" ;
+	:idade 27 ;
+    :género "M" ;
+    :morada "Fostoria" ;
+    :email "magdalena.francis@acdrcrespos.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e6edaad4b8a63efae
+	:60b3ee0e6edaad4b8a63efae rdf:type owl:NamedIndividual , :EMD ;
+	:index 79 ;
+	:dataEMD "2021-05-19" ;
+    :doAtleta :Morris_Poole .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Morris_Poole
+	:Morris_Poole rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Morris_Poole" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Steinhatchee" ;
+    :email "morris.poole@avcfamalicão.tv" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e538d62e10eba66b6
+	:60b3ee0e538d62e10eba66b6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 80 ;
+	:dataEMD "2021-02-16" ;
+    :doAtleta :Rodriguez_Gonzalez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Rodriguez_Gonzalez
+	:Rodriguez_Gonzalez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Rodriguez_Gonzalez" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Coaldale" ;
+    :email "rodriguez.gonzalez@gdgoma.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0eca6dd1525f201090
+	:60b3ee0eca6dd1525f201090 rdf:type owl:NamedIndividual , :EMD ;
+	:index 81 ;
+	:dataEMD "2021-05-18" ;
+    :doAtleta :Christine_Rice .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Christine_Rice
+	:Christine_Rice rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Christine_Rice" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Hayes" ;
+    :email "christine.rice@gdgoma.co.uk" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e472001f8e05a40ee
+	:60b3ee0e472001f8e05a40ee rdf:type owl:NamedIndividual , :EMD ;
+	:index 82 ;
+	:dataEMD "2020-11-10" ;
+    :doAtleta :Valdez_Harper .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Valdez_Harper
+	:Valdez_Harper rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Valdez_Harper" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Jacksonwald" ;
+    :email "valdez.harper@amigosmontanha.me" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3b279f45e79cd6fa
+	:60b3ee0e3b279f45e79cd6fa rdf:type owl:NamedIndividual , :EMD ;
+	:index 83 ;
+	:dataEMD "2021-04-24" ;
+    :doAtleta :Berta_Clay .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Berta_Clay
+	:Berta_Clay rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Berta_Clay" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Barclay" ;
+    :email "berta.clay@clube de orientação do minho.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0eee4b8338800e6003
+	:60b3ee0eee4b8338800e6003 rdf:type owl:NamedIndividual , :EMD ;
+	:index 84 ;
+	:dataEMD "2019-10-18" ;
+    :doAtleta :Bonnie_Sandoval .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bonnie_Sandoval
+	:Bonnie_Sandoval rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bonnie_Sandoval" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Shaft" ;
+    :email "bonnie.sandoval@clube de orientação do minho.org" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e66f3d4c3cc778b1e
+	:60b3ee0e66f3d4c3cc778b1e rdf:type owl:NamedIndividual , :EMD ;
+	:index 85 ;
+	:dataEMD "2020-11-24" ;
+    :doAtleta :Stein_Wiggins .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Stein_Wiggins
+	:Stein_Wiggins rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Stein_Wiggins" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Rosine" ;
+    :email "stein.wiggins@edviana.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e278b7161e71d9ceb
+	:60b3ee0e278b7161e71d9ceb rdf:type owl:NamedIndividual , :EMD ;
+	:index 86 ;
+	:dataEMD "2020-12-08" ;
+    :doAtleta :Tanya_Mcclain .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tanya_Mcclain
+	:Tanya_Mcclain rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tanya_Mcclain" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Fivepointville" ;
+    :email "tanya.mcclain@gdgoma.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e7ded570068dce1d9
+	:60b3ee0e7ded570068dce1d9 rdf:type owl:NamedIndividual , :EMD ;
+	:index 87 ;
+	:dataEMD "2021-02-23" ;
+    :doAtleta :Perry_Sanford .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Perry_Sanford
+	:Perry_Sanford rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Perry_Sanford" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Albany" ;
+    :email "perry.sanford@vitoria.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e94c479068389f5e3
+	:60b3ee0e94c479068389f5e3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 88 ;
+	:dataEMD "2019-10-10" ;
+    :doAtleta :Maxine_Rutledge .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Maxine_Rutledge
+	:Maxine_Rutledge rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Maxine_Rutledge" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Caberfae" ;
+    :email "maxine.rutledge@amigosmontanha.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e7ac2f667ececc242
+	:60b3ee0e7ac2f667ececc242 rdf:type owl:NamedIndividual , :EMD ;
+	:index 89 ;
+	:dataEMD "2020-07-01" ;
+    :doAtleta :Tucker_Morse .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tucker_Morse
+	:Tucker_Morse rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tucker_Morse" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Tyhee" ;
+    :email "tucker.morse@scbraga.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0eabfeddd7f84fd275
+	:60b3ee0eabfeddd7f84fd275 rdf:type owl:NamedIndividual , :EMD ;
+	:index 90 ;
+	:dataEMD "2020-05-17" ;
+    :doAtleta :Thelma_Schmidt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Thelma_Schmidt
+	:Thelma_Schmidt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Thelma_Schmidt" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Greenfields" ;
+    :email "thelma.schmidt@acrroriz.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e3d51473e1b41004b
+	:60b3ee0e3d51473e1b41004b rdf:type owl:NamedIndividual , :EMD ;
+	:index 91 ;
+	:dataEMD "2020-03-24" ;
+    :doAtleta :Charles_Kim .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Charles_Kim
+	:Charles_Kim rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Charles_Kim" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Bennett" ;
+    :email "charles.kim@acdrcrespos.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e926c1d538dfaabd3
+	:60b3ee0e926c1d538dfaabd3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 92 ;
+	:dataEMD "2020-01-27" ;
+    :doAtleta :Duncan_Davidson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Duncan_Davidson
+	:Duncan_Davidson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Duncan_Davidson" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Cedarville" ;
+    :email "duncan.davidson@amigosmontanha.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea6339abf19460649
+	:60b3ee0ea6339abf19460649 rdf:type owl:NamedIndividual , :EMD ;
+	:index 93 ;
+	:dataEMD "2019-04-07" ;
+    :doAtleta :Gertrude_Dillon .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Gertrude_Dillon
+	:Gertrude_Dillon rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Gertrude_Dillon" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Oneida" ;
+    :email "gertrude.dillon@acrroriz.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e059b32a47b518e93
+	:60b3ee0e059b32a47b518e93 rdf:type owl:NamedIndividual , :EMD ;
+	:index 94 ;
+	:dataEMD "2019-02-06" ;
+    :doAtleta :Brennan_Santana .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Brennan_Santana
+	:Brennan_Santana rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Brennan_Santana" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Villarreal" ;
+    :email "brennan.santana@vitoria.me" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e57b3659681466acf
+	:60b3ee0e57b3659681466acf rdf:type owl:NamedIndividual , :EMD ;
+	:index 95 ;
+	:dataEMD "2020-11-09" ;
+    :doAtleta :Ball_Barlow .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ball_Barlow
+	:Ball_Barlow rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ball_Barlow" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Hobucken" ;
+    :email "ball.barlow@amigosmontanha.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e651ec286b869976d
+	:60b3ee0e651ec286b869976d rdf:type owl:NamedIndividual , :EMD ;
+	:index 96 ;
+	:dataEMD "2020-05-10" ;
+    :doAtleta :Oneil_Baxter .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Oneil_Baxter
+	:Oneil_Baxter rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Oneil_Baxter" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Sanders" ;
+    :email "oneil.baxter@clube de orientação do minho.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e67043c92ce84a97c
+	:60b3ee0e67043c92ce84a97c rdf:type owl:NamedIndividual , :EMD ;
+	:index 97 ;
+	:dataEMD "2020-10-09" ;
+    :doAtleta :Helena_Mayo .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Helena_Mayo
+	:Helena_Mayo rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Helena_Mayo" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Bend" ;
+    :email "helena.mayo@vitoria.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0ea5d75fed720e4820
+	:60b3ee0ea5d75fed720e4820 rdf:type owl:NamedIndividual , :EMD ;
+	:index 98 ;
+	:dataEMD "2021-05-10" ;
+    :doAtleta :Martin_Brewer .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Martin_Brewer
+	:Martin_Brewer rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Martin_Brewer" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Taycheedah" ;
+    :email "martin.brewer@acrroriz.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee0e9dc10b681d5212b5
+	:60b3ee0e9dc10b681d5212b5 rdf:type owl:NamedIndividual , :EMD ;
+	:index 99 ;
+	:dataEMD "2019-10-13" ;
+    :doAtleta :Wilder_Greene .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Wilder_Greene
+	:Wilder_Greene rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Wilder_Greene" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Heil" ;
+    :email "wilder.greene@vitoria.com" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee817af5fb3fb1e153ef
+	:60b3ee817af5fb3fb1e153ef rdf:type owl:NamedIndividual , :EMD ;
+	:index 0 ;
+	:dataEMD "2019-06-23" ;
+    :doAtleta :Harrison_Finch .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Harrison_Finch
+	:Harrison_Finch rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Harrison_Finch" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Harrison" ;
+    :email "harrison.finch@edviana.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81145de55fffb7bdfa
+	:60b3ee81145de55fffb7bdfa rdf:type owl:NamedIndividual , :EMD ;
+	:index 1 ;
+	:dataEMD "2019-01-01" ;
+    :doAtleta :Jordan_Alvarez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jordan_Alvarez
+	:Jordan_Alvarez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jordan_Alvarez" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Riviera" ;
+    :email "jordan.alvarez@edviana.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee811a4429c17e036357
+	:60b3ee811a4429c17e036357 rdf:type owl:NamedIndividual , :EMD ;
+	:index 2 ;
+	:dataEMD "2020-04-27" ;
+    :doAtleta :Lane_Norton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lane_Norton
+	:Lane_Norton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lane_Norton" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Homestead" ;
+    :email "lane.norton@abcbraga.io" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8115745fe4ce8dbc5a
+	:60b3ee8115745fe4ce8dbc5a rdf:type owl:NamedIndividual , :EMD ;
+	:index 3 ;
+	:dataEMD "2020-07-06" ;
+    :doAtleta :Carrillo_Munoz .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Carrillo_Munoz
+	:Carrillo_Munoz rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Carrillo_Munoz" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Bordelonville" ;
+    :email "carrillo.munoz@scbraga.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8128adc82a45f8023d
+	:60b3ee8128adc82a45f8023d rdf:type owl:NamedIndividual , :EMD ;
+	:index 4 ;
+	:dataEMD "2020-06-18" ;
+    :doAtleta :Barrett_Frederick .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Barrett_Frederick
+	:Barrett_Frederick rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Barrett_Frederick" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Stollings" ;
+    :email "barrett.frederick@avcfamalicão.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81525963fc4fd2cf9d
+	:60b3ee81525963fc4fd2cf9d rdf:type owl:NamedIndividual , :EMD ;
+	:index 5 ;
+	:dataEMD "2019-06-12" ;
+    :doAtleta :Harmon_Stone .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Harmon_Stone
+	:Harmon_Stone rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Harmon_Stone" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Idledale" ;
+    :email "harmon.stone@amigosmontanha.com" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e69c16cc6108e7ad
+	:60b3ee81e69c16cc6108e7ad rdf:type owl:NamedIndividual , :EMD ;
+	:index 6 ;
+	:dataEMD "2021-01-18" ;
+    :doAtleta :Chandra_Potts .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Chandra_Potts
+	:Chandra_Potts rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Chandra_Potts" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Albany" ;
+    :email "chandra.potts@amigosmontanha.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81ec958ef30a9daa8d
+	:60b3ee81ec958ef30a9daa8d rdf:type owl:NamedIndividual , :EMD ;
+	:index 7 ;
+	:dataEMD "2021-01-12" ;
+    :doAtleta :John_Warner .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#John_Warner
+	:John_Warner rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "John_Warner" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Veyo" ;
+    :email "john.warner@clube de orientação do minho.co.uk" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee813905ebb273d5d9a0
+	:60b3ee813905ebb273d5d9a0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 8 ;
+	:dataEMD "2019-03-09" ;
+    :doAtleta :Casey_Bowman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Casey_Bowman
+	:Casey_Bowman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Casey_Bowman" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Tryon" ;
+    :email "casey.bowman@abcbraga.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8106e9b44af3270a40
+	:60b3ee8106e9b44af3270a40 rdf:type owl:NamedIndividual , :EMD ;
+	:index 9 ;
+	:dataEMD "2020-04-23" ;
+    :doAtleta :Mccullough_Pena .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mccullough_Pena
+	:Mccullough_Pena rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mccullough_Pena" ;
+	:idade 27 ;
+    :género "M" ;
+    :morada "Sunwest" ;
+    :email "mccullough.pena@clube de orientação do minho.name" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee812f35f4ff3c2edecf
+	:60b3ee812f35f4ff3c2edecf rdf:type owl:NamedIndividual , :EMD ;
+	:index 10 ;
+	:dataEMD "2019-06-27" ;
+    :doAtleta :Brianna_Bentley .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Brianna_Bentley
+	:Brianna_Bentley rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Brianna_Bentley" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Ypsilanti" ;
+    :email "brianna.bentley@acdrcrespos.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee819d5bb33e21ff7e16
+	:60b3ee819d5bb33e21ff7e16 rdf:type owl:NamedIndividual , :EMD ;
+	:index 11 ;
+	:dataEMD "2021-02-26" ;
+    :doAtleta :Nixon_Hendrix .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Nixon_Hendrix
+	:Nixon_Hendrix rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Nixon_Hendrix" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Bethpage" ;
+    :email "nixon.hendrix@avcfamalicão.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Ténis ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81ce306eb25d963bb0
+	:60b3ee81ce306eb25d963bb0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 12 ;
+	:dataEMD "2019-07-11" ;
+    :doAtleta :Buckner_Luna .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Buckner_Luna
+	:Buckner_Luna rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Buckner_Luna" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Veguita" ;
+    :email "buckner.luna@edviana.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8138f5b0173e1bc637
+	:60b3ee8138f5b0173e1bc637 rdf:type owl:NamedIndividual , :EMD ;
+	:index 13 ;
+	:dataEMD "2019-08-25" ;
+    :doAtleta :Britt_Zamora .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Britt_Zamora
+	:Britt_Zamora rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Britt_Zamora" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Rutherford" ;
+    :email "britt.zamora@clube de orientação do minho.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81f5035e13f1db0069
+	:60b3ee81f5035e13f1db0069 rdf:type owl:NamedIndividual , :EMD ;
+	:index 14 ;
+	:dataEMD "2020-11-14" ;
+    :doAtleta :Hendrix_Bauer .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hendrix_Bauer
+	:Hendrix_Bauer rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hendrix_Bauer" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Ryderwood" ;
+    :email "hendrix.bauer@scbraga.io" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8131597dae8f73a11b
+	:60b3ee8131597dae8f73a11b rdf:type owl:NamedIndividual , :EMD ;
+	:index 15 ;
+	:dataEMD "2019-10-30" ;
+    :doAtleta :Travis_Sampson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Travis_Sampson
+	:Travis_Sampson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Travis_Sampson" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Dotsero" ;
+    :email "travis.sampson@edviana.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ténis ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e32abefb2a9e8629
+	:60b3ee81e32abefb2a9e8629 rdf:type owl:NamedIndividual , :EMD ;
+	:index 16 ;
+	:dataEMD "2019-11-22" ;
+    :doAtleta :Darla_Ware .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Darla_Ware
+	:Darla_Ware rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Darla_Ware" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Villarreal" ;
+    :email "darla.ware@gdgoma.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee815852d8fc2dc33e8a
+	:60b3ee815852d8fc2dc33e8a rdf:type owl:NamedIndividual , :EMD ;
+	:index 17 ;
+	:dataEMD "2020-01-17" ;
+    :doAtleta :Peters_Vaughn .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Peters_Vaughn
+	:Peters_Vaughn rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Peters_Vaughn" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Brandermill" ;
+    :email "peters.vaughn@acrroriz.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee815e7f792d741f2228
+	:60b3ee815e7f792d741f2228 rdf:type owl:NamedIndividual , :EMD ;
+	:index 18 ;
+	:dataEMD "2020-10-25" ;
+    :doAtleta :Lawrence_Herman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lawrence_Herman
+	:Lawrence_Herman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lawrence_Herman" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Wakulla" ;
+    :email "lawrence.herman@gdgoma.tv" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee815b7d9a126c47165d
+	:60b3ee815b7d9a126c47165d rdf:type owl:NamedIndividual , :EMD ;
+	:index 19 ;
+	:dataEMD "2019-07-26" ;
+    :doAtleta :Chang_Oneill .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Chang_Oneill
+	:Chang_Oneill rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Chang_Oneill" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Falconaire" ;
+    :email "chang.oneill@edviana.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e769b6603a6525c6
+	:60b3ee81e769b6603a6525c6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 20 ;
+	:dataEMD "2020-12-20" ;
+    :doAtleta :Patrick_Mcintyre .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Patrick_Mcintyre
+	:Patrick_Mcintyre rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Patrick_Mcintyre" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Emory" ;
+    :email "patrick.mcintyre@edviana.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee815cb65367e6de0b3c
+	:60b3ee815cb65367e6de0b3c rdf:type owl:NamedIndividual , :EMD ;
+	:index 21 ;
+	:dataEMD "2020-01-11" ;
+    :doAtleta :Joyce_Evans .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Joyce_Evans
+	:Joyce_Evans rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Joyce_Evans" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Rivers" ;
+    :email "joyce.evans@amigosmontanha.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee813bd664873721a6a1
+	:60b3ee813bd664873721a6a1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 22 ;
+	:dataEMD "2019-07-03" ;
+    :doAtleta :Larsen_Villarreal .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Larsen_Villarreal
+	:Larsen_Villarreal rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Larsen_Villarreal" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Dawn" ;
+    :email "larsen.villarreal@scbraga.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e901a8c787b38008
+	:60b3ee81e901a8c787b38008 rdf:type owl:NamedIndividual , :EMD ;
+	:index 23 ;
+	:dataEMD "2020-03-09" ;
+    :doAtleta :Morrow_Yang .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Morrow_Yang
+	:Morrow_Yang rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Morrow_Yang" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Tibbie" ;
+    :email "morrow.yang@acdrcrespos.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81874f8871966eedd1
+	:60b3ee81874f8871966eedd1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 24 ;
+	:dataEMD "2021-02-04" ;
+    :doAtleta :Dunn_Horn .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Dunn_Horn
+	:Dunn_Horn rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Dunn_Horn" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Ripley" ;
+    :email "dunn.horn@clube de orientação do minho.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81146b3cd8954b7256
+	:60b3ee81146b3cd8954b7256 rdf:type owl:NamedIndividual , :EMD ;
+	:index 25 ;
+	:dataEMD "2019-09-04" ;
+    :doAtleta :Viola_Medina .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Viola_Medina
+	:Viola_Medina rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Viola_Medina" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Nipinnawasee" ;
+    :email "viola.medina@edviana.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e02e5fb35760bec3
+	:60b3ee81e02e5fb35760bec3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 26 ;
+	:dataEMD "2021-05-14" ;
+    :doAtleta :Valdez_Barnes .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Valdez_Barnes
+	:Valdez_Barnes rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Valdez_Barnes" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Islandia" ;
+    :email "valdez.barnes@acdrcrespos.io" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8162c5de4569ccfe2f
+	:60b3ee8162c5de4569ccfe2f rdf:type owl:NamedIndividual , :EMD ;
+	:index 27 ;
+	:dataEMD "2019-08-29" ;
+    :doAtleta :Sweet_Gibbs .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sweet_Gibbs
+	:Sweet_Gibbs rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sweet_Gibbs" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Stagecoach" ;
+    :email "sweet.gibbs@avcfamalicão.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81034e5cb2050e882a
+	:60b3ee81034e5cb2050e882a rdf:type owl:NamedIndividual , :EMD ;
+	:index 28 ;
+	:dataEMD "2019-07-17" ;
+    :doAtleta :Addie_Hayes .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Addie_Hayes
+	:Addie_Hayes rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Addie_Hayes" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Bennett" ;
+    :email "addie.hayes@acrroriz.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ténis ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81a545dd3ccaea41b0
+	:60b3ee81a545dd3ccaea41b0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 29 ;
+	:dataEMD "2021-04-25" ;
+    :doAtleta :May_Holt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#May_Holt
+	:May_Holt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "May_Holt" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Springdale" ;
+    :email "may.holt@amigosmontanha.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee817c1ce5b6cb67302a
+	:60b3ee817c1ce5b6cb67302a rdf:type owl:NamedIndividual , :EMD ;
+	:index 30 ;
+	:dataEMD "2019-12-31" ;
+    :doAtleta :Christensen_Boyd .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Christensen_Boyd
+	:Christensen_Boyd rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Christensen_Boyd" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Wells" ;
+    :email "christensen.boyd@abcbraga.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81cdbf91a4db1113eb
+	:60b3ee81cdbf91a4db1113eb rdf:type owl:NamedIndividual , :EMD ;
+	:index 31 ;
+	:dataEMD "2019-03-18" ;
+    :doAtleta :Workman_Franks .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Workman_Franks
+	:Workman_Franks rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Workman_Franks" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Greenfields" ;
+    :email "workman.franks@amigosmontanha.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81ed581129ff3b2087
+	:60b3ee81ed581129ff3b2087 rdf:type owl:NamedIndividual , :EMD ;
+	:index 32 ;
+	:dataEMD "2020-01-05" ;
+    :doAtleta :Lucile_Underwood .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lucile_Underwood
+	:Lucile_Underwood rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lucile_Underwood" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Innsbrook" ;
+    :email "lucile.underwood@avcfamalicão.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e62094c1d0bfca5c
+	:60b3ee81e62094c1d0bfca5c rdf:type owl:NamedIndividual , :EMD ;
+	:index 33 ;
+	:dataEMD "2019-08-09" ;
+    :doAtleta :Heath_Bishop .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Heath_Bishop
+	:Heath_Bishop rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Heath_Bishop" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Grantville" ;
+    :email "heath.bishop@amigosmontanha.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81bc1a4f4c3bc26de1
+	:60b3ee81bc1a4f4c3bc26de1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 34 ;
+	:dataEMD "2019-04-12" ;
+    :doAtleta :Rosales_Mejia .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Rosales_Mejia
+	:Rosales_Mejia rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Rosales_Mejia" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Dale" ;
+    :email "rosales.mejia@clube de orientação do minho.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e20d4412bdf4f468
+	:60b3ee81e20d4412bdf4f468 rdf:type owl:NamedIndividual , :EMD ;
+	:index 35 ;
+	:dataEMD "2019-02-02" ;
+    :doAtleta :Ray_Howe .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ray_Howe
+	:Ray_Howe rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ray_Howe" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Nicut" ;
+    :email "ray.howe@vitoria.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81956a3fcc57d06c8c
+	:60b3ee81956a3fcc57d06c8c rdf:type owl:NamedIndividual , :EMD ;
+	:index 36 ;
+	:dataEMD "2019-07-05" ;
+    :doAtleta :Suarez_Campbell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Suarez_Campbell
+	:Suarez_Campbell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Suarez_Campbell" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Hamilton" ;
+    :email "suarez.campbell@acdrcrespos.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8125e3c7f8ae2daa67
+	:60b3ee8125e3c7f8ae2daa67 rdf:type owl:NamedIndividual , :EMD ;
+	:index 37 ;
+	:dataEMD "2020-01-20" ;
+    :doAtleta :Shaffer_Le .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Shaffer_Le
+	:Shaffer_Le rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Shaffer_Le" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Shepardsville" ;
+    :email "shaffer.le@avcfamalicão.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81c0d4102a9f396149
+	:60b3ee81c0d4102a9f396149 rdf:type owl:NamedIndividual , :EMD ;
+	:index 38 ;
+	:dataEMD "2019-02-08" ;
+    :doAtleta :Justine_Wise .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Justine_Wise
+	:Justine_Wise rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Justine_Wise" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Hondah" ;
+    :email "justine.wise@avcfamalicão.io" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81b5064ca4e9536d3c
+	:60b3ee81b5064ca4e9536d3c rdf:type owl:NamedIndividual , :EMD ;
+	:index 39 ;
+	:dataEMD "2019-10-14" ;
+    :doAtleta :Villarreal_Tucker .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Villarreal_Tucker
+	:Villarreal_Tucker rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Villarreal_Tucker" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Tecolotito" ;
+    :email "villarreal.tucker@avcfamalicão.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8195bd88f9e936aca7
+	:60b3ee8195bd88f9e936aca7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 40 ;
+	:dataEMD "2021-04-05" ;
+    :doAtleta :Monica_Neal .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Monica_Neal
+	:Monica_Neal rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Monica_Neal" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Roberts" ;
+    :email "monica.neal@acrroriz.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81864959e7fb8bc864
+	:60b3ee81864959e7fb8bc864 rdf:type owl:NamedIndividual , :EMD ;
+	:index 41 ;
+	:dataEMD "2019-05-11" ;
+    :doAtleta :Lloyd_Dotson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lloyd_Dotson
+	:Lloyd_Dotson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lloyd_Dotson" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Winesburg" ;
+    :email "lloyd.dotson@abcbraga.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8187b3e7d863bbaf97
+	:60b3ee8187b3e7d863bbaf97 rdf:type owl:NamedIndividual , :EMD ;
+	:index 42 ;
+	:dataEMD "2019-01-29" ;
+    :doAtleta :Mccray_Barker .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mccray_Barker
+	:Mccray_Barker rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mccray_Barker" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Blairstown" ;
+    :email "mccray.barker@vitoria.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81afbc52a666850b8c
+	:60b3ee81afbc52a666850b8c rdf:type owl:NamedIndividual , :EMD ;
+	:index 43 ;
+	:dataEMD "2019-02-14" ;
+    :doAtleta :Sellers_Hunter .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sellers_Hunter
+	:Sellers_Hunter rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sellers_Hunter" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Omar" ;
+    :email "sellers.hunter@scbraga.co.uk" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81d74bfab7c22b5eaa
+	:60b3ee81d74bfab7c22b5eaa rdf:type owl:NamedIndividual , :EMD ;
+	:index 44 ;
+	:dataEMD "2021-01-31" ;
+    :doAtleta :Cathryn_Fletcher .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cathryn_Fletcher
+	:Cathryn_Fletcher rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cathryn_Fletcher" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Oasis" ;
+    :email "cathryn.fletcher@clube de orientação do minho.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee810078ab3f7321a731
+	:60b3ee810078ab3f7321a731 rdf:type owl:NamedIndividual , :EMD ;
+	:index 45 ;
+	:dataEMD "2020-02-29" ;
+    :doAtleta :Dee_Lowery .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Dee_Lowery
+	:Dee_Lowery rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Dee_Lowery" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Rodman" ;
+    :email "dee.lowery@vitoria.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81a40cc7fc63be65ad
+	:60b3ee81a40cc7fc63be65ad rdf:type owl:NamedIndividual , :EMD ;
+	:index 46 ;
+	:dataEMD "2019-04-25" ;
+    :doAtleta :Freeman_Wyatt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Freeman_Wyatt
+	:Freeman_Wyatt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Freeman_Wyatt" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Bentonville" ;
+    :email "freeman.wyatt@acrroriz.org" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81efda597f9d074638
+	:60b3ee81efda597f9d074638 rdf:type owl:NamedIndividual , :EMD ;
+	:index 47 ;
+	:dataEMD "2020-01-09" ;
+    :doAtleta :Guy_Drake .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Guy_Drake
+	:Guy_Drake rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Guy_Drake" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Helen" ;
+    :email "guy.drake@abcbraga.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81d9e0e05421b4d08e
+	:60b3ee81d9e0e05421b4d08e rdf:type owl:NamedIndividual , :EMD ;
+	:index 48 ;
+	:dataEMD "2019-07-01" ;
+    :doAtleta :Mendez_Good .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mendez_Good
+	:Mendez_Good rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mendez_Good" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Westmoreland" ;
+    :email "mendez.good@clube de orientação do minho.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee813611a9e67c3546a3
+	:60b3ee813611a9e67c3546a3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 49 ;
+	:dataEMD "2019-03-03" ;
+    :doAtleta :Burnett_Hogan .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Burnett_Hogan
+	:Burnett_Hogan rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Burnett_Hogan" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Valmy" ;
+    :email "burnett.hogan@acrroriz.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee816e416ff33c21634a
+	:60b3ee816e416ff33c21634a rdf:type owl:NamedIndividual , :EMD ;
+	:index 50 ;
+	:dataEMD "2020-08-03" ;
+    :doAtleta :Jamie_Cherry .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jamie_Cherry
+	:Jamie_Cherry rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jamie_Cherry" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Forbestown" ;
+    :email "jamie.cherry@abcbraga.io" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81858e8c650b8d992f
+	:60b3ee81858e8c650b8d992f rdf:type owl:NamedIndividual , :EMD ;
+	:index 51 ;
+	:dataEMD "2019-09-06" ;
+    :doAtleta :Bird_Noble .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bird_Noble
+	:Bird_Noble rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bird_Noble" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Lafferty" ;
+    :email "bird.noble@acrroriz.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee817468bb467a39e2f8
+	:60b3ee817468bb467a39e2f8 rdf:type owl:NamedIndividual , :EMD ;
+	:index 52 ;
+	:dataEMD "2020-08-11" ;
+    :doAtleta :Burgess_Bradshaw .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Burgess_Bradshaw
+	:Burgess_Bradshaw rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Burgess_Bradshaw" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Bluffview" ;
+    :email "burgess.bradshaw@abcbraga.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8117de88dc519ae9d3
+	:60b3ee8117de88dc519ae9d3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 53 ;
+	:dataEMD "2020-10-22" ;
+    :doAtleta :Laura_Jacobson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Laura_Jacobson
+	:Laura_Jacobson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Laura_Jacobson" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Kirk" ;
+    :email "laura.jacobson@acrroriz.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8160bf5c46dcb3cfa7
+	:60b3ee8160bf5c46dcb3cfa7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 54 ;
+	:dataEMD "2020-09-06" ;
+    :doAtleta :Blair_Sherman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Blair_Sherman
+	:Blair_Sherman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Blair_Sherman" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Waukeenah" ;
+    :email "blair.sherman@scbraga.tv" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81ea2bed08bf81e861
+	:60b3ee81ea2bed08bf81e861 rdf:type owl:NamedIndividual , :EMD ;
+	:index 55 ;
+	:dataEMD "2020-09-01" ;
+    :doAtleta :Bobbi_Hawkins .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bobbi_Hawkins
+	:Bobbi_Hawkins rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bobbi_Hawkins" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Takilma" ;
+    :email "bobbi.hawkins@scbraga.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81051fe3467036095a
+	:60b3ee81051fe3467036095a rdf:type owl:NamedIndividual , :EMD ;
+	:index 56 ;
+	:dataEMD "2019-12-21" ;
+    :doAtleta :Montoya_Anthony .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Montoya_Anthony
+	:Montoya_Anthony rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Montoya_Anthony" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Clara" ;
+    :email "montoya.anthony@acrroriz.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8152ddb1911c44b96a
+	:60b3ee8152ddb1911c44b96a rdf:type owl:NamedIndividual , :EMD ;
+	:index 57 ;
+	:dataEMD "2021-01-29" ;
+    :doAtleta :Hooper_Kirby .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hooper_Kirby
+	:Hooper_Kirby rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hooper_Kirby" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Roosevelt" ;
+    :email "hooper.kirby@acrroriz.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81839f04840d199de9
+	:60b3ee81839f04840d199de9 rdf:type owl:NamedIndividual , :EMD ;
+	:index 58 ;
+	:dataEMD "2020-12-30" ;
+    :doAtleta :Wolfe_Baird .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Wolfe_Baird
+	:Wolfe_Baird rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Wolfe_Baird" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Faxon" ;
+    :email "wolfe.baird@avcfamalicão.org" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81375cc4e9aba8bc6e
+	:60b3ee81375cc4e9aba8bc6e rdf:type owl:NamedIndividual , :EMD ;
+	:index 59 ;
+	:dataEMD "2019-01-03" ;
+    :doAtleta :Lamb_Graham .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lamb_Graham
+	:Lamb_Graham rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lamb_Graham" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Bluetown" ;
+    :email "lamb.graham@avcfamalicão.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81422fd173977583e5
+	:60b3ee81422fd173977583e5 rdf:type owl:NamedIndividual , :EMD ;
+	:index 60 ;
+	:dataEMD "2021-04-22" ;
+    :doAtleta :Valentine_Fitzgerald .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Valentine_Fitzgerald
+	:Valentine_Fitzgerald rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Valentine_Fitzgerald" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Kersey" ;
+    :email "valentine.fitzgerald@abcbraga.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee813c7547937e764cab
+	:60b3ee813c7547937e764cab rdf:type owl:NamedIndividual , :EMD ;
+	:index 61 ;
+	:dataEMD "2020-06-26" ;
+    :doAtleta :Herminia_Mooney .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Herminia_Mooney
+	:Herminia_Mooney rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Herminia_Mooney" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Matheny" ;
+    :email "herminia.mooney@amigosmontanha.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee818db2661d700d6ea3
+	:60b3ee818db2661d700d6ea3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 62 ;
+	:dataEMD "2019-09-08" ;
+    :doAtleta :Golden_Hopkins .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Golden_Hopkins
+	:Golden_Hopkins rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Golden_Hopkins" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Courtland" ;
+    :email "golden.hopkins@avcfamalicão.io" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee811426bce48b453191
+	:60b3ee811426bce48b453191 rdf:type owl:NamedIndividual , :EMD ;
+	:index 63 ;
+	:dataEMD "2020-12-22" ;
+    :doAtleta :Lancaster_Andrews .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lancaster_Andrews
+	:Lancaster_Andrews rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lancaster_Andrews" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Longoria" ;
+    :email "lancaster.andrews@vitoria.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81d13fde44c2e74aab
+	:60b3ee81d13fde44c2e74aab rdf:type owl:NamedIndividual , :EMD ;
+	:index 64 ;
+	:dataEMD "2019-08-15" ;
+    :doAtleta :Elena_Sullivan .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Elena_Sullivan
+	:Elena_Sullivan rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Elena_Sullivan" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Leola" ;
+    :email "elena.sullivan@clube de orientação do minho.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81ef9b6d894223a9fd
+	:60b3ee81ef9b6d894223a9fd rdf:type owl:NamedIndividual , :EMD ;
+	:index 65 ;
+	:dataEMD "2020-04-26" ;
+    :doAtleta :Deana_Ramsey .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Deana_Ramsey
+	:Deana_Ramsey rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Deana_Ramsey" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Gila" ;
+    :email "deana.ramsey@acrroriz.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8154161dd7358b2e65
+	:60b3ee8154161dd7358b2e65 rdf:type owl:NamedIndividual , :EMD ;
+	:index 66 ;
+	:dataEMD "2019-12-01" ;
+    :doAtleta :Mayra_Rose .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mayra_Rose
+	:Mayra_Rose rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mayra_Rose" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Calpine" ;
+    :email "mayra.rose@acdrcrespos.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81fcb5c8f9970e2899
+	:60b3ee81fcb5c8f9970e2899 rdf:type owl:NamedIndividual , :EMD ;
+	:index 67 ;
+	:dataEMD "2020-07-27" ;
+    :doAtleta :Tina_Salinas .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tina_Salinas
+	:Tina_Salinas rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tina_Salinas" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Welda" ;
+    :email "tina.salinas@vitoria.co.uk" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e97e332884e1299a
+	:60b3ee81e97e332884e1299a rdf:type owl:NamedIndividual , :EMD ;
+	:index 68 ;
+	:dataEMD "2020-05-24" ;
+    :doAtleta :Sheila_Caldwell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sheila_Caldwell
+	:Sheila_Caldwell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sheila_Caldwell" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Leroy" ;
+    :email "sheila.caldwell@avcfamalicão.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8151ebf5ddaa5ca13c
+	:60b3ee8151ebf5ddaa5ca13c rdf:type owl:NamedIndividual , :EMD ;
+	:index 69 ;
+	:dataEMD "2020-01-02" ;
+    :doAtleta :Hudson_Duffy .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hudson_Duffy
+	:Hudson_Duffy rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hudson_Duffy" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Whitestone" ;
+    :email "hudson.duffy@edviana.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee818e25f41f67491f02
+	:60b3ee818e25f41f67491f02 rdf:type owl:NamedIndividual , :EMD ;
+	:index 70 ;
+	:dataEMD "2021-04-22" ;
+    :doAtleta :Guzman_Douglas .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Guzman_Douglas
+	:Guzman_Douglas rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Guzman_Douglas" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Alderpoint" ;
+    :email "guzman.douglas@abcbraga.org" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee817ca74f6cb607c6f9
+	:60b3ee817ca74f6cb607c6f9 rdf:type owl:NamedIndividual , :EMD ;
+	:index 71 ;
+	:dataEMD "2019-12-09" ;
+    :doAtleta :Ethel_Bartlett .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ethel_Bartlett
+	:Ethel_Bartlett rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ethel_Bartlett" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Muir" ;
+    :email "ethel.bartlett@acrroriz.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee818cd611e6bf56f2f1
+	:60b3ee818cd611e6bf56f2f1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 72 ;
+	:dataEMD "2021-04-13" ;
+    :doAtleta :Doyle_Odom .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Doyle_Odom
+	:Doyle_Odom rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Doyle_Odom" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Newry" ;
+    :email "doyle.odom@amigosmontanha.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81c1515414ac1fb549
+	:60b3ee81c1515414ac1fb549 rdf:type owl:NamedIndividual , :EMD ;
+	:index 73 ;
+	:dataEMD "2020-06-02" ;
+    :doAtleta :Araceli_Castaneda .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Araceli_Castaneda
+	:Araceli_Castaneda rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Araceli_Castaneda" ;
+	:idade 28 ;
+    :género "F" ;
+    :morada "Magnolia" ;
+    :email "araceli.castaneda@avcfamalicão.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81d15fe413bd86d938
+	:60b3ee81d15fe413bd86d938 rdf:type owl:NamedIndividual , :EMD ;
+	:index 74 ;
+	:dataEMD "2020-06-04" ;
+    :doAtleta :Fuentes_Walker .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Fuentes_Walker
+	:Fuentes_Walker rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Fuentes_Walker" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Leming" ;
+    :email "fuentes.walker@scbraga.io" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e2dc932e4e6f7e51
+	:60b3ee81e2dc932e4e6f7e51 rdf:type owl:NamedIndividual , :EMD ;
+	:index 75 ;
+	:dataEMD "2019-01-09" ;
+    :doAtleta :Sarah_Moore .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sarah_Moore
+	:Sarah_Moore rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sarah_Moore" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Morgandale" ;
+    :email "sarah.moore@acdrcrespos.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Basquetebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81f9666482a5c13406
+	:60b3ee81f9666482a5c13406 rdf:type owl:NamedIndividual , :EMD ;
+	:index 76 ;
+	:dataEMD "2019-10-25" ;
+    :doAtleta :Cheryl_Watson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cheryl_Watson
+	:Cheryl_Watson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cheryl_Watson" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Fairview" ;
+    :email "cheryl.watson@gdgoma.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81d7dbdba97369e927
+	:60b3ee81d7dbdba97369e927 rdf:type owl:NamedIndividual , :EMD ;
+	:index 77 ;
+	:dataEMD "2019-04-12" ;
+    :doAtleta :Langley_Velez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Langley_Velez
+	:Langley_Velez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Langley_Velez" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Neahkahnie" ;
+    :email "langley.velez@acrroriz.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81e024b81dde892dd6
+	:60b3ee81e024b81dde892dd6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 78 ;
+	:dataEMD "2019-06-30" ;
+    :doAtleta :Alisa_Morrison .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Alisa_Morrison
+	:Alisa_Morrison rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Alisa_Morrison" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Kiskimere" ;
+    :email "alisa.morrison@gdgoma.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81c5073acaa4febef6
+	:60b3ee81c5073acaa4febef6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 79 ;
+	:dataEMD "2019-12-29" ;
+    :doAtleta :Malinda_Merritt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Malinda_Merritt
+	:Malinda_Merritt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Malinda_Merritt" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Cecilia" ;
+    :email "malinda.merritt@abcbraga.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81963e6ecf70e3d586
+	:60b3ee81963e6ecf70e3d586 rdf:type owl:NamedIndividual , :EMD ;
+	:index 80 ;
+	:dataEMD "2020-07-30" ;
+    :doAtleta :Lenora_Kane .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lenora_Kane
+	:Lenora_Kane rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lenora_Kane" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Axis" ;
+    :email "lenora.kane@abcbraga.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8122f33125935e59d3
+	:60b3ee8122f33125935e59d3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 81 ;
+	:dataEMD "2021-02-25" ;
+    :doAtleta :Cabrera_Curtis .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cabrera_Curtis
+	:Cabrera_Curtis rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cabrera_Curtis" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Beechmont" ;
+    :email "cabrera.curtis@avcfamalicão.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81828ee0dba6850475
+	:60b3ee81828ee0dba6850475 rdf:type owl:NamedIndividual , :EMD ;
+	:index 82 ;
+	:dataEMD "2020-05-28" ;
+    :doAtleta :Roseann_Benjamin .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Roseann_Benjamin
+	:Roseann_Benjamin rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Roseann_Benjamin" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Stewart" ;
+    :email "roseann.benjamin@abcbraga.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8152b3f05331a47645
+	:60b3ee8152b3f05331a47645 rdf:type owl:NamedIndividual , :EMD ;
+	:index 83 ;
+	:dataEMD "2020-04-29" ;
+    :doAtleta :Stafford_Ray .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Stafford_Ray
+	:Stafford_Ray rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Stafford_Ray" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Zeba" ;
+    :email "stafford.ray@acdrcrespos.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81411e7acd216d0bf0
+	:60b3ee81411e7acd216d0bf0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 84 ;
+	:dataEMD "2019-09-18" ;
+    :doAtleta :Jewel_Trevino .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jewel_Trevino
+	:Jewel_Trevino rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jewel_Trevino" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Garnet" ;
+    :email "jewel.trevino@acrroriz.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8103ed6d19e90ce9f7
+	:60b3ee8103ed6d19e90ce9f7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 85 ;
+	:dataEMD "2020-09-04" ;
+    :doAtleta :Mckenzie_Woods .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mckenzie_Woods
+	:Mckenzie_Woods rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mckenzie_Woods" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Craig" ;
+    :email "mckenzie.woods@acrroriz.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8182b8712a2f15e41a
+	:60b3ee8182b8712a2f15e41a rdf:type owl:NamedIndividual , :EMD ;
+	:index 86 ;
+	:dataEMD "2020-12-10" ;
+    :doAtleta :Jean_Conley .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jean_Conley
+	:Jean_Conley rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jean_Conley" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Tilleda" ;
+    :email "jean.conley@gdgoma.io" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee811a2021b6b24ffbc2
+	:60b3ee811a2021b6b24ffbc2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 87 ;
+	:dataEMD "2020-09-14" ;
+    :doAtleta :Conway_Alexander .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Conway_Alexander
+	:Conway_Alexander rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Conway_Alexander" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Darrtown" ;
+    :email "conway.alexander@scbraga.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81c44446a9eceefd87
+	:60b3ee81c44446a9eceefd87 rdf:type owl:NamedIndividual , :EMD ;
+	:index 88 ;
+	:dataEMD "2020-04-08" ;
+    :doAtleta :Maryann_Joyce .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Maryann_Joyce
+	:Maryann_Joyce rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Maryann_Joyce" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Harmon" ;
+    :email "maryann.joyce@acdrcrespos.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee812d50aad901e7e243
+	:60b3ee812d50aad901e7e243 rdf:type owl:NamedIndividual , :EMD ;
+	:index 89 ;
+	:dataEMD "2019-07-31" ;
+    :doAtleta :Ayers_Carroll .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ayers_Carroll
+	:Ayers_Carroll rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ayers_Carroll" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Sylvanite" ;
+    :email "ayers.carroll@gdgoma.com" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee816b42d22ea075aba7
+	:60b3ee816b42d22ea075aba7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 90 ;
+	:dataEMD "2019-01-29" ;
+    :doAtleta :Bonita_Mccormick .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bonita_Mccormick
+	:Bonita_Mccormick rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bonita_Mccormick" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Marshall" ;
+    :email "bonita.mccormick@gdgoma.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee812a4b8125a96689a0
+	:60b3ee812a4b8125a96689a0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 91 ;
+	:dataEMD "2019-04-28" ;
+    :doAtleta :Kathy_Kramer .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kathy_Kramer
+	:Kathy_Kramer rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kathy_Kramer" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Williams" ;
+    :email "kathy.kramer@edviana.co.uk" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81b71a63346d0243e7
+	:60b3ee81b71a63346d0243e7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 92 ;
+	:dataEMD "2020-10-10" ;
+    :doAtleta :Tonia_Bryan .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tonia_Bryan
+	:Tonia_Bryan rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tonia_Bryan" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Corinne" ;
+    :email "tonia.bryan@edviana.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Basquetebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81559385200672594d
+	:60b3ee81559385200672594d rdf:type owl:NamedIndividual , :EMD ;
+	:index 93 ;
+	:dataEMD "2020-02-02" ;
+    :doAtleta :Barker_Mercer .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Barker_Mercer
+	:Barker_Mercer rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Barker_Mercer" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Grayhawk" ;
+    :email "barker.mercer@avcfamalicão.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81a113b4cb68ef5906
+	:60b3ee81a113b4cb68ef5906 rdf:type owl:NamedIndividual , :EMD ;
+	:index 94 ;
+	:dataEMD "2019-05-19" ;
+    :doAtleta :Mcfarland_Tyson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mcfarland_Tyson
+	:Mcfarland_Tyson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mcfarland_Tyson" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Kula" ;
+    :email "mcfarland.tyson@amigosmontanha.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Equitação ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81655cc723f988a62d
+	:60b3ee81655cc723f988a62d rdf:type owl:NamedIndividual , :EMD ;
+	:index 95 ;
+	:dataEMD "2021-02-19" ;
+    :doAtleta :Meagan_Carter .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Meagan_Carter
+	:Meagan_Carter rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Meagan_Carter" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Martinsville" ;
+    :email "meagan.carter@scbraga.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee8186fff74d432c9259
+	:60b3ee8186fff74d432c9259 rdf:type owl:NamedIndividual , :EMD ;
+	:index 96 ;
+	:dataEMD "2019-06-25" ;
+    :doAtleta :Catalina_Webb .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Catalina_Webb
+	:Catalina_Webb rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Catalina_Webb" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Aurora" ;
+    :email "catalina.webb@abcbraga.us" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81051bf4a2138bb141
+	:60b3ee81051bf4a2138bb141 rdf:type owl:NamedIndividual , :EMD ;
+	:index 97 ;
+	:dataEMD "2020-10-31" ;
+    :doAtleta :Moses_Sargent .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Moses_Sargent
+	:Moses_Sargent rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Moses_Sargent" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Wildwood" ;
+    :email "moses.sargent@abcbraga.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81c4345661feac7a9a
+	:60b3ee81c4345661feac7a9a rdf:type owl:NamedIndividual , :EMD ;
+	:index 98 ;
+	:dataEMD "2021-02-19" ;
+    :doAtleta :Preston_Mccall .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Preston_Mccall
+	:Preston_Mccall rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Preston_Mccall" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Mathews" ;
+    :email "preston.mccall@avcfamalicão.io" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Karaté ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3ee81451b811209c3deef
+	:60b3ee81451b811209c3deef rdf:type owl:NamedIndividual , :EMD ;
+	:index 99 ;
+	:dataEMD "2019-06-30" ;
+    :doAtleta :Christian_Clements .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Christian_Clements
+	:Christian_Clements rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Christian_Clements" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Cochranville" ;
+    :email "christian.clements@acdrcrespos.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb933e50bd455af89a9
+	:60b3eeb933e50bd455af89a9 rdf:type owl:NamedIndividual , :EMD ;
+	:index 0 ;
+	:dataEMD "2020-08-30" ;
+    :doAtleta :Jeanine_Hester .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jeanine_Hester
+	:Jeanine_Hester rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jeanine_Hester" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Baden" ;
+    :email "jeanine.hester@avcfamalicão.name" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9b701a941937c0dd8
+	:60b3eeb9b701a941937c0dd8 rdf:type owl:NamedIndividual , :EMD ;
+	:index 1 ;
+	:dataEMD "2020-08-12" ;
+    :doAtleta :Tonia_Espinoza .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tonia_Espinoza
+	:Tonia_Espinoza rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tonia_Espinoza" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Fillmore" ;
+    :email "tonia.espinoza@avcfamalicão.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9fc87ff10010ae517
+	:60b3eeb9fc87ff10010ae517 rdf:type owl:NamedIndividual , :EMD ;
+	:index 2 ;
+	:dataEMD "2019-08-25" ;
+    :doAtleta :Alyssa_Howard .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Alyssa_Howard
+	:Alyssa_Howard rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Alyssa_Howard" ;
+	:idade 26 ;
+    :género "F" ;
+    :morada "Conestoga" ;
+    :email "alyssa.howard@scbraga.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9e966a3cf1239840a
+	:60b3eeb9e966a3cf1239840a rdf:type owl:NamedIndividual , :EMD ;
+	:index 3 ;
+	:dataEMD "2020-06-29" ;
+    :doAtleta :Merrill_Fulton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Merrill_Fulton
+	:Merrill_Fulton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Merrill_Fulton" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Berlin" ;
+    :email "merrill.fulton@amigosmontanha.org" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Badminton ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9dbbc9f23e5c888ac
+	:60b3eeb9dbbc9f23e5c888ac rdf:type owl:NamedIndividual , :EMD ;
+	:index 4 ;
+	:dataEMD "2020-11-01" ;
+    :doAtleta :Jaime_Erickson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jaime_Erickson
+	:Jaime_Erickson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jaime_Erickson" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Yardville" ;
+    :email "jaime.erickson@abcbraga.co.uk" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9425c872217db611e
+	:60b3eeb9425c872217db611e rdf:type owl:NamedIndividual , :EMD ;
+	:index 5 ;
+	:dataEMD "2019-09-09" ;
+    :doAtleta :Felicia_Skinner .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Felicia_Skinner
+	:Felicia_Skinner rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Felicia_Skinner" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Rosburg" ;
+    :email "felicia.skinner@acdrcrespos.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb967d2dd4be3e2c87d
+	:60b3eeb967d2dd4be3e2c87d rdf:type owl:NamedIndividual , :EMD ;
+	:index 6 ;
+	:dataEMD "2020-07-12" ;
+    :doAtleta :Margaret_Bray .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Margaret_Bray
+	:Margaret_Bray rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Margaret_Bray" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Sardis" ;
+    :email "margaret.bray@clube de orientação do minho.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb944e8f43647ed05f2
+	:60b3eeb944e8f43647ed05f2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 7 ;
+	:dataEMD "2021-03-04" ;
+    :doAtleta :Etta_Cotton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Etta_Cotton
+	:Etta_Cotton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Etta_Cotton" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Graniteville" ;
+    :email "etta.cotton@avcfamalicão.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9bc3d74e0cb400631
+	:60b3eeb9bc3d74e0cb400631 rdf:type owl:NamedIndividual , :EMD ;
+	:index 8 ;
+	:dataEMD "2020-10-18" ;
+    :doAtleta :Kelley_Davidson .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kelley_Davidson
+	:Kelley_Davidson rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kelley_Davidson" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Ruckersville" ;
+    :email "kelley.davidson@avcfamalicão.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Equitação ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb934a2174ec11d92a6
+	:60b3eeb934a2174ec11d92a6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 9 ;
+	:dataEMD "2019-08-18" ;
+    :doAtleta :Crawford_Merritt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Crawford_Merritt
+	:Crawford_Merritt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Crawford_Merritt" ;
+	:idade 27 ;
+    :género "M" ;
+    :morada "Roy" ;
+    :email "crawford.merritt@scbraga.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9fa4e587712a640d4
+	:60b3eeb9fa4e587712a640d4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 10 ;
+	:dataEMD "2020-11-04" ;
+    :doAtleta :Kim_Buck .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kim_Buck
+	:Kim_Buck rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kim_Buck" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Rosine" ;
+    :email "kim.buck@avcfamalicão.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb948dd398953308f2d
+	:60b3eeb948dd398953308f2d rdf:type owl:NamedIndividual , :EMD ;
+	:index 11 ;
+	:dataEMD "2019-07-01" ;
+    :doAtleta :Gilda_Schmidt .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Gilda_Schmidt
+	:Gilda_Schmidt rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Gilda_Schmidt" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Enoree" ;
+    :email "gilda.schmidt@scbraga.me" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a2085e98659a2f5b
+	:60b3eeb9a2085e98659a2f5b rdf:type owl:NamedIndividual , :EMD ;
+	:index 12 ;
+	:dataEMD "2019-04-09" ;
+    :doAtleta :Mcintosh_Aguirre .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mcintosh_Aguirre
+	:Mcintosh_Aguirre rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mcintosh_Aguirre" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Emory" ;
+    :email "mcintosh.aguirre@vitoria.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Basquetebol ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9bfd86db079523f51
+	:60b3eeb9bfd86db079523f51 rdf:type owl:NamedIndividual , :EMD ;
+	:index 13 ;
+	:dataEMD "2020-11-25" ;
+    :doAtleta :Ida_Bradshaw .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ida_Bradshaw
+	:Ida_Bradshaw rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ida_Bradshaw" ;
+	:idade 21 ;
+    :género "F" ;
+    :morada "Lowgap" ;
+    :email "ida.bradshaw@clube de orientação do minho.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb98614ea36f88963ba
+	:60b3eeb98614ea36f88963ba rdf:type owl:NamedIndividual , :EMD ;
+	:index 14 ;
+	:dataEMD "2020-04-08" ;
+    :doAtleta :Jefferson_Pacheco .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jefferson_Pacheco
+	:Jefferson_Pacheco rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jefferson_Pacheco" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Strykersville" ;
+    :email "jefferson.pacheco@edviana.info" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb910808af364c63729
+	:60b3eeb910808af364c63729 rdf:type owl:NamedIndividual , :EMD ;
+	:index 15 ;
+	:dataEMD "2020-12-14" ;
+    :doAtleta :Olson_Hickman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Olson_Hickman
+	:Olson_Hickman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Olson_Hickman" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Madrid" ;
+    :email "olson.hickman@acrroriz.org" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb939a5cb2da478d86c
+	:60b3eeb939a5cb2da478d86c rdf:type owl:NamedIndividual , :EMD ;
+	:index 16 ;
+	:dataEMD "2020-06-09" ;
+    :doAtleta :Malinda_Mccall .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Malinda_Mccall
+	:Malinda_Mccall rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Malinda_Mccall" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Winchester" ;
+    :email "malinda.mccall@scbraga.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb92b1debc068c42080
+	:60b3eeb92b1debc068c42080 rdf:type owl:NamedIndividual , :EMD ;
+	:index 17 ;
+	:dataEMD "2020-10-06" ;
+    :doAtleta :Raquel_Dejesus .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Raquel_Dejesus
+	:Raquel_Dejesus rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Raquel_Dejesus" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Greenfields" ;
+    :email "raquel.dejesus@acrroriz.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9ec44aba1040d2e1e
+	:60b3eeb9ec44aba1040d2e1e rdf:type owl:NamedIndividual , :EMD ;
+	:index 18 ;
+	:dataEMD "2020-02-06" ;
+    :doAtleta :Daniel_Chambers .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Daniel_Chambers
+	:Daniel_Chambers rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Daniel_Chambers" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Nicholson" ;
+    :email "daniel.chambers@gdgoma.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a9f081f26deada43
+	:60b3eeb9a9f081f26deada43 rdf:type owl:NamedIndividual , :EMD ;
+	:index 19 ;
+	:dataEMD "2019-12-21" ;
+    :doAtleta :Samantha_Sharp .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Samantha_Sharp
+	:Samantha_Sharp rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Samantha_Sharp" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Elliott" ;
+    :email "samantha.sharp@acrroriz.us" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Triatlo ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9468961b15e8e1277
+	:60b3eeb9468961b15e8e1277 rdf:type owl:NamedIndividual , :EMD ;
+	:index 20 ;
+	:dataEMD "2021-01-09" ;
+    :doAtleta :Robert_Herman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Robert_Herman
+	:Robert_Herman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Robert_Herman" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Weogufka" ;
+    :email "robert.herman@clube de orientação do minho.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Basquetebol ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9edcbd2a0befa0a74
+	:60b3eeb9edcbd2a0befa0a74 rdf:type owl:NamedIndividual , :EMD ;
+	:index 21 ;
+	:dataEMD "2021-02-20" ;
+    :doAtleta :Olive_Chapman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Olive_Chapman
+	:Olive_Chapman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Olive_Chapman" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Wikieup" ;
+    :email "olive.chapman@avcfamalicão.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97aecf09da8650e19
+	:60b3eeb97aecf09da8650e19 rdf:type owl:NamedIndividual , :EMD ;
+	:index 22 ;
+	:dataEMD "2019-04-30" ;
+    :doAtleta :Mccoy_Blackburn .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mccoy_Blackburn
+	:Mccoy_Blackburn rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mccoy_Blackburn" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Osmond" ;
+    :email "mccoy.blackburn@amigosmontanha.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9d7265f5ab15e4fed
+	:60b3eeb9d7265f5ab15e4fed rdf:type owl:NamedIndividual , :EMD ;
+	:index 23 ;
+	:dataEMD "2020-12-10" ;
+    :doAtleta :Lambert_Ferrell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lambert_Ferrell
+	:Lambert_Ferrell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lambert_Ferrell" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Rowe" ;
+    :email "lambert.ferrell@vitoria.me" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9217c0274b8a1022b
+	:60b3eeb9217c0274b8a1022b rdf:type owl:NamedIndividual , :EMD ;
+	:index 24 ;
+	:dataEMD "2019-03-12" ;
+    :doAtleta :Small_Coffey .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Small_Coffey
+	:Small_Coffey rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Small_Coffey" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Waumandee" ;
+    :email "small.coffey@vitoria.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9cc832d080dd2c0e0
+	:60b3eeb9cc832d080dd2c0e0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 25 ;
+	:dataEMD "2019-05-03" ;
+    :doAtleta :Hicks_Daniels .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hicks_Daniels
+	:Hicks_Daniels rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hicks_Daniels" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Frizzleburg" ;
+    :email "hicks.daniels@abcbraga.ca" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9bc920eef418c62ac
+	:60b3eeb9bc920eef418c62ac rdf:type owl:NamedIndividual , :EMD ;
+	:index 26 ;
+	:dataEMD "2019-03-23" ;
+    :doAtleta :Meghan_Cabrera .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Meghan_Cabrera
+	:Meghan_Cabrera rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Meghan_Cabrera" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Shawmut" ;
+    :email "meghan.cabrera@edviana.info" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9cf9c078af09a7b74
+	:60b3eeb9cf9c078af09a7b74 rdf:type owl:NamedIndividual , :EMD ;
+	:index 27 ;
+	:dataEMD "2019-01-12" ;
+    :doAtleta :Hubbard_Hart .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hubbard_Hart
+	:Hubbard_Hart rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hubbard_Hart" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Trucksville" ;
+    :email "hubbard.hart@gdgoma.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb968346da5d651b20d
+	:60b3eeb968346da5d651b20d rdf:type owl:NamedIndividual , :EMD ;
+	:index 28 ;
+	:dataEMD "2020-07-25" ;
+    :doAtleta :Chelsea_Gallegos .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Chelsea_Gallegos
+	:Chelsea_Gallegos rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Chelsea_Gallegos" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Warren" ;
+    :email "chelsea.gallegos@avcfamalicão.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Andebol ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91afe89807606d176
+	:60b3eeb91afe89807606d176 rdf:type owl:NamedIndividual , :EMD ;
+	:index 29 ;
+	:dataEMD "2020-03-16" ;
+    :doAtleta :Natalie_Figueroa .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Natalie_Figueroa
+	:Natalie_Figueroa rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Natalie_Figueroa" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Jugtown" ;
+    :email "natalie.figueroa@clube de orientação do minho.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9080c70a07ef5c4ac
+	:60b3eeb9080c70a07ef5c4ac rdf:type owl:NamedIndividual , :EMD ;
+	:index 30 ;
+	:dataEMD "2020-11-20" ;
+    :doAtleta :Hayes_Ward .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hayes_Ward
+	:Hayes_Ward rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hayes_Ward" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Accoville" ;
+    :email "hayes.ward@edviana.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb96f9b421618f39954
+	:60b3eeb96f9b421618f39954 rdf:type owl:NamedIndividual , :EMD ;
+	:index 31 ;
+	:dataEMD "2019-10-13" ;
+    :doAtleta :Graves_Mccray .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Graves_Mccray
+	:Graves_Mccray rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Graves_Mccray" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Kipp" ;
+    :email "graves.mccray@abcbraga.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Esgrima ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb90afb40019dea8a64
+	:60b3eeb90afb40019dea8a64 rdf:type owl:NamedIndividual , :EMD ;
+	:index 32 ;
+	:dataEMD "2020-09-27" ;
+    :doAtleta :Mavis_Riley .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mavis_Riley
+	:Mavis_Riley rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mavis_Riley" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Nescatunga" ;
+    :email "mavis.riley@amigosmontanha.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb90fc3f9678fed0903
+	:60b3eeb90fc3f9678fed0903 rdf:type owl:NamedIndividual , :EMD ;
+	:index 33 ;
+	:dataEMD "2019-09-09" ;
+    :doAtleta :Salas_Joseph .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Salas_Joseph
+	:Salas_Joseph rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Salas_Joseph" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Greenwich" ;
+    :email "salas.joseph@amigosmontanha.net" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9f0342bd19d6a5a39
+	:60b3eeb9f0342bd19d6a5a39 rdf:type owl:NamedIndividual , :EMD ;
+	:index 34 ;
+	:dataEMD "2020-10-22" ;
+    :doAtleta :Carly_Peck .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Carly_Peck
+	:Carly_Peck rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Carly_Peck" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Byrnedale" ;
+    :email "carly.peck@edviana.tv" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Futebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb966fd425e94c59395
+	:60b3eeb966fd425e94c59395 rdf:type owl:NamedIndividual , :EMD ;
+	:index 35 ;
+	:dataEMD "2019-02-16" ;
+    :doAtleta :Ramirez_Blevins .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Ramirez_Blevins
+	:Ramirez_Blevins rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Ramirez_Blevins" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Bluetown" ;
+    :email "ramirez.blevins@vitoria.me" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91977642e615c41e3
+	:60b3eeb91977642e615c41e3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 36 ;
+	:dataEMD "2020-12-31" ;
+    :doAtleta :Parks_Saunders .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Parks_Saunders
+	:Parks_Saunders rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Parks_Saunders" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Sheatown" ;
+    :email "parks.saunders@clube de orientação do minho.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb93a24ff700a3928d5
+	:60b3eeb93a24ff700a3928d5 rdf:type owl:NamedIndividual , :EMD ;
+	:index 37 ;
+	:dataEMD "2021-01-13" ;
+    :doAtleta :Leanne_Armstrong .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Leanne_Armstrong
+	:Leanne_Armstrong rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Leanne_Armstrong" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Cochranville" ;
+    :email "leanne.armstrong@amigosmontanha.ca" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb99c434fb1a7c7c633
+	:60b3eeb99c434fb1a7c7c633 rdf:type owl:NamedIndividual , :EMD ;
+	:index 38 ;
+	:dataEMD "2020-03-22" ;
+    :doAtleta :Kline_Stark .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kline_Stark
+	:Kline_Stark rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kline_Stark" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Tedrow" ;
+    :email "kline.stark@avcfamalicão.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9f430b0e9e81165c4
+	:60b3eeb9f430b0e9e81165c4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 39 ;
+	:dataEMD "2019-02-18" ;
+    :doAtleta :Elliott_Guzman .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Elliott_Guzman
+	:Elliott_Guzman rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Elliott_Guzman" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Rutherford" ;
+    :email "elliott.guzman@clube de orientação do minho.org" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb94d27b52fe1b15f19
+	:60b3eeb94d27b52fe1b15f19 rdf:type owl:NamedIndividual , :EMD ;
+	:index 40 ;
+	:dataEMD "2019-08-06" ;
+    :doAtleta :Liz_Baldwin .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Liz_Baldwin
+	:Liz_Baldwin rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Liz_Baldwin" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Basye" ;
+    :email "liz.baldwin@abcbraga.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91ab516aa15e1199a
+	:60b3eeb91ab516aa15e1199a rdf:type owl:NamedIndividual , :EMD ;
+	:index 41 ;
+	:dataEMD "2020-10-16" ;
+    :doAtleta :Warner_Bullock .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Warner_Bullock
+	:Warner_Bullock rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Warner_Bullock" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Valle" ;
+    :email "warner.bullock@gdgoma.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97b17e786bdf88e29
+	:60b3eeb97b17e786bdf88e29 rdf:type owl:NamedIndividual , :EMD ;
+	:index 42 ;
+	:dataEMD "2019-12-18" ;
+    :doAtleta :Santana_Harper .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Santana_Harper
+	:Santana_Harper rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Santana_Harper" ;
+	:idade 32 ;
+    :género "F" ;
+    :morada "Malo" ;
+    :email "santana.harper@scbraga.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb95762eb38f4ae9a22
+	:60b3eeb95762eb38f4ae9a22 rdf:type owl:NamedIndividual , :EMD ;
+	:index 43 ;
+	:dataEMD "2019-01-18" ;
+    :doAtleta :Imelda_Odonnell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Imelda_Odonnell
+	:Imelda_Odonnell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Imelda_Odonnell" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Riviera" ;
+    :email "imelda.odonnell@avcfamalicão.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c05f073a238c4aa6
+	:60b3eeb9c05f073a238c4aa6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 44 ;
+	:dataEMD "2020-09-24" ;
+    :doAtleta :Lila_Curry .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lila_Curry
+	:Lila_Curry rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lila_Curry" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Alden" ;
+    :email "lila.curry@amigosmontanha.com" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c82e74bc1831a3be
+	:60b3eeb9c82e74bc1831a3be rdf:type owl:NamedIndividual , :EMD ;
+	:index 45 ;
+	:dataEMD "2020-02-06" ;
+    :doAtleta :Milagros_Ellis .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Milagros_Ellis
+	:Milagros_Ellis rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Milagros_Ellis" ;
+	:idade 21 ;
+    :género "M" ;
+    :morada "Why" ;
+    :email "milagros.ellis@acdrcrespos.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9e81cdbbee14cab97
+	:60b3eeb9e81cdbbee14cab97 rdf:type owl:NamedIndividual , :EMD ;
+	:index 46 ;
+	:dataEMD "2019-07-15" ;
+    :doAtleta :Stafford_Hale .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Stafford_Hale
+	:Stafford_Hale rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Stafford_Hale" ;
+	:idade 29 ;
+    :género "F" ;
+    :morada "Bowden" ;
+    :email "stafford.hale@acdrcrespos.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb983fb3181e8f43d12
+	:60b3eeb983fb3181e8f43d12 rdf:type owl:NamedIndividual , :EMD ;
+	:index 47 ;
+	:dataEMD "2021-05-05" ;
+    :doAtleta :Blevins_Cline .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Blevins_Cline
+	:Blevins_Cline rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Blevins_Cline" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Delshire" ;
+    :email "blevins.cline@clube de orientação do minho.me" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Triatlo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9817b6dc6e2848304
+	:60b3eeb9817b6dc6e2848304 rdf:type owl:NamedIndividual , :EMD ;
+	:index 48 ;
+	:dataEMD "2020-07-15" ;
+    :doAtleta :Marisol_Owen .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Marisol_Owen
+	:Marisol_Owen rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Marisol_Owen" ;
+	:idade 23 ;
+    :género "M" ;
+    :morada "Soham" ;
+    :email "marisol.owen@acdrcrespos.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9ab56338f42cdaf13
+	:60b3eeb9ab56338f42cdaf13 rdf:type owl:NamedIndividual , :EMD ;
+	:index 49 ;
+	:dataEMD "2020-07-02" ;
+    :doAtleta :Mcintyre_Walsh .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mcintyre_Walsh
+	:Mcintyre_Walsh rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mcintyre_Walsh" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Beechmont" ;
+    :email "mcintyre.walsh@abcbraga.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9de8d709dd3fd086f
+	:60b3eeb9de8d709dd3fd086f rdf:type owl:NamedIndividual , :EMD ;
+	:index 50 ;
+	:dataEMD "2020-11-06" ;
+    :doAtleta :Valarie_Silva .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Valarie_Silva
+	:Valarie_Silva rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Valarie_Silva" ;
+	:idade 25 ;
+    :género "M" ;
+    :morada "Lynn" ;
+    :email "valarie.silva@acdrcrespos.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9077997c0e212f286
+	:60b3eeb9077997c0e212f286 rdf:type owl:NamedIndividual , :EMD ;
+	:index 51 ;
+	:dataEMD "2020-01-06" ;
+    :doAtleta :Jimmie_Beck .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Jimmie_Beck
+	:Jimmie_Beck rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Jimmie_Beck" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Walker" ;
+    :email "jimmie.beck@avcfamalicão.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Atletismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb916caa13610b8cadf
+	:60b3eeb916caa13610b8cadf rdf:type owl:NamedIndividual , :EMD ;
+	:index 52 ;
+	:dataEMD "2019-08-30" ;
+    :doAtleta :Amparo_Price .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Amparo_Price
+	:Amparo_Price rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Amparo_Price" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Townsend" ;
+    :email "amparo.price@acdrcrespos.co.uk" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Futebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c65ee38149a83dfc
+	:60b3eeb9c65ee38149a83dfc rdf:type owl:NamedIndividual , :EMD ;
+	:index 53 ;
+	:dataEMD "2021-01-24" ;
+    :doAtleta :Susanna_Lowery .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Susanna_Lowery
+	:Susanna_Lowery rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Susanna_Lowery" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Cawood" ;
+    :email "susanna.lowery@edviana.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Orientação ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97c9c1d91087c47a4
+	:60b3eeb97c9c1d91087c47a4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 54 ;
+	:dataEMD "2020-08-23" ;
+    :doAtleta :Flynn_Huber .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Flynn_Huber
+	:Flynn_Huber rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Flynn_Huber" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Teasdale" ;
+    :email "flynn.huber@clube de orientação do minho.biz" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97aabcddbffca43f3
+	:60b3eeb97aabcddbffca43f3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 55 ;
+	:dataEMD "2019-03-29" ;
+    :doAtleta :Elaine_Allen .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Elaine_Allen
+	:Elaine_Allen rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Elaine_Allen" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Kaka" ;
+    :email "elaine.allen@acdrcrespos.us" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Equitação ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb935b59a6c217af521
+	:60b3eeb935b59a6c217af521 rdf:type owl:NamedIndividual , :EMD ;
+	:index 56 ;
+	:dataEMD "2020-09-24" ;
+    :doAtleta :Gwen_Pate .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Gwen_Pate
+	:Gwen_Pate rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Gwen_Pate" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Snelling" ;
+    :email "gwen.pate@amigosmontanha.com" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb972a330700a58a10a
+	:60b3eeb972a330700a58a10a rdf:type owl:NamedIndividual , :EMD ;
+	:index 57 ;
+	:dataEMD "2020-08-19" ;
+    :doAtleta :Leila_Solis .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Leila_Solis
+	:Leila_Solis rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Leila_Solis" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Glenville" ;
+    :email "leila.solis@acrroriz.net" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a78530cac96a3f79
+	:60b3eeb9a78530cac96a3f79 rdf:type owl:NamedIndividual , :EMD ;
+	:index 58 ;
+	:dataEMD "2021-04-17" ;
+    :doAtleta :Mercedes_Heath .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mercedes_Heath
+	:Mercedes_Heath rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mercedes_Heath" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Chaparrito" ;
+    :email "mercedes.heath@gdgoma.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9235de1538781611d
+	:60b3eeb9235de1538781611d rdf:type owl:NamedIndividual , :EMD ;
+	:index 59 ;
+	:dataEMD "2019-05-03" ;
+    :doAtleta :Althea_Fitzpatrick .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Althea_Fitzpatrick
+	:Althea_Fitzpatrick rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Althea_Fitzpatrick" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Marne" ;
+    :email "althea.fitzpatrick@edviana.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Basquetebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9f7311f86c6a33646
+	:60b3eeb9f7311f86c6a33646 rdf:type owl:NamedIndividual , :EMD ;
+	:index 60 ;
+	:dataEMD "2019-12-09" ;
+    :doAtleta :Arlene_Morton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Arlene_Morton
+	:Arlene_Morton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Arlene_Morton" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Wiscon" ;
+    :email "arlene.morton@vitoria.name" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9354e8a0e1817c201
+	:60b3eeb9354e8a0e1817c201 rdf:type owl:NamedIndividual , :EMD ;
+	:index 61 ;
+	:dataEMD "2020-09-26" ;
+    :doAtleta :Mosley_Gonzales .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mosley_Gonzales
+	:Mosley_Gonzales rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mosley_Gonzales" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Driftwood" ;
+    :email "mosley.gonzales@scbraga.ca" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9e6ca114d8ab96bc4
+	:60b3eeb9e6ca114d8ab96bc4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 62 ;
+	:dataEMD "2019-08-31" ;
+    :doAtleta :Torres_Hardy .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Torres_Hardy
+	:Torres_Hardy rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Torres_Hardy" ;
+	:idade 33 ;
+    :género "F" ;
+    :morada "Fairfield" ;
+    :email "torres.hardy@clube de orientação do minho.info" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb945accec6f3eb9c3d
+	:60b3eeb945accec6f3eb9c3d rdf:type owl:NamedIndividual , :EMD ;
+	:index 63 ;
+	:dataEMD "2020-12-13" ;
+    :doAtleta :Annmarie_Petersen .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Annmarie_Petersen
+	:Annmarie_Petersen rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Annmarie_Petersen" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Twilight" ;
+    :email "annmarie.petersen@clube de orientação do minho.org" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Dança ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb92a2f391cda5b305e
+	:60b3eeb92a2f391cda5b305e rdf:type owl:NamedIndividual , :EMD ;
+	:index 64 ;
+	:dataEMD "2020-12-03" ;
+    :doAtleta :Osborn_Green .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Osborn_Green
+	:Osborn_Green rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Osborn_Green" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Jacksonwald" ;
+    :email "osborn.green@acrroriz.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Karaté ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a57cc0f98a998c9a
+	:60b3eeb9a57cc0f98a998c9a rdf:type owl:NamedIndividual , :EMD ;
+	:index 65 ;
+	:dataEMD "2020-08-26" ;
+    :doAtleta :Davenport_Dominguez .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Davenport_Dominguez
+	:Davenport_Dominguez rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Davenport_Dominguez" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Vallonia" ;
+    :email "davenport.dominguez@acrroriz.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Patinagem ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb94b33eaa274778def
+	:60b3eeb94b33eaa274778def rdf:type owl:NamedIndividual , :EMD ;
+	:index 66 ;
+	:dataEMD "2019-12-20" ;
+    :doAtleta :Barton_Massey .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Barton_Massey
+	:Barton_Massey rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Barton_Massey" ;
+	:idade 26 ;
+    :género "M" ;
+    :morada "Ribera" ;
+    :email "barton.massey@amigosmontanha.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a78fd4bfe9e36453
+	:60b3eeb9a78fd4bfe9e36453 rdf:type owl:NamedIndividual , :EMD ;
+	:index 67 ;
+	:dataEMD "2019-06-09" ;
+    :doAtleta :Holly_Bowen .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Holly_Bowen
+	:Holly_Bowen rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Holly_Bowen" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Adamstown" ;
+    :email "holly.bowen@acdrcrespos.us" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9868c63b27774163f
+	:60b3eeb9868c63b27774163f rdf:type owl:NamedIndividual , :EMD ;
+	:index 68 ;
+	:dataEMD "2020-06-28" ;
+    :doAtleta :Dennis_Crawford .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Dennis_Crawford
+	:Dennis_Crawford rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Dennis_Crawford" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Wanship" ;
+    :email "dennis.crawford@amigosmontanha.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Atletismo ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9a857578bd25302db
+	:60b3eeb9a857578bd25302db rdf:type owl:NamedIndividual , :EMD ;
+	:index 69 ;
+	:dataEMD "2019-05-25" ;
+    :doAtleta :Oliver_Mcleod .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Oliver_Mcleod
+	:Oliver_Mcleod rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Oliver_Mcleod" ;
+	:idade 25 ;
+    :género "F" ;
+    :morada "Garnet" ;
+    :email "oliver.mcleod@scbraga.net" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Ténis ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9abbaec58aed568da
+	:60b3eeb9abbaec58aed568da rdf:type owl:NamedIndividual , :EMD ;
+	:index 70 ;
+	:dataEMD "2019-03-01" ;
+    :doAtleta :Tameka_Orr .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tameka_Orr
+	:Tameka_Orr rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tameka_Orr" ;
+	:idade 24 ;
+    :género "F" ;
+    :morada "Klagetoh" ;
+    :email "tameka.orr@vitoria.tv" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ciclismo ;
+    :temClube :Vitoria .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb90d885cf3327fe6bd
+	:60b3eeb90d885cf3327fe6bd rdf:type owl:NamedIndividual , :EMD ;
+	:index 71 ;
+	:dataEMD "2020-05-28" ;
+    :doAtleta :Foster_Strickland .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Foster_Strickland
+	:Foster_Strickland rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Foster_Strickland" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Holtville" ;
+    :email "foster.strickland@clube de orientação do minho.me" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Patinagem ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91ded4fa3db5fdf8e
+	:60b3eeb91ded4fa3db5fdf8e rdf:type owl:NamedIndividual , :EMD ;
+	:index 72 ;
+	:dataEMD "2019-10-26" ;
+    :doAtleta :Marlene_Rodgers .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Marlene_Rodgers
+	:Marlene_Rodgers rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Marlene_Rodgers" ;
+	:idade 27 ;
+    :género "F" ;
+    :morada "Levant" ;
+    :email "marlene.rodgers@scbraga.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb909f2540c651ec8ff
+	:60b3eeb909f2540c651ec8ff rdf:type owl:NamedIndividual , :EMD ;
+	:index 73 ;
+	:dataEMD "2020-04-12" ;
+    :doAtleta :Shari_Mathews .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Shari_Mathews
+	:Shari_Mathews rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Shari_Mathews" ;
+	:idade 22 ;
+    :género "M" ;
+    :morada "Joes" ;
+    :email "shari.mathews@acdrcrespos.ca" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91c3038d321c60bb3
+	:60b3eeb91c3038d321c60bb3 rdf:type owl:NamedIndividual , :EMD ;
+	:index 74 ;
+	:dataEMD "2021-05-07" ;
+    :doAtleta :Josie_Rasmussen .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Josie_Rasmussen
+	:Josie_Rasmussen rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Josie_Rasmussen" ;
+	:idade 34 ;
+    :género "M" ;
+    :morada "Riverton" ;
+    :email "josie.rasmussen@acdrcrespos.info" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :Badminton ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c4b1d5f4d4a0099b
+	:60b3eeb9c4b1d5f4d4a0099b rdf:type owl:NamedIndividual , :EMD ;
+	:index 75 ;
+	:dataEMD "2020-06-22" ;
+    :doAtleta :Shelton_Walton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Shelton_Walton
+	:Shelton_Walton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Shelton_Walton" ;
+	:idade 35 ;
+    :género "M" ;
+    :morada "Williston" ;
+    :email "shelton.walton@edviana.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9cded7ae5d2724d52
+	:60b3eeb9cded7ae5d2724d52 rdf:type owl:NamedIndividual , :EMD ;
+	:index 76 ;
+	:dataEMD "2020-11-21" ;
+    :doAtleta :Odonnell_Russell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Odonnell_Russell
+	:Odonnell_Russell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Odonnell_Russell" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Alderpoint" ;
+    :email "odonnell.russell@gdgoma.co.uk" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91485796dedd2444b
+	:60b3eeb91485796dedd2444b rdf:type owl:NamedIndividual , :EMD ;
+	:index 77 ;
+	:dataEMD "2021-02-04" ;
+    :doAtleta :Elba_Le .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Elba_Le
+	:Elba_Le rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Elba_Le" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Ebro" ;
+    :email "elba.le@acrroriz.biz" ;
+    :federado "False" ;
+    :resultado "True" ;
+    :temModalidade :SUP ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9fbb0206c040aa4f1
+	:60b3eeb9fbb0206c040aa4f1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 78 ;
+	:dataEMD "2019-10-20" ;
+    :doAtleta :Sweet_Woodward .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Sweet_Woodward
+	:Sweet_Woodward rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Sweet_Woodward" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Urie" ;
+    :email "sweet.woodward@gdgoma.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9ef81456a2178baca
+	:60b3eeb9ef81456a2178baca rdf:type owl:NamedIndividual , :EMD ;
+	:index 79 ;
+	:dataEMD "2020-02-24" ;
+    :doAtleta :Wilkins_Cummings .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Wilkins_Cummings
+	:Wilkins_Cummings rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Wilkins_Cummings" ;
+	:idade 33 ;
+    :género "M" ;
+    :morada "Gila" ;
+    :email "wilkins.cummings@acrroriz.us" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Dança ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb929306aeaff7f31a0
+	:60b3eeb929306aeaff7f31a0 rdf:type owl:NamedIndividual , :EMD ;
+	:index 80 ;
+	:dataEMD "2021-02-04" ;
+    :doAtleta :Rogers_Noel .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Rogers_Noel
+	:Rogers_Noel rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Rogers_Noel" ;
+	:idade 35 ;
+    :género "F" ;
+    :morada "Cresaptown" ;
+    :email "rogers.noel@acdrcrespos.com" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb99d4b85092734ded4
+	:60b3eeb99d4b85092734ded4 rdf:type owl:NamedIndividual , :EMD ;
+	:index 81 ;
+	:dataEMD "2021-03-08" ;
+    :doAtleta :Hodges_Ashley .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Hodges_Ashley
+	:Hodges_Ashley rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Hodges_Ashley" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Crawfordsville" ;
+    :email "hodges.ashley@abcbraga.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Andebol ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb96b4950f33f42c5b6
+	:60b3eeb96b4950f33f42c5b6 rdf:type owl:NamedIndividual , :EMD ;
+	:index 82 ;
+	:dataEMD "2020-12-19" ;
+    :doAtleta :Curtis_Dillon .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Curtis_Dillon
+	:Curtis_Dillon rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Curtis_Dillon" ;
+	:idade 29 ;
+    :género "M" ;
+    :morada "Beason" ;
+    :email "curtis.dillon@amigosmontanha.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Parapente ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c4c935218799831f
+	:60b3eeb9c4c935218799831f rdf:type owl:NamedIndividual , :EMD ;
+	:index 83 ;
+	:dataEMD "2021-02-08" ;
+    :doAtleta :Lelia_Oliver .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Lelia_Oliver
+	:Lelia_Oliver rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Lelia_Oliver" ;
+	:idade 30 ;
+    :género "M" ;
+    :morada "Cedarville" ;
+    :email "lelia.oliver@gdgoma.me" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91dbe172db8fd8f61
+	:60b3eeb91dbe172db8fd8f61 rdf:type owl:NamedIndividual , :EMD ;
+	:index 84 ;
+	:dataEMD "2019-02-07" ;
+    :doAtleta :Fuentes_Rogers .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Fuentes_Rogers
+	:Fuentes_Rogers rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Fuentes_Rogers" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Grazierville" ;
+    :email "fuentes.rogers@scbraga.name" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :BTT ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9c7550e5dc5a5ddb1
+	:60b3eeb9c7550e5dc5a5ddb1 rdf:type owl:NamedIndividual , :EMD ;
+	:index 85 ;
+	:dataEMD "2020-05-28" ;
+    :doAtleta :Carole_Lindsey .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Carole_Lindsey
+	:Carole_Lindsey rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Carole_Lindsey" ;
+	:idade 34 ;
+    :género "F" ;
+    :morada "Weedville" ;
+    :email "carole.lindsey@amigosmontanha.ca" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :AmigosMontanha .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb95632a2a2915ae72b
+	:60b3eeb95632a2a2915ae72b rdf:type owl:NamedIndividual , :EMD ;
+	:index 86 ;
+	:dataEMD "2019-07-27" ;
+    :doAtleta :Martinez_Johns .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Martinez_Johns
+	:Martinez_Johns rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Martinez_Johns" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Hebron" ;
+    :email "martinez.johns@abcbraga.info" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :SUP ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9af56ea737b79ac30
+	:60b3eeb9af56ea737b79ac30 rdf:type owl:NamedIndividual , :EMD ;
+	:index 87 ;
+	:dataEMD "2020-07-21" ;
+    :doAtleta :Kellie_Holland .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Kellie_Holland
+	:Kellie_Holland rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Kellie_Holland" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Bloomington" ;
+    :email "kellie.holland@scbraga.org" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9e387855b0de81d09
+	:60b3eeb9e387855b0de81d09 rdf:type owl:NamedIndividual , :EMD ;
+	:index 88 ;
+	:dataEMD "2019-06-27" ;
+    :doAtleta :Mathis_Kirk .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Mathis_Kirk
+	:Mathis_Kirk rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Mathis_Kirk" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Klondike" ;
+    :email "mathis.kirk@edviana.co.uk" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb93bfe7ecd8361f659
+	:60b3eeb93bfe7ecd8361f659 rdf:type owl:NamedIndividual , :EMD ;
+	:index 89 ;
+	:dataEMD "2019-10-22" ;
+    :doAtleta :Bertha_Shelton .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bertha_Shelton
+	:Bertha_Shelton rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bertha_Shelton" ;
+	:idade 28 ;
+    :género "M" ;
+    :morada "Sedley" ;
+    :email "bertha.shelton@gdgoma.biz" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Orientação ;
+    :temClube :GDGoma .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9860033876d65f5f7
+	:60b3eeb9860033876d65f5f7 rdf:type owl:NamedIndividual , :EMD ;
+	:index 90 ;
+	:dataEMD "2020-01-08" ;
+    :doAtleta :Bonnie_Diaz .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Bonnie_Diaz
+	:Bonnie_Diaz rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Bonnie_Diaz" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Gerton" ;
+    :email "bonnie.diaz@scbraga.biz" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Ténis ;
+    :temClube :SCBraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97a2511a770990f0f
+	:60b3eeb97a2511a770990f0f rdf:type owl:NamedIndividual , :EMD ;
+	:index 91 ;
+	:dataEMD "2020-08-23" ;
+    :doAtleta :Becker_Talley .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Becker_Talley
+	:Becker_Talley rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Becker_Talley" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Valmy" ;
+    :email "becker.talley@clube de orientação do minho.us" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9080a93e404ab974a
+	:60b3eeb9080a93e404ab974a rdf:type owl:NamedIndividual , :EMD ;
+	:index 92 ;
+	:dataEMD "2019-08-11" ;
+    :doAtleta :Zelma_Bell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Zelma_Bell
+	:Zelma_Bell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Zelma_Bell" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Shasta" ;
+    :email "zelma.bell@clube de orientação do minho.com" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb96e988bb711c0c940
+	:60b3eeb96e988bb711c0c940 rdf:type owl:NamedIndividual , :EMD ;
+	:index 93 ;
+	:dataEMD "2019-09-29" ;
+    :doAtleta :Stanton_Cox .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Stanton_Cox
+	:Stanton_Cox rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Stanton_Cox" ;
+	:idade 22 ;
+    :género "F" ;
+    :morada "Foxworth" ;
+    :email "stanton.cox@edviana.net" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :BTT ;
+    :temClube :EDViana .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb97d329fb5b3d7379b
+	:60b3eeb97d329fb5b3d7379b rdf:type owl:NamedIndividual , :EMD ;
+	:index 94 ;
+	:dataEMD "2020-07-15" ;
+    :doAtleta :Cindy_Shepherd .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Cindy_Shepherd
+	:Cindy_Shepherd rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Cindy_Shepherd" ;
+	:idade 23 ;
+    :género "F" ;
+    :morada "Brule" ;
+    :email "cindy.shepherd@avcfamalicão.tv" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Ciclismo ;
+    :temClube :AVCfamalicão .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb95b00f32d469ef4b2
+	:60b3eeb95b00f32d469ef4b2 rdf:type owl:NamedIndividual , :EMD ;
+	:index 95 ;
+	:dataEMD "2020-09-20" ;
+    :doAtleta :Knapp_Buckner .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Knapp_Buckner
+	:Knapp_Buckner rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Knapp_Buckner" ;
+	:idade 31 ;
+    :género "F" ;
+    :morada "Rose" ;
+    :email "knapp.buckner@abcbraga.me" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Futebol ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb91accf4bd8b426245
+	:60b3eeb91accf4bd8b426245 rdf:type owl:NamedIndividual , :EMD ;
+	:index 96 ;
+	:dataEMD "2020-11-27" ;
+    :doAtleta :Callahan_Mitchell .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Callahan_Mitchell
+	:Callahan_Mitchell rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Callahan_Mitchell" ;
+	:idade 24 ;
+    :género "M" ;
+    :morada "Wollochet" ;
+    :email "callahan.mitchell@abcbraga.name" ;
+    :federado "True" ;
+    :resultado "False" ;
+    :temModalidade :Parapente ;
+    :temClube :ABCbraga .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9dd4dc919156890ee
+	:60b3eeb9dd4dc919156890ee rdf:type owl:NamedIndividual , :EMD ;
+	:index 97 ;
+	:dataEMD "2021-01-10" ;
+    :doAtleta :Allie_Lyons .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Allie_Lyons
+	:Allie_Lyons rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Allie_Lyons" ;
+	:idade 31 ;
+    :género "M" ;
+    :morada "Welch" ;
+    :email "allie.lyons@acrroriz.ca" ;
+    :federado "False" ;
+    :resultado "False" ;
+    :temModalidade :Equitação ;
+    :temClube :ACRroriz .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9d9f01093dc14973f
+	:60b3eeb9d9f01093dc14973f rdf:type owl:NamedIndividual , :EMD ;
+	:index 98 ;
+	:dataEMD "2020-05-08" ;
+    :doAtleta :Tammy_Bryant .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Tammy_Bryant
+	:Tammy_Bryant rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Tammy_Bryant" ;
+	:idade 32 ;
+    :género "M" ;
+    :morada "Fidelis" ;
+    :email "tammy.bryant@acdrcrespos.info" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Futebol ;
+    :temClube :ACDRcrespos .
+	 
+	###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#60b3eeb9d027f625a1b63723
+	:60b3eeb9d027f625a1b63723 rdf:type owl:NamedIndividual , :EMD ;
+	:index 99 ;
+	:dataEMD "2021-01-02" ;
+    :doAtleta :Carissa_Rosario .
+
+    ###  http://www.semanticweb.org/filipa/ontologies/2021/4/emd#Carissa_Rosario
+	:Carissa_Rosario rdf:type owl:NamedIndividual , :Atleta ;
+	:nome "Carissa_Rosario" ;
+	:idade 30 ;
+    :género "F" ;
+    :morada "Brookfield" ;
+    :email "carissa.rosario@clube de orientação do minho.org" ;
+    :federado "True" ;
+    :resultado "True" ;
+    :temModalidade :Esgrima ;
+    :temClube :Clube_de_Orientação_do_Minho .
+	 

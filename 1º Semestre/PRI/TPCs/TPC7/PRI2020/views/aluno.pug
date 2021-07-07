@@ -1,0 +1,38 @@
+extends layout
+block content
+    .w3-card-4
+        if al
+            header.w3-container.w3-teal
+                h3 Aluno #{al.Número}
+            .w3-container
+                table(class="w3-table-all")
+                    tr 
+                        th Número
+                        th Nome
+                        th Git
+                        th TPCs
+                    tr
+                        td= al.Número
+                        td= al.Nome
+                        td= al.Git
+                        td
+                            - var tpcNr = 1
+                            while tpcNr < 8
+                                if(al.tpc[tpcNr-1]==1)
+                                    label(style="margin-right:5px") TPC#{tpcNr}
+                                - tpcNr++
+                    tr(style="background-color:#fff;")  
+                        td
+                            form(action=`/alunos/${al.Número}/editar`, method='GET') 
+                                button(class="w3-light-grey" style="margin-right:10px;" type="submit") Editar
+                        td 
+                        td
+                        td(style="text-align:right") 
+                            form(action=`/alunos/${al.Número}`, method='POST') 
+                                button(class="w3-red" type="submit") Apagar
+                                //Preciso de um workaround porque HTML5 só aceita method = POST | GET
+        else
+            div(class="w3-container")
+                p Aluno não foi encontrado... 
+            footer(class="w3-container w3-teal")
+                address Gerado por galuno :: 2020-Novembro, jcr

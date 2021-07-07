@@ -1,0 +1,26 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#>
+select * where {
+    ?a rdf:type :Atleta;
+       } ORDER BY (fn:lower-case(str(?a)))
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#>
+select * where {
+    ?e rdf:type :Equipa;
+ } 
+
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#>
+select ?p (count(?a) as ?Number) where {
+    ?a rdf:type :Atleta;
+       :participaEm ?p
+ } GROUP BY ?p       
+
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#>
+select ?a where {
+    ?a rdf:type :Atleta;
+       :morada ?m
+    FILTER REGEX(?m, "Braga")
+} 

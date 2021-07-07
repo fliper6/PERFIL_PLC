@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  h1 Tipologia
+  table.w3-table-all
+    tr
+      th Sigla
+      th Estado
+      th Designacao
+    tr
+      td= t.sigla
+      td= t.estado
+      td= t.designacao
+  h1 Entidades
+  table.w3-table-all
+    tr
+      th ID
+      th Designacao
+    each e in ents
+      tr
+        td
+          a(href='/entidades/' + e.id) #{e.id}
+        td= e.designacao
+  h1 Processos
+  table.w3-table-all
+    tr
+      th Titulo
+      th Codigo
+    each p in pros
+      tr
+        td= p.codigo
+        td= p.titulo
+  a(href=('/tipologias'))
+    p Voltar ao menu principal

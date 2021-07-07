@@ -1,0 +1,358 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/4/trail#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/4/trail> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/4/trail> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#atletaEm
+:atletaEm rdf:type owl:ObjectProperty ;
+          rdfs:domain :Atleta ;
+          rdfs:range :Equipa .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#participaEm
+:participaEm rdf:type owl:ObjectProperty ;
+             rdfs:domain :Atleta ;
+             rdfs:range :Prova .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#morada
+:morada rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Atleta
+:Atleta rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Equipa
+:Equipa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Prova
+:Prova rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Corrida_da_Geira
+:Corrida_da_Geira rdf:type owl:NamedIndividual ,
+                           :Prova .
+
+
+###  http://www.semanticweb.org/filipa/ontologies/2021/4/trail#Ultra_Trail
+:Ultra_Trail rdf:type owl:NamedIndividual ,
+                      :Prova .
+
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#MARIO_PIRES
+ :MARIO_PIRES rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "RUA CÂNDIDO DOS REIS , nº 86 , 2º ,".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Francisco_Neto_Silva
+ :Francisco_Neto_Silva rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :individual;
+		:morada "Rua da Ermida, 235".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Luis_Santos_Poeira
+ :Luis_Santos_Poeira rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Porto_Runners;
+		:morada "R. Soc. Nacional Fósforos, 160 - 1º Andar Hab. 6  4150 Porto".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#jose_moura_de_sousa
+ :jose_moura_de_sousa rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :os_barriguitas;
+		:morada "rua joaquim da silva torres, 261  4470-312 maia".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#FERNANDO_JORGE_MENDES_CARNEIRO
+ :FERNANDO_JORGE_MENDES_CARNEIRO rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Nast;
+		:morada "Estrada Nacional 105 - n.º 571 - Carreira - Santo Tirso".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Carlos_Alberto_da_Silva_Cardoso
+ :Carlos_Alberto_da_Silva_Cardoso rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Clube_Atletismo_de_Lamas;
+		:morada "Rua 25 Abril Nr.193".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Ricardo_Salgueiro
+ :Ricardo_Salgueiro rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Cães_da_Avenida;
+		:morada "Rua de Gondarém nr 765-5 A 4150-378 Porto".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Rui_Gilberto_Santos_Correia
+ :Rui_Gilberto_Santos_Correia rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Clube_Atletismo_de_Lamas;
+		:morada "Rua Jorge Barradas nr6".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#José_Moreira
+ :José_Moreira rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Clube_Atletismo_de_Lamas;
+		:morada "Rua Central nº 905, 1º direito, Fiães".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Hélder_Silva
+ :Hélder_Silva rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Clube_Atletismo_de_Lamas;
+		:morada "Rua Luis de Camões, 320 2ºDto Post".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#JOSE_COELHO
+ :JOSE_COELHO rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Clube_Atletismo_de_Lamas;
+		:morada "RUA PADRE SA N.º 60, 4505-384 FIÃES".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#paulo_de_castro_rocha
+ :paulo_de_castro_rocha rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :clube_de_veteranos_do_porto;
+		:morada "rua gil eanes, 67 - 1º - 4400-165 - vila nova de gaia".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Artur_Bernardo
+ :Artur_Bernardo rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "Rua Jose Relvas n8".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#J_Paulo_Marques
+ :J_Paulo_Marques rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Os_Caga_Tacos_Running_Tean;
+		:morada "Tv da Seara N64 3esq 269-4450 Matosinhos".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Bruno_Manuel_Henriques_Maceda
+ :Bruno_Manuel_Henriques_Maceda rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Os_Caga_Tacos_Running_Tean;
+		:morada "Rua Joaquim Lagoeiro, 11 Veiros Estarreja".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#João_Costa
+ :João_Costa rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua Carolina Rosa Alves Nº27 Braga".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Pimentel_Torres
+ :Paulo_Pimentel_Torres rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua Costa Soares, 39".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Pimentel_Torres
+ :Paulo_Pimentel_Torres rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua Costa Soares, 39".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araújo
+ :Vasco_Manuel_de_Sequeiros_Barreto_Martins_de_Araújo rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua S. Domingos 174 3º esq.".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Helder_Matos
+ :Helder_Matos rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Os_Caga_Tacos_Running_Tean;
+		:morada "Pcta Nova do picao 114b, 1esq, 4400-424 Canidelo".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#José_Fernanades_Ferreira
+ :José_Fernanades_Ferreira rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Porto_Runners;
+		:morada "Rua Avelino Soares Carneiro, 111 - R/C - Esº".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sérgio_Duarte
+ :Sérgio_Duarte rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :COM;
+		:morada "Bairro da Alegria, Rua 10 de Junho nº 11, 4710-332 Braga".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jorge_Yong
+ :Jorge_Yong rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Individual;
+		:morada "Barcelos".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Serra
+ :Paulo_Serra rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "Maia".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Tiago_José_Cadima_Borges
+ :Tiago_José_Cadima_Borges rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "Rua do Campos Verdes nº161 R/C".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Maria_de_Fatima_Batista_Geraldes
+ :Maria_de_Fatima_Batista_Geraldes rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Tugas_na_Estrada;
+		:morada "Rua Duque da Terceira, nº 249, 1.1, 4050-536 Porto".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#paulo_Vilaça
+ :paulo_Vilaça rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Tugas_na_Estrada;
+		:morada "Tv Elaine Sanceau, 51 3ºDto  4465-620 Leça do Balio".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Manuel_Moura
+ :Manuel_Moura rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Os_Barriguitas;
+		:morada "Tv Julio Dinis 124".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sérgio_Moreira
+ :Sérgio_Moreira rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Blue_O;
+		:morada "Rua Nova da Serra, n.º 61 4415-280 Pedroso".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#jorge_manuel_martins_silva
+ :jorge_manuel_martins_silva rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "rua domingos nunes lt 2".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Ricardo_Silva
+ :Ricardo_Silva rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Tugas_na_Estrada;
+		:morada "Rua das cavadas 178 10 Dtº tras".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Paulo_Domingues
+ :Paulo_Domingues rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Individual;
+		:morada "Valongo".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Dulce_Moreda
+ :Dulce_Moreda rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Individual;
+		:morada "Valongo".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sérgio_Duarte
+ :Sérgio_Duarte rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :COM;
+		:morada "Rua Graça Júnior, nº 14, Braga".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Celeste_Cruz
+ :Celeste_Cruz rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua Graça Júnior, nº 14, Braga".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#António_Fernandes
+ :António_Fernandes rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Individual;
+		:morada "Rua S. Tiago Nº297, Caldelas".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Sonia_Parente
+ :Sonia_Parente rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :EDV-Viana_Trail;
+		:morada "Av,Mateus Carvalhido nº19, Sta Maria Maior".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Jorge_Lourenço
+ :Jorge_Lourenço rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :TURBULENTOS;
+		:morada "Rua Eduardo Esperança, 7".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Emanuel_Durães
+ :Emanuel_Durães rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Born_Be_Wild;
+		:morada "Av.Bombeiros Voluntarios, Nº27 3ºB - 4580-053 Paredes".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#João_Manuel_Dias_Rei
+ :João_Manuel_Dias_Rei rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :na;
+		:morada "Rua do Areal, V.F.S.Martinho, Barcelos".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Vera_Cristina_Moreira_Delgado
+ :Vera_Cristina_Moreira_Delgado rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Corrida_da_Geira;
+		:atletaEm  :Individual;
+		:morada "rua do freixo, 51".
+
+###  http://www.semanticweb.org/antóniocarvalho/ontologies/eventoDesportivo#Francisco_Terra
+ :Francisco_Terra rdf:type owl:NamedIndividual ,
+			:Atleta  ;
+		:participaEm  :Ultra_Trail;
+		:atletaEm  :Olhares_Sublimes;
+		:morada "São João da Madeira".
+

@@ -1,0 +1,75 @@
+1) Quantos exames estão registados?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT (count (distinct ?s) as ?tot) where {
+    ?s rdf:type :EMD.
+} 
+
+###############################################################################
+2) Quantos exames tiveram um resultado válido?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT (count (?r) as ?tot) where {
+    ?s rdf:type :EMD.
+    ?s :doAtleta ?a.
+    ?a rdf:type :Atleta.
+    ?a :resultado ?r.
+    FILTER regex(?r, "True")
+} 
+
+###############################################################################
+3) Qual a distribuição dos exames por género?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?g (count (?a) as ?tot) where {
+    ?s rdf:type :EMD.
+    ?s :doAtleta ?a.
+    ?a rdf:type :Atleta.
+    ?a :género ?g.
+} GROUP BY (?g)
+
+###############################################################################
+4) Qual a distribuição dos exames por modalidade?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?m (count (?a) as ?tot) where {
+    ?s rdf:type :EMD.
+    ?s :doAtleta ?a.
+    ?a rdf:type :Atleta.
+    ?a :temModalidade ?m.
+} GROUP BY (?m)
+
+###############################################################################
+5) Quantos atletas federados do "GDGoma" fizeram EMD?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT (count (?a) as ?tot) where {
+    ?s rdf:type :EMD.
+    ?s :doAtleta ?a.
+    ?a rdf:type :Atleta.
+    ?a :temClube :GDGoma.
+} 
+
+###############################################################################
+6) Quantos atletas do género feminino que praticam Triatlo fizeram EMD?
+
+PREFIX : <http://www.semanticweb.org/filipa/ontologies/2021/4/emd#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT (count (?a) as ?tot) where {
+    ?s rdf:type :EMD.
+    ?s :doAtleta ?a.
+    ?a rdf:type :Atleta.
+    ?a :género "F".
+    ?a :temModalidade :Triatlo.
+} 

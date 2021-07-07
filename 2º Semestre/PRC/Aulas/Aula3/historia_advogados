@@ -1,0 +1,110 @@
+@prefix : <http://www.semanticweb.org/filipa/ontologies/2021/2/historia_advogados#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/filipa/ontologies/2021/2/historia_advogados> .
+
+<http://www.semanticweb.org/filipa/ontologies/2021/2/historia_advogados> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#dir
+<http://www.di.uminho.pt/prc2021/historia-advogados#dir> rdf:type owl:ObjectProperty ;
+                                                         owl:inverseOf <http://www.di.uminho.pt/prc2021/historia-advogados#esq> .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#esq
+<http://www.di.uminho.pt/prc2021/historia-advogados#esq> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#bebida
+<http://www.di.uminho.pt/prc2021/historia-advogados#bebida> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#carro
+<http://www.di.uminho.pt/prc2021/historia-advogados#carro> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata
+<http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#idade
+<http://www.di.uminho.pt/prc2021/historia-advogados#idade> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#nome
+<http://www.di.uminho.pt/prc2021/historia-advogados#nome> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#área
+<http://www.di.uminho.pt/prc2021/historia-advogados#área> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#A1
+<http://www.di.uminho.pt/prc2021/historia-advogados#A1> rdf:type owl:NamedIndividual ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#bebida> "margarita"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#carro> "crossover"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> "verde"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#idade> 40 ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#nome> "Octávio"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#área> "imobiliária"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#A2
+<http://www.di.uminho.pt/prc2021/historia-advogados#A2> rdf:type owl:NamedIndividual ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#esq> <http://www.di.uminho.pt/prc2021/historia-advogados#A1> ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#bebida> "mojito"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#carro> "pickup"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> "amarela"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#idade> 30 ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#nome> "Alberto"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#área> "trabalhista"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#A3
+<http://www.di.uminho.pt/prc2021/historia-advogados#A3> rdf:type owl:NamedIndividual ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#esq> <http://www.di.uminho.pt/prc2021/historia-advogados#A2> ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#bebida> "martini"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#carro> "hyundai"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> "azul"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#idade> 34 ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#nome> "Ulisses"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#área> "comercial"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#A4
+<http://www.di.uminho.pt/prc2021/historia-advogados#A4> rdf:type owl:NamedIndividual ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#esq> <http://www.di.uminho.pt/prc2021/historia-advogados#A3> ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#bebida> "cosmopolitan"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#carro> "suv"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> "vermelha"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#idade> 37 ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#nome> "Luís"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#área> "civil"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/historia-advogados#A5
+<http://www.di.uminho.pt/prc2021/historia-advogados#A5> rdf:type owl:NamedIndividual ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#esq> <http://www.di.uminho.pt/prc2021/historia-advogados#A4> ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#bebida> "caipirinha"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#carro> "subaru"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#cor_gravata> "branca"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#idade> 44 ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#nome> "Carlos"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/historia-advogados#área> "consumidor"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

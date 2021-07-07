@@ -1,0 +1,74 @@
+Formatado com https://jsonformatter.curiousconcept.com/
+
+{
+   "2f":{
+      "Almoço":{
+         "Sopa":"Creme de ervilhas",
+         "Prato":"Tranches de vitelão estufadas com cogumelos",
+         "Acompanhamento 1":"Arroz de cenoura",
+         "Acompanhamento 2":"Brócolos cozidos"
+      },
+      "Jantar":{
+         "Sopa":"Sopa de espinafres",
+         "Prato":"Peixe à Gomes de Sá",
+         "Acompanhamento 1":"-",
+         "Acompanhamento 2":"Salada de alface, pepino e pimentos"
+      }
+   },
+   "3f":{
+      "Almoço":{
+         "Sopa":"Sopa de grão de bico",
+         "Prato":"Perca grelhada com molho de limão e hortelã",
+         "Acompanhamento 1":"Batatinha no forno com azeite e alho",
+         "Acompanhamento 2":"Couve de Bruxelas salteada"
+      },
+      "Jantar":{
+         "Sopa":"Creme de tomate",
+         "Prato":"Feveras de porco grelhadas com cebolada",
+         "Acompanhamento 1":"Arroz dourado",
+         "Acompanhamento 2":"Feijão verde cozido"
+      }
+   },
+   "4f":{
+      "Almoço":{
+         "Sopa":"Sopa juliana",
+         "Prato":"Massa carbonara",
+         "Acompanhamento 1":"-",
+         "Acompanhamento 2":"Salada de tomate"
+      },
+      "Jantar":{
+         "Sopa":"Sopa de feijão vermelho",
+         "Prato":"Atum grelhado",
+         "Acompanhamento 1":"Batata cozida",
+         "Acompanhamento 2":"Alho francês, cenoura e couve branca salteada"
+      }
+   },
+   "5f":{
+      "Almoço":{
+         "Sopa":"Creme de cenoura",
+         "Prato":"Frango assado",
+         "Acompanhamento 1":"Batata frita",
+         "Acompanhamento 2":"Salada de alface, cenoura e tomate"
+      },
+      "Jantar":{
+         "Sopa":"Sopa de legumes",
+         "Prato":"Hambúrguer à Grill",
+         "Acompanhamento 1":"Arroz ao alho",
+         "Acompanhamento 2":"Salada de tomate com azeitonas"
+      }
+   },
+   "6f":{
+      "Almoço":{
+         "Sopa":"Sopa de feijão vermelho com feijão verde",
+         "Prato":"Feijoada de marisco",
+         "Acompanhamento 1":"Arroz branco",
+         "Acompanhamento 2":"-"
+      },
+      "Jantar":{
+         "Sopa":"Sopa de curgete",
+         "Prato":"Bife de peru grelhado",
+         "Acompanhamento 1":"Esparguete à Italiana",
+         "Acompanhamento 2":"Salada de alface e couve roxa"
+      }
+   }
+}

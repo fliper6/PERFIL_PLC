@@ -1,0 +1,48 @@
+{
+    "ucs":[
+        {
+            "_id": "PRC2021",
+            "designação": "Processamento e Representação de Conhecimento",
+            "anoLetivo": "2020/2021",
+            "éEnsinadaPor": [
+                "jcr"
+            ],
+            "type": [
+                "UnidadeCurricular"
+            ]
+        },
+        {
+            "_id": "SPLN2021",
+            "designação": "Scripting no Processamento de Linguagem Natural",
+            "anoLetivo": "2020/2021",
+            "éEnsinadaPor": [
+                "jj"
+            ],
+            "type": [
+                "UnidadeCurricular"
+            ]
+        },
+        {
+            "_id": "SI22021",
+            "designação": "Sistemas Interativos",
+            "anoLetivo": "2020/2021",
+            "éEnsinadaPor": [
+                "jfc"
+            ],
+            "type": [
+                "UnidadeCurricular"
+            ]
+        },
+        {
+            "_id": "AA2021",
+            "designação": "Arquiteturas Aplicacionais",
+            "anoLetivo": "2020/2021",
+            "éEnsinadaPor": [
+                "anr"
+            ],
+            "type": [
+                "UnidadeCurricular"
+            ]
+        }
+  ]
+}

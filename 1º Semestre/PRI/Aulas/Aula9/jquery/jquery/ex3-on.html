@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+$(function(){
+  $("#p1").on({
+    mouseenter: function(){ $(this).css("background-color", "lightgray"); }, 
+    mouseleave: function(){ $(this).css("background-color", "lightblue"); }, 
+    click: function(){ $(this).css("background-color", "yellow"); } 
+  });
+});
+</script>
+</head>
+<body>
+  <p id="p1">Sou um parágrafo e mudo de cor de fundo quando o rato me passa por cima ou
+    quando me clicas com ele.</p>
+</body>
+</html>

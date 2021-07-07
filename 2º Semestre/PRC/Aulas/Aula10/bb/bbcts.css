@@ -1,0 +1,59 @@
+H1 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+H2 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+H3 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+H4 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+H5 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+H6 {
+	font-style:italic;
+	font-weight:bold;
+	color:#003366
+}
+
+BODY {
+	BACKGROUND: #FCFCFF
+}
+
+<!-- Tables -->
+
+table	{ font-size: 90%;
+				cellspacing: 0;
+				cellpadding: 3;
+				bordercolor: #DDDDDD;
+				frame: below;
+				rules: rows;
+			}
+
+th		{ text-align: left;
+				background: #DDDDDD;
+				vertical-align: top;
+			}
+			
+tr		{	vertical-align: top; }
+td		{	margin: .025em;
+				vertical-align: top;
+				align: left;}
+
+<!-- Paragraphs -->
+
+p			{	margin-top: .6em; margin-bottom: .6em;}
+

@@ -1,0 +1,84 @@
+H1 {
+	font-size:17pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366
+}
+
+H2 {
+	font-size:13pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366
+}
+
+H3 {
+	font-size:11pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366;
+	margin-left:13pt;
+	display:list-item
+	color:#003366;
+}
+
+H4	{
+	font-size:9pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366;
+	margin-left:17pt;
+	background-color: white;
+	display:inline;
+	list-item:12pt;
+	inline-height:5pt;
+	inline-width:5pt;
+	word-spacing:12pt;
+	text-indent:12pt;
+}
+
+H5 {
+	font-size:7pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366
+}
+
+H6 {
+	font-size:5pt;
+	font-style:normal;
+	font-weight:normal;
+	color:#003366
+}
+
+UL { margin-top=.5em; }
+
+LI {	margin-bottom: .1em;
+			margin-left: -1em;
+			font-size:12pt;
+			color:#003366;
+}
+
+BODY {
+	BACKGROUND: #FCFCFF
+}
+
+link {
+	text-decoration: none;
+}
+
+a.name	{
+	background-color: white;
+}
+
+<!-- Hyperlinks -->
+
+a:link		{color: #003366;}
+a:active	{color: #003366;}
+a:visited	{color: #003366;}
+a:hover {
+	font-style:normal;
+	font-weight:normal;
+	color:#000000
+}
+

@@ -1,0 +1,3 @@
+Lista 1, 2, 3.
+lista 1, ola, 2, ola.
+Lista 1, oi, start, 1, 2, stop.

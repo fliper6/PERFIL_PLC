@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "project_record.dtd">
+
+<project_record>
+  <main_title> Project Record </main_title>
+  <intro>
+    <key_name>PRI2020::Teste</key_name>
+    <title>Teste 2020 da UC PRI </title>
+    <!--Optional:-->
+    <date_b>18/01/21</date_b>
+    <supervisor>
+      <name link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</name>
+      <email link="mailto:jcr@di.uminho.pt">jcr@di.uminho.pt</email>
+    </supervisor>
+  </intro>
+  <workteam>
+    <!--1 or more repetitions:-->
+    <member>
+      <name link="https://github.com/fliper6/PRI2020">Filipa Santos</name>
+      <email link="mailto:a83631@alunos.uminho.pt">a83631@alunos.uminho.pt</email>
+    </member>
+  </workteam>
+  <abstract>
+    <!--1 or more repetitions:-->
+    <paragraph>
+      <!--You have a CHOICE of the next 4 items at this level-->
+      Conteúdos relacionados ao teste feito no âmbito da unidade curricular <bold>Processamento e Representação de Informação<bold>, no ano letivo 2020/2021.
+    </paragraph>
+    <paragraph>
+      Relativamente ao <bold>Exercício 1<bold>, foram corrigidos os erros através do "Replace all" ref por "ref" (com o VSCode) e através do script fix_json.js.
+    </paragraph>
+  </abstract>
+  <deliverables>
+    <!--Zero or more repetitions:-->
+    <ref>
+      <name link="https://github.com/fliper6/PRI2020/blob/main/PRI2020-Teste/ex1">Exercício 1</name>
+      <name link="https://github.com/fliper6/PRI2020/blob/main/PRI2020-Teste/ex2">Exercício 2</name>
+    </ref>
+  </deliverables>
+  <date>string</date>
+</project_record>

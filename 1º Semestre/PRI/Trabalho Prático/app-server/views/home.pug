@@ -1,0 +1,30 @@
+extends layout 
+
+block content 
+    .row
+      .col-md-11.mx-auto
+        .pt-5.pb-4.cover
+            a.w3-button.w3-round-large(class="b-secondary" href="/posts" style="width:100px") Posts
+            a.w3-button.w3-round-large(class="b-secondary" href="/posts/categorias" style="width:100px") Categorias
+            h1 Notícias
+            .py-4
+                for i in noticias 
+                    .w3-container.w3-border-top.py-4
+                        - var data = Math.abs(Date.parse(i.upload_date) - new Date())
+                        if(data < 1000*60)
+                          p= "há uns segundos"
+                        else if(data < 1000*60*60)
+                          p= 'há ' + parseInt(data/(1000*60),10) + ' minutos' 
+                        else if(data<1000*60*60*24)
+                          p= 'há ' + parseInt(data / (1000*60*60),10) + ' horas' 
+                        else if(data < 1000*60*60*24*31)
+                          p= 'há ' + parseInt(data / (1000*60*60*24),10) + ' dias' 
+                        else if(data < 1000*60*60*24*365)
+                          p= 'há ' + parseInt(data / (1000*60*60*24*31),10) + ' meses' 
+                        else 
+                          p= 'há ' + parseInt(data / (1000*60*60*24*365),10) + ' anos' 
+                        p O user 
+                            a(href="/user/"+i.id_user) #{i.id_user}
+                            |  publicou 
+                            a(href="/posts/" + i.id_post) #{i.titulo}
+                        p #{i.type}

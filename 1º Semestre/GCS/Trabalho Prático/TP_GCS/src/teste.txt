@@ -1,0 +1,28 @@
+/*   
+FORMATO RECURSO : RA ID "DESCRIÇÃO" (CARACTERISTICA1,CARACTERISTICA2,...) IDADE CONCEITO 
+FORMATO CONCEITO : CPROG "NOME"
+FORMATO ALUNO : ID "NOME" (CARACTERISTICA1,CARACTERISTICA2,...) IDADE
+ALGORITMO : notaRecurso = %caracteristicasIguais x 0.7 + 0.3 x ( 0.9 x (Distancia de gerações) + 0.1 x (Diferença de idades) )
+*/
+
+RA 1 "test1" (desatento,falador) 18
+    CPROG "bases de dados"
+RA 2 "test2" (inteligente, dedicado) 18
+    CPROG "bases de dados"
+RA 3 "test3" (falador)  18
+    CPROG "bases de dados"
+RA 4 "Livro: C++ for dummys" (desatento,falador,inteligente,dedicado)  8
+    CPROG "bases de dados"
+RA 5 "test5" (bruh)  18
+    CPROG "bases de dados"
+RA 6 "test6" (desatento,falador,inteligente,dedicado,astuto)  18
+    CPROG "bases de dados"
+RA 7 "test7" (inteligente, dedicado)  18
+    CPROG "prog orientada a objetos"
+RA 8 "test8" (inteligente)  18
+    CPROG "prog orientada a objetos"
+    CPROG "bases de dados"
+
+AL A84302 "José Ricardo Cunha" (desatento,falador,inteligente,dedicado,astuto) 19
+AL A43821 "Nome" (falador) 20
+

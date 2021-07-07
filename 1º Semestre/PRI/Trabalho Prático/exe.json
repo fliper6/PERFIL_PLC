@@ -1,0 +1,33 @@
+{
+    "_id" : "jcr",
+    "password" : 123,
+    "pic" : "pic.png",
+    "type" : "admin",
+    "filiation" : "proffessor",
+    "register_date" : "{{currentDate}}",
+    "desc" : "Professor de PRI e de DAW",
+    "noti" : [],
+    "posts" : [
+        {
+            "file" : "file.png",
+            "restrictions" : "public",
+            "tags" : ["pri"],
+            "estrelas" : {
+                "rating": 60,
+                "num_ratings" : 20
+                },
+            "comment" : []
+        },
+         {
+            "file" : "fil.png",
+            "restrictions" : "public",
+            "upload_date" : "2020-01-10T10:25:21.424Z",
+            "tags" : ["pri"],
+            "estrelas" : {
+                "rating": 50,
+                "num_ratings" : 20
+                },
+            "comment" : []
+        }
+    ]
+}

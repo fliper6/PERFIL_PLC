@@ -1,0 +1,14 @@
+{
+    "username" : "ricsmc",
+    "password" : "123",
+    "pic" : "pic.png",
+    "level" : "admin",
+    "filiation" : "aluno",
+    "register_date" : "{{currentDate}}",
+    "desc" : "Aluno de PRI",
+    "noti" : [{
+        "post_id": "20",
+        "text": "Um user respondeu ao seu post" 
+    }],
+    "posts" : ["20"]
+}

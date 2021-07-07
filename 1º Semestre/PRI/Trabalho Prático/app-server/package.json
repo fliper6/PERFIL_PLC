@@ -1,0 +1,28 @@
+{
+  "name": "controller",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "archiver": "^5.2.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-star-rating": "^4.0.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "jsonfile": "^6.1.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "node-localstorage": "^2.1.6",
+    "popper.js": "^1.16.1",
+    "pug": "^3.0.0",
+    "rateyo": "^3.0.0-alpha.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {}
+}

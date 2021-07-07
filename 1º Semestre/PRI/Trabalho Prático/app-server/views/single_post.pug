@@ -1,0 +1,46 @@
+extends layout
+
+block content
+    .w3-container 
+        h2.w3-bottombar #{post.titulo}
+        p #{post.descricao}
+        for i in post.tags 
+            form(action='/posts/search' method='post')
+                button(type='submit' name='tags' value=i class='btn-link') # #{i}
+        -var rating = (post.rating.stars).toFixed(2)
+        p Rating: #{rating}/5 (#{post.rating.num})
+
+        form.w3-container(action='/posts/rating/' + post._id method='POST')
+            input#input-id.rating(name='rating', type='number', min=1, max=5, step=1, data-size='lg', data-rtl='true')
+            input.w3-btn-gray(type="submit" value="Submeter")
+
+        a(href="/download/" + post._id) Download
+        h3 Comentários
+        .w3-container.w3-border
+            form.w3-container.w3-margin(action='/posts/comment/' + post._id method='POST')
+                label Novo Comentário
+                input.w3-input(type="text" name="comment")
+                input.w3-btn-gray(type="submit" value="Submeter")
+            if(post.comment.length > 0)
+                for i in post.comment
+                    .w3-container.w3-border-top
+                        p.w3-small #{i.username}
+                        - var data = Math.abs(Date.parse(i.data) - new Date())
+                        if(data < 1000*60)
+                            p.w3-tiny= "há uns segundos"
+                        else if(data < 1000*60*60)
+                            p.w3-tiny= 'há ' + parseInt(data/(1000*60),10) + ' minutos' 
+                        else if(data<1000*60*60*24)
+                          p.w3-tiny= 'há ' + parseInt(data / (1000*60*60),10) + ' horas' 
+                        else if(data < 1000*60*60*24*31)
+                          p.w3-tiny= 'há ' + parseInt(data / (1000*60*60*24),10) + ' dias' 
+                        else if(data < 1000*60*60*24*365)
+                          p.w3-tiny= 'há ' + parseInt(data / (1000*60*60*24*31),10) + ' meses' 
+                        else 
+                          p.w3-tiny= 'há ' + parseInt(data / (1000*60*60*24*365),10) + ' anos' 
+                        p #{i.comment}
+            else 
+                p
+                    b Não há comentários para mostrar
+
+

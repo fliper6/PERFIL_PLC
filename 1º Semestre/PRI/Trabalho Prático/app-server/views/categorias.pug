@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+    .row
+      .col-md-11.mx-auto
+        .pt-5.pb-4.cover
+            h1 Categorias
+            .py-4
+                for i in types 
+                    p
+                      a(href='/posts?type='+ i.type) #{i.type}
+                        

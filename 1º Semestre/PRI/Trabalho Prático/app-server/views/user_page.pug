@@ -1,0 +1,128 @@
+extends layout
+
+block content
+    #id01.w3-modal
+      .w3-modal-content
+        .w3-container
+          span.w3-button.w3-display-topright(onclick="document.getElementById('id01').style.display='none'") &times;
+          p 
+          form.w3-container(action='/user/edit/' + user.username method='POST' enctype="multipart/form-data")
+            label Descrição:
+            input.w3-input(type='text' name="desc")
+            input#myFile.mt-3(type='file' name='myFile')
+            input.w3-button.w3-round-large.mt-3.mb-3(class="b-secondary" type="submit" value="Submeter")
+    .row
+      .col-md-11.mx-auto
+        // Profile widget
+        .bg-white.shadow.rounded.overflow-hidden
+          .px-4.pt-0.pb-4.cover
+            .media.align-items-end.profile-head
+              .profile.mr-3
+                if user.pic == "ok"
+                  img.rounded.mb-2(class='pfp' src='/profilePic/' + user.username + '.jpg' )
+                else
+                  img.rounded.mb-2(class='pfp' src='https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg' alt='...')
+                button.w3-button.w3-round-large.btn-block(class="b-primary" onclick="document.getElementById('id01').style.display='block'") Edit 
+              .media-body(class="nome")
+                h3.mt-0.mb-0 #{user.username}
+                p.small.mb-4
+                  i.fas.fa-map-marker-alt
+                  | #{user.filiation}
+
+          .p-4.d-flex.text-center
+              ul.list-inline.mb-0
+                  li.list-inline-item
+
+          .py-4
+           if(access.level=="admin" && access.username!=user.username)
+            h5(class="sub-titulo" style="display:inline") Mudar permissões:
+            .px-4.pt-0.pb-4(style="display:inline")
+             if(user.level!="admin")
+               a.w3-button.w3-round-large(class="b-secondary" href='/user/'+ user.username + '?level=admin') Admin
+             if(user.level!="producer")
+               a.w3-button.w3-round-large(class="b-secondary" href='/user/'+ user.username + '?level=producer') Producer
+             if(user.level!="consumer")
+               a.w3-button.w3-round-large(class="b-secondary" href='/user/'+ user.username + '?level=consumer') Consumer
+
+          .py-3
+            h5(class="sub-titulo") About
+            .p-4.rounded.shadow-sm.bg-light
+              if user.desc != ""
+                p.font-italic.mb-0 #{user.desc}
+              else
+                p.font-italic.mb-0(class="no-info") Nenhuma informação a apresentar
+          .py-4
+             .w3-col.l9.w3-center
+          table.w3-table.w3-striped.w3-centered
+              tr 
+                th Nome
+                th Data
+                th User
+                th Rating
+                if(access.level=="admin")
+                  th Editar
+              for i in posts
+                tr.clickable-row.w3-hover-gray(style="cursor:pointer" data-href="/posts/" + i._id)
+                  td= i.titulo
+                  - var data = Math.abs(Date.parse(i.upload_date) - new Date())
+                  if(data < 1000*60)
+                    td= "há uns segundos"
+                  else if(data < 1000*60*60)
+                    td= 'há ' + parseInt(data/(1000*60),10) + ' minutos' 
+                  else if(data<1000*60*60*24)
+                    td= 'há ' + parseInt(data / (1000*60*60),10) + ' horas' 
+                  else if(data < 1000*60*60*24*31)
+                    td= 'há ' + parseInt(data / (1000*60*60*24),10) + ' dias' 
+                  else if(data < 1000*60*60*24*365)
+                    td= 'há ' + parseInt(data / (1000*60*60*24*31),10) + ' meses' 
+                  else 
+                    td= 'há ' + parseInt(data / (1000*60*60*24*365),10) + ' anos' 
+                  td= i.id_user
+                  if(parseInt(i.rating.num,10) == 0)
+                    td= "sem rating"
+                  else 
+                    td= (i.rating.stars).toFixed(2) + "/5"
+                  if(access.level=="admin")
+                    td 
+                      a(href="/posts/remove/" + i._id) Remover
+          
+          .w3-center.mt-3
+            .w3-bar
+              if current_page != 1
+                - var pag = current_page - 1
+                a.w3-button.w3-round(href="/posts/page/"+(pag)) &laquo
+              - var i = 1;
+              if pages <= 6
+                while i <= pages
+                  if i == current_page
+                    a.w3-button.w3-round(style="background-color:#3b9b9b" href="/posts/page/"+(i)) #{i++} 
+                  else 
+                    a.w3-button.w3-round(href="/posts/page/"+(i)) #{i++} 
+              else 
+                if current_page >= 5
+                  a.w3-button.w3-round(href="/posts/page/1") 1
+                  if current_page > 5 && pages > 6
+                    a.w3-button.w3-round ...
+                if current_page < 4
+                  - i = 1
+                else 
+                  - i = current_page - 3
+                - var j = current_page - (-1)
+                if current_page == pages 
+                  - --j
+                while i <= j
+                  if i == current_page
+                    a.w3-button.w3-round(style="background-color:#3b9b9b") #{i++} 
+                  else 
+                    a.w3-button.w3-round(href="/posts/page/"+(i)) #{i++}
+                if current_page < 4
+                  - i = current_page - (-2)
+                  while i <= 5
+                    a.w3-button.w3-round(href="/posts/page/"+(i)) #{i++}
+                if current_page <= pages - 3 
+                  a.w3-button ... 
+                if current_page < pages - 1
+                  a.w3-button.w3-round(href="/posts/page/"+(pages)) #{pages} 
+              if current_page != pages
+                - var pag = ++current_page 
+                a.w3-button.w3-round(href="/posts/page/"+(pag)) &raquo

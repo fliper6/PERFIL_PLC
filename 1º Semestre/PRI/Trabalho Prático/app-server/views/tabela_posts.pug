@@ -1,0 +1,90 @@
+extends layout
+
+block content
+  .row
+    .col-md-11.mx-auto
+      .pt-5.pb-4.cover
+        h1(style="display:inline") Posts
+        -var newOrder;
+        if(order=="rating") 
+          -newOrder="date"
+        else  
+          -newOrder="rating"
+        if(order!='none')
+          a.w3-button.w3-round(class="b-secondary" href="/posts?order="+ newOrder style="margin-left:10px; margin-bottom:13px") Order by #{newOrder}
+        table.w3-table.w3-striped.w3-centered
+          tr 
+            th Nome
+            th Data
+            th User
+            th Rating
+            if(access.level=="admin")
+              th Editar
+          for i in posts
+            tr.clickable-row.w3-hover-gray(style="cursor:pointer" data-href="/posts/" + i._id)
+              td= i.titulo
+              - console.log(i.upload_date)
+              - var data = Math.abs(Date.parse(i.upload_date) - new Date())
+              if(data < 1000*60)
+                td= "há uns segundos"
+              else if(data < 1000*60*60)
+                td= 'há ' + parseInt(data/(1000*60),10) + ' minutos' 
+              else if(data<1000*60*60*24)
+                td= 'há ' + parseInt(data / (1000*60*60),10) + ' horas' 
+              else if(data < 1000*60*60*24*31)
+                td= 'há ' + parseInt(data / (1000*60*60*24),10) + ' dias' 
+              else if(data < 1000*60*60*24*365)
+                td= 'há ' + parseInt(data / (1000*60*60*24*31),10) + ' meses' 
+              else 
+                td= 'há ' + parseInt(data / (1000*60*60*24*365),10) + ' anos' 
+              td
+                a(href="/user/" + i.id_user)= i.id_user
+              if(parseInt(i.rating.num,10) == 0)
+                td= "sem rating"
+              else 
+                td= (i.rating.stars).toFixed(2) + "/5"
+              if(access.level=="admin")
+                td 
+                  a(href="/posts/remove/" + i._id) Remover
+
+        .w3-center.mt-3
+          .w3-bar
+            if current_page != 1
+              - var pag = current_page - 1
+              a.w3-button.w3-round(href="/posts/page/"+(pag) + '?order=' + order) &laquo
+            - var i = 1;
+            if pages <= 6
+              while i <= pages
+                if i == current_page
+                  a.w3-button.w3-round(style="background-color:#3b9b9b" href="/posts/page/"+(i) + '?order=' + order) #{i++} 
+                else 
+                  a.w3-button.w3-round(href="/posts/page/"+(i) + '?order=' + order) #{i++} 
+            else 
+              if current_page >= 5
+                a.w3-button.w3-round(href="/posts/page/1" + '?order=' + order) 1
+                if current_page > 5 && pages > 6
+                  a.w3-button.w3-round ...
+              if current_page < 4
+                - i = 1
+              else 
+                - i = current_page - 3
+              - var j = current_page - (-1)
+              if current_page == pages 
+                - --j
+              while i <= j
+                if i == current_page
+                  a.w3-button.w3-round(style="background-color:#3b9b9b") #{i++} 
+                else 
+                  a.w3-button.w3-round(href="/posts/page/"+(i) + '?order=' + order) #{i++}
+              if current_page < 4
+                - i = current_page - (-2)
+                while i <= 5
+                  a.w3-button.w3-round(href="/posts/page/"+(i) + '?order=' + order) #{i++}
+              if current_page <= pages - 3 
+                a.w3-button.w3-round ... 
+              if current_page < pages - 1
+                a.w3-button.w3-round(href="/posts/page/"+(pages) + '?order=' + order) #{pages} 
+          
+            if current_page != pages
+              - var pag = ++current_page 
+              a.w3-button.w3-round(href="/posts/page/"+(pag) + '?order=' + order) &raquo

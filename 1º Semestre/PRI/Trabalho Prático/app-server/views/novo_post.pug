@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    h1.ml-5.mb-3 Criar um novo post
+    form.w3-container.ml-3(action='/posts' method='POST' enctype="multipart/form-data")
+        label Tipo:
+        input.w3-input(type='text' name="type")
+
+        label Título:
+        input.w3-input(type='text' name="titulo")
+
+        label Descrição:
+        input.w3-input(type='text' name="descricao")
+
+
+        label.mr-2 Tags:
+        a.w3-button.w3-round#addTag(class="add-more") Adicionar tag
+        input.w3-input(type='text' name="tags")
+        .w3-container#tagLst
+        
+        
+        label Restrições:
+        input.w3-check.ml-3(type='checkbox' value="public" checked='checked' name="restrictions")
+        label.ml-1 Public
+        input.w3-check.ml-3(type='checkbox' value="private" name="restrictions")
+        label.ml-1 Private
+        p
+        label.mr-3 Selecionar ficheiros:
+        
+        input#myFile(type='file' name='myFiles' multiple style="display:inline")
+        .w3-container#fileLst
+        a.w3-button.w3-round(class="add-more")#addFile Adicionar ficheiro
+        
+        p
+        input.w3-button.w3-round.btn-block(class="b-primary" type="submit" value="Submeter" style="width:110px")

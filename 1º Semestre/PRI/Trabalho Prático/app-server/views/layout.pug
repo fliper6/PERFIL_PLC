@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    title= title
+    script(src="/javascripts/jquery-3.5.1.min.js")
+    script(src="/javascripts/bootstrap.min.js")
+    script(src="/javascripts/scripts.js")
+    script(src="/javascripts/rating.js")
+    link(rel='stylesheet', href='/stylesheets/w3.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin='anonymous')
+    script.
+      $(function(){
+        $('.stars').stars();
+      });
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css')   
+    link(href='http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css', rel='stylesheet')
+
+
+
+  body
+    .w3-bar.w3-border(style="background-color:#3b9b9b")
+      a.w3-bar-item.w3-button(href="/")
+        i.fa.fa-home
+      //-.w3-dropdown-hover
+        button.w3-button
+          i.fa.fa-bell
+        .w3-dropdown-content.w3-bar-block.w3-card-4
+          a.w3-bar-item.w3-button(href="#") Link 1
+          a.w3-bar-item.w3-button(href="#") Link 2
+          a.w3-bar-item.w3-button(href="#") Link 3 
+      .w3-dropdown-hover 
+        button.w3-button
+          i.fa.fa-user
+        .w3-dropdown-content.w3-bar-block.w3-car-4
+          a.w3-bar-item.w3-button(href="/user/" + access.username) Perfil
+          a.w3-bar-item.w3-button(href="/logout") 
+            i.fa.fa-sign-out
+            span  Sign Out
+      form(action='/posts/search' method='POST')
+        input.w3-bar-item.w3-input(type='text' name='tags' placeholder='Search..' style='color:#fffff')
+        button.w3-bar-item.w3-button(type='submit')
+          i.fa.fa-search
+      if access.level=="admin" || access.level=="producer"
+        a.w3-bar-item.w3-button(href="/posts/new")
+          i.fa.fa-plus
+    block content

@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= Login
+    script(src="/javascripts/jquery-3.5.1.min.js")
+    script(src="/javascripts/scripts.js")
+    link(rel='stylesheet', href='/stylesheets/w3.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin='anonymous')
+  body(class="pag-inicial")
+  .w3-container(class="form-meio")
+    .w3-container
+        h3.mark Introduza as suas credênciais:
+    form.w3-container(action='/login' method='POST')
+        if(err == 'true')
+          p.w3-text-red Username ou password incorrectos!
+        label Username:
+        input.w3-input(type="text" name="username")
+
+        label Password:
+        input.w3-input(type="password" name="password")
+
+        p
+        input.w3-button.w3-round-large.btn-block(class="b-secondary" type="submit" value="Login")
+        a.w3-button.w3-round-large.btn-block(class="b-secondary" href="/register" value="Registar") Registar
+        p
